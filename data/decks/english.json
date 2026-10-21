@@ -43,6 +43,101 @@
       "tags": [
         "workplace"
       ]
+    },
+    {
+      "id": "en-0005",
+      "front": "STAR · Situation opener",
+      "back": "“In my previous role, we needed to…”",
+      "gloss": "情境: set the scene in 1–2 sentences.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0006",
+      "front": "STAR · Task",
+      "back": "“My responsibility was to…”",
+      "gloss": "任务: your specific goal.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0007",
+      "front": "STAR · Action",
+      "back": "“I decided to… / I built… / I coordinated…”",
+      "gloss": "行动: say I, not we.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0008",
+      "front": "STAR · Result",
+      "back": "“As a result, … improved by … / which led to…”",
+      "gloss": "结果: quantify if possible.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0009",
+      "front": "Buying thinking time",
+      "back": "“That's a great question. Let me think for a second.”",
+      "gloss": "Pause calmly instead of filling with um.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0010",
+      "front": "Answering a weakness question",
+      "back": "“One area I've been working on is… so I've started…”",
+      "gloss": "Name the weakness, then show the fix.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0011",
+      "front": "Why this role?",
+      "back": "“What draws me to this role is… and it connects directly to my work on…”",
+      "gloss": "Link the role to your experience.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0012",
+      "front": "Closing the interview",
+      "back": "“Thank you for your time. I'm really excited about the chance to contribute to…”",
+      "gloss": "End warmly and specifically.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0013",
+      "front": "Linking skills to impact",
+      "back": "“I used data analysis to identify…, which helped the team decide…”",
+      "gloss": "Skill → action → decision.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
     }
   ]
 }
