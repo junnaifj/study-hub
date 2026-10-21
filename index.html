@@ -8,6 +8,11 @@
   <title>Tone Police · Study Hub</title>
   <link rel="icon" href="assets/owl.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Reserve the navigation height, its bottom offset, and the device safe area. */
+    #main { padding-bottom: calc(var(--studyhub-nav-height, 84px) + env(safe-area-inset-bottom, 0px) + 42px); }
+    #quiz-feedback { scroll-margin-bottom: calc(var(--studyhub-nav-height, 84px) + env(safe-area-inset-bottom, 0px) + 42px); }
+  </style>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -18,8 +23,8 @@
     <footer class="page-footer">A little practice. A little progress.</footer>
   </div>
   <nav class="bottom-nav" aria-label="Main navigation"></nav>
-  <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-top"><h2 id="settings-title">Your study space</h2><button class="icon-button close-dialog" aria-label="Close settings">×</button></div><p class="muted">Lessons come from Tone Police. Your progress stays on this device.</p><div class="settings-list"><button data-import="lesson">Import lesson <span>today.json</span></button><button data-import="progress">Import progress <span>progress.json</span></button><button id="download-progress">Download progress <span>Save a backup</span></button><button id="reload-lesson">Reload published lesson <span>Check for an update</span></button></div><p class="fine">Moving devices? Download your progress here, then import it on your other device. Imported progress replaces this browser’s study records.</p></dialog>
-  <dialog id="finish-dialog" aria-labelledby="finish-title"><div class="dialog-top"><h2 id="finish-title">Practice, logged.</h2><button class="icon-button close-dialog" aria-label="Close session summary">×</button></div><div id="finish-content"></div><div class="stack"><button class="button primary" id="copy-summary">Copy summary for Tone Police</button><button class="button secondary" id="finish-download">Download progress.json</button></div><p class="fine">Paste the summary into your tutor chat to plan your next session.</p></dialog>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-top"><h2 id="settings-title">Your study space</h2><button class="icon-button close-dialog" aria-label="Close settings">×</button></div><p class="muted">Lessons come from Tone Police. Your progress stays on this device.</p><div class="settings-list"><button data-import="lesson">Import lesson <span>today.json or a deck JSON file</span></button><button data-import="progress">Import progress <span>progress.json</span></button><button id="download-progress">Download progress <span>Save a backup</span></button><button id="reload-lesson">Reload published lesson <span>Check for an update</span></button><button id="reload-decks">Reload published decks <span>Clear imported decks and check for updates</span></button></div><p class="fine">Moving devices? Download your progress here, then import it on your other device. Imported progress replaces this browser’s study records.</p></dialog>
+  <dialog id="finish-dialog" aria-labelledby="finish-title"><div class="dialog-top"><h2 id="finish-title">Practice, logged.</h2><button class="icon-button close-dialog" aria-label="Close session summary">×</button></div><div class="field" style="margin-bottom:16px"><label for="minutes-studied">Minutes studied</label><input id="minutes-studied" type="number" min="0" step="any" inputmode="decimal" required aria-describedby="minutes-help"><p id="minutes-help" class="fine">Adjust this to include time spent studying in other tabs or apps.</p></div><div id="finish-content"></div><div class="stack"><button class="button primary" id="copy-summary">Copy summary for Tone Police</button><button class="button secondary" id="finish-download">Download progress.json</button></div><p class="fine">Paste the summary into your tutor chat to plan your next session.</p></dialog>
   <input type="file" id="file-input" accept="application/json,.json" hidden>
   <div id="toast" role="status" aria-live="polite" hidden></div>
 </body>

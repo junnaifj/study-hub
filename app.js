@@ -20,48 +20,157 @@
   const string = x => typeof x === 'string';
   const strings = x => Array.isArray(x) && x.every(string);
   const dictionary = () => Object.create(null);
+  function requireFields(value, fields, context) {
+    assert(isObject(value), `${context}: expected an object`);
+    for(const field of fields) assert(own(value,field) && value[field] !== undefined, `${context}: missing ${field}`);
+  }
+  function field(condition, context, name, expected) {
+    assert(condition, `${context}: invalid ${name}${expected ? ` (${expected})` : ''}`);
+  }
   function validateLesson(x) {
-    assert(isObject(x) && x.schema === 'studyhub.today.v1', 'Expected schema studyhub.today.v1.');
-    assert(validDate(x.date) && own(SLOTS,x.slot), 'The lesson needs a valid date and slot.');
-    assert(Array.isArray(x.tracks) && x.tracks.length && x.tracks.every(t => TRACKS.includes(t)) && new Set(x.tracks).size === x.tracks.length, 'Invalid lesson tracks.');
-    assert(finite(x.minutes) && x.minutes >= 0 && integer(x.new_cards_limit), 'Invalid minutes or new_cards_limit.');
-    assert(string(x.note) && Array.isArray(x.tasks), 'The lesson needs note and tasks fields.');
+    requireFields(x,['schema','date','slot','tracks','minutes','new_cards_limit','note','tasks'],'Lesson');
+    field(x.schema === 'studyhub.today.v1','Lesson','schema','expected studyhub.today.v1');
+    field(validDate(x.date),'Lesson','date','expected YYYY-MM-DD');
+    field(own(SLOTS,x.slot),'Lesson','slot','expected morning, evening or weekend_test');
+    field(Array.isArray(x.tracks) && x.tracks.length && x.tracks.every(t=>TRACKS.includes(t)) && new Set(x.tracks).size === x.tracks.length,'Lesson','tracks');
+    field(finite(x.minutes) && x.minutes >= 0,'Lesson','minutes','expected a non-negative number');
+    field(integer(x.new_cards_limit),'Lesson','new_cards_limit','expected a non-negative integer');
+    field(string(x.note),'Lesson','note','expected a string');
+    field(Array.isArray(x.tasks),'Lesson','tasks','expected an array');
     const ids = new Set(), qids = new Set();
-    x.tasks.forEach(t => {
-      assert(isObject(t) && string(t.id) && t.id && !ids.has(t.id), 'Task IDs must be unique non-empty strings.'); ids.add(t.id);
-      assert(['link','cards','reading','speaking','quiz'].includes(t.type), 'Unknown task type.');
-      if(t.type === 'link') assert(string(t.title) && safeURL(t.url) && finite(t.minutes) && t.minutes >= 0, 'Invalid link task. Use an http or https URL.');
-      if(t.type === 'cards') assert(TRACKS.includes(t.deck) && strings(t.tags), 'Invalid cards task.');
-      if(t.type === 'reading') assert(string(t.title) && string(t.lang) && Array.isArray(t.lines) && t.lines.every(l => isObject(l) && string(l.text) && (l.gloss === undefined || string(l.gloss)) && (l.translation === undefined || string(l.translation))), 'Invalid reading task.');
-      if(t.type === 'speaking') assert(string(t.prompt) && (t.seconds === undefined || (integer(t.seconds) && t.seconds > 0 && t.seconds <= 86400)), 'Invalid speaking task.');
+    x.tasks.forEach((t,index) => {
+      const context = `Task ${isObject(t) && string(t.id) && t.id ? t.id : `at position ${index+1}`}`;
+      requireFields(t,['id','type'],context);
+      field(string(t.id) && t.id.length > 0,context,'id','expected a non-empty string');
+      assert(!ids.has(t.id),`${context}: duplicate id`); ids.add(t.id);
+      field(['link','cards','reading','speaking','quiz'].includes(t.type),context,'type');
+      if(t.type === 'link') {
+        requireFields(t,['title','url','minutes'],context);
+        field(string(t.title),context,'title');
+        field(string(t.url) && !!safeURL(t.url),context,'url','expected http or https');
+        field(finite(t.minutes) && t.minutes >= 0,context,'minutes');
+      }
+      if(t.type === 'cards') {
+        requireFields(t,['deck','tags'],context);
+        field(TRACKS.includes(t.deck),context,'deck'); field(strings(t.tags),context,'tags','expected an array of strings');
+      }
+      if(t.type === 'reading') {
+        requireFields(t,['title','lang','lines'],context);
+        field(string(t.title),context,'title'); field(string(t.lang),context,'lang');
+        field(Array.isArray(t.lines),context,'lines','expected an array');
+        t.lines.forEach((line,i)=>{
+          const lineContext=`${context}, line ${i+1}`;
+          requireFields(line,['text'],lineContext); field(string(line.text),lineContext,'text');
+          for(const key of ['gloss','translation']) if(own(line,key)) field(string(line[key]),lineContext,key);
+        });
+      }
+      if(t.type === 'speaking') {
+        requireFields(t,['prompt'],context); field(string(t.prompt),context,'prompt');
+        if(own(t,'seconds')) field(integer(t.seconds) && t.seconds > 0 && t.seconds <= 86400,context,'seconds','expected 1–86400');
+      }
       if(t.type === 'quiz') {
-        assert(Array.isArray(t.questions), 'Quiz questions must be an array.');
-        t.questions.forEach(q => {
-          assert(isObject(q) && string(q.id) && q.id && !qids.has(q.id) && string(q.q) && string(q.explain), 'Invalid or duplicate question ID.'); qids.add(q.id);
-          assert(['mc','typed','tone'].includes(q.type), 'Unknown question type.');
-          if(q.type === 'mc') assert(strings(q.options) && q.options.length >= 2 && integer(q.answer) && q.answer < q.options.length, 'Invalid multiple-choice answer.');
-          if(q.type === 'typed') assert(strings(q.answer) && q.answer.length > 0 && q.answer.every(a=>normalise(a).length), 'Typed answers must be a non-empty array of strings.');
-          if(q.type === 'tone') assert(Number.isInteger(q.answer) && q.answer >= 1 && q.answer <= 6, 'Tone answers must be 1–6.');
+        requireFields(t,['questions'],context); field(Array.isArray(t.questions),context,'questions','expected an array');
+        t.questions.forEach((q,i)=>{
+          const qc=`Question ${isObject(q) && string(q.id) && q.id ? q.id : `at position ${i+1} in task ${t.id}`}`;
+          requireFields(q,['id','type','q','answer','explain'],qc);
+          field(string(q.id) && q.id.length > 0,qc,'id','expected a non-empty string');
+          assert(!qids.has(q.id),`${qc}: duplicate id`); qids.add(q.id);
+          field(string(q.q),qc,'q'); field(string(q.explain),qc,'explain');
+          field(['mc','typed','tone'].includes(q.type),qc,'type');
+          if(q.type === 'mc') {
+            requireFields(q,['options'],qc);
+            field(strings(q.options) && q.options.length >= 2,qc,'options','expected at least two strings');
+            field(integer(q.answer) && q.answer < q.options.length,qc,'answer','expected a zero-based option index');
+          }
+          if(q.type === 'typed') field(strings(q.answer) && q.answer.length > 0 && q.answer.every(a=>normalise(a).length),qc,'answer','expected a non-empty array of answer strings');
+          if(q.type === 'tone') field(Number.isInteger(q.answer) && q.answer >= 1 && q.answer <= 6,qc,'answer','expected tone 1–6');
         });
       }
     });
     return x;
   }
   function validateDeck(x, track) {
-    assert(isObject(x) && x.schema === 'studyhub.deck.v1' && x.track === track && Array.isArray(x.cards), `Invalid ${track} deck.`);
-    const ids = new Set();
-    x.cards.forEach(c => { assert(isObject(c) && string(c.id) && c.id && !ids.has(c.id) && ['front','back','gloss','lang'].every(k=>string(c[k])) && strings(c.tags), `Invalid card in ${track}.`); ids.add(c.id); });
+    const context=`Deck ${TRACKS.includes(track) ? track : '(unknown track)'}`;
+    requireFields(x,['schema','track','cards'],context);
+    field(x.schema === 'studyhub.deck.v1',context,'schema','expected studyhub.deck.v1');
+    field(TRACKS.includes(track) && x.track === track,context,'track','expected a supported language matching this deck');
+    field(Array.isArray(x.cards),context,'cards','expected an array');
+    const ids=new Set();
+    x.cards.forEach((c,index)=>{
+      const cc=`Card ${isObject(c) && string(c.id) && c.id ? c.id : `at position ${index+1}`} (deck ${track})`;
+      requireFields(c,['id','front','back','gloss','lang','tags'],cc);
+      field(string(c.id) && c.id.length > 0,cc,'id','expected a non-empty string');
+      assert(!ids.has(c.id),`${cc}: duplicate id`); ids.add(c.id);
+      for(const key of ['front','back','gloss','lang']) field(string(c[key]),cc,key,'expected a string');
+      field(strings(c.tags),cc,'tags','expected an array of strings');
+    });
     return x;
   }
   function validateProgress(x) {
-    assert(isObject(x) && x.schema === 'studyhub.progress.v1', 'Expected schema studyhub.progress.v1.');
-    assert(string(x.exported_at) && Number.isFinite(Date.parse(x.exported_at)) && integer(x.streak_days) && isObject(x.cards) && Array.isArray(x.sessions), 'Invalid progress file.');
-    for(const c of Object.values(x.cards)) assert(isObject(c) && integer(c.reps) && integer(c.lapses) && finite(c.ease) && c.ease >= 1.3 && integer(c.interval_days) && c.interval_days <= 60 && validDate(c.due) && validDate(c.last_seen) && ['again','hard','good','easy'].includes(c.last_rating), 'Invalid card progress.');
-    x.sessions.forEach(s => {
-      assert(isObject(s) && validDate(s.date) && own(SLOTS,s.slot) && Array.isArray(s.tracks) && s.tracks.length && s.tracks.every(t=>TRACKS.includes(t)) && finite(s.minutes) && s.minutes >= 0 && strings(s.tasks_done) && string(s.speaking_self_note) && string(s.notes), 'Invalid session record.');
-      assert(isObject(s.quiz) && integer(s.quiz.score) && integer(s.quiz.total) && s.quiz.score <= s.quiz.total && strings(s.quiz.wrong) && s.quiz.wrong.length <= s.quiz.total, 'Invalid quiz record.');
+    requireFields(x,['schema','exported_at','streak_days','cards','sessions'],'Progress');
+    field(x.schema === 'studyhub.progress.v1','Progress','schema','expected studyhub.progress.v1');
+    field(string(x.exported_at) && Number.isFinite(Date.parse(x.exported_at)),'Progress','exported_at');
+    field(integer(x.streak_days),'Progress','streak_days');
+    field(isObject(x.cards),'Progress','cards'); field(Array.isArray(x.sessions),'Progress','sessions');
+    for(const [id,c] of Object.entries(x.cards)) {
+      const cc=`Card progress ${id}`;
+      requireFields(c,['reps','lapses','ease','interval_days','due','last_rating','last_seen'],cc);
+      field(integer(c.reps),cc,'reps'); field(integer(c.lapses),cc,'lapses');
+      field(finite(c.ease) && c.ease >= 1.3,cc,'ease');
+      field(integer(c.interval_days) && c.interval_days <= 60,cc,'interval_days');
+      field(validDate(c.due),cc,'due'); field(validDate(c.last_seen),cc,'last_seen');
+      field(['again','hard','good','easy'].includes(c.last_rating),cc,'last_rating');
+    }
+    x.sessions.forEach((record,i)=>{
+      const context=`Session ${i+1}`;
+      requireFields(record,['date','slot','tracks','minutes','tasks_done','quiz','speaking_self_note','notes'],context);
+      field(validDate(record.date),context,'date'); field(own(SLOTS,record.slot),context,'slot');
+      field(Array.isArray(record.tracks) && record.tracks.length && record.tracks.every(t=>TRACKS.includes(t)),context,'tracks');
+      field(finite(record.minutes) && record.minutes >= 0,context,'minutes'); field(strings(record.tasks_done),context,'tasks_done');
+      field(string(record.speaking_self_note),context,'speaking_self_note'); field(string(record.notes),context,'notes');
+      const qc=`${context}, quiz`; requireFields(record.quiz,['score','total','wrong'],qc);
+      field(integer(record.quiz.total),qc,'total');
+      field(integer(record.quiz.score) && record.quiz.score <= record.quiz.total,qc,'score');
+      field(strings(record.quiz.wrong) && record.quiz.wrong.length <= record.quiz.total,qc,'wrong');
     });
     return x;
+  }
+  function compareLessons(a,b) {
+    return a.date.localeCompare(b.date) || Object.keys(SLOTS).indexOf(a.slot)-Object.keys(SLOTS).indexOf(b.slot);
+  }
+  function chooseDecks(published,imported) {
+    const chosen={},errors=[],usingImport=new Set();
+    for(const track of TRACKS) {
+      let candidate;
+      if(imported[track]) {
+        try { candidate=validateDeck(imported[track],track); }
+        catch(e) { errors.push(e.message); }
+      }
+      if(candidate && (!published[track] || candidate.cards.length > published[track].cards.length)) {
+        chosen[track]=candidate;usingImport.add(track);
+      } else if(published[track]) chosen[track]=published[track];
+    }
+    // A newly published deck can conflict with an older local import. Fall back to
+    // published data for the imported side; never expose duplicate IDs to reviews.
+    for(let attempts=0;attempts<TRACKS.length*2;attempts++) {
+      const seen=new Map();let conflict=null;
+      for(const track of TRACKS) {
+        for(const card of chosen[track]?.cards || []) {
+          if(seen.has(card.id)) { conflict={id:card.id,tracks:[seen.get(card.id),track]};break; }
+          seen.set(card.id,track);
+        }
+        if(conflict) break;
+      }
+      if(!conflict) break;
+      errors.push(`Card ${conflict.id}: duplicate id across decks ${conflict.tracks.join(' and ')}`);
+      const imports=conflict.tracks.filter(t=>usingImport.has(t));
+      for(const track of imports.length ? imports : [conflict.tracks[1]]) {
+        if(usingImport.has(track) && published[track]) chosen[track]=published[track];
+        else delete chosen[track];
+        usingImport.delete(track);
+      }
+    }
+    return {decks:chosen,errors};
   }
   function schedule(previous, rating, today = day()) {
     const c = previous || {reps:0,lapses:0,ease:2.5,interval_days:0};
@@ -86,7 +195,7 @@
     const dates = new Set(sessions.map(s=>s.date)); let cursor = dates.has(today) ? today : addDays(today,-1), n=0;
     while(dates.has(cursor)){n++;cursor=addDays(cursor,-1);} return n;
   }
-  window.StudyHubCore = {schedule, checkAnswer, validateLesson, validateDeck, validateProgress, streak, day, normalise};
+  window.StudyHubCore = {schedule, checkAnswer, validateLesson, validateDeck, validateProgress, streak, day, normalise, compareLessons, chooseDecks};
   const icons = {
     today:'<rect x="4" y="5" width="16" height="16" rx="3"/><path d="M8 3v4m8-4v4M4 10h16m-12 4h3m-3 3h6"/>',
     cards:'<rect x="6" y="5" width="14" height="16" rx="2"/><path d="M16 5V3H4a1 1 0 0 0-1 1v14h3m5-7h4m-4 4h4"/>',
@@ -104,13 +213,23 @@
   const icon = name => `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${icons[name] || icons.today}</svg>`;
   const chips = tracks => tracks.map(t=>`<span class="chip ${t}">${LABELS[t]}</span>`).join('');
   function tones(text) { return esc(text).replace(/([a-zA-Z]+)([1-6])\b/g, (_,s,n)=>`${s}<sup class="tone tone-${n}">${n}</sup>`); }
-  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0;
+  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0;
   let timerHandle=null, timerTask=null, timerRemaining=0, timerEnd=0, recording=null, recordingTask=null, stream=null, audioURL=null;
   const recordings = new Map();
   let toastHandle, pendingImport, lastSummary='', lastActive=Date.now(), booting=true;
-  function blank() { return {schema:'studyhub.progress.v1',exported_at:timestamp(),streak_days:0,cards:dictionary(),sessions:[],_ui:{drafts:dictionary(),introduced:dictionary()}}; }
+  function blank() { return {schema:'studyhub.progress.v1',exported_at:timestamp(),streak_days:0,cards:dictionary(),sessions:[],_ui:{drafts:dictionary(),introduced:dictionary(),importedDecks:dictionary()}}; }
+  function normaliseUI(value) {
+    if(!isObject(value._ui)) value._ui={};
+    for(const key of ['drafts','introduced','importedDecks']) value._ui[key]=Object.assign(dictionary(),isObject(value._ui[key]) ? value._ui[key] : {});
+    // Earlier versions keyed this map by calendar day. Recover each lesson's
+    // known introductions from its draft rather than charging another slot.
+    for(const key of Object.keys(value._ui.introduced)) if(!key.includes('|')) delete value._ui.introduced[key];
+    for(const [key,d] of Object.entries(value._ui.drafts)) {
+      if(!Array.isArray(value._ui.introduced[key]) && isObject(d) && strings(d.new)) value._ui.introduced[key]=[...new Set(d.new)];
+    }
+  }
   function readDB(){
-    try { const raw=localStorage.getItem(KEY); if(!raw)return blank(); const parsed=JSON.parse(raw); validateProgress(parsed); parsed.cards=Object.assign(dictionary(),parsed.cards); parsed._ui ||= {drafts:dictionary(),introduced:dictionary()}; return parsed; }
+    try { const raw=localStorage.getItem(KEY); if(!raw)return blank(); const parsed=JSON.parse(raw); validateProgress(parsed); parsed.cards=Object.assign(dictionary(),parsed.cards); normaliseUI(parsed); return parsed; }
     catch { storageFailure=true; return blank(); }
   }
   db=readDB();
@@ -138,7 +257,8 @@
   }
   function quizQuestions(taskId=null){return lesson.tasks.filter(t=>t.type==='quiz'&&(!taskId||t.id===taskId)).flatMap(t=>t.questions);}
   function quizResult(){const qs=quizQuestions(),d=draft(),answers=d.answers;if(d.importedQuiz && Object.keys(answers).length < qs.length)return d.importedQuiz;return {score:qs.filter(q=>answers[q.id]?.correct).length,total:qs.length,wrong:qs.filter(q=>answers[q.id]&&!answers[q.id].correct).map(q=>q.id)};}
-  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:Math.round(d.seconds/60),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
+  function suggestedMinutes(){const d=draft();return Math.max(Math.round(d.seconds/60),lesson.tasks.filter(t=>t.type==='link' && d.done.includes(t.id)).reduce((sum,t)=>sum+t.minutes,0));}
+  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:finite(d.minutes) && d.minutes >= 0 ? d.minutes : suggestedMinutes(),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
   function summary(){
     const s=sessionRecord(),d=draft(),skipped=lesson.tasks.filter(t=>!s.tasks_done.includes(t.id)).map(t=>t.id),counts={again:0,hard:0,good:0,easy:0};d.ratings.forEach(r=>counts[r.rating]++);
     const hard=[...new Set(d.ratings.filter(r=>['again','hard'].includes(r.rating)).map(r=>r.id))];
@@ -157,10 +277,27 @@
       if(isObject(g)&&g.schema==='studyhub.goals.v1'&&validDate(g.end)&&Array.isArray(g.goals)&&g.goals.every(x=>TRACKS.includes(x.track)&&string(x.label)&&finite(x.target)&&x.target>0&&finite(x.done)&&x.done>=0))goals=g;
       else loadErrors.push('Goals have an invalid format.');
     }else loadErrors.push('Goals could not be loaded.');
-    decks={};const cardIds=new Set();
-    TRACKS.forEach((t,i)=>{try{assert(results[i+2].status==='fulfilled',`${LABELS[t]} cards could not be loaded.`);const deck=validateDeck(results[i+2].value,t);deck.cards.forEach(c=>{assert(!cardIds.has(c.id),'Card IDs must be unique across decks.');cardIds.add(c.id);});decks[t]=deck;}catch(e){loadErrors.push(e.message);}});
-    if(db._ui.importedLesson){try{lesson=validateLesson(db._ui.importedLesson);}catch{delete db._ui.importedLesson;}}
+    publishedDecks={};
+    TRACKS.forEach((track,i)=>{
+      try {
+        assert(results[i+2].status==='fulfilled',`${LABELS[track]} cards could not be loaded.`);
+        publishedDecks[track]=validateDeck(results[i+2].value,track);
+      } catch(e) { loadErrors.push(e.message); }
+    });
+    const selected=chooseDecks(publishedDecks,db._ui.importedDecks);
+    decks=selected.decks;loadErrors.push(...selected.errors);
+    let newerPublished=false;
+    if(db._ui.importedLesson) {
+      try {
+        const imported=validateLesson(db._ui.importedLesson);
+        if(lesson && compareLessons(lesson,imported) >= 0) {
+          delete db._ui.importedLesson;newerPublished=true;
+        } else lesson=imported;
+      } catch(e) { loadErrors.push(e.message);delete db._ui.importedLesson; }
+    }
+    save();
     booting=false;queue=[];render();
+    if(newerPublished) toast('A newer lesson from Tone Police is available and loaded.');
   }
   function render(){
     if(booting)return;
@@ -198,7 +335,7 @@
     const task=lesson.tasks.find(t=>t.id===cardTask);
     const filtered=task?cards.filter(c=>c.track===task.deck&&(!task.tags.length||task.tags.some(tag=>c.tags.includes(tag)))):cards;
     const due=filtered.filter(c=>own(db.cards,c.id)&&db.cards[c.id].due<=today).sort((a,b)=>db.cards[a.id].due.localeCompare(db.cards[b.id].due));
-    const introduced=db._ui.introduced[today]||[];
+    const introduced=db._ui.introduced[sessionKey()]||[];
     const remaining=Math.max(0,lesson.new_cards_limit-introduced.length);
     const fresh=filtered.filter(c=>!own(db.cards,c.id)).slice(0,remaining);
     queue=[...due,...fresh];flipped=false;
@@ -207,16 +344,16 @@
     if(!queue.length)buildQueue();const c=queue[0],tags=[...new Set(allCards().filter(c=>filterTrack==='all'||c.track===filterTrack).flatMap(c=>c.tags))].sort();
     return heading('A little recall.','Make it familiar, one card at a time.')+`<div class="filters"><div class="field"><label for="filter-track">Language</label><select id="filter-track"><option value="all">All languages</option>${TRACKS.map(t=>`<option value="${t}" ${filterTrack===t?'selected':''}>${LABELS[t]}</option>`).join('')}</select></div><div class="field"><label for="filter-tag">Topic</label><select id="filter-tag"><option value="all">All topics</option>${tags.map(t=>`<option ${filterTag===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</select></div></div>${cardTask?`<div class="notice">Practising your lesson’s card task. <button class="button quiet" id="all-cards">Show all cards</button></div>`:''}`+
       (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${voiceFor(c.lang)?`<button class="button quiet" id="speak-card">${icon('sound')} Play</button>`:''}</div><div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
-      `<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} a day across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`);
+      `<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} per lesson across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`);
   }
   function rate(rating){
-    if(!flipped||!queue.length)return;const c=queue.shift(),today=day(),wasNew=!own(db.cards,c.id),d=draft();
+    if(!flipped||!queue.length)return;const c=queue.shift(),today=day(),key=sessionKey(),wasNew=!own(db.cards,c.id),d=draft();
     db.cards[c.id]=schedule(db.cards[c.id],rating,today);
     d.ratings.push({id:c.id,rating});
-    if(wasNew){db._ui.introduced[today]||=[];if(!db._ui.introduced[today].includes(c.id))db._ui.introduced[today].push(c.id);if(!d.new.includes(c.id))d.new.push(c.id);}
+    if(wasNew){db._ui.introduced[key]||=[];if(!db._ui.introduced[key].includes(c.id))db._ui.introduced[key].push(c.id);if(!d.new.includes(c.id))d.new.push(c.id);}
     if(rating==='again')queue.push(c);
-    // Trim unintroduced cards if another view has already consumed today's allowance.
-    let allowance=Math.max(0,lesson.new_cards_limit-(db._ui.introduced[today]||[]).length);
+    // Trim unintroduced cards if another view has already consumed this lesson’s allowance.
+    let allowance=Math.max(0,lesson.new_cards_limit-(db._ui.introduced[key]||[]).length);
     queue=queue.filter(item=>own(db.cards,item.id)||allowance-->0);
     flipped=false;update();render();
   }
@@ -244,6 +381,7 @@
     $('#quiz-feedback').innerHTML=`<div class="feedback ${result.correct?'':'wrong'}"><strong>${result.correct?'That’s right.':result.toneOnly?'Letters right, tone wrong.':'Something to revisit.'}</strong>${esc(q.explain)}${!result.correct?`<p style="margin-top:8px">Answer: ${tones(q.type==='mc'?q.options[q.answer]:q.type==='tone'?'Tone '+q.answer:q.answer.join(' / '))}</p>`:''}</div><button class="button secondary full" id="next-question" style="margin-top:16px">${qs.every(item=>own(draft().answers,item.id))?'See results':'Next question'}</button>`;
     if(qs.every(item=>own(draft().answers,item.id))&&!draft().done.includes(quizTask))draft().done.push(quizTask);
     update();
+    $('#quiz-feedback').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',block:'end'});
   }
   function renderProgress(){
     const today=day(),weekStart=addDays(today,-((new Date(today+'T12:00:00Z').getUTCDay()+6)%7)),week=db.sessions.filter(s=>s.date>=weekStart&&s.date<=today);
@@ -275,23 +413,55 @@
     }catch{stream?.getTracks().forEach(t=>t.stop());recording=null;recordingTask=null;toast('Microphone access was unavailable. You can still use the timer and self-feedback.');render();}
   }
   function navigate(next){route=['today','cards','quiz','progress'].includes(next)?next:'today';if(location.hash!=='#'+route)location.hash=route;else render();window.scrollTo({top:0});}
+  function renderFinishSummary() {
+    const s=sessionRecord();lastSummary=summary();
+    $('#finish-content').innerHTML=`<p class="muted">${s.tasks_done.length} of ${lesson.tasks.length} tasks · ${s.minutes} minutes · Quiz ${s.quiz.score}/${s.quiz.total}</p><pre class="summary">${esc(lastSummary)}</pre>`;
+  }
   function finish(){
-    tick();syncSavedSession();const s=sessionRecord(),i=db.sessions.findIndex(x=>x.date===s.date&&x.slot===s.slot);if(i>=0)db.sessions[i]=s;else db.sessions.push(s);db.streak_days=streak(db.sessions);save();lastSummary=summary();$('#finish-content').innerHTML=`<p class="muted">${s.tasks_done.length} of ${lesson.tasks.length} tasks · ${s.minutes} minutes · Quiz ${s.quiz.score}/${s.quiz.total}</p><pre class="summary">${esc(lastSummary)}</pre>`;$('#finish-dialog').showModal();
+    tick();const d=draft();
+    if(!finite(d.minutes) || d.minutes < 0) d.minutes=suggestedMinutes();
+    syncSavedSession();const s=sessionRecord(),i=db.sessions.findIndex(x=>x.date===s.date&&x.slot===s.slot);
+    if(i>=0) db.sessions[i]=s; else db.sessions.push(s);
+    db.streak_days=streak(db.sessions);save();
+    $('#minutes-studied').value=d.minutes;$('#minutes-studied').setCustomValidity('');
+    $('#copy-summary').disabled=false;$('#finish-download').disabled=false;
+    renderFinishSummary();$('#finish-dialog').showModal();
+  }
+  function importDeck(x) {
+    const candidate=validateDeck(x,x.track);
+    // Validate the entire incoming deck even when a longer published deck wins.
+    for(const track of TRACKS.filter(t=>t !== candidate.track)) {
+      const ids=new Set([...(decks[track]?.cards || []),...(publishedDecks[track]?.cards || []),...(db._ui.importedDecks[track]?.cards || [])].map(c=>c.id));
+      for(const card of candidate.cards) assert(!ids.has(card.id),`Card ${card.id}: duplicate id across decks ${candidate.track} and ${track}`);
+    }
+    db._ui.importedDecks[candidate.track]=candidate;
+    const selected=chooseDecks(publishedDecks,db._ui.importedDecks);
+    decks=selected.decks;queue=[];save();render();
+    toast(decks[candidate.track]===candidate ? `${LABELS[candidate.track]} deck imported and loaded.` : `${LABELS[candidate.track]} deck saved. The published deck has at least as many cards and stays loaded.`);
   }
   async function importFile(file){
     try{
       assert(file.size<=5*1024*1024,'Please choose a JSON file smaller than 5 MB.');const x=JSON.parse(await file.text());
       if(pendingImport==='lesson'){
+        if(isObject(x) && x.schema==='studyhub.deck.v1'){importDeck(x);return;}
         validateLesson(x);assert(!recordingTask,'Stop your recording before importing another lesson.');
         stopTimer();timerTask=null;db._ui.importedLesson=x;lesson=x;cardTask=null;quizTask=null;quizIndex=0;queue=[];route='today';location.hash='#today';save();render();toast('Lesson imported. Ready when you are.');
       }else{
         validateProgress(x);if(!confirm('Replace this browser’s progress with the imported file? Download a backup first if you want to keep the current records.'))return;
-        db=blank();db.cards=Object.assign(dictionary(),x.cards);db.sessions=structuredClone(x.sessions);db.streak_days=streak(db.sessions);
-        // Imported SM-2 records do not identify introduction dates. Conservatively count
-        // cards last seen today towards the daily allowance to avoid over-introducing.
-        db._ui.introduced[day()]=Object.keys(db.cards).filter(id=>db.cards[id].last_seen===day());
-        // Restore task completion and notes for an existing current lesson session.
-        if(lesson){const saved=db.sessions.findLast(s=>s.date===lesson.date&&s.slot===lesson.slot);if(saved){const d=draft();d.done=saved.tasks_done.filter(id=>lesson.tasks.some(t=>t.id===id));d.seconds=saved.minutes*60;d.notes=saved.notes;const speak=lesson.tasks.find(t=>t.type==='speaking');if(speak)d.speaking[speak.id]=saved.speaking_self_note;d.importedQuiz=saved.quiz;}}
+        const importedLesson=db._ui.importedLesson,importedDecks=db._ui.importedDecks;
+        db=blank();db._ui.importedDecks=importedDecks;if(importedLesson)db._ui.importedLesson=importedLesson;db.cards=Object.assign(dictionary(),x.cards);db.sessions=structuredClone(x.sessions);db.streak_days=streak(db.sessions);
+        // v1 exports have no per-lesson introduction history. Only an already
+        // finished matching lesson is conservatively charged for same-date cards.
+        if(lesson) {
+          const saved=db.sessions.findLast(record=>record.date===lesson.date && record.slot===lesson.slot);
+          db._ui.introduced[sessionKey()]=saved ? Object.keys(db.cards).filter(id=>db.cards[id].last_seen===lesson.date) : [];
+          if(saved) {
+            const d=draft();d.done=saved.tasks_done.filter(id=>lesson.tasks.some(t=>t.id===id));
+            d.seconds=saved.minutes*60;d.minutes=saved.minutes;d.notes=saved.notes;
+            const speak=lesson.tasks.find(t=>t.type==='speaking');if(speak)d.speaking[speak.id]=saved.speaking_self_note;
+            d.importedQuiz=saved.quiz;
+          }
+        }
         save();queue=[];render();toast('Progress restored on this device.');
       }
     }catch(e){toast('Could not import: '+e.message);}finally{$('#file-input').value='';}
@@ -302,6 +472,7 @@
     if(button.dataset.import){pendingImport=button.dataset.import;$('#settings-dialog').close();$('#file-input').click();return;}
     if(button.id==='settings-open'){$('#settings-dialog').showModal();return;}
     if(['download-progress','finish-download'].includes(button.id)){syncSavedSession();download(exportProgress(),'progress.json');return;}
+    if(button.id==='reload-decks'){if(recordingTask){toast('Stop recording before reloading the decks.');return;}db._ui.importedDecks=dictionary();save();$('#settings-dialog').close();load();return;}
     if(button.id==='reload-lesson'){if(recordingTask){toast('Stop recording before reloading the lesson.');return;}stopTimer();timerTask=null;delete db._ui.importedLesson;save();$('#settings-dialog').close();load();return;}
     if(button.dataset.openTask){const t=lesson.tasks.find(t=>t.id===button.dataset.openTask);if(t.type==='cards'){cardTask=t.id;filterTrack=t.deck;filterTag='all';buildQueue();navigate('cards');}else if(t.type==='quiz'){quizTask=t.id;quizIndex=0;navigate('quiz');}else document.getElementById('task-'+t.id)?.scrollIntoView({behavior:'smooth'});return;}
     if(button.dataset.gloss){const section=document.getElementById('task-'+button.dataset.gloss),show=button.getAttribute('aria-expanded')!=='true';section.querySelectorAll('.reading-gloss').forEach(el=>el.hidden=!show);button.textContent=show?'Hide gloss':'Show gloss';button.setAttribute('aria-expanded',String(show));return;}
@@ -331,7 +502,15 @@
     if(el.id==='filter-tag'){filterTag=el.value;cardTask=null;buildQueue();render();return;}
     if(el.id==='quiz-task'){quizTask=el.value;quizIndex=0;render();}
   });
-  document.addEventListener('input',e=>{if(!lesson)return;if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote]=e.target.value;update();}if(e.target.id==='session-note'){draft().notes=e.target.value;update();}});
+  document.addEventListener('input',e=>{if(!lesson)return;
+    if(e.target.id==='minutes-studied') {
+      const input=e.target,value=input.valueAsNumber,valid=input.value.trim()!=='' && finite(value) && value >= 0;
+      input.setCustomValidity(valid ? '' : 'Enter a non-negative number of minutes.');
+      $('#copy-summary').disabled=!valid;$('#finish-download').disabled=!valid;
+      if(valid) { draft().minutes=value;update();renderFinishSummary(); }
+      return;
+    }
+if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote]=e.target.value;update();}if(e.target.id==='session-note'){draft().notes=e.target.value;update();}});
   document.addEventListener('submit',e=>{if(e.target.id==='quiz-form')submitAnswer(e);});
   document.addEventListener('keydown',e=>{
     if(route!=='cards'||e.altKey||e.ctrlKey||e.metaKey||document.querySelector('dialog[open]')||e.target.closest('input,textarea,select'))return;
@@ -344,9 +523,14 @@
   document.addEventListener('visibilitychange',()=>{lastActive=Date.now();if(!document.hidden)idleSince=Date.now();});
   window.addEventListener('pagehide',()=>{tick();if(recording&&recording.state!=='inactive')recording.stop();stream?.getTracks().forEach(t=>t.stop());});
   window.addEventListener('hashchange',()=>{route=location.hash.slice(1);if(!['today','cards','quiz','progress'].includes(route))route='today';render();});
-  window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;db.cards=Object.assign(dictionary(),db.cards);queue=[];render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
+  window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;normaliseUI(db);db.cards=Object.assign(dictionary(),db.cards);decks=chooseDecks(publishedDecks,db._ui.importedDecks).decks;queue=[];render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
   if('speechSynthesis' in window)speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});
   $('.bottom-nav').innerHTML=['today','cards','quiz','progress'].map(t=>`<a class="nav-item" href="#${t}" data-route="${t}">${icon(t)}<span>${t[0].toUpperCase()+t.slice(1)}</span></a>`).join('');
+  function updateNavClearance() {
+    document.documentElement.style.setProperty('--studyhub-nav-height',`${Math.ceil($('.bottom-nav').getBoundingClientRect().height)}px`);
+  }
+  updateNavClearance();window.addEventListener('resize',updateNavClearance);
+  if('ResizeObserver' in window) new ResizeObserver(updateNavClearance).observe($('.bottom-nav'));
   $('#settings-open').innerHTML=icon('settings');
   route=location.hash.slice(1)||'today';if(!['today','cards','quiz','progress'].includes(route))route='today';
   load();

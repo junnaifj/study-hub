@@ -44,7 +44,7 @@ From this directory, run `python3 -m http.server 8000`, then visit `http://local
 - **Cards:** filter by language and topic. Due cards appear before new cards. Reveal a card, then choose Again, Hard, Good or Easy. Again puts the card at the back of the current queue. Space flips; 1–4 rates the revealed card when focus is outside an input or control. A focused flip button also works with Space or Enter.
 - **Quiz:** answer one question at a time, then read the explanation. Typed answers ignore case, spaces and punctuation using Unicode normalisation. Jyutping letters and tones are checked separately. Completed answers are retained for the lesson; reloading does not reset a quiz.
 - **Speaking:** start or pause the countdown. Recording is optional and separate from the countdown. Stop recording, listen back and download the audio if you wish to keep it. Add one line of self-feedback.
-- **Finish session:** save the session and copy the tutor summary, or download progress.json. Finishing again updates the same date/slot record rather than adding a duplicate.
+- **Finish session:** check the editable **Minutes studied** field, then copy the tutor summary or download progress.json. Its initial value is the larger of rounded active minutes and the sum of the minutes on completed link tasks. Edits are saved in the session draft and immediately update both export and summary. Reopening retains your chosen value. Finishing again updates the same date/slot record rather than adding a duplicate.
 - **Progress:** view finished sessions, current streak, minutes per language, cards learned, recent quiz scores and tutor-maintained goals.
 
 The seeded lesson is dated **22 October 2026**, the first day in the supplied plan. A notice appears whenever the lesson date differs from the current Hong Kong date. Replace it with a current lesson when ready.
@@ -72,7 +72,7 @@ Required top-level fields: `schema`, `date` (YYYY-MM-DD), `slot`, `tracks`, `min
 - `mc`: include `options` and a **zero-based** integer `answer`.
 - `typed`: `answer` is a non-empty **array of strings**, including when only one answer is accepted.
 - `tone`: `answer` is an integer from 1 to 6.
-- `new_cards_limit` is a non-negative integer. The limit applies across tracks per actual Hong Kong calendar day, not separately to each filter or lesson slot.
+- `new_cards_limit` is a non-negative integer. The limit applies across tracks **per lesson**, keyed by `${lesson.date}|${lesson.slot}`. Morning, evening and weekend_test have separate allowances; changing a filter or refreshing the same lesson does not reset its allowance.
 
 The shipped `data/today.json` is a complete example of every task and question type.
 
@@ -88,7 +88,7 @@ Fields: `schema`, `end`, `goals`. Each goal has `track`, `label`, `target`, `don
 
 ## Progress, export and restoration
 
-All study progress and draft state are stored under browser localStorage key **studyhub.v1**. Additional private `_ui` metadata in this local record tracks unfinished tasks, active minutes, answers, rating counts and daily new cards. It is **omitted** from progress exports. No credentials are stored.
+All study progress and draft state are stored under browser localStorage key **studyhub.v1**. Additional private `_ui` metadata in this local record tracks unfinished tasks, active minutes, answers, rating counts, chosen session minutes, imported content and per-lesson new cards. It is **omitted** from progress exports. No credentials are stored.
 
 Downloaded **progress.json** contains exactly these top-level fields:
 
@@ -141,9 +141,11 @@ Task IDs in the actual summary are derived from all tasks in the actual lesson. 
 - Progress exports contain finished sessions and all saved card schedules. Finish first to include an unfinished session. Recordings, unfinished question details and per-session rating counts are not part of the specified export format.
 - Imported session quiz totals are retained; the export cannot reconstruct the original per-question responses or rating counts. A completed new quiz replaces the imported quiz aggregate.
 - A restored current session recovers task ticks, minutes, notes and self-feedback. Some live-only details (recordings and per-rating counts) are unavailable after a device transfer.
-- Import lesson is the fallback when the tutor cannot commit to GitHub. Imported lessons persist in this browser across refreshes until **Reload published lesson** is selected. Deck updates still come from the repository.
+- **Import lesson** accepts either `studyhub.today.v1` lessons or `studyhub.deck.v1` decks. Each deck is validated against its own `track` and stored under `db._ui.importedDecks[track]`. An imported deck replaces that track’s published deck only when it has strictly more cards, or when the published deck failed to load or validate. Equal-sized or smaller imports are retained locally but do not override a valid published deck. Other tracks are unchanged. Duplicate card IDs across tracks are rejected before an import is saved; if a future published update creates a collision, the conflicting local override falls back to published data (or is excluded if no valid fallback exists), with an error notice. **Reload published decks** clears these local deck imports and reloads the existing published data URLs.
+- On load, a valid published lesson replaces a local imported lesson when it is the same or newer, comparing `date` first, then `morning < evening < weekend_test`. The imported lesson is removed from storage and a toast says **“A newer lesson from Tone Police is available and loaded.”** A newer local import stays in use; so does a valid local import when the published lesson is unavailable or invalid. **Reload published lesson** explicitly clears the lesson import.
+- Replacing progress preserves local imported lessons and decks; they are content, not exported progress.
 - Hong Kong time is used for due dates, streaks and weekly boundaries (Monday–Sunday). Session dates come from the lesson; card review dates come from the actual calendar day. Avoid practising a wrongly dated lesson when accurate daily session statistics matter.
-- A streak counts consecutive finished-session dates ending today or yesterday. Cards learned are cards with at least one successful repetition (`reps > 0`). Minutes include active visible study time, rounded per session; after two minutes without interaction, time stops accruing. Mixed-track minutes are divided equally because the v1 session schema has no per-task track timing.
+- A streak counts consecutive finished-session dates ending today or yesterday. Cards learned are cards with at least one successful repetition (`reps > 0`). Active time is measured while the page is visible; after two minutes without interaction, time stops accruing. Exported minutes use the value saved in **Minutes studied**, which can also account for external resources. Before the first finish, the suggested minutes are the larger of rounded active minutes and completed link minutes. Mixed-track minutes are divided equally because the v1 session schema has no per-task track timing.
 
 ## Spaced repetition
 
@@ -156,13 +158,19 @@ New cards start with ease 2.5 and interval 0.
 | Good | 1 for interval 0; then 3; then interval × ease | reps +1 |
 | Easy | Good's result ×1.3 | ease +0.15, reps +1 |
 
-Intervals are rounded to whole days and capped at 60. Ease never falls below 1.3. Due = actual Hong Kong date + interval. Good's result uses the ease before the current rating changes it. Cards rated Again remain due even after a refresh. Imported progress cannot reveal introduction dates, so cards last seen today are conservatively counted towards today's new-card allowance.
+Intervals are rounded to whole days and capped at 60. Ease never falls below 1.3. Due = actual Hong Kong date + interval. Good's result uses the ease before the current rating changes it. Cards rated Again remain due even after a refresh. Introduced card IDs are stored under ``db._ui.introduced[`${lesson.date}|${lesson.slot}`]``. Old calendar-day counters are migrated from each lesson draft’s known new-card IDs, without charging another slot. Imported v1 progress cannot reveal per-lesson introduction history: for an already finished matching lesson only, cards last seen on the lesson date are conservatively counted towards its allowance. A different slot starts with its own allowance; already reviewed cards retain their existing schedules. This internal metadata is never added to progress.json or the copy-summary text.
 
 ## Privacy and browser support
 
 The app has no analytics, advertising, remote application scripts, server storage or AI calls. Public lesson files are downloaded from the website's own host. Linked resources open external websites. Recording audio is held in this tab's memory and is never uploaded; download it before closing the tab. Microphone access requires HTTPS (provided by GitHub Pages) or localhost and a supported browser. Denied permission does not block the other features.
 
 Browser storage belongs to an origin: a local preview, a Sites preview and GitHub Pages have separate records. Use progress export/import to transfer records. Private browsing or clearing site data can remove progress. A visible warning appears when storage is unavailable.
+
+## Validation and navigation
+
+Invalid lesson/deck imports leave the existing content intact. Validation errors identify the failing task, question or card and its field, for example `Question q3: missing explain` or `Task t2: missing deck`. Where an ID itself is missing, the error gives the position in the file.
+
+After checking a quiz answer, the feedback is scrolled into view. Main content and quiz-feedback scrolling reserve the measured bottom-navigation height plus the device safe area, so the final buttons can be scrolled above the navigation. Reduced-motion preferences are respected.
 
 ## Verification
 
