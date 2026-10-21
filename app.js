@@ -126,7 +126,11 @@
   }
   function allCards(){return TRACKS.flatMap(t=>(decks[t]?.cards || []).map(c=>({...c,track:t})));}
   function heading(title,sub,extra=''){return `<div class="eyebrow">YOUR STUDY SPACE</div><div class="page-heading"><h1>${title}</h1>${extra}</div><p class="subtitle">${sub}</p>`;}
-  function exportProgress(){return {schema:'studyhub.progress.v1',exported_at:timestamp(),streak_days:streak(db.sessions),cards:db.cards,sessions:db.sessions};}
+  function exportProgress(){
+    const cards=Object.fromEntries(Object.entries(db.cards).map(([id,c])=>[id,{reps:c.reps,lapses:c.lapses,ease:c.ease,interval_days:c.interval_days,due:c.due,last_rating:c.last_rating,last_seen:c.last_seen}]));
+    const sessions=db.sessions.map(s=>({date:s.date,slot:s.slot,tracks:s.tracks,minutes:s.minutes,tasks_done:s.tasks_done,quiz:{score:s.quiz.score,total:s.quiz.total,wrong:s.quiz.wrong},speaking_self_note:s.speaking_self_note,notes:s.notes}));
+    return {schema:'studyhub.progress.v1',exported_at:timestamp(),streak_days:streak(db.sessions),cards,sessions};
+  }
   function download(data,name){const a=document.createElement('a');const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'}));a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}
   function syncSavedSession(){
     if(!lesson)return;const index=db.sessions.findIndex(s=>s.date===lesson.date&&s.slot===lesson.slot);
@@ -138,7 +142,7 @@
   function summary(){
     const s=sessionRecord(),d=draft(),skipped=lesson.tasks.filter(t=>!s.tasks_done.includes(t.id)).map(t=>t.id),counts={again:0,hard:0,good:0,easy:0};d.ratings.forEach(r=>counts[r.rating]++);
     const hard=[...new Set(d.ratings.filter(r=>['again','hard'].includes(r.rating)).map(r=>r.id))];
-    return `STUDYHUB ${s.date} ${s.slot} | ${s.minutes} min | tasks ${s.tasks_done.join(',')||'none'} done, ${skipped.join(',')||'none'} skipped\nquiz ${s.quiz.score}/${s.quiz.total} wrong: ${s.quiz.wrong.join(', ')||'none'}\ncards: ${d.ratings.length} reviewed (again ${counts.again}, hard ${counts.hard}, good ${counts.good}, easy ${counts.easy}), new ${d.new.length}\nhard cards: ${hard.join(', ')||'none'}\nnote: ${[s.speaking_self_note,s.notes].filter(Boolean).join(' | ')}`;
+    return `STUDYHUB ${s.date} ${s.slot} | ${s.minutes} min | tasks ${s.tasks_done.join(',')||'none'} done, ${skipped.join(',')||'none'} skipped\nquiz ${s.quiz.score}/${s.quiz.total} wrong: ${s.quiz.wrong.join(', ')||'none'}\ncards: ${d.ratings.length} reviewed (again ${counts.again}, hard ${counts.hard}, good ${counts.good}, easy ${counts.easy}), new ${d.new.length}\nhard cards: ${hard.join(', ')||'none'}\nnote: ${[s.speaking_self_note,s.notes].filter(Boolean).join(' | ').replace(/\s+/g,' ').trim()}`;
   }
   function update(){syncSavedSession();save();}
   async function fetchJSON(path){const r=await fetch(`${path}?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json();}
