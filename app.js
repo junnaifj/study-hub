@@ -241,6 +241,10 @@
     if(!own(db._ui.drafts,key)) db._ui.drafts[key]={done:[],seconds:0,answers:dictionary(),speaking:dictionary(),notes:'',ratings:[],new:[]};
     const d=db._ui.drafts[key];
     d.answers=Object.assign(dictionary(),d.answers);d.speaking=Object.assign(dictionary(),d.speaking);
+    if(own(d,'minutes')){
+      if(finite(d.minutes) && d.minutes >= 0) d.minutes=Math.round(d.minutes);
+      else delete d.minutes;
+    }
     return d;
   }
   function allCards(){return TRACKS.flatMap(t=>(decks[t]?.cards || []).map(c=>({...c,track:t})));}
@@ -258,7 +262,14 @@
   function quizQuestions(taskId=null){return lesson.tasks.filter(t=>t.type==='quiz'&&(!taskId||t.id===taskId)).flatMap(t=>t.questions);}
   function quizResult(){const qs=quizQuestions(),d=draft(),answers=d.answers;if(d.importedQuiz && Object.keys(answers).length < qs.length)return d.importedQuiz;return {score:qs.filter(q=>answers[q.id]?.correct).length,total:qs.length,wrong:qs.filter(q=>answers[q.id]&&!answers[q.id].correct).map(q=>q.id)};}
   function suggestedMinutes(){const d=draft();return Math.max(Math.round(d.seconds/60),lesson.tasks.filter(t=>t.type==='link' && d.done.includes(t.id)).reduce((sum,t)=>sum+t.minutes,0));}
-  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:finite(d.minutes) && d.minutes >= 0 ? d.minutes : suggestedMinutes(),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
+  function sessionMinutes(){
+    const d=draft();
+    // A stored whole number means the field was edited, or progress import restored one.
+    // Otherwise keep following the live suggestion, including after another finish.
+    const value=integer(d.minutes) ? d.minutes : suggestedMinutes();
+    return integer(value) ? value : Math.max(0,Math.round(value));
+  }
+  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:sessionMinutes(),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
   function summary(){
     const s=sessionRecord(),d=draft(),skipped=lesson.tasks.filter(t=>!s.tasks_done.includes(t.id)).map(t=>t.id),counts={again:0,hard:0,good:0,easy:0};d.ratings.forEach(r=>counts[r.rating]++);
     const hard=[...new Set(d.ratings.filter(r=>['again','hard'].includes(r.rating)).map(r=>r.id))];
@@ -290,7 +301,8 @@
     if(db._ui.importedLesson) {
       try {
         const imported=validateLesson(db._ui.importedLesson);
-        if(lesson && compareLessons(lesson,imported) >= 0) {
+        // Date first, then morning < evening < weekend_test. An equal pair is not newer.
+        if(lesson && compareLessons(lesson,imported) > 0) {
           delete db._ui.importedLesson;newerPublished=true;
         } else lesson=imported;
       } catch(e) { loadErrors.push(e.message);delete db._ui.importedLesson; }
@@ -418,12 +430,12 @@
     $('#finish-content').innerHTML=`<p class="muted">${s.tasks_done.length} of ${lesson.tasks.length} tasks · ${s.minutes} minutes · Quiz ${s.quiz.score}/${s.quiz.total}</p><pre class="summary">${esc(lastSummary)}</pre>`;
   }
   function finish(){
-    tick();const d=draft();
-    if(!finite(d.minutes) || d.minutes < 0) d.minutes=suggestedMinutes();
+    tick();
     syncSavedSession();const s=sessionRecord(),i=db.sessions.findIndex(x=>x.date===s.date&&x.slot===s.slot);
     if(i>=0) db.sessions[i]=s; else db.sessions.push(s);
     db.streak_days=streak(db.sessions);save();
-    $('#minutes-studied').value=d.minutes;$('#minutes-studied').setCustomValidity('');
+    const input=$('#minutes-studied');
+    input.value=s.minutes;input.setCustomValidity('');
     $('#copy-summary').disabled=false;$('#finish-download').disabled=false;
     renderFinishSummary();$('#finish-dialog').showModal();
   }
@@ -457,7 +469,7 @@
           db._ui.introduced[sessionKey()]=saved ? Object.keys(db.cards).filter(id=>db.cards[id].last_seen===lesson.date) : [];
           if(saved) {
             const d=draft();d.done=saved.tasks_done.filter(id=>lesson.tasks.some(t=>t.id===id));
-            d.seconds=saved.minutes*60;d.minutes=saved.minutes;d.notes=saved.notes;
+            d.seconds=saved.minutes*60;d.minutes=Math.round(saved.minutes);saved.minutes=d.minutes;d.notes=saved.notes;
             const speak=lesson.tasks.find(t=>t.type==='speaking');if(speak)d.speaking[speak.id]=saved.speaking_self_note;
             d.importedQuiz=saved.quiz;
           }
@@ -504,10 +516,11 @@
   });
   document.addEventListener('input',e=>{if(!lesson)return;
     if(e.target.id==='minutes-studied') {
-      const input=e.target,value=input.valueAsNumber,valid=input.value.trim()!=='' && finite(value) && value >= 0;
-      input.setCustomValidity(valid ? '' : 'Enter a non-negative number of minutes.');
+      const input=e.target,value=input.valueAsNumber,valid=input.value.trim()!=='' && integer(value);
+      input.setCustomValidity(valid ? '' : 'Enter a whole number of minutes.');
       $('#copy-summary').disabled=!valid;$('#finish-download').disabled=!valid;
       if(valid) { draft().minutes=value;update();renderFinishSummary(); }
+      else input.reportValidity();
       return;
     }
 if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote]=e.target.value;update();}if(e.target.id==='session-note'){draft().notes=e.target.value;update();}});
