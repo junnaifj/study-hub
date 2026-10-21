@@ -1,0 +1,107 @@
+{
+  "schema": "studyhub.deck.v1",
+  "track": "cantonese",
+  "cards": [
+    {
+      "id": "yue-0001",
+      "front": "詩",
+      "back": "si1 · poem",
+      "gloss": "高平調 · high level · tone 1",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0002",
+      "front": "史",
+      "back": "si2 · history",
+      "gloss": "高升調 · high rising · tone 2",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0003",
+      "front": "試",
+      "back": "si3 · try / test",
+      "gloss": "中平調 · mid level · tone 3",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0004",
+      "front": "時",
+      "back": "si4 · time",
+      "gloss": "低降調 · low falling · tone 4",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0005",
+      "front": "市",
+      "back": "si5 · market / city",
+      "gloss": "低升調 · low rising · tone 5",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0006",
+      "front": "事",
+      "back": "si6 · matter / event",
+      "gloss": "低平調 · low level · tone 6",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0007",
+      "front": "你好",
+      "back": "nei5 hou2 · hello",
+      "gloss": "A simple greeting.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0008",
+      "front": "面試",
+      "back": "min6 si3 · interview",
+      "gloss": "Watch the two tones: 6, then 3.",
+      "lang": "yue-HK",
+      "tags": [
+        "workplace",
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0009",
+      "front": "我叫阿佳。",
+      "back": "ngo5 giu3 aa3 gaai1 · My name is Jia.",
+      "gloss": "我叫… means My name is…",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0010",
+      "front": "多謝",
+      "back": "do1 ze6 · thank you",
+      "gloss": "Often used when receiving a gift.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    }
+  ]
+}

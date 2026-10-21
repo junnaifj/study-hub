@@ -1,0 +1,46 @@
+{
+  "schema": "studyhub.deck.v1",
+  "track": "korean",
+  "cards": [
+    {
+      "id": "ko-0001",
+      "front": "안녕하세요",
+      "back": "안녕하세요 · hello",
+      "gloss": "annyeonghaseyo · a polite greeting",
+      "lang": "ko-KR",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "ko-0002",
+      "front": "감사합니다",
+      "back": "감사합니다 · thank you",
+      "gloss": "gamsahamnida · polite thanks",
+      "lang": "ko-KR",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "ko-0003",
+      "front": "ㅏ",
+      "back": "a",
+      "gloss": "A Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0004",
+      "front": "ㅗ",
+      "back": "o",
+      "gloss": "A Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul"
+      ]
+    }
+  ]
+}

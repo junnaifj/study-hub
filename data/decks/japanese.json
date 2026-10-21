@@ -1,0 +1,46 @@
+{
+  "schema": "studyhub.deck.v1",
+  "track": "japanese",
+  "cards": [
+    {
+      "id": "ja-0001",
+      "front": "こんにちは",
+      "back": "こんにちは · hello",
+      "gloss": "konnichiwa · a daytime greeting",
+      "lang": "ja-JP",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "ja-0002",
+      "front": "ありがとうございます",
+      "back": "ありがとうございます · thank you",
+      "gloss": "arigatou gozaimasu · polite thanks",
+      "lang": "ja-JP",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "ja-0003",
+      "front": "あ",
+      "back": "a",
+      "gloss": "The first hiragana vowel.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana"
+      ]
+    },
+    {
+      "id": "ja-0004",
+      "front": "い",
+      "back": "i",
+      "gloss": "The second hiragana vowel.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "studyhub.goals.v1",
+  "end": "2026-11-22",
+  "goals": [
+    {
+      "track": "english",
+      "label": "STAR stories recorded",
+      "target": 8,
+      "done": 0
+    },
+    {
+      "track": "cantonese",
+      "label": "Tone cards practised",
+      "target": 30,
+      "done": 0
+    },
+    {
+      "track": "japanese",
+      "label": "Hiragana recognised",
+      "target": 46,
+      "done": 0
+    },
+    {
+      "track": "korean",
+      "label": "Hangul letters recognised",
+      "target": 24,
+      "done": 0
+    }
+  ]
+}

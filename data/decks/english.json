@@ -1,0 +1,48 @@
+{
+  "schema": "studyhub.deck.v1",
+  "track": "english",
+  "cards": [
+    {
+      "id": "en-0001",
+      "front": "What does STAR stand for?",
+      "back": "Situation · Task · Action · Result",
+      "gloss": "A clear structure for an interview example.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0002",
+      "front": "Describe a measurable result.",
+      "back": "I reduced the processing time by 30%.",
+      "gloss": "Choose a concrete outcome rather than a general claim.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0003",
+      "front": "practise / practice",
+      "back": "Practise is the verb; practice is the noun.",
+      "gloss": "I practise daily. Daily practice helps.",
+      "lang": "en-GB",
+      "tags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "en-0004",
+      "front": "Could you clarify that?",
+      "back": "A polite way to ask for a clearer explanation.",
+      "gloss": "Useful in meetings and interviews.",
+      "lang": "en-GB",
+      "tags": [
+        "workplace"
+      ]
+    }
+  ]
+}
