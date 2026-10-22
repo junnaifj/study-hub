@@ -40,7 +40,7 @@ From this directory, run `python3 -m http.server 8000`, then visit `http://local
 
 ## Everyday use
 
-- **Today:** open your resources, read the passage, reveal its gloss, practise speaking and tick off tasks. Each task has an independent completion checkbox. A fully answered quiz is also marked complete automatically; a completed flashcard queue offers a completion button.
+- **Today:** open your resources, read the passage, reveal its gloss, practise speaking and tick off tasks. Each task has an independent completion checkbox. A fully answered quiz is also marked complete automatically; a completed flashcard queue offers a completion button. A reading passage can play one line or the whole passage. The line being read is highlighted, and playback stops if you leave the page or start another clip. Reading speed is 0.7x, 0.85x or 1x, starting at 0.85x, and is remembered on this device.
 - **Cards:** filter by language and topic. Due cards appear before new cards. Reveal a card, then choose Again, Hard, Good or Easy. Again puts the card at the back of the current queue. Space flips; 1–4 rates the revealed card when focus is outside an input or control. A focused flip button also works with Space or Enter.
 - **Quiz:** answer one question at a time, then read the explanation. Typed answers ignore case, spaces and punctuation using Unicode normalisation. Jyutping letters and tones are checked separately. Completed answers are retained for the lesson; reloading does not reset a quiz.
 - **Speaking:** start or pause the countdown. Recording is optional and separate from the countdown. Stop recording, listen back and download the audio if you wish to keep it. Add one line of self-feedback.
@@ -80,7 +80,7 @@ The shipped `data/today.json` is a complete example of every task and question t
 
 Top-level fields: `schema`, `track`, `cards`. Each card has `id`, `front`, `back`, `gloss`, `lang`, `tags`. Use permanent string IDs unique across all decks. Add cards or edit text; never reuse an ID for a different card.
 
-`lang` can be `yue-HK`, `zh-HK`, `ja-JP`, `ko-KR` or `en-GB`. A Play button is shown whenever the browser provides speech synthesis, including before the voice list has loaded. Playback prefers an exact voice. Cantonese then tries `yue-HK`, `zh-HK`, `yue`, `zh-Hant-HK`, or a voice whose name contains Cantonese, 粵, 粤, or Sin-ji. Other languages fall back to the same primary language, such as any `en` voice for `en-GB`. Mandarin voices are not substituted for Cantonese. Play speaks the card front, including while the answer is showing. If no suitable voice starts, a note under the card explains how to add one on iPhone or Android and to check the silent switch and volume. The app uses no speech service credentials or paid API.
+`lang` can be `yue-HK`, `zh-HK`, `ja-JP`, `ko-KR` or `en-GB`. A Play button is shown whenever the browser provides speech synthesis, including before the voice list has loaded. Playback prefers an exact voice. Cantonese then tries `yue-HK`, `zh-HK`, `yue`, `zh-Hant-HK`, or a voice whose name contains Cantonese, 粵, 粤, or Sin-ji. Other languages fall back to the same primary language, such as any `en` voice for `en-GB`. Mandarin voices are not substituted for Cantonese. Play speaks the card front, including while the answer is showing. Reading lines use the same voice choice and the passage `lang`. If no suitable voice starts, a note explains how to add one on iPhone or Android and to check the silent switch and volume. The app uses no speech service credentials or paid API.
 
 ### data/goals.json — studyhub.goals.v1
 
@@ -88,7 +88,7 @@ Fields: `schema`, `end`, `goals`. Each goal has `track`, `label`, `target`, `don
 
 ## Progress, export and restoration
 
-All study progress and draft state are stored under browser localStorage key **studyhub.v1**. Additional private `_ui` metadata in this local record tracks unfinished tasks, active minutes, answers, rating counts, chosen session minutes, imported content and per-lesson new cards. It is **omitted** from progress exports. No credentials are stored.
+All study progress and draft state are stored under browser localStorage key **studyhub.v1**. Additional private `_ui` metadata in this local record tracks unfinished tasks, active minutes, answers, rating counts, chosen session minutes, imported content, per-lesson new cards and the reading speed (`speechRate`). It is **omitted** from progress exports. No credentials are stored.
 
 Downloaded **progress.json** contains exactly these top-level fields:
 
