@@ -29,7 +29,8 @@
       "gloss": "The first hiragana vowel.",
       "lang": "ja-JP",
       "tags": [
-        "kana"
+        "kana",
+        "set1"
       ]
     },
     {
@@ -39,7 +40,151 @@
       "gloss": "The second hiragana vowel.",
       "lang": "ja-JP",
       "tags": [
-        "kana"
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0005",
+      "front": "う",
+      "back": "u",
+      "gloss": "Hiragana vowel · u",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0006",
+      "front": "え",
+      "back": "e",
+      "gloss": "Hiragana vowel · e",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0007",
+      "front": "お",
+      "back": "o",
+      "gloss": "Hiragana vowel · o",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0008",
+      "front": "か",
+      "back": "ka",
+      "gloss": "Hiragana k-row · ka",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0009",
+      "front": "き",
+      "back": "ki",
+      "gloss": "Hiragana k-row · ki",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0010",
+      "front": "く",
+      "back": "ku",
+      "gloss": "Hiragana k-row · ku",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0011",
+      "front": "け",
+      "back": "ke",
+      "gloss": "Hiragana k-row · ke",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0012",
+      "front": "こ",
+      "back": "ko",
+      "gloss": "Hiragana k-row · ko",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0013",
+      "front": "あおい",
+      "back": "aoi · blue",
+      "gloss": "aoi · 蓝色的 (adjective)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0014",
+      "front": "いえ",
+      "back": "ie · house",
+      "gloss": "ie · 家",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0015",
+      "front": "かお",
+      "back": "kao · face",
+      "gloss": "kao · 脸",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0016",
+      "front": "えき",
+      "back": "eki · station",
+      "gloss": "eki · 车站",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0017",
+      "front": "ここ",
+      "back": "koko · here",
+      "gloss": "koko · 这里",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
       ]
     }
   ]

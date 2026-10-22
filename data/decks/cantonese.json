@@ -102,6 +102,37 @@
       "tags": [
         "introductions"
       ]
+    },
+    {
+      "id": "yue-0011",
+      "front": "唔該",
+      "back": "m4 goi1 · thanks (for a service) / excuse me",
+      "gloss": "Use with shop staff and waiters; 多謝 is for gifts.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions",
+        "phrases"
+      ]
+    },
+    {
+      "id": "yue-0012",
+      "front": "我叫…",
+      "back": "ngo5 giu3 … · My name is…",
+      "gloss": "Add your name after 叫.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0013",
+      "front": "工作經驗",
+      "back": "gung1 zok3 ging1 jim6 · work experience",
+      "gloss": "Useful in interviews.",
+      "lang": "yue-HK",
+      "tags": [
+        "workplace"
+      ]
     }
   ]
 }

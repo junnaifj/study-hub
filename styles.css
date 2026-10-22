@@ -635,9 +635,47 @@ textarea {
 .passage-line:last-child {
   border-bottom:0;
 }
+.passage-line.reading-current {
+  background:#e7ece4;
+  border-radius:12px;
+}
+.passage-main {
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
 .passage-text {
+  flex:1;
+  min-width:0;
   font-size:20px;
   line-height:1.8;
+}
+.line-play {
+  flex:none;
+  min-width:64px;
+  padding:8px 12px;
+}
+.reading-controls {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px;
+  margin:14px 0;
+}
+.speed-toggle {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.speed-toggle .button {
+  min-height:44px;
+  min-width:64px;
+  padding:8px 12px;
+}
+.speed-toggle .button[aria-pressed="true"] {
+  background:var(--sage-pale);
+  border-color:var(--sage);
+  color:var(--sage-dark);
 }
 .gloss {
   font-size:14px;

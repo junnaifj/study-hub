@@ -213,7 +213,9 @@
   const icon = name => `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${icons[name] || icons.today}</svg>`;
   const chips = tracks => tracks.map(t=>`<span class="chip ${t}">${LABELS[t]}</span>`).join('');
   function tones(text) { return esc(text).replace(/([a-zA-Z]+)([1-6])\b/g, (_,s,n)=>`${s}<sup class="tone tone-${n}">${n}</sup>`); }
-  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0;
+  const SPEEDS = [0.7, 0.85, 1];
+  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0, voiceNotice='', voiceNoticeId='', speechToken=0, readingPlay=null;
+  const glossOpen = new Set();
   let timerHandle=null, timerTask=null, timerRemaining=0, timerEnd=0, recording=null, recordingTask=null, stream=null, audioURL=null;
   const recordings = new Map();
   let toastHandle, pendingImport, lastSummary='', lastActive=Date.now(), booting=true;
@@ -227,7 +229,10 @@
     for(const [key,d] of Object.entries(value._ui.drafts)) {
       if(!Array.isArray(value._ui.introduced[key]) && isObject(d) && strings(d.new)) value._ui.introduced[key]=[...new Set(d.new)];
     }
+    if(canonicalRate(value._ui.speechRate) === undefined) delete value._ui.speechRate;
   }
+  function canonicalRate(value){return SPEEDS.find(speed=>Math.abs(speed-Number(value))<0.001);}
+  function speechRate(){return canonicalRate(db._ui.speechRate) || 0.85;}
   function readDB(){
     try { const raw=localStorage.getItem(KEY); if(!raw)return blank(); const parsed=JSON.parse(raw); validateProgress(parsed); parsed.cards=Object.assign(dictionary(),parsed.cards); normaliseUI(parsed); return parsed; }
     catch { storageFailure=true; return blank(); }
@@ -241,6 +246,10 @@
     if(!own(db._ui.drafts,key)) db._ui.drafts[key]={done:[],seconds:0,answers:dictionary(),speaking:dictionary(),notes:'',ratings:[],new:[]};
     const d=db._ui.drafts[key];
     d.answers=Object.assign(dictionary(),d.answers);d.speaking=Object.assign(dictionary(),d.speaking);
+    if(own(d,'minutes')){
+      if(finite(d.minutes) && d.minutes >= 0) d.minutes=Math.round(d.minutes);
+      else delete d.minutes;
+    }
     return d;
   }
   function allCards(){return TRACKS.flatMap(t=>(decks[t]?.cards || []).map(c=>({...c,track:t})));}
@@ -258,7 +267,14 @@
   function quizQuestions(taskId=null){return lesson.tasks.filter(t=>t.type==='quiz'&&(!taskId||t.id===taskId)).flatMap(t=>t.questions);}
   function quizResult(){const qs=quizQuestions(),d=draft(),answers=d.answers;if(d.importedQuiz && Object.keys(answers).length < qs.length)return d.importedQuiz;return {score:qs.filter(q=>answers[q.id]?.correct).length,total:qs.length,wrong:qs.filter(q=>answers[q.id]&&!answers[q.id].correct).map(q=>q.id)};}
   function suggestedMinutes(){const d=draft();return Math.max(Math.round(d.seconds/60),lesson.tasks.filter(t=>t.type==='link' && d.done.includes(t.id)).reduce((sum,t)=>sum+t.minutes,0));}
-  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:finite(d.minutes) && d.minutes >= 0 ? d.minutes : suggestedMinutes(),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
+  function sessionMinutes(){
+    const d=draft();
+    // A stored whole number means the field was edited, or progress import restored one.
+    // Otherwise keep following the live suggestion, including after another finish.
+    const value=integer(d.minutes) ? d.minutes : suggestedMinutes();
+    return integer(value) ? value : Math.max(0,Math.round(value));
+  }
+  function sessionRecord(){const d=draft();return {date:lesson.date,slot:lesson.slot,tracks:[...lesson.tracks],minutes:sessionMinutes(),tasks_done:lesson.tasks.filter(t=>d.done.includes(t.id)).map(t=>t.id),quiz:quizResult(),speaking_self_note:lesson.tasks.filter(t=>t.type==='speaking').map(t=>d.speaking[t.id]||'').filter(Boolean).join(' | '),notes:d.notes};}
   function summary(){
     const s=sessionRecord(),d=draft(),skipped=lesson.tasks.filter(t=>!s.tasks_done.includes(t.id)).map(t=>t.id),counts={again:0,hard:0,good:0,easy:0};d.ratings.forEach(r=>counts[r.rating]++);
     const hard=[...new Set(d.ratings.filter(r=>['again','hard'].includes(r.rating)).map(r=>r.id))];
@@ -290,7 +306,8 @@
     if(db._ui.importedLesson) {
       try {
         const imported=validateLesson(db._ui.importedLesson);
-        if(lesson && compareLessons(lesson,imported) >= 0) {
+        // Date first, then morning < evening < weekend_test. An equal pair is not newer.
+        if(lesson && compareLessons(lesson,imported) > 0) {
           delete db._ui.importedLesson;newerPublished=true;
         } else lesson=imported;
       } catch(e) { loadErrors.push(e.message);delete db._ui.importedLesson; }
@@ -325,9 +342,21 @@
   function renderTask(t){
     const id=esc(t.id);
     if(t.type==='link')return `<section class="card detail-section" id="task-${id}"><div class="eyebrow">WATCH · LISTEN · READ</div><a class="link-resource" href="${esc(safeURL(t.url))}" target="_blank" rel="noopener noreferrer"><h3>${esc(t.title)} ↗</h3><p class="muted" style="font-size:12px;margin-top:6px">${t.minutes} minutes · Opens in a new tab</p></a>${doneCheckbox(t)}</section>`;
-    if(t.type==='reading')return `<section class="card detail-section" id="task-${id}"><div class="row"><span class="eyebrow">READING</span><button class="button quiet" data-gloss="${id}" aria-expanded="false">Show gloss</button></div><h2 style="margin-top:15px">${esc(t.title)}</h2><div>${t.lines.map(l=>`<div class="passage-line"><p class="passage-text" lang="${esc(t.lang)}">${esc(l.text)}</p><div class="reading-gloss" hidden>${l.gloss?`<p class="gloss">${tones(l.gloss)}</p>`:''}${l.translation?`<p class="translation">${esc(l.translation)}</p>`:''}</div></div>`).join('')}</div>${doneCheckbox(t)}</section>`;
+    if(t.type==='reading')return renderReading(t);
     if(t.type==='speaking')return `<section class="card detail-section" id="task-${id}"><div class="eyebrow">YOUR VOICE, A LITTLE STRONGER</div><h2 style="margin:12px 0">Speaking practice</h2><p>${esc(t.prompt)}</p><div class="timer" id="timer-${id}" role="timer">${formatTimer(timerTask===t.id?timerRemaining:t.seconds||60)}</div><div class="button-row"><button class="button secondary" data-timer="${id}">${timerTask===t.id&&timerHandle?'Pause timer':'Start timer'}</button><button class="button quiet" data-reset-timer="${id}">Reset</button></div>${window.MediaRecorder&&navigator.mediaDevices?.getUserMedia?`<button class="button quiet full" data-record="${id}" ${recordingTask&&recordingTask!==t.id?'disabled':''}>${recordingTask===t.id?'Stop recording':'Record your practice'}</button>`:'<p class="fine">Recording is unavailable in this browser. You can still practise with the timer.</p>'}${recordings.has(t.id)?`<audio controls src="${esc(recordings.get(t.id).url)}"></audio><a class="button quiet full" href="${esc(recordings.get(t.id).url)}" download="speaking-${lesson.date}.${recordings.get(t.id).ext}">Download recording</a>`:''}<p class="fine" style="margin:10px 0 18px">Audio stays on this device. Download it to keep a copy after closing this page.</p><div class="field"><label for="speaking-${id}">One line of self-feedback</label><textarea id="speaking-${id}" data-speaking-note="${id}" placeholder="What felt good? What would you change?">${esc(draft().speaking[t.id]||'')}</textarea></div>${doneCheckbox(t)}</section>`;
     return '';
+  }
+  function renderReading(t){
+    const id=esc(t.id),canSpeak='speechSynthesis' in window,rate=speechRate(),playingAll=readingPlay&&readingPlay.taskId===t.id&&readingPlay.all;
+    const speeds=SPEEDS.map(speed=>`<button type="button" class="button quiet speed-option" data-speech-rate="${speed}" aria-pressed="${rate===speed}">${speed}x</button>`).join('');
+    const lines=t.lines.map((line,index)=>{
+      const current=readingPlay&&readingPlay.taskId===t.id&&readingPlay.index===index;
+      return `<div class="passage-line${current?' reading-current':''}"><div class="passage-main"><p class="passage-text" lang="${esc(t.lang)}">${esc(line.text)}</p>${canSpeak?`<button type="button" class="button quiet line-play" data-read-line="${id}" data-line="${index}" aria-label="Play line ${index+1}">Play</button>`:''}</div><div class="reading-gloss" ${glossOpen.has(t.id)?'':'hidden'}>${line.gloss?`<p class="gloss">${tones(line.gloss)}</p>`:''}${line.translation?`<p class="translation">${esc(line.translation)}</p>`:''}</div></div>`;
+    }).join('');
+    const controls=canSpeak?`<div class="reading-controls"><button type="button" class="button quiet" data-read-all="${id}" aria-pressed="${playingAll?'true':'false'}">${playingAll?'Stop':'Play all'}</button><div class="speed-toggle" role="group" aria-label="Reading speed">${speeds}</div></div>`:'';
+    const notice=voiceNotice&&voiceNoticeId==='read:'+t.id?`<p class="notice" id="voice-notice" role="status">${esc(voiceNotice)}</p>`:'';
+    const glossShown=glossOpen.has(t.id);
+    return `<section class="card detail-section" id="task-${id}"><div class="row"><span class="eyebrow">READING</span><button type="button" class="button quiet" data-gloss="${id}" aria-expanded="${glossShown}">${glossShown?'Hide gloss':'Show gloss'}</button></div><h2 style="margin-top:15px">${esc(t.title)}</h2>${controls}${notice}<div class="passage">${lines}</div>${doneCheckbox(t)}</section>`;
   }
   function doneCheckbox(t){return `<label class="inline-checkbox" style="margin-top:16px"><input type="checkbox" data-task-check="${esc(t.id)}" ${draft().done.includes(t.id)?'checked':''}>Mark this task complete</label>`;}
   function buildQueue(){
@@ -343,7 +372,7 @@
   function renderCards(){
     if(!queue.length)buildQueue();const c=queue[0],tags=[...new Set(allCards().filter(c=>filterTrack==='all'||c.track===filterTrack).flatMap(c=>c.tags))].sort();
     return heading('A little recall.','Make it familiar, one card at a time.')+`<div class="filters"><div class="field"><label for="filter-track">Language</label><select id="filter-track"><option value="all">All languages</option>${TRACKS.map(t=>`<option value="${t}" ${filterTrack===t?'selected':''}>${LABELS[t]}</option>`).join('')}</select></div><div class="field"><label for="filter-tag">Topic</label><select id="filter-tag"><option value="all">All topics</option>${tags.map(t=>`<option ${filterTag===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</select></div></div>${cardTask?`<div class="notice">Practising your lesson’s card task. <button class="button quiet" id="all-cards">Show all cards</button></div>`:''}`+
-      (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${voiceFor(c.lang)?`<button class="button quiet" id="speak-card">${icon('sound')} Play</button>`:''}</div><div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
+      (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${'speechSynthesis' in window?`<button class="button quiet" id="speak-card" type="button">${icon('sound')} Play</button>`:''}</div>${voiceNotice&&voiceNoticeId==='card:'+c.id?`<p class="notice" id="voice-notice" role="status">${esc(voiceNotice)}</p>`:''}<div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
       `<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} per lesson across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`);
   }
   function rate(rating){
@@ -357,10 +386,77 @@
     queue=queue.filter(item=>own(db.cards,item.id)||allowance-->0);
     flipped=false;update();render();
   }
+  function normLang(value){return String(value||'').toLowerCase().replaceAll('_','-');}
   function voiceFor(lang){
-    if(!('speechSynthesis' in window))return null;const voices=speechSynthesis.getVoices();const norm=s=>s.toLowerCase().replace('_','-');
-    const choices=['yue-hk','zh-hk'].includes(norm(lang))?['yue-hk','zh-hk']: [norm(lang)];
-    return voices.find(v=>choices.includes(norm(v.lang)))||null;
+    if(!('speechSynthesis' in window))return null;
+    const voices=speechSynthesis.getVoices()||[],target=normLang(lang);
+    const exact=voices.find(voice=>normLang(voice.lang)===target);
+    if(exact)return exact;
+    const cantonese=target==='yue'||target.startsWith('yue-')||target==='zh-hk'||target.startsWith('zh-hk-')||target==='zh-hant-hk'||target.startsWith('zh-hant-hk-');
+    if(cantonese){
+      const codes=['yue-hk','zh-hk','yue','zh-hant-hk'];
+      const byCode=voices.find(voice=>codes.includes(normLang(voice.lang)));
+      if(byCode)return byCode;
+      return voices.find(voice=>{const name=String(voice.name||''),lower=name.toLowerCase();return lower.includes('cantonese')||name.includes('粵')||name.includes('粤')||lower.includes('sin-ji');})||null;
+    }
+    const primary=target.split('-')[0];
+    if(!primary)return null;
+    return voices.find(voice=>{const code=normLang(voice.lang);return code===primary||code.startsWith(primary+'-');})||null;
+  }
+  function voiceHelp(lang){
+    const code=normLang(lang);
+    const cantonese=code==='yue'||code.startsWith('yue-')||code==='zh-hk'||code.startsWith('zh-hk-')||code==='zh-hant-hk'||code.startsWith('zh-hant-hk-');
+    const names=cantonese?['Cantonese','Chinese (Hong Kong)']:code.startsWith('ja')?['Japanese','Japanese']:code.startsWith('ko')?['Korean','Korean']:code.startsWith('en')?['English','English']:[lang,lang];
+    return `No ${names[0]} voice on this device. iPhone: Settings > Accessibility > Spoken Content > Voices > add ${names[1]}. Android: Settings > Text-to-speech > install language. Also check the silent switch / volume.`;
+  }
+  function showVoiceNotice(id,lang){
+    voiceNotice=voiceHelp(lang);voiceNoticeId=id;
+    if((id.startsWith('card:')&&route==='cards')||(id.startsWith('read:')&&route==='today'))render();
+  }
+  function stopSpeech(){
+    speechToken++;readingPlay=null;
+    if('speechSynthesis' in window){try{speechSynthesis.cancel();}catch{}}
+  }
+  function speakText(text,lang,token,options){
+    const voice=voiceFor(lang),utterance=new SpeechSynthesisUtterance(text);
+    utterance.lang=lang;utterance.rate=options.rate;
+    if(voice)utterance.voice=voice;
+    let started=false,settled=false;
+    const fail=()=>{if(settled||speechToken!==token)return;settled=true;options.onfail&&options.onfail();};
+    utterance.onstart=()=>{if(speechToken!==token)return;started=true;options.onstart&&options.onstart(voice);};
+    utterance.onerror=fail;
+    utterance.onend=()=>{if(settled||speechToken!==token)return;settled=true;options.onend&&options.onend();};
+    try{speechSynthesis.speak(utterance);}catch{fail();return;}
+    if(!voice&&options.onmissing)options.onmissing();
+    setTimeout(()=>{if(speechToken===token&&!started)fail();},1500);
+  }
+  function speakCard(card){
+    const token=++speechToken;readingPlay=null;
+    if('speechSynthesis' in window){try{speechSynthesis.cancel();}catch{}}
+    speakText(card.front,card.lang,token,{
+      rate:.85,
+      onstart(voice){if(voice&&voiceNoticeId==='card:'+card.id){voiceNotice='';voiceNoticeId='';if(route==='cards')render();}},
+      onmissing(){showVoiceNotice('card:'+card.id,card.lang);},
+      onfail(){showVoiceNotice('card:'+card.id,card.lang);}
+    });
+  }
+  function playReading(task,index,all){
+    const token=++speechToken;readingPlay=null;
+    if('speechSynthesis' in window){try{speechSynthesis.cancel();}catch{}}
+    const step=next=>{
+      if(speechToken!==token)return;
+      const lines=task.lines||[];
+      if(next>=lines.length){readingPlay=null;if(route==='today')render();return;}
+      readingPlay={taskId:task.id,index:next,all};if(route==='today')render();
+      speakText(lines[next].text,task.lang,token,{
+        rate:speechRate(),
+        onstart(voice){if(voice&&voiceNoticeId==='read:'+task.id){voiceNotice='';voiceNoticeId='';if(route==='today'&&speechToken===token)render();}},
+        onmissing(){showVoiceNotice('read:'+task.id,task.lang);},
+        onfail(){readingPlay=null;showVoiceNotice('read:'+task.id,task.lang);},
+        onend(){if(all)step(next+1);else{readingPlay=null;if(route==='today')render();}}
+      });
+    };
+    step(index);
   }
   function renderQuiz(){
     const tasks=lesson.tasks.filter(t=>t.type==='quiz');if(!quizTask||!tasks.some(t=>t.id===quizTask))quizTask=tasks[0]?.id;
@@ -412,18 +508,18 @@
       captured.start();render();
     }catch{stream?.getTracks().forEach(t=>t.stop());recording=null;recordingTask=null;toast('Microphone access was unavailable. You can still use the timer and self-feedback.');render();}
   }
-  function navigate(next){route=['today','cards','quiz','progress'].includes(next)?next:'today';if(location.hash!=='#'+route)location.hash=route;else render();window.scrollTo({top:0});}
+  function navigate(next){stopSpeech();route=['today','cards','quiz','progress'].includes(next)?next:'today';if(location.hash!=='#'+route)location.hash=route;else render();window.scrollTo({top:0});}
   function renderFinishSummary() {
     const s=sessionRecord();lastSummary=summary();
     $('#finish-content').innerHTML=`<p class="muted">${s.tasks_done.length} of ${lesson.tasks.length} tasks · ${s.minutes} minutes · Quiz ${s.quiz.score}/${s.quiz.total}</p><pre class="summary">${esc(lastSummary)}</pre>`;
   }
   function finish(){
-    tick();const d=draft();
-    if(!finite(d.minutes) || d.minutes < 0) d.minutes=suggestedMinutes();
+    tick();
     syncSavedSession();const s=sessionRecord(),i=db.sessions.findIndex(x=>x.date===s.date&&x.slot===s.slot);
     if(i>=0) db.sessions[i]=s; else db.sessions.push(s);
     db.streak_days=streak(db.sessions);save();
-    $('#minutes-studied').value=d.minutes;$('#minutes-studied').setCustomValidity('');
+    const input=$('#minutes-studied');
+    input.value=s.minutes;input.setCustomValidity('');
     $('#copy-summary').disabled=false;$('#finish-download').disabled=false;
     renderFinishSummary();$('#finish-dialog').showModal();
   }
@@ -445,11 +541,11 @@
       if(pendingImport==='lesson'){
         if(isObject(x) && x.schema==='studyhub.deck.v1'){importDeck(x);return;}
         validateLesson(x);assert(!recordingTask,'Stop your recording before importing another lesson.');
-        stopTimer();timerTask=null;db._ui.importedLesson=x;lesson=x;cardTask=null;quizTask=null;quizIndex=0;queue=[];route='today';location.hash='#today';save();render();toast('Lesson imported. Ready when you are.');
+        stopTimer();timerTask=null;stopSpeech();db._ui.importedLesson=x;lesson=x;cardTask=null;quizTask=null;quizIndex=0;queue=[];route='today';location.hash='#today';save();render();toast('Lesson imported. Ready when you are.');
       }else{
         validateProgress(x);if(!confirm('Replace this browser’s progress with the imported file? Download a backup first if you want to keep the current records.'))return;
-        const importedLesson=db._ui.importedLesson,importedDecks=db._ui.importedDecks;
-        db=blank();db._ui.importedDecks=importedDecks;if(importedLesson)db._ui.importedLesson=importedLesson;db.cards=Object.assign(dictionary(),x.cards);db.sessions=structuredClone(x.sessions);db.streak_days=streak(db.sessions);
+        const importedLesson=db._ui.importedLesson,importedDecks=db._ui.importedDecks,keptRate=canonicalRate(db._ui.speechRate);
+        db=blank();db._ui.importedDecks=importedDecks;if(importedLesson)db._ui.importedLesson=importedLesson;if(keptRate)db._ui.speechRate=keptRate;db.cards=Object.assign(dictionary(),x.cards);db.sessions=structuredClone(x.sessions);db.streak_days=streak(db.sessions);
         // v1 exports have no per-lesson introduction history. Only an already
         // finished matching lesson is conservatively charged for same-date cards.
         if(lesson) {
@@ -457,7 +553,7 @@
           db._ui.introduced[sessionKey()]=saved ? Object.keys(db.cards).filter(id=>db.cards[id].last_seen===lesson.date) : [];
           if(saved) {
             const d=draft();d.done=saved.tasks_done.filter(id=>lesson.tasks.some(t=>t.id===id));
-            d.seconds=saved.minutes*60;d.minutes=saved.minutes;d.notes=saved.notes;
+            d.seconds=saved.minutes*60;d.minutes=Math.round(saved.minutes);saved.minutes=d.minutes;d.notes=saved.notes;
             const speak=lesson.tasks.find(t=>t.type==='speaking');if(speak)d.speaking[speak.id]=saved.speaking_self_note;
             d.importedQuiz=saved.quiz;
           }
@@ -472,15 +568,18 @@
     if(button.dataset.import){pendingImport=button.dataset.import;$('#settings-dialog').close();$('#file-input').click();return;}
     if(button.id==='settings-open'){$('#settings-dialog').showModal();return;}
     if(['download-progress','finish-download'].includes(button.id)){syncSavedSession();download(exportProgress(),'progress.json');return;}
-    if(button.id==='reload-decks'){if(recordingTask){toast('Stop recording before reloading the decks.');return;}db._ui.importedDecks=dictionary();save();$('#settings-dialog').close();load();return;}
-    if(button.id==='reload-lesson'){if(recordingTask){toast('Stop recording before reloading the lesson.');return;}stopTimer();timerTask=null;delete db._ui.importedLesson;save();$('#settings-dialog').close();load();return;}
+    if(button.id==='reload-decks'){if(recordingTask){toast('Stop recording before reloading the decks.');return;}stopSpeech();db._ui.importedDecks=dictionary();save();$('#settings-dialog').close();load();return;}
+    if(button.id==='reload-lesson'){if(recordingTask){toast('Stop recording before reloading the lesson.');return;}stopTimer();timerTask=null;stopSpeech();delete db._ui.importedLesson;save();$('#settings-dialog').close();load();return;}
     if(button.dataset.openTask){const t=lesson.tasks.find(t=>t.id===button.dataset.openTask);if(t.type==='cards'){cardTask=t.id;filterTrack=t.deck;filterTag='all';buildQueue();navigate('cards');}else if(t.type==='quiz'){quizTask=t.id;quizIndex=0;navigate('quiz');}else document.getElementById('task-'+t.id)?.scrollIntoView({behavior:'smooth'});return;}
-    if(button.dataset.gloss){const section=document.getElementById('task-'+button.dataset.gloss),show=button.getAttribute('aria-expanded')!=='true';section.querySelectorAll('.reading-gloss').forEach(el=>el.hidden=!show);button.textContent=show?'Hide gloss':'Show gloss';button.setAttribute('aria-expanded',String(show));return;}
+    if(button.dataset.gloss){const id=button.dataset.gloss,open=!glossOpen.has(id);if(open)glossOpen.add(id);else glossOpen.delete(id);const section=document.getElementById('task-'+id);if(section)section.querySelectorAll('.reading-gloss').forEach(el=>el.hidden=!open);button.textContent=open?'Hide gloss':'Show gloss';button.setAttribute('aria-expanded',String(open));return;}
+    if(button.dataset.readAll){const task=lesson.tasks.find(t=>t.id===button.dataset.readAll);if(!task||!('speechSynthesis' in window))return;if(readingPlay&&readingPlay.taskId===task.id&&readingPlay.all){stopSpeech();render();return;}playReading(task,0,true);return;}
+    if(button.dataset.readLine){const task=lesson.tasks.find(t=>t.id===button.dataset.readLine),index=Number(button.dataset.line);if(!task||!task.lines?.[index]||!('speechSynthesis' in window))return;if(readingPlay&&readingPlay.taskId===task.id&&readingPlay.index===index&&!readingPlay.all){stopSpeech();render();return;}playReading(task,index,false);return;}
+    if(button.dataset.speechRate){const rate=canonicalRate(button.dataset.speechRate);if(rate){db._ui.speechRate=rate;save();render();}return;}
     if(button.id==='flip-card'){flipped=!flipped;render();return;}
     if(button.dataset.rating){rate(button.dataset.rating);return;}
     if(button.id==='all-cards'){cardTask=null;filterTrack='all';filterTag='all';buildQueue();render();return;}
     if(button.id==='complete-cards'){if(cardTask&&!draft().done.includes(cardTask))draft().done.push(cardTask);update();navigate('today');return;}
-    if(button.id==='speak-card'){const c=queue[0],voice=voiceFor(c.lang);if(voice){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(c.front);u.lang=c.lang;u.voice=voice;u.rate=.85;speechSynthesis.speak(u);}return;}
+    if(button.id==='speak-card'){if(queue[0]&&'speechSynthesis' in window)speakCard(queue[0]);return;}
     if(own(button.dataset,'answer')){const value=button.dataset.answer;$('#selected-answer').value=value;document.querySelectorAll('.answer-option').forEach(el=>{const selected=el===button;el.classList.toggle('selected',selected);el.setAttribute('aria-pressed',String(selected));});return;}
     if(button.id==='next-question'){quizIndex++;render();return;}
     if(button.id==='quiz-done'){navigate('today');return;}
@@ -504,10 +603,11 @@
   });
   document.addEventListener('input',e=>{if(!lesson)return;
     if(e.target.id==='minutes-studied') {
-      const input=e.target,value=input.valueAsNumber,valid=input.value.trim()!=='' && finite(value) && value >= 0;
-      input.setCustomValidity(valid ? '' : 'Enter a non-negative number of minutes.');
+      const input=e.target,value=input.valueAsNumber,valid=input.value.trim()!=='' && integer(value);
+      input.setCustomValidity(valid ? '' : 'Enter a whole number of minutes.');
       $('#copy-summary').disabled=!valid;$('#finish-download').disabled=!valid;
       if(valid) { draft().minutes=value;update();renderFinishSummary(); }
+      else input.reportValidity();
       return;
     }
 if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote]=e.target.value;update();}if(e.target.id==='session-note'){draft().notes=e.target.value;update();}});
@@ -521,10 +621,10 @@ if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote
   function tick(){const now=Date.now(),elapsed=(now-lastActive)/1000;lastActive=now;if(lesson&&!booting&&!document.hidden&&now-idleSince<120000&&elapsed<10){draft().seconds+=elapsed;syncSavedSession();save();}}
   setInterval(tick,5000);
   document.addEventListener('visibilitychange',()=>{lastActive=Date.now();if(!document.hidden)idleSince=Date.now();});
-  window.addEventListener('pagehide',()=>{tick();if(recording&&recording.state!=='inactive')recording.stop();stream?.getTracks().forEach(t=>t.stop());});
-  window.addEventListener('hashchange',()=>{route=location.hash.slice(1);if(!['today','cards','quiz','progress'].includes(route))route='today';render();});
+  window.addEventListener('pagehide',()=>{tick();stopSpeech();if(recording&&recording.state!=='inactive')recording.stop();stream?.getTracks().forEach(t=>t.stop());});
+  window.addEventListener('hashchange',()=>{stopSpeech();route=location.hash.slice(1);if(!['today','cards','quiz','progress'].includes(route))route='today';render();});
   window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;normaliseUI(db);db.cards=Object.assign(dictionary(),db.cards);decks=chooseDecks(publishedDecks,db._ui.importedDecks).decks;queue=[];render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
-  if('speechSynthesis' in window)speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});
+  if('speechSynthesis' in window){speechSynthesis.getVoices();speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});}
   $('.bottom-nav').innerHTML=['today','cards','quiz','progress'].map(t=>`<a class="nav-item" href="#${t}" data-route="${t}">${icon(t)}<span>${t[0].toUpperCase()+t.slice(1)}</span></a>`).join('');
   function updateNavClearance() {
     document.documentElement.style.setProperty('--studyhub-nav-height',`${Math.ceil($('.bottom-nav').getBoundingClientRect().height)}px`);

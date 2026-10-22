@@ -29,7 +29,8 @@
       "gloss": "A Hangul vowel.",
       "lang": "ko-KR",
       "tags": [
-        "hangul"
+        "hangul",
+        "vowels"
       ]
     },
     {
@@ -39,7 +40,96 @@
       "gloss": "A Hangul vowel.",
       "lang": "ko-KR",
       "tags": [
-        "hangul"
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0005",
+      "front": "ㅑ",
+      "back": "ya",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0006",
+      "front": "ㅓ",
+      "back": "eo (like “uh”)",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0007",
+      "front": "ㅕ",
+      "back": "yeo",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0008",
+      "front": "ㅛ",
+      "back": "yo",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0009",
+      "front": "ㅜ",
+      "back": "u",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0010",
+      "front": "ㅠ",
+      "back": "yu",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0011",
+      "front": "ㅡ",
+      "back": "eu (lips flat)",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
+      ]
+    },
+    {
+      "id": "ko-0012",
+      "front": "ㅣ",
+      "back": "i",
+      "gloss": "A basic Hangul vowel.",
+      "lang": "ko-KR",
+      "tags": [
+        "hangul",
+        "vowels"
       ]
     }
   ]
