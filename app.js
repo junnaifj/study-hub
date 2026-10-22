@@ -214,7 +214,7 @@
   const chips = tracks => tracks.map(t=>`<span class="chip ${t}">${LABELS[t]}</span>`).join('');
   function tones(text) { return esc(text).replace(/([a-zA-Z]+)([1-6])\b/g, (_,s,n)=>`${s}<sup class="tone tone-${n}">${n}</sup>`); }
   const SPEEDS = [0.7, 0.85, 1];
-  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0, voiceNotice='', voiceNoticeId='', speechToken=0, readingPlay=null;
+  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], quizQueueReady=false, flipped=false, quizTask=null, quizIndex=0, voiceNotice='', voiceNoticeId='', speechToken=0, readingPlay=null;
   const glossOpen = new Set();
   let timerHandle=null, timerTask=null, timerRemaining=0, timerEnd=0, recording=null, recordingTask=null, stream=null, audioURL=null;
   const recordings = new Map();
@@ -313,7 +313,7 @@
       } catch(e) { loadErrors.push(e.message);delete db._ui.importedLesson; }
     }
     save();
-    booting=false;queue=[];render();
+    booting=false;queue=[];quizQueueReady=false;render();
     if(newerPublished) toast('A newer lesson from Tone Police is available and loaded.');
   }
   function render(){
@@ -337,7 +337,33 @@
       <section class="card task-list" aria-label="Daily task checklist">${lesson.tasks.map(t=>`<div class="task-row ${d.done.includes(t.id)?'completed':''}"><label class="check-hit"><input class="task-check" type="checkbox" data-task-check="${esc(t.id)}" aria-label="Mark ${esc(taskTitle(t))} complete" ${d.done.includes(t.id)?'checked':''}></label><span class="task-symbol ${t.type}">${icon(t.type)}</span><div class="task-main"><div class="task-title">${esc(taskTitle(t))}</div><div class="task-detail">${esc(taskDetail(t))}</div></div><button class="task-open" data-open-task="${esc(t.id)}" aria-label="Open ${esc(taskTitle(t))}">${icon('arrow')}</button></div>`).join('')}</section>
       ${lesson.tasks.filter(t=>['reading','speaking','link'].includes(t.type)).map(renderTask).join('')}
       <div class="field session-notes"><label for="session-note">Anything else for Tone Police? <span class="muted">Optional</span></label><textarea id="session-note" placeholder="One thing you noticed today…">${esc(d.notes)}</textarea></div>
-      <div class="finish-wrap"><button id="finish-session" class="button primary full">Finish session ${icon('check')}</button><p class="finish-foot">Save your progress. Make tomorrow a little easier.</p></div>`;
+      <div class="finish-wrap"><button id="finish-session" class="button primary full">Finish session ${icon('check')}</button><p class="finish-foot">Save your progress. Make tomorrow a little easier.</p></div>
+      ${savedSession()?renderSessionReview({id:'session-review'}):''}`;
+  }
+  function savedSession(){return db.sessions.find(s=>s.date===lesson.date&&s.slot===lesson.slot);}
+  function lessonLang(){return {english:'en-GB',cantonese:'yue-HK',japanese:'ja-JP',korean:'ko-KR'}[lesson.tracks[0]]||'en-GB';}
+  function correctAnswerText(q){return q.type==='mc'?q.options[q.answer]:q.type==='tone'?'Tone '+q.answer:q.answer.join(' / ');}
+  function givenAnswerText(q,given){if(q.type==='mc'){const option=q.options[Number(given)];return option==null?String(given):option;}if(q.type==='tone')return 'Tone '+given;return String(given);}
+  function quizCardId(q){return `quiz:${lesson.date}:${lesson.slot}:${q.id}`;}
+  function renderSessionReview(options={}){
+    const d=draft(),questions=quizQuestions();
+    const quizItems=questions.map(q=>{
+      const saved=d.answers[q.id],answered=!!(saved&&own(saved,'given'));
+      const right=answered&&!!saved.correct,mark=answered?(right?'Right':'Wrong'):'Not answered';
+      return `<article class="review-item"><p class="review-q">${esc(q.q)}</p><p><span class="review-k">Your answer</span> ${esc(answered?givenAnswerText(q,saved.given):'—')}</p><p><span class="review-k">Correct answer</span> ${esc(correctAnswerText(q))}</p><p class="review-mark ${answered?(right?'right':'wrong'):'pending'}">${mark}</p><p class="review-explain">${esc(q.explain)}</p></article>`;
+    }).join('')||'<p class="muted review-empty">No quiz in this lesson.</p>';
+    const hardIds=[];const seen=new Set();
+    d.ratings.forEach(r=>{if(!['again','hard'].includes(r.rating)||String(r.id).startsWith('quiz:')||seen.has(r.id))return;seen.add(r.id);hardIds.push(r.id);});
+    const hardItems=hardIds.map(id=>{
+      const card=allCards().find(c=>c.id===id);
+      if(!card)return `<article class="review-item"><p class="review-q">${esc(id)}</p></article>`;
+      return `<article class="review-item"><p class="review-q" lang="${esc(card.lang)}">${esc(card.front)}</p><p lang="${esc(card.lang)}">${tones(card.back)}</p>${card.gloss?`<p class="gloss">${tones(card.gloss)}</p>`:''}</article>`;
+    }).join('')||'<p class="muted review-empty">No Again or Hard cards this session.</p>';
+    const readings=lesson.tasks.filter(t=>t.type==='reading');
+    const lineCount=readings.reduce((n,t)=>n+(t.lines?.length||0),0);
+    const readingItems=readings.flatMap(t=>(t.lines||[]).map(line=>`<article class="review-item"><p class="review-q" lang="${esc(t.lang)}">${esc(line.text)}</p>${line.gloss?`<p class="gloss">${tones(line.gloss)}</p>`:''}${line.translation?`<p class="translation">${esc(line.translation)}</p>`:''}</article>`)).join('')||'<p class="muted review-empty">No reading in this lesson.</p>';
+    const group=(title,count,body)=>`<details class="review-group" open><summary><span>${title}</span><span class="review-count">${count}</span></summary>${body}</details>`;
+    return `<section class="card session-review"${options.id?` id="${options.id}"`:''} aria-label="Session review"><div class="section-heading"><h2>Session review</h2></div><p class="fine">Questions, cards to revisit, and the reading from this lesson.</p><button type="button" class="button primary full" data-review-quiz>Review these as flashcards</button>${group('Quiz questions',questions.length,quizItems)}${group('Again and Hard cards',hardIds.length,hardItems)}${group('Reading',lineCount,readingItems)}</section>`;
   }
   function renderTask(t){
     const id=esc(t.id);
@@ -359,7 +385,22 @@
     return `<section class="card detail-section" id="task-${id}"><div class="row"><span class="eyebrow">READING</span><button type="button" class="button quiet" data-gloss="${id}" aria-expanded="${glossShown}">${glossShown?'Hide gloss':'Show gloss'}</button></div><h2 style="margin-top:15px">${esc(t.title)}</h2>${controls}${notice}<div class="passage">${lines}</div>${doneCheckbox(t)}</section>`;
   }
   function doneCheckbox(t){return `<label class="inline-checkbox" style="margin-top:16px"><input type="checkbox" data-task-check="${esc(t.id)}" ${draft().done.includes(t.id)?'checked':''}>Mark this task complete</label>`;}
+  function lessonQuizCards(){
+    const track=lesson.tracks[0],lang=lessonLang();
+    return quizQuestions().map(q=>({id:quizCardId(q),front:q.q,back:`${correctAnswerText(q)}\n${q.explain}`,gloss:'',lang,tags:['quiz'],track,quiz:true}));
+  }
+  function dueQuizCards(){
+    // Due quiz cards return in the general queue. A lesson card task stays on its deck.
+    if(cardTask||filterTag!=='all')return [];
+    const track=lesson.tracks[0];
+    if(filterTrack!=='all'&&filterTrack!==track)return [];
+    const today=day();
+    return lessonQuizCards().filter(c=>own(db.cards,c.id)&&db.cards[c.id].due<=today);
+  }
   function buildQueue(){
+    flipped=false;
+    if(filterTag==='lesson-quiz'){queue=lessonQuizCards();quizQueueReady=true;return;}
+    quizQueueReady=false;
     const today=day(),cards=allCards().filter(c=>(filterTrack==='all'||c.track===filterTrack)&&(filterTag==='all'||c.tags.includes(filterTag)));
     const task=lesson.tasks.find(t=>t.id===cardTask);
     const filtered=task?cards.filter(c=>c.track===task.deck&&(!task.tags.length||task.tags.some(tag=>c.tags.includes(tag)))):cards;
@@ -367,23 +408,26 @@
     const introduced=db._ui.introduced[sessionKey()]||[];
     const remaining=Math.max(0,lesson.new_cards_limit-introduced.length);
     const fresh=filtered.filter(c=>!own(db.cards,c.id)).slice(0,remaining);
-    queue=[...due,...fresh];flipped=false;
+    queue=[...dueQuizCards(),...due,...fresh];
   }
   function renderCards(){
-    if(!queue.length)buildQueue();const c=queue[0],tags=[...new Set(allCards().filter(c=>filterTrack==='all'||c.track===filterTrack).flatMap(c=>c.tags))].sort();
-    return heading('A little recall.','Make it familiar, one card at a time.')+`<div class="filters"><div class="field"><label for="filter-track">Language</label><select id="filter-track"><option value="all">All languages</option>${TRACKS.map(t=>`<option value="${t}" ${filterTrack===t?'selected':''}>${LABELS[t]}</option>`).join('')}</select></div><div class="field"><label for="filter-tag">Topic</label><select id="filter-tag"><option value="all">All topics</option>${tags.map(t=>`<option ${filterTag===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</select></div></div>${cardTask?`<div class="notice">Practising your lesson’s card task. <button class="button quiet" id="all-cards">Show all cards</button></div>`:''}`+
-      (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${'speechSynthesis' in window?`<button class="button quiet" id="speak-card" type="button">${icon('sound')} Play</button>`:''}</div>${voiceNotice&&voiceNoticeId==='card:'+c.id?`<p class="notice" id="voice-notice" role="status">${esc(voiceNotice)}</p>`:''}<div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
-      `<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} per lesson across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`);
+    if(!queue.length&&!(filterTag==='lesson-quiz'&&quizQueueReady))buildQueue();const c=queue[0],tags=[...new Set(allCards().filter(c=>filterTrack==='all'||c.track===filterTrack).flatMap(c=>c.tags))].sort();
+    const quizNote=filterTag==='lesson-quiz'?`<div class="notice">This lesson’s quiz, as flashcards. <button class="button quiet" id="all-cards" type="button">Show all cards</button></div>`:'';
+    return heading('A little recall.','Make it familiar, one card at a time.')+`<div class="filters"><div class="field"><label for="filter-track">Language</label><select id="filter-track"><option value="all">All languages</option>${TRACKS.map(t=>`<option value="${t}" ${filterTrack===t?'selected':''}>${LABELS[t]}</option>`).join('')}</select></div><div class="field"><label for="filter-tag">Topic</label><select id="filter-tag"><option value="all">All topics</option><option value="lesson-quiz" ${filterTag==='lesson-quiz'?'selected':''}>This lesson’s quiz</option>${tags.map(t=>`<option ${filterTag===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</select></div></div>${quizNote}${cardTask?`<div class="notice">Practising your lesson’s card task. <button class="button quiet" id="all-cards" type="button">Show all cards</button></div>`:''}`+
+      (c?`<div class="card-toolbar"><span>${c.quiz?'Quiz question':own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard${c.quiz?' quiz-card':''}" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]||''}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped&&c.gloss?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${'speechSynthesis' in window?`<button class="button quiet" id="speak-card" type="button">${icon('sound')} Play</button>`:''}</div>${voiceNotice&&voiceNoticeId==='card:'+c.id?`<p class="notice" id="voice-notice" role="status">${esc(voiceNotice)}</p>`:''}<div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
+      (filterTag==='lesson-quiz'?`<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>${quizQuestions().length?'This pass is complete.':'No quiz in this lesson.'}</h2><p>${quizQuestions().length?'Every question has been rated. Due questions return in your card queue, and Session review can start the full set again.':'This lesson has no quiz questions.'}</p><button id="all-cards" class="button primary" type="button">Show all cards</button></div>`:`<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} per lesson across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`));
   }
   function rate(rating){
     if(!flipped||!queue.length)return;const c=queue.shift(),today=day(),key=sessionKey(),wasNew=!own(db.cards,c.id),d=draft();
     db.cards[c.id]=schedule(db.cards[c.id],rating,today);
+    // Quiz cards use the same schedule so they recur, but they stay out of the tutor summary.
+    if(c.quiz){if(rating==='again')queue.push(c);flipped=false;update();render();return;}
     d.ratings.push({id:c.id,rating});
     if(wasNew){db._ui.introduced[key]||=[];if(!db._ui.introduced[key].includes(c.id))db._ui.introduced[key].push(c.id);if(!d.new.includes(c.id))d.new.push(c.id);}
     if(rating==='again')queue.push(c);
     // Trim unintroduced cards if another view has already consumed this lesson’s allowance.
     let allowance=Math.max(0,lesson.new_cards_limit-(db._ui.introduced[key]||[]).length);
-    queue=queue.filter(item=>own(db.cards,item.id)||allowance-->0);
+    queue=queue.filter(item=>item.quiz||own(db.cards,item.id)||allowance-->0);
     flipped=false;update();render();
   }
   function normLang(value){return String(value||'').toLowerCase().replaceAll('_','-');}
@@ -472,7 +516,7 @@
   function submitAnswer(event){
     event.preventDefault();const qs=quizQuestions(quizTask),q=qs[quizIndex];if(!q||own(draft().answers,q.id))return;
     const raw=new FormData(event.target).get('answer');if(raw===null||!String(raw).trim()){toast('Choose or enter an answer first.');return;}
-    const result=checkAnswer(q,raw);draft().answers[q.id]=result;
+    const result=checkAnswer(q,raw);result.given=String(raw);draft().answers[q.id]=result;
     event.target.querySelectorAll('button,input').forEach(el=>el.disabled=true);
     $('#quiz-feedback').innerHTML=`<div class="feedback ${result.correct?'':'wrong'}"><strong>${result.correct?'That’s right.':result.toneOnly?'Letters right, tone wrong.':'Something to revisit.'}</strong>${esc(q.explain)}${!result.correct?`<p style="margin-top:8px">Answer: ${tones(q.type==='mc'?q.options[q.answer]:q.type==='tone'?'Tone '+q.answer:q.answer.join(' / '))}</p>`:''}</div><button class="button secondary full" id="next-question" style="margin-top:16px">${qs.every(item=>own(draft().answers,item.id))?'See results':'Next question'}</button>`;
     if(qs.every(item=>own(draft().answers,item.id))&&!draft().done.includes(quizTask))draft().done.push(quizTask);
@@ -511,6 +555,7 @@
   function navigate(next){stopSpeech();route=['today','cards','quiz','progress'].includes(next)?next:'today';if(location.hash!=='#'+route)location.hash=route;else render();window.scrollTo({top:0});}
   function renderFinishSummary() {
     const s=sessionRecord();lastSummary=summary();
+    const review=$('#finish-review');if(review)review.innerHTML=renderSessionReview();
     $('#finish-content').innerHTML=`<p class="muted">${s.tasks_done.length} of ${lesson.tasks.length} tasks · ${s.minutes} minutes · Quiz ${s.quiz.score}/${s.quiz.total}</p><pre class="summary">${esc(lastSummary)}</pre>`;
   }
   function finish(){
@@ -521,7 +566,11 @@
     const input=$('#minutes-studied');
     input.value=s.minutes;input.setCustomValidity('');
     $('#copy-summary').disabled=false;$('#finish-download').disabled=false;
-    renderFinishSummary();$('#finish-dialog').showModal();
+    renderFinishSummary();if(route==='today')render();$('#finish-dialog').showModal();
+  }
+  function startQuizCards(){
+    document.querySelector('dialog[open]')?.close();
+    cardTask=null;filterTrack=lesson.tracks[0]||'all';filterTag='lesson-quiz';buildQueue();navigate('cards');
   }
   function importDeck(x) {
     const candidate=validateDeck(x,x.track);
@@ -532,7 +581,7 @@
     }
     db._ui.importedDecks[candidate.track]=candidate;
     const selected=chooseDecks(publishedDecks,db._ui.importedDecks);
-    decks=selected.decks;queue=[];save();render();
+    decks=selected.decks;queue=[];quizQueueReady=false;save();render();
     toast(decks[candidate.track]===candidate ? `${LABELS[candidate.track]} deck imported and loaded.` : `${LABELS[candidate.track]} deck saved. The published deck has at least as many cards and stays loaded.`);
   }
   async function importFile(file){
@@ -541,7 +590,7 @@
       if(pendingImport==='lesson'){
         if(isObject(x) && x.schema==='studyhub.deck.v1'){importDeck(x);return;}
         validateLesson(x);assert(!recordingTask,'Stop your recording before importing another lesson.');
-        stopTimer();timerTask=null;stopSpeech();db._ui.importedLesson=x;lesson=x;cardTask=null;quizTask=null;quizIndex=0;queue=[];route='today';location.hash='#today';save();render();toast('Lesson imported. Ready when you are.');
+        stopTimer();timerTask=null;stopSpeech();db._ui.importedLesson=x;lesson=x;cardTask=null;quizTask=null;quizIndex=0;queue=[];quizQueueReady=false;route='today';location.hash='#today';save();render();toast('Lesson imported. Ready when you are.');
       }else{
         validateProgress(x);if(!confirm('Replace this browser’s progress with the imported file? Download a backup first if you want to keep the current records.'))return;
         const importedLesson=db._ui.importedLesson,importedDecks=db._ui.importedDecks,keptRate=canonicalRate(db._ui.speechRate);
@@ -550,7 +599,7 @@
         // finished matching lesson is conservatively charged for same-date cards.
         if(lesson) {
           const saved=db.sessions.findLast(record=>record.date===lesson.date && record.slot===lesson.slot);
-          db._ui.introduced[sessionKey()]=saved ? Object.keys(db.cards).filter(id=>db.cards[id].last_seen===lesson.date) : [];
+          db._ui.introduced[sessionKey()]=saved ? Object.keys(db.cards).filter(id=>!id.startsWith('quiz:')&&db.cards[id].last_seen===lesson.date) : [];
           if(saved) {
             const d=draft();d.done=saved.tasks_done.filter(id=>lesson.tasks.some(t=>t.id===id));
             d.seconds=saved.minutes*60;d.minutes=Math.round(saved.minutes);saved.minutes=d.minutes;d.notes=saved.notes;
@@ -558,7 +607,7 @@
             d.importedQuiz=saved.quiz;
           }
         }
-        save();queue=[];render();toast('Progress restored on this device.');
+        save();queue=[];quizQueueReady=false;render();toast('Progress restored on this device.');
       }
     }catch(e){toast('Could not import: '+e.message);}finally{$('#file-input').value='';}
   }
@@ -577,6 +626,7 @@
     if(button.dataset.speechRate){const rate=canonicalRate(button.dataset.speechRate);if(rate){db._ui.speechRate=rate;save();render();}return;}
     if(button.id==='flip-card'){flipped=!flipped;render();return;}
     if(button.dataset.rating){rate(button.dataset.rating);return;}
+    if(button.dataset.reviewQuiz!==undefined){if(quizQuestions().length)startQuizCards();else toast('This lesson has no quiz questions.');return;}
     if(button.id==='all-cards'){cardTask=null;filterTrack='all';filterTag='all';buildQueue();render();return;}
     if(button.id==='complete-cards'){if(cardTask&&!draft().done.includes(cardTask))draft().done.push(cardTask);update();navigate('today');return;}
     if(button.id==='speak-card'){if(queue[0]&&'speechSynthesis' in window)speakCard(queue[0]);return;}
@@ -623,7 +673,7 @@ if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote
   document.addEventListener('visibilitychange',()=>{lastActive=Date.now();if(!document.hidden)idleSince=Date.now();});
   window.addEventListener('pagehide',()=>{tick();stopSpeech();if(recording&&recording.state!=='inactive')recording.stop();stream?.getTracks().forEach(t=>t.stop());});
   window.addEventListener('hashchange',()=>{stopSpeech();route=location.hash.slice(1);if(!['today','cards','quiz','progress'].includes(route))route='today';render();});
-  window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;normaliseUI(db);db.cards=Object.assign(dictionary(),db.cards);decks=chooseDecks(publishedDecks,db._ui.importedDecks).decks;queue=[];render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
+  window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;normaliseUI(db);db.cards=Object.assign(dictionary(),db.cards);decks=chooseDecks(publishedDecks,db._ui.importedDecks).decks;queue=[];quizQueueReady=false;render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
   if('speechSynthesis' in window){speechSynthesis.getVoices();speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});}
   $('.bottom-nav').innerHTML=['today','cards','quiz','progress'].map(t=>`<a class="nav-item" href="#${t}" data-route="${t}">${icon(t)}<span>${t[0].toUpperCase()+t.slice(1)}</span></a>`).join('');
   function updateNavClearance() {
