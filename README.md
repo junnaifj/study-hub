@@ -80,7 +80,7 @@ The shipped `data/today.json` is a complete example of every task and question t
 
 Top-level fields: `schema`, `track`, `cards`. Each card has `id`, `front`, `back`, `gloss`, `lang`, `tags`. Use permanent string IDs unique across all decks. Add cards or edit text; never reuse an ID for a different card.
 
-`lang` can be `yue-HK`, `zh-HK`, `ja-JP`, `ko-KR` or `en-GB`. A Play button appears only if the browser reports a matching installed voice. Cantonese accepts `yue-HK` or `zh-HK`; Mandarin voices are not substituted. Voice availability and speech processing are controlled by the browser/operating system. The app uses no speech service credentials or paid API.
+`lang` can be `yue-HK`, `zh-HK`, `ja-JP`, `ko-KR` or `en-GB`. A Play button is shown whenever the browser provides speech synthesis, including before the voice list has loaded. Playback prefers an exact voice. Cantonese then tries `yue-HK`, `zh-HK`, `yue`, `zh-Hant-HK`, or a voice whose name contains Cantonese, 粵, 粤, or Sin-ji. Other languages fall back to the same primary language, such as any `en` voice for `en-GB`. Mandarin voices are not substituted for Cantonese. Play speaks the card front, including while the answer is showing. If no suitable voice starts, a note under the card explains how to add one on iPhone or Android and to check the silent switch and volume. The app uses no speech service credentials or paid API.
 
 ### data/goals.json — studyhub.goals.v1
 

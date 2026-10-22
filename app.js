@@ -213,7 +213,7 @@
   const icon = name => `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${icons[name] || icons.today}</svg>`;
   const chips = tracks => tracks.map(t=>`<span class="chip ${t}">${LABELS[t]}</span>`).join('');
   function tones(text) { return esc(text).replace(/([a-zA-Z]+)([1-6])\b/g, (_,s,n)=>`${s}<sup class="tone tone-${n}">${n}</sup>`); }
-  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0;
+  let db, storageFailure=false, loadErrors=[], lesson, goals, decks={}, publishedDecks={}, route='today', filterTrack='all', filterTag='all', cardTask=null, queue=[], flipped=false, quizTask=null, quizIndex=0, voiceNotice='', voiceNoticeId='', voiceAttempt=0;
   let timerHandle=null, timerTask=null, timerRemaining=0, timerEnd=0, recording=null, recordingTask=null, stream=null, audioURL=null;
   const recordings = new Map();
   let toastHandle, pendingImport, lastSummary='', lastActive=Date.now(), booting=true;
@@ -355,7 +355,7 @@
   function renderCards(){
     if(!queue.length)buildQueue();const c=queue[0],tags=[...new Set(allCards().filter(c=>filterTrack==='all'||c.track===filterTrack).flatMap(c=>c.tags))].sort();
     return heading('A little recall.','Make it familiar, one card at a time.')+`<div class="filters"><div class="field"><label for="filter-track">Language</label><select id="filter-track"><option value="all">All languages</option>${TRACKS.map(t=>`<option value="${t}" ${filterTrack===t?'selected':''}>${LABELS[t]}</option>`).join('')}</select></div><div class="field"><label for="filter-tag">Topic</label><select id="filter-tag"><option value="all">All topics</option>${tags.map(t=>`<option ${filterTag===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</select></div></div>${cardTask?`<div class="notice">Practising your lesson’s card task. <button class="button quiet" id="all-cards">Show all cards</button></div>`:''}`+
-      (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${voiceFor(c.lang)?`<button class="button quiet" id="speak-card">${icon('sound')} Play</button>`:''}</div><div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
+      (c?`<div class="card-toolbar"><span>${own(db.cards,c.id)?'Due for review':'A new little discovery'}</span><span>${queue.length} remaining</span></div><button class="flashcard" id="flip-card" aria-label="${flipped?'Card answer. Flip to front':'Card front. Flip to answer'}"><span class="chip ${c.track}">${LABELS[c.track]}</span><span class="flash-text ${flipped?'back-text':''}" lang="${esc(c.lang)}">${flipped?tones(c.back):esc(c.front)}</span>${flipped?`<span class="gloss">${tones(c.gloss)}</span>`:''}<span class="flash-hint">${flipped?'How well did you remember?':'Tap to reveal · Space to flip'}</span></button><div class="row"><span class="fine">${c.tags.map(esc).join(' · ')}</span>${'speechSynthesis' in window?`<button class="button quiet" id="speak-card" type="button">${icon('sound')} Play</button>`:''}</div>${voiceNotice&&voiceNoticeId===c.id?`<p class="notice" id="voice-notice" role="status">${esc(voiceNotice)}</p>`:''}<div class="rating-grid">${['again','hard','good','easy'].map((r,i)=>`<button class="rating" data-rating="${r}" ${!flipped?'disabled':''}>${r[0].toUpperCase()+r.slice(1)}<small>${r==='again'?'This session':schedule(db.cards[c.id],r).interval_days+' day'+(schedule(db.cards[c.id],r).interval_days===1?'':'s')} · ${i+1}</small></button>`).join('')}</div><p class="fine" style="text-align:center">Space to flip · 1–4 to rate after revealing</p>`:
       `<div class="card empty"><img src="assets/owl.svg" width="58" height="66" alt=""><h2>A little space to let it settle.</h2><p>No more cards are due in this selection. New cards are limited to ${lesson.new_cards_limit} per lesson across all languages.</p>${cardTask?'<button id="complete-cards" class="button primary">Complete card task</button>':''}</div>`);
   }
   function rate(rating){
@@ -369,10 +369,40 @@
     queue=queue.filter(item=>own(db.cards,item.id)||allowance-->0);
     flipped=false;update();render();
   }
+  function normLang(value){return String(value||'').toLowerCase().replaceAll('_','-');}
   function voiceFor(lang){
-    if(!('speechSynthesis' in window))return null;const voices=speechSynthesis.getVoices();const norm=s=>s.toLowerCase().replace('_','-');
-    const choices=['yue-hk','zh-hk'].includes(norm(lang))?['yue-hk','zh-hk']: [norm(lang)];
-    return voices.find(v=>choices.includes(norm(v.lang)))||null;
+    if(!('speechSynthesis' in window))return null;
+    const voices=speechSynthesis.getVoices()||[],target=normLang(lang);
+    const exact=voices.find(voice=>normLang(voice.lang)===target);
+    if(exact)return exact;
+    const cantonese=target==='yue'||target.startsWith('yue-')||target==='zh-hk'||target.startsWith('zh-hk-')||target==='zh-hant-hk'||target.startsWith('zh-hant-hk-');
+    if(cantonese){
+      const codes=['yue-hk','zh-hk','yue','zh-hant-hk'];
+      const byCode=voices.find(voice=>codes.includes(normLang(voice.lang)));
+      if(byCode)return byCode;
+      return voices.find(voice=>{const name=String(voice.name||''),lower=name.toLowerCase();return lower.includes('cantonese')||name.includes('粵')||name.includes('粤')||lower.includes('sin-ji');})||null;
+    }
+    const primary=target.split('-')[0];
+    if(!primary)return null;
+    return voices.find(voice=>{const code=normLang(voice.lang);return code===primary||code.startsWith(primary+'-');})||null;
+  }
+  function voiceHelp(card){
+    const add={cantonese:'Chinese (Hong Kong)',english:'English',japanese:'Japanese',korean:'Korean'}[card.track]||card.lang;
+    return `No ${LABELS[card.track]||card.lang} voice on this device. iPhone: Settings > Accessibility > Spoken Content > Voices > add ${add}. Android: Settings > Text-to-speech > install language. Also check the silent switch / volume.`;
+  }
+  function showVoiceNotice(card){voiceNotice=voiceHelp(card);voiceNoticeId=card.id;if(route==='cards')render();}
+  function speakCard(card){
+    const attempt=++voiceAttempt,voice=voiceFor(card.lang);
+    speechSynthesis.cancel();
+    const utterance=new SpeechSynthesisUtterance(card.front);
+    utterance.lang=card.lang;utterance.rate=.85;
+    if(voice)utterance.voice=voice;
+    let started=false;
+    utterance.onstart=()=>{started=true;if(voice&&voiceAttempt===attempt){voiceNotice='';voiceNoticeId='';if(route==='cards')render();}};
+    utterance.onerror=()=>{if(voiceAttempt===attempt)showVoiceNotice(card);};
+    try{speechSynthesis.speak(utterance);}catch{showVoiceNotice(card);return;}
+    if(!voice)showVoiceNotice(card);
+    else setTimeout(()=>{if(voiceAttempt===attempt&&!started)showVoiceNotice(card);},1500);
   }
   function renderQuiz(){
     const tasks=lesson.tasks.filter(t=>t.type==='quiz');if(!quizTask||!tasks.some(t=>t.id===quizTask))quizTask=tasks[0]?.id;
@@ -492,7 +522,7 @@
     if(button.dataset.rating){rate(button.dataset.rating);return;}
     if(button.id==='all-cards'){cardTask=null;filterTrack='all';filterTag='all';buildQueue();render();return;}
     if(button.id==='complete-cards'){if(cardTask&&!draft().done.includes(cardTask))draft().done.push(cardTask);update();navigate('today');return;}
-    if(button.id==='speak-card'){const c=queue[0],voice=voiceFor(c.lang);if(voice){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(c.front);u.lang=c.lang;u.voice=voice;u.rate=.85;speechSynthesis.speak(u);}return;}
+    if(button.id==='speak-card'){if(queue[0]&&'speechSynthesis' in window)speakCard(queue[0]);return;}
     if(own(button.dataset,'answer')){const value=button.dataset.answer;$('#selected-answer').value=value;document.querySelectorAll('.answer-option').forEach(el=>{const selected=el===button;el.classList.toggle('selected',selected);el.setAttribute('aria-pressed',String(selected));});return;}
     if(button.id==='next-question'){quizIndex++;render();return;}
     if(button.id==='quiz-done'){navigate('today');return;}
@@ -537,7 +567,7 @@ if(e.target.dataset.speakingNote){draft().speaking[e.target.dataset.speakingNote
   window.addEventListener('pagehide',()=>{tick();if(recording&&recording.state!=='inactive')recording.stop();stream?.getTracks().forEach(t=>t.stop());});
   window.addEventListener('hashchange',()=>{route=location.hash.slice(1);if(!['today','cards','quiz','progress'].includes(route))route='today';render();});
   window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{const x=JSON.parse(e.newValue);validateProgress(x);db=x;normaliseUI(db);db.cards=Object.assign(dictionary(),db.cards);decks=chooseDecks(publishedDecks,db._ui.importedDecks).decks;queue=[];render();toast('Progress updated from another tab.');}catch{toast('Another tab wrote an unreadable progress record.');}}});
-  if('speechSynthesis' in window)speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});
+  if('speechSynthesis' in window){speechSynthesis.getVoices();speechSynthesis.addEventListener('voiceschanged',()=>{if(route==='cards')render();});}
   $('.bottom-nav').innerHTML=['today','cards','quiz','progress'].map(t=>`<a class="nav-item" href="#${t}" data-route="${t}">${icon(t)}<span>${t[0].toUpperCase()+t.slice(1)}</span></a>`).join('');
   function updateNavClearance() {
     document.documentElement.style.setProperty('--studyhub-nav-height',`${Math.ceil($('.bottom-nav').getBoundingClientRect().height)}px`);
