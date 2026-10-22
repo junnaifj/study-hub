@@ -131,6 +131,61 @@
         "kana",
         "set1"
       ]
+    },
+    {
+      "id": "ja-0013",
+      "front": "あおい",
+      "back": "aoi · blue",
+      "gloss": "aoi · 蓝色的 (adjective)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0014",
+      "front": "いえ",
+      "back": "ie · house",
+      "gloss": "ie · 家",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0015",
+      "front": "かお",
+      "back": "kao · face",
+      "gloss": "kao · 脸",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0016",
+      "front": "えき",
+      "back": "eki · station",
+      "gloss": "eki · 车站",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
+    },
+    {
+      "id": "ja-0017",
+      "front": "ここ",
+      "back": "koko · here",
+      "gloss": "koko · 这里",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set1"
+      ]
     }
   ]
 }

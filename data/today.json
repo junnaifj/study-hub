@@ -1,112 +1,153 @@
 {
   "schema": "studyhub.today.v1",
   "date": "2026-10-22",
-  "slot": "morning",
+  "slot": "evening",
   "tracks": [
-    "english",
-    "cantonese"
+    "japanese"
   ],
   "minutes": 20,
   "new_cards_limit": 10,
-  "note": "The owl is watching. Start small, say it aloud, and let the confidence follow.",
+  "note": "Japanese night. Hiragana set 1: あいうえお かきくけこ. Say every kana out loud. The owl is listening.",
   "tasks": [
     {
       "id": "t1",
       "type": "link",
-      "title": "BBC Learning English · Pick a six-minute listen",
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
-      "minutes": 6
+      "title": "NHK hiragana chart · tap あ to こ and repeat",
+      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
+      "minutes": 3
     },
     {
       "id": "t2",
-      "type": "cards",
-      "deck": "cantonese",
-      "tags": [
-        "tones",
-        "introductions"
-      ]
+      "type": "link",
+      "title": "Tofugu hiragana mnemonics (pictures for each kana)",
+      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
+      "minutes": 5
     },
     {
       "id": "t3",
-      "type": "reading",
-      "title": "A small introduction",
-      "lang": "yue-HK",
-      "lines": [
-        {
-          "text": "你好，我叫阿佳。",
-          "gloss": "nei5 hou2, ngo5 giu3 aa3 gaai1.",
-          "translation": "Hello, my name is Jia."
-        },
-        {
-          "text": "我喺香港做研究。",
-          "gloss": "ngo5 hai2 hoeng1 gong2 zou6 jin4 gau3.",
-          "translation": "I do research in Hong Kong."
-        },
-        {
-          "text": "我想練好廣東話。",
-          "gloss": "ngo5 soeng2 lin6 hou2 gwong2 dung1 waa2.",
-          "translation": "I would like to improve my Cantonese."
-        }
+      "type": "cards",
+      "deck": "japanese",
+      "tags": [
+        "set1"
       ]
     },
     {
       "id": "t4",
-      "type": "speaking",
-      "prompt": "Tell me about a time you solved a data problem. Use STAR: Situation, Task, Action and Result. Give one specific result.",
-      "seconds": 90
+      "type": "reading",
+      "title": "Five words with tonight's kana",
+      "lang": "ja-JP",
+      "lines": [
+        {
+          "text": "あおい",
+          "gloss": "aoi",
+          "translation": "blue · 蓝色的"
+        },
+        {
+          "text": "いえ",
+          "gloss": "ie",
+          "translation": "house · 家"
+        },
+        {
+          "text": "かお",
+          "gloss": "kao",
+          "translation": "face · 脸"
+        },
+        {
+          "text": "えき",
+          "gloss": "eki",
+          "translation": "station · 车站"
+        },
+        {
+          "text": "ここ",
+          "gloss": "koko",
+          "translation": "here · 这里"
+        }
+      ]
     },
     {
       "id": "t5",
+      "type": "speaking",
+      "prompt": "Write each kana あ–こ three times on paper while saying it aloud, then read the five words without looking at the romaji.",
+      "seconds": 120
+    },
+    {
+      "id": "t6",
       "type": "quiz",
       "questions": [
         {
           "id": "q1",
-          "type": "mc",
-          "q": "In a STAR answer, what does the R stand for?",
-          "options": [
-            "Research",
-            "Result",
-            "Reflection"
+          "type": "typed",
+          "q": "Romaji for く?",
+          "answer": [
+            "ku"
           ],
-          "answer": 1,
-          "explain": "Result: describe the outcome and, where possible, make it specific or measurable."
+          "explain": "く is ku, like an open cuckoo beak <."
         },
         {
           "id": "q2",
           "type": "typed",
-          "q": "What is the Jyutping for 面試?",
+          "q": "Romaji for け?",
           "answer": [
-            "min6 si3"
+            "ke"
           ],
-          "explain": "面試 is min6 si3: 面 has tone 6 and 試 has tone 3."
+          "explain": "け is ke: a keg next to a post."
         },
         {
           "id": "q3",
-          "type": "tone",
-          "q": "詩 si — which tone?",
+          "type": "mc",
+          "q": "Which one is お (o)?",
+          "options": [
+            "あ",
+            "お",
+            "め"
+          ],
           "answer": 1,
-          "explain": "詩 is si1, with the high level tone: tone 1."
+          "explain": "お has the little dash flying off to the right; あ does not."
         },
         {
           "id": "q4",
-          "type": "typed",
-          "q": "Complete the saying: practice makes _____.",
-          "answer": [
-            "perfect"
+          "type": "mc",
+          "q": "Which kana is ki?",
+          "options": [
+            "さ",
+            "き",
+            "ち"
           ],
-          "explain": "“Practice makes perfect” is the familiar saying. Practice is the noun; practise is the verb in British English."
+          "answer": 1,
+          "explain": "き is ki, a key with two teeth."
         },
         {
           "id": "q5",
           "type": "mc",
-          "q": "Which Cantonese phrase means “hello”?",
+          "q": "いえ means…",
           "options": [
-            "多謝 do1 ze6",
-            "你好 nei5 hou2",
-            "再見 zoi3 gin3"
+            "face",
+            "house",
+            "here"
           ],
           "answer": 1,
-          "explain": "你好 nei5 hou2 means hello. 多謝 means thank you; 再見 means goodbye."
+          "explain": "いえ ie means house (家). Face is かお, here is ここ."
+        },
+        {
+          "id": "q6",
+          "type": "mc",
+          "q": "い vs こ: which is true?",
+          "options": [
+            "い lines stand up; こ lines lie down",
+            "They are the same kana",
+            "こ is a vowel"
+          ],
+          "answer": 0,
+          "explain": "い is two vertical strokes (i); こ is two horizontal strokes (ko)."
+        },
+        {
+          "id": "q7",
+          "type": "typed",
+          "q": "Write kao (face) in hiragana.",
+          "answer": [
+            "かお"
+          ],
+          "explain": "かお = か ka + お o."
         }
       ]
     }
