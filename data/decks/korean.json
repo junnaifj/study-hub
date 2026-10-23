@@ -25,8 +25,8 @@
     {
       "id": "ko-0003",
       "front": "ㅏ",
-      "back": "a",
-      "gloss": "A Hangul vowel.",
+      "back": "a (father)",
+      "gloss": "ㅏ a · like \"father\". Vertical line + short arm right.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -37,7 +37,7 @@
       "id": "ko-0004",
       "front": "ㅗ",
       "back": "o",
-      "gloss": "A Hangul vowel.",
+      "gloss": "ㅗ o · like \"ore\". Short stick up from the bar.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -48,7 +48,7 @@
       "id": "ko-0005",
       "front": "ㅑ",
       "back": "ya",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅑ ya · ㅏ + extra arm = y-sound.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -58,8 +58,8 @@
     {
       "id": "ko-0006",
       "front": "ㅓ",
-      "back": "eo (like “uh”)",
-      "gloss": "A basic Hangul vowel.",
+      "back": "eo (uh)",
+      "gloss": "ㅓ eo · like \"uh\" in \"cup\". Arm on the LEFT of the vertical.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -70,7 +70,7 @@
       "id": "ko-0007",
       "front": "ㅕ",
       "back": "yeo",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅕ yeo · ㅓ + extra arm = y-sound.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -81,7 +81,7 @@
       "id": "ko-0008",
       "front": "ㅛ",
       "back": "yo",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅛ yo · ㅗ + extra stick = y-sound.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -92,7 +92,7 @@
       "id": "ko-0009",
       "front": "ㅜ",
       "back": "u",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅜ u · like \"boot\". Stick hangs DOWN from the bar.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -103,7 +103,7 @@
       "id": "ko-0010",
       "front": "ㅠ",
       "back": "yu",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅠ yu · ㅜ + extra stick = y-sound.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -113,8 +113,8 @@
     {
       "id": "ko-0011",
       "front": "ㅡ",
-      "back": "eu (lips flat)",
-      "gloss": "A basic Hangul vowel.",
+      "back": "eu (flat lips)",
+      "gloss": "ㅡ eu · flat lips, no round \"oo\". Just a horizontal bar.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
@@ -125,11 +125,179 @@
       "id": "ko-0012",
       "front": "ㅣ",
       "back": "i",
-      "gloss": "A basic Hangul vowel.",
+      "gloss": "ㅣ i · like \"see\". One vertical stroke.",
       "lang": "ko-KR",
       "tags": [
         "hangul",
         "vowels"
+      ]
+    },
+    {
+      "id": "ko-0013",
+      "front": "아",
+      "back": "아 · a",
+      "gloss": "ㅇ is silent here · ㅏ = a",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0014",
+      "front": "야",
+      "back": "야 · ya",
+      "gloss": "silent ㅇ + ㅑ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0015",
+      "front": "어",
+      "back": "어 · eo",
+      "gloss": "silent ㅇ + ㅓ (uh)",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0016",
+      "front": "여",
+      "back": "여 · yeo",
+      "gloss": "silent ㅇ + ㅕ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0017",
+      "front": "오",
+      "back": "오 · o",
+      "gloss": "silent ㅇ + ㅗ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0018",
+      "front": "요",
+      "back": "요 · yo",
+      "gloss": "silent ㅇ + ㅛ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0019",
+      "front": "우",
+      "back": "우 · u",
+      "gloss": "silent ㅇ + ㅜ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0020",
+      "front": "유",
+      "back": "유 · yu",
+      "gloss": "silent ㅇ + ㅠ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0021",
+      "front": "으",
+      "back": "으 · eu",
+      "gloss": "silent ㅇ + ㅡ (flat)",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0022",
+      "front": "이",
+      "back": "이 · i",
+      "gloss": "silent ㅇ + ㅣ",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "syllables",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0023",
+      "front": "ㅏ vs ㅓ",
+      "back": "ㅏ = a (father) · ㅓ = eo (uh)",
+      "gloss": "Arm RIGHT = a; arm LEFT = eo",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "contrast",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0024",
+      "front": "ㅗ vs ㅜ",
+      "back": "ㅗ = o (stick up) · ㅜ = u (stick down)",
+      "gloss": "Up = o; down = u",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "contrast",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0025",
+      "front": "ㅡ vs ㅜ",
+      "back": "ㅡ = eu (flat bar) · ㅜ = u (stick down)",
+      "gloss": "No stick = eu; stick down = u",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "contrast",
+        "hangul"
+      ]
+    },
+    {
+      "id": "ko-0026",
+      "front": "ㅇ placeholder",
+      "back": "ㅇ is silent before a vowel: 아 이 우…",
+      "gloss": "Placeholder so a vowel can stand alone",
+      "lang": "ko-KR",
+      "tags": [
+        "night1",
+        "contrast",
+        "hangul"
       ]
     }
   ]

@@ -1,181 +1,149 @@
 {
   "schema": "studyhub.today.v1",
   "date": "2026-10-23",
-  "slot": "morning",
+  "slot": "evening",
   "tracks": [
-    "english",
-    "cantonese"
+    "korean",
+    "japanese"
   ],
   "minutes": 20,
-  "new_cards_limit": 15,
-  "note": "Morning drill. BBC sleep episode, then STAR #1 with a real number. 面試 is min6 si3 — the owl remembers yesterday’s miss.",
+  "new_cards_limit": 14,
+  "note": "Korean night 1. Ten vowels + silent ㅇ. Write each ×3, say them out loud. へや ≠ いえ — two minutes, then back to Hangul. The owl hears every ㅡ.",
   "tasks": [
     {
       "id": "t1",
       "type": "link",
-      "title": "BBC 6 Minute English · What should you eat for a better night's sleep?",
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022",
-      "minutes": 6
+      "title": "How to Study Korean · Unit 0 Lesson 1 (Hangul basics)",
+      "url": "https://www.howtostudykorean.com/unit0/unit0lesson1/",
+      "minutes": 4
     },
     {
       "id": "t2",
       "type": "cards",
-      "deck": "english",
+      "deck": "korean",
       "tags": [
-        "star",
-        "story1"
+        "night1"
       ]
     },
     {
       "id": "t3",
       "type": "cards",
-      "deck": "cantonese",
+      "deck": "japanese",
       "tags": [
-        "tones",
-        "phrase"
+        "weakspot"
       ]
     },
     {
       "id": "t4",
       "type": "reading",
-      "title": "STAR scaffold · read aloud once",
-      "lang": "en-GB",
+      "title": "Vowels → silent-ㅇ syllables (read aloud)",
+      "lang": "ko-KR",
       "lines": [
         {
-          "text": "The purpose was to deliver a usable street-view dataset so that another team could match it with online reviews.",
-          "gloss": "purpose + so that",
-          "translation": "目的是交付可用街景数据，好让另一组对接线上评论。"
+          "text": "ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ",
+          "gloss": "a ya eo yeo o yo u yu eu i",
+          "translation": "Ten basic vowels · 十个基本元音"
         },
         {
-          "text": "I proposed the CSDI API, ran a Python pilot with pandas, and used YOLO to detect older pedestrians.",
-          "gloss": "C-S-D-I · PAN-duz · YOH-loh",
-          "translation": "工具名要慢慢念清楚。"
+          "text": "아 야 어 여 오 요 우 유 으 이",
+          "gloss": "a ya eo yeo o yo u yu eu i",
+          "translation": "Same sounds with silent ㅇ · ㅇ 作占位、不发音"
         },
         {
-          "text": "As a result, we got about 98% of the data we needed — fill your own number if you prefer.",
-          "gloss": "Result = one defendable number",
-          "translation": "结果必须带一个你能站得住的数字。"
-        },
-        {
-          "text": "There is no magic bullet for better sleep; food can feed information to your body overnight.",
-          "gloss": "BBC vocab: magic bullet · feed information",
-          "translation": "没有万能药；食物会向身体“投喂”信息。"
+          "text": "아 · 어 · 오 · 우 · 으 · 이",
+          "gloss": "a · eo · o · u · eu · i",
+          "translation": "Six you must not mix · 最容易混的六个"
         }
       ]
     },
     {
       "id": "t5",
-      "type": "reading",
-      "title": "面试三句 · Jyutping read-along",
-      "lang": "yue-HK",
-      "lines": [
-        {
-          "text": "面試",
-          "gloss": "min6 si3",
-          "translation": "interview · 面试（注意声调 6→3）"
-        },
-        {
-          "text": "工作經驗",
-          "gloss": "gung1 zok3 ging1 jim6",
-          "translation": "work experience · 工作经验"
-        },
-        {
-          "text": "我嚟面試",
-          "gloss": "ngo5 lai4 min6 si3",
-          "translation": "I’ve come for the interview. · 我来面试（口語用嚟 lai4）"
-        }
-      ]
+      "type": "speaking",
+      "prompt": "1) Write each vowel ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ three times while saying it. 2) Read 아야어여오요우유으이 without looking at romanisation. 3) Optional 2 min: say いえ = house, へや = room, then swap them once out loud so you feel the difference.",
+      "seconds": 180
     },
     {
       "id": "t6",
-      "type": "speaking",
-      "prompt": "1) Say slowly once each: ArcGIS Pro, Python, pandas, YOLO, CSDI API. 2) Re-record STAR #1 (~90 sec): clear S-T-A-R, say the purpose (“The purpose was to… so that…”), and state ONE quantified Result you can defend (even approximate). 3) Cantonese drill: shadow si1–si6 ×2, then 面試 and 工作經驗 ×5 each, then 「我嚟面試」 ×3.",
-      "seconds": 120
-    },
-    {
-      "id": "t7",
       "type": "quiz",
       "questions": [
         {
           "id": "q1",
           "type": "typed",
-          "q": "Jyutping (with tones) for 面試?",
+          "q": "Romanisation for ㅓ?",
           "answer": [
-            "min6 si3",
-            "min6si3"
+            "eo",
+            "uh"
           ],
-          "explain": "min6 + si3. Yesterday’s miss: not si1 or si2. Second syllable matches 試 (tone 3)."
+          "explain": "ㅓ is eo (sounds like “uh”). Arm sits on the LEFT of the vertical line."
         },
         {
           "id": "q2",
           "type": "mc",
-          "q": "In STAR, what does the R stand for?",
+          "q": "Which vowel is ㅡ?",
           "options": [
-            "Reason",
-            "Result",
-            "Research"
+            "u (stick down)",
+            "eu (flat bar, flat lips)",
+            "o (stick up)"
           ],
           "answer": 1,
-          "explain": "Situation · Task · Action · Result. Result should include a number when you can."
+          "explain": "ㅡ is eu: just a horizontal bar. Lips stay flat — not round like ㅜ."
         },
         {
           "id": "q3",
           "type": "mc",
-          "q": "Which tool did you propose for Hong Kong government spatial data?",
+          "q": "Silent ㅇ before a vowel means…",
           "options": [
-            "Baidu Maps only",
-            "CSDI API",
-            "Tencent Street View alone"
+            "the syllable starts with ng",
+            "placeholder so the vowel can stand alone (아, 이, 우…)",
+            "the vowel is silent"
           ],
           "answer": 1,
-          "explain": "After other sources failed at micro-scale, you proposed the CSDI (government) spatial-data API. Say C-S-D-I A-P-I."
+          "explain": "ㅇ at the start is a silent placeholder. 아 = a, 이 = i, 우 = u."
         },
         {
           "id": "q4",
           "type": "mc",
-          "q": "How do you say YOLO in your STAR Action?",
+          "q": "ㅗ vs ㅜ — which is true?",
           "options": [
-            "YOH-loh (two clear syllables)",
-            "yuh-LOW like “hello” backwards",
-            "Spell Y-O-L-O every time"
+            "ㅗ stick up = o; ㅜ stick down = u",
+            "They are the same letter",
+            "ㅗ is yu"
           ],
           "answer": 0,
-          "explain": "YOH-loh — You Only Look Once. Two syllables, not a mumbled blur."
+          "explain": "Stick pointing up from the bar = ㅗ o; stick hanging down = ㅜ u."
         },
         {
           "id": "q5",
-          "type": "mc",
-          "q": "In the BBC sleep episode, a “magic bullet” means…",
-          "options": [
-            "a vitamin brand",
-            "a single perfect fix",
-            "deep-sleep music"
+          "type": "typed",
+          "q": "Write the syllable for vowel ㅏ with silent ㅇ.",
+          "answer": [
+            "아"
           ],
-          "answer": 1,
-          "explain": "A magic bullet is one perfect solution. The episode argues food helps but is not a magic bullet for sleep."
+          "explain": "ㅇ + ㅏ = 아 (a)."
         },
         {
           "id": "q6",
           "type": "mc",
-          "q": "「我嚟面試」 means…",
+          "q": "いえ means…",
           "options": [
-            "I have work experience",
-            "I’ve come for the interview",
-            "Please test me"
+            "room",
+            "house",
+            "station"
           ],
           "answer": 1,
-          "explain": "ngo5 lai4 min6 si3 = I’ve come / I’m here for the interview. 嚟 lai4 is the spoken ‘come’."
+          "explain": "いえ ie = house (家). Room is へや heya — yesterday’s mix-up."
         },
         {
           "id": "q7",
           "type": "mc",
-          "q": "True or false: a STAR Result can skip numbers if you sound confident.",
+          "q": "へや means…",
           "options": [
-            "True — confidence replaces metrics",
-            "False — state at least one quantified result you can defend"
+            "house",
+            "room",
+            "face"
           ],
           "answer": 1,
-          "explain": "False. Your weak spot from Thu: no quantified R. Pick one number (e.g. ~98% data coverage) and own it."
+          "explain": "へや heya = room (部屋). House is いえ."
         }
       ]
     }

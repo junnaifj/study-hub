@@ -147,11 +147,14 @@
       "id": "ja-0014",
       "front": "いえ",
       "back": "ie · house",
-      "gloss": "ie · 家",
+      "gloss": "ie · house (家). Not へや (room)!",
       "lang": "ja-JP",
       "tags": [
-        "words",
-        "set1"
+        "review",
+        "set1",
+        "weakspot",
+        "word",
+        "words"
       ]
     },
     {
@@ -185,6 +188,18 @@
       "tags": [
         "words",
         "set1"
+      ]
+    },
+    {
+      "id": "ja-0018",
+      "front": "へや",
+      "back": "へや · room",
+      "gloss": "heya · room (部屋). Mix-up with いえ (house) — owl remembers.",
+      "lang": "ja-JP",
+      "tags": [
+        "word",
+        "weakspot",
+        "review"
       ]
     }
   ]
