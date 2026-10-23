@@ -1,153 +1,181 @@
 {
   "schema": "studyhub.today.v1",
-  "date": "2026-10-22",
-  "slot": "evening",
+  "date": "2026-10-23",
+  "slot": "morning",
   "tracks": [
-    "japanese"
+    "english",
+    "cantonese"
   ],
   "minutes": 20,
-  "new_cards_limit": 10,
-  "note": "Japanese night. Hiragana set 1: あいうえお かきくけこ. Say every kana out loud. The owl is listening.",
+  "new_cards_limit": 15,
+  "note": "Morning drill. BBC sleep episode, then STAR #1 with a real number. 面試 is min6 si3 — the owl remembers yesterday’s miss.",
   "tasks": [
     {
       "id": "t1",
       "type": "link",
-      "title": "NHK hiragana chart · tap あ to こ and repeat",
-      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-      "minutes": 3
+      "title": "BBC 6 Minute English · What should you eat for a better night's sleep?",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022",
+      "minutes": 6
     },
     {
       "id": "t2",
-      "type": "link",
-      "title": "Tofugu hiragana mnemonics (pictures for each kana)",
-      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
-      "minutes": 5
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "star",
+        "story1"
+      ]
     },
     {
       "id": "t3",
       "type": "cards",
-      "deck": "japanese",
+      "deck": "cantonese",
       "tags": [
-        "set1"
+        "tones",
+        "phrase"
       ]
     },
     {
       "id": "t4",
       "type": "reading",
-      "title": "Five words with tonight's kana",
-      "lang": "ja-JP",
+      "title": "STAR scaffold · read aloud once",
+      "lang": "en-GB",
       "lines": [
         {
-          "text": "あおい",
-          "gloss": "aoi",
-          "translation": "blue · 蓝色的"
+          "text": "The purpose was to deliver a usable street-view dataset so that another team could match it with online reviews.",
+          "gloss": "purpose + so that",
+          "translation": "目的是交付可用街景数据，好让另一组对接线上评论。"
         },
         {
-          "text": "いえ",
-          "gloss": "ie",
-          "translation": "house · 家"
+          "text": "I proposed the CSDI API, ran a Python pilot with pandas, and used YOLO to detect older pedestrians.",
+          "gloss": "C-S-D-I · PAN-duz · YOH-loh",
+          "translation": "工具名要慢慢念清楚。"
         },
         {
-          "text": "かお",
-          "gloss": "kao",
-          "translation": "face · 脸"
+          "text": "As a result, we got about 98% of the data we needed — fill your own number if you prefer.",
+          "gloss": "Result = one defendable number",
+          "translation": "结果必须带一个你能站得住的数字。"
         },
         {
-          "text": "えき",
-          "gloss": "eki",
-          "translation": "station · 车站"
-        },
-        {
-          "text": "ここ",
-          "gloss": "koko",
-          "translation": "here · 这里"
+          "text": "There is no magic bullet for better sleep; food can feed information to your body overnight.",
+          "gloss": "BBC vocab: magic bullet · feed information",
+          "translation": "没有万能药；食物会向身体“投喂”信息。"
         }
       ]
     },
     {
       "id": "t5",
-      "type": "speaking",
-      "prompt": "Write each kana あ–こ three times on paper while saying it aloud, then read the five words without looking at the romaji.",
-      "seconds": 120
+      "type": "reading",
+      "title": "面试三句 · Jyutping read-along",
+      "lang": "yue-HK",
+      "lines": [
+        {
+          "text": "面試",
+          "gloss": "min6 si3",
+          "translation": "interview · 面试（注意声调 6→3）"
+        },
+        {
+          "text": "工作經驗",
+          "gloss": "gung1 zok3 ging1 jim6",
+          "translation": "work experience · 工作经验"
+        },
+        {
+          "text": "我嚟面試",
+          "gloss": "ngo5 lai4 min6 si3",
+          "translation": "I’ve come for the interview. · 我来面试（口語用嚟 lai4）"
+        }
+      ]
     },
     {
       "id": "t6",
+      "type": "speaking",
+      "prompt": "1) Say slowly once each: ArcGIS Pro, Python, pandas, YOLO, CSDI API. 2) Re-record STAR #1 (~90 sec): clear S-T-A-R, say the purpose (“The purpose was to… so that…”), and state ONE quantified Result you can defend (even approximate). 3) Cantonese drill: shadow si1–si6 ×2, then 面試 and 工作經驗 ×5 each, then 「我嚟面試」 ×3.",
+      "seconds": 120
+    },
+    {
+      "id": "t7",
       "type": "quiz",
       "questions": [
         {
           "id": "q1",
           "type": "typed",
-          "q": "Romaji for く?",
+          "q": "Jyutping (with tones) for 面試?",
           "answer": [
-            "ku"
+            "min6 si3",
+            "min6si3"
           ],
-          "explain": "く is ku, like an open cuckoo beak <."
+          "explain": "min6 + si3. Yesterday’s miss: not si1 or si2. Second syllable matches 試 (tone 3)."
         },
         {
           "id": "q2",
-          "type": "typed",
-          "q": "Romaji for け?",
-          "answer": [
-            "ke"
+          "type": "mc",
+          "q": "In STAR, what does the R stand for?",
+          "options": [
+            "Reason",
+            "Result",
+            "Research"
           ],
-          "explain": "け is ke: a keg next to a post."
+          "answer": 1,
+          "explain": "Situation · Task · Action · Result. Result should include a number when you can."
         },
         {
           "id": "q3",
           "type": "mc",
-          "q": "Which one is お (o)?",
+          "q": "Which tool did you propose for Hong Kong government spatial data?",
           "options": [
-            "あ",
-            "お",
-            "め"
+            "Baidu Maps only",
+            "CSDI API",
+            "Tencent Street View alone"
           ],
           "answer": 1,
-          "explain": "お has the little dash flying off to the right; あ does not."
+          "explain": "After other sources failed at micro-scale, you proposed the CSDI (government) spatial-data API. Say C-S-D-I A-P-I."
         },
         {
           "id": "q4",
           "type": "mc",
-          "q": "Which kana is ki?",
+          "q": "How do you say YOLO in your STAR Action?",
           "options": [
-            "さ",
-            "き",
-            "ち"
+            "YOH-loh (two clear syllables)",
+            "yuh-LOW like “hello” backwards",
+            "Spell Y-O-L-O every time"
           ],
-          "answer": 1,
-          "explain": "き is ki, a key with two teeth."
+          "answer": 0,
+          "explain": "YOH-loh — You Only Look Once. Two syllables, not a mumbled blur."
         },
         {
           "id": "q5",
           "type": "mc",
-          "q": "いえ means…",
+          "q": "In the BBC sleep episode, a “magic bullet” means…",
           "options": [
-            "face",
-            "house",
-            "here"
+            "a vitamin brand",
+            "a single perfect fix",
+            "deep-sleep music"
           ],
           "answer": 1,
-          "explain": "いえ ie means house (家). Face is かお, here is ここ."
+          "explain": "A magic bullet is one perfect solution. The episode argues food helps but is not a magic bullet for sleep."
         },
         {
           "id": "q6",
           "type": "mc",
-          "q": "い vs こ: which is true?",
+          "q": "「我嚟面試」 means…",
           "options": [
-            "い lines stand up; こ lines lie down",
-            "They are the same kana",
-            "こ is a vowel"
+            "I have work experience",
+            "I’ve come for the interview",
+            "Please test me"
           ],
-          "answer": 0,
-          "explain": "い is two vertical strokes (i); こ is two horizontal strokes (ko)."
+          "answer": 1,
+          "explain": "ngo5 lai4 min6 si3 = I’ve come / I’m here for the interview. 嚟 lai4 is the spoken ‘come’."
         },
         {
           "id": "q7",
-          "type": "typed",
-          "q": "Write kao (face) in hiragana.",
-          "answer": [
-            "かお"
+          "type": "mc",
+          "q": "True or false: a STAR Result can skip numbers if you sound confident.",
+          "options": [
+            "True — confidence replaces metrics",
+            "False — state at least one quantified result you can defend"
           ],
-          "explain": "かお = か ka + お o."
+          "answer": 1,
+          "explain": "False. Your weak spot from Thu: no quantified R. Pick one number (e.g. ~98% data coverage) and own it."
         }
       ]
     }
