@@ -133,6 +133,61 @@
       "tags": [
         "workplace"
       ]
+    },
+    {
+      "id": "yue-0014",
+      "front": "面試 (trap tones)",
+      "back": "min6 si3 · interview",
+      "gloss": "NOT min6 si1 / si2. Second syllable is tone 3 (試).",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0015",
+      "front": "工作經驗",
+      "back": "gung1 zok3 ging1 jim6 · work experience",
+      "gloss": "Four tones: 1-3-1-6. Say each number in your head once.",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0016",
+      "front": "我嚟面試",
+      "back": "ngo5 lai4 min6 si3 · I’ve come for the interview / I’m here for an interview.",
+      "gloss": "嚟 = lai4 (spoken). Full phrase for the door.",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0017",
+      "front": "試 si3 vs 事 si6",
+      "back": "試 si3 = try/test (in 面試). 事 si6 = matter/affair. Mid level vs low level.",
+      "gloss": "面试用 試 (3)，不是 事 (6)。",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0018",
+      "front": "嚟 lai4 (spoken) vs 來",
+      "back": "Spoken Cantonese prefers 嚟 lai4; 來 is the written form. Same meaning: come.",
+      "gloss": "口語用嚟，書面用來。Say: ngo5 lai4…",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
     }
   ]
 }

@@ -138,6 +138,116 @@
         "interviews",
         "STAR"
       ]
+    },
+    {
+      "id": "en-0014",
+      "front": "STAR · Result with a number",
+      "back": "“As a result, we delivered ___ % of the data we needed / YOLO reached ___.” Fill ONE number you can defend.",
+      "gloss": "结果必须带数字. Vague praise is not a Result.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0015",
+      "front": "ArcGIS Pro (say it)",
+      "back": "ark-JEE-eye-ess Pro · “I tried annotating the sites in ArcGIS Pro, but coverage was still too thin.”",
+      "gloss": "Say each letter of GIS slowly: G-I-S.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0016",
+      "front": "YOLO (say it)",
+      "back": "YOH-loh (You Only Look Once) · “Our YOLO model detected older pedestrians in the street-view frames.”",
+      "gloss": "Two syllables: YO-LO. Not “yolo” mumbled as one blur.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0017",
+      "front": "CSDI API (say it)",
+      "back": "C-S-D-I A-P-I · “I proposed the Hong Kong government CSDI API for spatial data.”",
+      "gloss": "Spell both acronyms letter by letter.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0018",
+      "front": "pandas (say it)",
+      "back": "PAN-duz · “I ran a Python pilot with pandas to check the CSDI sample.”",
+      "gloss": "Like the animal. Not “pan-DAS”.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0019",
+      "front": "Purpose sentence",
+      "back": "“The purpose was to [deliver X] so that [another team / the project could Y].”",
+      "gloss": "目的句: purpose + so that. Put this in Task or early Action.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0020",
+      "front": "Situation vs Task — pick one",
+      "back": "Situation = the messy context (patchy SVI, project stalled). Task = YOUR job (deliver a usable dataset + analyse features).",
+      "gloss": "情境 vs 任务. Don’t merge them into one blurry paragraph.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0021",
+      "front": "magic bullet (BBC sleep)",
+      "back": "a single perfect fix · “There is no magic bullet for better sleep — diet is only one factor.”",
+      "gloss": "万能药 / 一招解决. Use it about sleep research, not your STAR.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0022",
+      "front": "feed information (BBC sleep)",
+      "back": "to give your body useful signals through food · “Evening meals can feed information to your sleep system.”",
+      "gloss": "向身体“投喂”信息. Not about social-media feeds.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0023",
+      "front": "nutrients (BBC sleep)",
+      "back": "useful substances in food · “Researchers asked which nutrients support deeper sleep.”",
+      "gloss": "营养素. Harder: use it in a sentence about sleep research.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
     }
   ]
 }
