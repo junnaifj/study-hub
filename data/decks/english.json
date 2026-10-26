@@ -10,7 +10,8 @@
       "lang": "en-GB",
       "tags": [
         "interviews",
-        "STAR"
+        "STAR",
+        "recap"
       ]
     },
     {
@@ -21,7 +22,8 @@
       "lang": "en-GB",
       "tags": [
         "interviews",
-        "STAR"
+        "STAR",
+        "recap"
       ]
     },
     {
@@ -63,7 +65,8 @@
       "lang": "en-GB",
       "tags": [
         "interviews",
-        "STAR"
+        "STAR",
+        "recap"
       ]
     },
     {
@@ -115,7 +118,8 @@
       "gloss": "Link the role to your experience.",
       "lang": "en-GB",
       "tags": [
-        "interviews"
+        "interviews",
+        "recap"
       ]
     },
     {
@@ -136,7 +140,8 @@
       "lang": "en-GB",
       "tags": [
         "interviews",
-        "STAR"
+        "STAR",
+        "recap"
       ]
     },
     {
@@ -158,7 +163,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -169,7 +175,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -180,7 +187,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -191,7 +199,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -202,7 +211,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -213,7 +223,8 @@
       "lang": "en-GB",
       "tags": [
         "star",
-        "story1"
+        "story1",
+        "recap"
       ]
     },
     {
@@ -247,6 +258,226 @@
       "tags": [
         "star",
         "story1"
+      ]
+    },
+    {
+      "id": "en-0024",
+      "front": "rejection (BBC)",
+      "back": "being told no; an idea or application refused · “Every rejection told me something about the role.”",
+      "gloss": "被拒绝. Harder: say one sentence about job applications using it.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0025",
+      "front": "spike (BBC)",
+      "back": "to increase suddenly · “Applications spike in September.”",
+      "gloss": "骤增. Verb and noun: a spike in demand.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0026",
+      "front": "socially anxious (BBC)",
+      "back": "worried about talking to people or being judged · “I used to feel socially anxious in group interviews.”",
+      "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0027",
+      "front": "come easier (BBC)",
+      "back": "become easier to do · “Speaking up comes easier with practice.”",
+      "gloss": "变得更容易. Note: comes easier, not ‘more easy’.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0028",
+      "front": "perfectionism (BBC)",
+      "back": "feeling everything must be perfect · a safe ‘weakness’ if you show how you manage it",
+      "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0029",
+      "front": "appraise (BBC)",
+      "back": "to judge or assess · “I appraised each data source against our protocol.”",
+      "gloss": "评估. Formal; good in STAR Action lines.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0030",
+      "front": "Tell me about yourself: 3-part order",
+      "back": "Present (who I am now) → Past (proof: projects) → Future (why this role)",
+      "gloss": "自我介绍三段式: 现在→过去→未来. 60 秒内.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0031",
+      "front": "60-sec intro: your first line",
+      "back": "“I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.”",
+      "gloss": "第一句要短、有力. Say it without notes.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0032",
+      "front": "narrow down (the buffer)",
+      "back": "make a range smaller and more precise · “This let the team narrow down the distance buffer.”",
+      "gloss": "缩小范围. STAR #2 key verb.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0033",
+      "front": "seasonal pattern",
+      "back": "a change that repeats by season · “Older residents were mainly active in spring and winter.”",
+      "gloss": "季节性规律. SEE-zuh-nuhl.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0034",
+      "front": "buffer (GIS) — say it in a sentence",
+      "back": "the zone around a feature within a set distance · “a 2–3 station buffer around each estate”",
+      "gloss": "缓冲区. BUF-er, not boo-fer.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0035",
+      "front": "regression analysis (say it)",
+      "back": "ri-GRESH-un uh-NAL-uh-sis · stress on GRESH and NAL",
+      "gloss": "回归分析. Two stresses; don't flatten them.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0036",
+      "front": "spatial / geospatial (say it)",
+      "back": "SPAY-shul · JEE-oh-SPAY-shul",
+      "gloss": "空间的 / 地理空间的. Not spa-tee-al.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0037",
+      "front": "“The key insight was that…”",
+      "back": "Insight line between Action and Result · “The key insight was that most trips stayed within two to three MTR stations.”",
+      "gloss": "关键发现是…. Use once per STAR.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0038",
+      "front": "“This allowed the team to…”",
+      "back": "Result linker: outcome for OTHERS, not just you",
+      "gloss": "这让团队得以…. Fixes Sat's purpose-sentence slip.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0039",
+      "front": "“I took ownership of…”",
+      "back": "shows initiative · “I took ownership of the SVI pipeline.”",
+      "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0040",
+      "front": "trade-off",
+      "back": "a balance between two good things · “The trade-off was coverage versus image quality.”",
+      "gloss": "权衡取舍. Interviewers love hearing you name one.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0041",
+      "front": "stakeholder",
+      "back": "a person or team affected by your work · “I shared the dataset with the partner team, a key stakeholder.”",
+      "gloss": "利益相关方. STAYK-hol-der.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0042",
+      "front": "Handling rejection — interview answer",
+      "back": "“I treat a no as feedback: I ask what was missing, adjust, and try again.”",
+      "gloss": "如何面对被拒. Ties BBC topic to interviews.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0043",
+      "front": "“If I did it again, I would…”",
+      "back": "reflection line after Result; shows learning · second conditional",
+      "gloss": "如果重来我会…. would + verb, not will.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0044",
+      "front": "dissertation (say it)",
+      "back": "dis-er-TAY-shun",
+      "gloss": "毕业论文. Stress on TAY.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0045",
+      "front": "“I'm keen to bring … to this role.”",
+      "back": "closing line of the 60-sec intro · “I'm keen to bring my GIS and Python skills to this role.”",
+      "gloss": "我希望把…带到这个岗位. keen = eager, British.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
       ]
     }
   ]

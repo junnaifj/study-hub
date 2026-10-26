@@ -1,66 +1,80 @@
 {
   "schema": "studyhub.today.v1",
-  "date": "2026-10-23",
-  "slot": "evening",
+  "date": "2026-10-26",
+  "slot": "morning",
   "tracks": [
-    "korean",
-    "japanese"
+    "english"
   ],
-  "minutes": 20,
-  "new_cards_limit": 14,
-  "note": "Korean night 1. Ten vowels + silent ㅇ. Write each ×3, say them out loud. へや ≠ いえ — two minutes, then back to Hangul. The owl hears every ㅡ.",
+  "minutes": 18,
+  "new_cards_limit": 22,
+  "note": "Monday = English only. One BBC episode, 22 new cards, Friday's Hard cards back for revenge, then STAR #2 out loud. The owl is listening to every ‘ArcGIS’. 别偷懒。",
   "tasks": [
     {
       "id": "t1",
       "type": "link",
-      "title": "How to Study Korean · Unit 0 Lesson 1 (Hangul basics)",
-      "url": "https://www.howtostudykorean.com/unit0/unit0lesson1/",
-      "minutes": 4
+      "title": "BBC 6 Minute English · Is rejection good for us?",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
+      "minutes": 6
     },
     {
       "id": "t2",
       "type": "cards",
-      "deck": "korean",
+      "deck": "english",
       "tags": [
-        "night1"
+        "mon26"
       ]
     },
     {
       "id": "t3",
       "type": "cards",
-      "deck": "japanese",
+      "deck": "english",
       "tags": [
-        "weakspot"
+        "recap"
       ]
     },
     {
       "id": "t4",
       "type": "reading",
-      "title": "Vowels → silent-ㅇ syllables (read aloud)",
-      "lang": "ko-KR",
+      "title": "STAR #2 scaffold · insight that narrowed the analysis (read aloud once)",
+      "lang": "en-GB",
       "lines": [
         {
-          "text": "ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ",
-          "gloss": "a ya eo yeo o yo u yu eu i",
-          "translation": "Ten basic vowels · 十个基本元音"
+          "text": "Situation: On the HKU ageing-friendly city project, our regression needed a distance buffer around each public housing estate, but we didn't know how far older residents actually travelled.",
+          "gloss": "S = context, one or two sentences",
+          "translation": "情境: 回归分析需要缓冲距离，但不知道长者实际活动范围"
         },
         {
-          "text": "아 야 어 여 오 요 우 유 으 이",
-          "gloss": "a ya eo yeo o yo u yu eu i",
-          "translation": "Same sounds with silent ㅇ · ㅇ 作占位、不发音"
+          "text": "Task: My job was to find out when and where older residents were active, so the team could set a realistic buffer.",
+          "gloss": "T = YOUR job + why it mattered",
+          "translation": "任务: 找出长者何时、何地活动"
         },
         {
-          "text": "아 · 어 · 오 · 우 · 으 · 이",
-          "gloss": "a · eo · o · u · eu · i",
-          "translation": "Six you must not mix · 最容易混的六个"
+          "text": "Action: I analysed the street view detections by season and by distance from each estate, using Python and ArcGIS Pro, and appraised the patterns against our protocol.",
+          "gloss": "A = what YOU did; say the tools clearly",
+          "translation": "行动: 按季节和距离分析检测结果"
+        },
+        {
+          "text": "The key insight was that older residents were mainly active in spring and winter, and mostly within two to three MTR stations of home.",
+          "gloss": "insight line",
+          "translation": "关键发现: 春冬活跃，2–3 个港铁站范围内"
+        },
+        {
+          "text": "Result: This allowed the team to narrow down the distance buffer, so the regression focused on the area that really mattered.",
+          "gloss": "R = outcome for others",
+          "translation": "结果: 团队缩小缓冲区，回归更聚焦"
+        },
+        {
+          "text": "If I did it again, I would share the pattern with the team earlier, as a quick chart.",
+          "gloss": "optional reflection",
+          "translation": "反思: 更早用图表分享"
         }
       ]
     },
     {
       "id": "t5",
       "type": "speaking",
-      "prompt": "1) Write each vowel ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ three times while saying it. 2) Read 아야어여오요우유으이 without looking at romanisation. 3) Optional 2 min: say いえ = house, へや = room, then swap them once out loud so you feel the difference.",
-      "seconds": 180
+      "prompt": "1) If STAR #1 clean take is still open: one take (~90 s, number = 98% coverage), then move on. 2) STAR #2 aloud ~90 s from the scaffold, glancing as little as possible; include ‘The key insight was that…’ and ‘This allowed the team to…’. 3) Say ArcGIS Pro (ark-JEE-eye-ess), regression, geospatial ×3 each. 4) Bonus 20 s: your 60-sec intro first line + ‘I'm keen to bring…’ closing.",
+      "seconds": 240
     },
     {
       "id": "t6",
@@ -68,82 +82,83 @@
       "questions": [
         {
           "id": "q1",
-          "type": "typed",
-          "q": "Romanisation for ㅓ?",
-          "answer": [
-            "eo",
-            "uh"
+          "type": "mc",
+          "q": "In the episode, ‘appraise’ means…",
+          "options": [
+            "praise",
+            "judge or assess",
+            "apply"
           ],
-          "explain": "ㅓ is eo (sounds like “uh”). Arm sits on the LEFT of the vertical line."
+          "answer": 1,
+          "explain": "appraise = judge/assess (评估). Not ‘praise’."
         },
         {
           "id": "q2",
           "type": "mc",
-          "q": "Which vowel is ㅡ?",
+          "q": "Best Result line?",
           "options": [
-            "u (stick down)",
-            "eu (flat bar, flat lips)",
-            "o (stick up)"
+            "I worked very hard on the data.",
+            "This allowed the team to narrow down the distance buffer.",
+            "The result was good."
           ],
           "answer": 1,
-          "explain": "ㅡ is eu: just a horizontal bar. Lips stay flat — not round like ㅜ."
+          "explain": "Result = outcome for others, concrete. Effort is not a result."
         },
         {
           "id": "q3",
-          "type": "mc",
-          "q": "Silent ㅇ before a vowel means…",
-          "options": [
-            "the syllable starts with ng",
-            "placeholder so the vowel can stand alone (아, 이, 우…)",
-            "the vowel is silent"
+          "type": "typed",
+          "q": "Stressed syllable in ArcGIS (one capital-letter chunk)?",
+          "answer": [
+            "GIS",
+            "gis",
+            "jee"
           ],
-          "answer": 1,
-          "explain": "ㅇ at the start is a silent placeholder. 아 = a, 이 = i, 우 = u."
+          "explain": "ark-JEE-eye-ess: stress on GIS (JEE)."
         },
         {
           "id": "q4",
           "type": "mc",
-          "q": "ㅗ vs ㅜ — which is true?",
+          "q": "Tell-me-about-yourself order?",
           "options": [
-            "ㅗ stick up = o; ㅜ stick down = u",
-            "They are the same letter",
-            "ㅗ is yu"
+            "Past → Present → Future",
+            "Present → Past → Future",
+            "Future → Past → Present"
           ],
-          "answer": 0,
-          "explain": "Stick pointing up from the bar = ㅗ o; stick hanging down = ㅜ u."
+          "answer": 1,
+          "explain": "Present (who you are) → Past (proof) → Future (why this role)."
         },
         {
           "id": "q5",
-          "type": "typed",
-          "q": "Write the syllable for vowel ㅏ with silent ㅇ.",
-          "answer": [
-            "아"
+          "type": "mc",
+          "q": "Which is correct?",
+          "options": [
+            "Speaking comes more easy with practice.",
+            "Speaking comes easier with practice.",
+            "Speaking comes easily-er."
           ],
-          "explain": "ㅇ + ㅏ = 아 (a)."
+          "answer": 1,
+          "explain": "come easier = become easier. Fixed phrase from the episode."
         },
         {
           "id": "q6",
           "type": "mc",
-          "q": "いえ means…",
+          "q": "Reflection line grammar:",
           "options": [
-            "room",
-            "house",
-            "station"
+            "If I do it again, I would…",
+            "If I did it again, I would…",
+            "If I did it again, I will…"
           ],
           "answer": 1,
-          "explain": "いえ ie = house (家). Room is へや heya — yesterday’s mix-up."
+          "explain": "Second conditional: If + past, would + verb."
         },
         {
           "id": "q7",
-          "type": "mc",
-          "q": "へや means…",
-          "options": [
-            "house",
-            "room",
-            "face"
+          "type": "typed",
+          "q": "What does STAR stand for? (four words, separated by spaces)",
+          "answer": [
+            "situation task action result"
           ],
-          "answer": 1,
-          "explain": "へや heya = room (部屋). House is いえ."
+          "explain": "Situation · Task · Action · Result (Fri Hard card en-0001)."
         }
       ]
     }
