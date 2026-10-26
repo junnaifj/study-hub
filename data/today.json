@@ -1,164 +1,179 @@
 {
   "schema": "studyhub.today.v1",
   "date": "2026-10-26",
-  "slot": "morning",
+  "slot": "evening",
   "tracks": [
-    "english"
+    "japanese"
   ],
-  "minutes": 18,
-  "new_cards_limit": 22,
-  "note": "Monday = English only. One BBC episode, 22 new cards, Friday's Hard cards back for revenge, then STAR #2 out loud. The owl is listening to every ‘ArcGIS’. 别偷懒。",
+  "minutes": 20,
+  "new_cards_limit": 24,
+  "note": "Japanese night, double dose: さ行 + た行 (10 kana) and 14 words. あ–こ come back first, plus へや/いえ and きく. Five-minute runs are over. 写三遍，念出声。",
   "tasks": [
     {
       "id": "t1",
-      "type": "link",
-      "title": "BBC 6 Minute English · Is rejection good for us?",
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
-      "minutes": 6
+      "type": "cards",
+      "deck": "japanese",
+      "tags": [
+        "recap26"
+      ]
     },
     {
       "id": "t2",
+      "type": "link",
+      "title": "NHK hiragana chart · tap さ–と and repeat each",
+      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
+      "minutes": 3
+    },
+    {
+      "id": "t3",
+      "type": "link",
+      "title": "Tofugu mnemonics · S-column + T-column only",
+      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
+      "minutes": 4
+    },
+    {
+      "id": "t4",
       "type": "cards",
-      "deck": "english",
+      "deck": "japanese",
       "tags": [
         "mon26"
       ]
     },
     {
-      "id": "t3",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "recap"
-      ]
-    },
-    {
-      "id": "t4",
+      "id": "t5",
       "type": "reading",
-      "title": "STAR #2 scaffold · insight that narrowed the analysis (read aloud once)",
-      "lang": "en-GB",
+      "title": "Read without romaji first (only kana you know)",
+      "lang": "ja-JP",
       "lines": [
         {
-          "text": "Situation: On the HKU ageing-friendly city project, our regression needed a distance buffer around each public housing estate, but we didn't know how far older residents actually travelled.",
-          "gloss": "S = context, one or two sentences",
-          "translation": "情境: 回归分析需要缓冲距离，但不知道长者实际活动范围"
+          "text": "あかい いす",
+          "gloss": "akai isu",
+          "translation": "red chair · 红椅子"
         },
         {
-          "text": "Task: My job was to find out when and where older residents were active, so the team could set a realistic buffer.",
-          "gloss": "T = YOUR job + why it mattered",
-          "translation": "任务: 找出长者何时、何地活动"
+          "text": "たかい すし",
+          "gloss": "takai sushi",
+          "translation": "expensive sushi · 贵的寿司"
         },
         {
-          "text": "Action: I analysed the street view detections by season and by distance from each estate, using Python and ArcGIS Pro, and appraised the patterns against our protocol.",
-          "gloss": "A = what YOU did; say the tools clearly",
-          "translation": "行动: 按季节和距离分析检测结果"
+          "text": "ちかい えき",
+          "gloss": "chikai eki",
+          "translation": "a nearby station · 近的车站"
         },
         {
-          "text": "The key insight was that older residents were mainly active in spring and winter, and mostly within two to three MTR stations of home.",
-          "gloss": "insight line",
-          "translation": "关键发现: 春冬活跃，2–3 个港铁站范围内"
+          "text": "あした いく",
+          "gloss": "ashita iku",
+          "translation": "(I) go tomorrow · 明天去"
         },
         {
-          "text": "Result: This allowed the team to narrow down the distance buffer, so the regression focused on the area that really mattered.",
-          "gloss": "R = outcome for others",
-          "translation": "结果: 团队缩小缓冲区，回归更聚焦"
+          "text": "あさ、ちかてつ",
+          "gloss": "asa, chikatetsu",
+          "translation": "morning, subway · 早上，地铁"
         },
         {
-          "text": "If I did it again, I would share the pattern with the team earlier, as a quick chart.",
-          "gloss": "optional reflection",
-          "translation": "反思: 更早用图表分享"
+          "text": "そと、くつ",
+          "gloss": "soto, kutsu",
+          "translation": "outside, shoes · 外面，鞋"
+        },
+        {
+          "text": "うた きく",
+          "gloss": "uta kiku",
+          "translation": "listen to songs · 听歌"
         }
       ]
     },
     {
-      "id": "t5",
+      "id": "t6",
       "type": "speaking",
-      "prompt": "1) If STAR #1 clean take is still open: one take (~90 s, number = 98% coverage), then move on. 2) STAR #2 aloud ~90 s from the scaffold, glancing as little as possible; include ‘The key insight was that…’ and ‘This allowed the team to…’. 3) Say ArcGIS Pro (ark-JEE-eye-ess), regression, geospatial ×3 each. 4) Bonus 20 s: your 60-sec intro first line + ‘I'm keen to bring…’ closing.",
-      "seconds": 240
+      "prompt": "Write さしすせそ たちつてと ×3 each, saying each aloud (~5 min). Then read the 7 lines twice: once slowly, once at normal speed. Watch さ vs ち vs き, and し shi / ち chi / つ tsu (never si / ti / tu).",
+      "seconds": 360
     },
     {
-      "id": "t6",
+      "id": "t7",
       "type": "quiz",
       "questions": [
         {
           "id": "q1",
-          "type": "mc",
-          "q": "In the episode, ‘appraise’ means…",
-          "options": [
-            "praise",
-            "judge or assess",
-            "apply"
+          "type": "typed",
+          "q": "Romaji for し?",
+          "answer": [
+            "shi"
           ],
-          "answer": 1,
-          "explain": "appraise = judge/assess (评估). Not ‘praise’."
+          "explain": "し is shi, not si."
         },
         {
           "id": "q2",
-          "type": "mc",
-          "q": "Best Result line?",
-          "options": [
-            "I worked very hard on the data.",
-            "This allowed the team to narrow down the distance buffer.",
-            "The result was good."
+          "type": "typed",
+          "q": "Romaji for つ?",
+          "answer": [
+            "tsu"
           ],
-          "answer": 1,
-          "explain": "Result = outcome for others, concrete. Effort is not a result."
+          "explain": "つ is tsu, not tu."
         },
         {
           "id": "q3",
-          "type": "typed",
-          "q": "Stressed syllable in ArcGIS (one capital-letter chunk)?",
-          "answer": [
-            "GIS",
-            "gis",
-            "jee"
+          "type": "mc",
+          "q": "Which one is chi?",
+          "options": [
+            "さ",
+            "ち",
+            "き"
           ],
-          "explain": "ark-JEE-eye-ess: stress on GIS (JEE)."
+          "answer": 1,
+          "explain": "ち chi curls left at the bottom; さ sa has one bar and opens; き ki has two bars."
         },
         {
           "id": "q4",
           "type": "mc",
-          "q": "Tell-me-about-yourself order?",
+          "q": "て means…",
           "options": [
-            "Past → Present → Future",
-            "Present → Past → Future",
-            "Future → Past → Present"
+            "hand",
+            "desk",
+            "song"
           ],
-          "answer": 1,
-          "explain": "Present (who you are) → Past (proof) → Future (why this role)."
+          "answer": 0,
+          "explain": "て te = hand (手). Desk = つくえ, song = うた."
         },
         {
           "id": "q5",
-          "type": "mc",
-          "q": "Which is correct?",
-          "options": [
-            "Speaking comes more easy with practice.",
-            "Speaking comes easier with practice.",
-            "Speaking comes easily-er."
+          "type": "typed",
+          "q": "Write sushi in hiragana.",
+          "answer": [
+            "すし"
           ],
-          "answer": 1,
-          "explain": "come easier = become easier. Fixed phrase from the episode."
+          "explain": "すし = す su + し shi."
         },
         {
           "id": "q6",
           "type": "mc",
-          "q": "Reflection line grammar:",
+          "q": "ちかてつ is…",
           "options": [
-            "If I do it again, I would…",
-            "If I did it again, I would…",
-            "If I did it again, I will…"
+            "station",
+            "subway",
+            "outside"
           ],
           "answer": 1,
-          "explain": "Second conditional: If + past, would + verb."
+          "explain": "ちかてつ chikatetsu = subway (地下鉄). Station = えき, outside = そと."
         },
         {
           "id": "q7",
           "type": "typed",
-          "q": "What does STAR stand for? (four words, separated by spaces)",
+          "q": "Write tomorrow (ashita) in hiragana.",
           "answer": [
-            "situation task action result"
+            "あした"
           ],
-          "explain": "Situation · Task · Action · Result (Fri Hard card en-0001)."
+          "explain": "あした = あ a + し shi + た ta."
+        },
+        {
+          "id": "q8",
+          "type": "mc",
+          "q": "へや vs いえ: which is \"room\"?",
+          "options": [
+            "へや",
+            "いえ"
+          ],
+          "answer": 0,
+          "explain": "へや heya = room (部屋); いえ ie = house (家). Third time lucky."
         }
       ]
     }

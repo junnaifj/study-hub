@@ -30,7 +30,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -41,7 +42,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -52,7 +54,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -63,7 +66,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -74,7 +78,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -85,7 +90,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -96,7 +102,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -107,7 +114,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -118,7 +126,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -129,7 +138,8 @@
       "lang": "ja-JP",
       "tags": [
         "kana",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -140,7 +150,8 @@
       "lang": "ja-JP",
       "tags": [
         "words",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -154,7 +165,8 @@
         "set1",
         "weakspot",
         "word",
-        "words"
+        "words",
+        "recap26"
       ]
     },
     {
@@ -165,7 +177,8 @@
       "lang": "ja-JP",
       "tags": [
         "words",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -176,7 +189,8 @@
       "lang": "ja-JP",
       "tags": [
         "words",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -187,7 +201,8 @@
       "lang": "ja-JP",
       "tags": [
         "words",
-        "set1"
+        "set1",
+        "recap26"
       ]
     },
     {
@@ -199,7 +214,332 @@
       "tags": [
         "word",
         "weakspot",
-        "review"
+        "review",
+        "recap26"
+      ]
+    },
+    {
+      "id": "ja-0019",
+      "front": "さ",
+      "back": "さ · sa",
+      "gloss": "sa · a sake cup with a hook. Not き (ki has 2 bars).",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0020",
+      "front": "し",
+      "back": "し · shi",
+      "gloss": "shi · a fishing hook / she has long hair. NOT \"si\".",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0021",
+      "front": "す",
+      "back": "す · su",
+      "gloss": "su · a swing with a loop.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0022",
+      "front": "せ",
+      "back": "せ · se",
+      "gloss": "se · \"say\" with a big mouth, like セ.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0023",
+      "front": "そ",
+      "back": "そ · so",
+      "gloss": "so · zig-zag sewing thread.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0024",
+      "front": "た",
+      "back": "た · ta",
+      "gloss": "ta · t + a: looks like \"ta\".",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0025",
+      "front": "ち",
+      "back": "ち · chi",
+      "gloss": "chi · a cheerleader turned left. NOT \"ti\". Mirror of さ? No: ち faces left curl, さ is open.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0026",
+      "front": "つ",
+      "back": "つ · tsu",
+      "gloss": "tsu · a tsunami wave. NOT \"tu\".",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0027",
+      "front": "て",
+      "back": "て · te",
+      "gloss": "te · a hand reaching (te = hand).",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0028",
+      "front": "と",
+      "back": "と · to",
+      "gloss": "to · a toe with a thorn.",
+      "lang": "ja-JP",
+      "tags": [
+        "kana",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0029",
+      "front": "すし",
+      "back": "すし · sushi",
+      "gloss": "sushi · sushi · 寿司",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0030",
+      "front": "あさ",
+      "back": "あさ · morning",
+      "gloss": "asa · morning · 早上 (朝)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0031",
+      "front": "いす",
+      "back": "いす · chair",
+      "gloss": "isu · chair · 椅子",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0032",
+      "front": "せき",
+      "back": "せき · seat",
+      "gloss": "seki · seat · 座位 (席)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0033",
+      "front": "した",
+      "back": "した · below / under",
+      "gloss": "shita · below / under · 下面 (下)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0034",
+      "front": "たかい",
+      "back": "たかい · expensive / tall",
+      "gloss": "takai · expensive / tall · 贵的/高的",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0035",
+      "front": "ちかてつ",
+      "back": "ちかてつ · subway",
+      "gloss": "chikatetsu · subway · 地铁 (地下鉄)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0036",
+      "front": "つくえ",
+      "back": "つくえ · desk",
+      "gloss": "tsukue · desk · 桌子 (机)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0037",
+      "front": "そと",
+      "back": "そと · outside",
+      "gloss": "soto · outside · 外面 (外)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0038",
+      "front": "くつ",
+      "back": "くつ · shoes",
+      "gloss": "kutsu · shoes · 鞋 (靴)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0039",
+      "front": "あした",
+      "back": "あした · tomorrow",
+      "gloss": "ashita · tomorrow · 明天 (明日)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0040",
+      "front": "うた",
+      "back": "うた · song",
+      "gloss": "uta · song · 歌",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0041",
+      "front": "ちかい",
+      "back": "ちかい · near",
+      "gloss": "chikai · near · 近的",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0042",
+      "front": "たこ",
+      "back": "たこ · octopus",
+      "gloss": "tako · octopus · 章鱼 (蛸)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "set23",
+        "mon26"
+      ]
+    },
+    {
+      "id": "ja-0043",
+      "front": "あかい",
+      "back": "あかい · red",
+      "gloss": "akai · red · 红色的 (赤い)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "recap26",
+        "weakspot"
+      ]
+    },
+    {
+      "id": "ja-0044",
+      "front": "いく",
+      "back": "いく · go",
+      "gloss": "iku · go · 去 (行く)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "recap26",
+        "weakspot"
+      ]
+    },
+    {
+      "id": "ja-0045",
+      "front": "きく",
+      "back": "きく · listen / ask",
+      "gloss": "kiku · listen / ask · 听/问 (聞く). Sat miss: it is ki-ku, both short.",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "recap26",
+        "weakspot"
       ]
     }
   ]
