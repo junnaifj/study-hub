@@ -165,7 +165,8 @@
       "tags": [
         "night1",
         "syllables",
-        "hangul"
+        "hangul",
+        "recap27k"
       ]
     },
     {
@@ -237,7 +238,8 @@
       "tags": [
         "night1",
         "syllables",
-        "hangul"
+        "hangul",
+        "recap27k"
       ]
     },
     {
@@ -261,7 +263,8 @@
       "tags": [
         "night1",
         "contrast",
-        "hangul"
+        "hangul",
+        "recap27k"
       ]
     },
     {
@@ -273,7 +276,8 @@
       "tags": [
         "night1",
         "contrast",
-        "hangul"
+        "hangul",
+        "recap27k"
       ]
     },
     {
@@ -285,7 +289,8 @@
       "tags": [
         "night1",
         "contrast",
-        "hangul"
+        "hangul",
+        "recap27k"
       ]
     },
     {
@@ -297,7 +302,237 @@
       "tags": [
         "night1",
         "contrast",
-        "hangul"
+        "hangul",
+        "recap27k"
+      ]
+    },
+    {
+      "id": "ko-0027",
+      "front": "아이",
+      "back": "아이 · child",
+      "gloss": "ai · child · 孩子",
+      "lang": "ko-KR",
+      "tags": [
+        "recap27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0028",
+      "front": "오이",
+      "back": "오이 · cucumber",
+      "gloss": "oi · cucumber · 黄瓜",
+      "lang": "ko-KR",
+      "tags": [
+        "recap27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0029",
+      "front": "우유",
+      "back": "우유 · milk",
+      "gloss": "uyu · milk · 牛奶 (Sat card)",
+      "lang": "ko-KR",
+      "tags": [
+        "recap27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0030",
+      "front": "이유",
+      "back": "이유 · reason",
+      "gloss": "iyu · reason · 理由",
+      "lang": "ko-KR",
+      "tags": [
+        "recap27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0031",
+      "front": "ㄱ",
+      "back": "g / k",
+      "gloss": "giyeok · like a gun-shaped 7; g between vowels, k at start-ish",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0032",
+      "front": "ㄴ",
+      "back": "n",
+      "gloss": "nieun · tongue touches behind teeth, shape = tongue",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0033",
+      "front": "ㄷ",
+      "back": "d / t",
+      "gloss": "digeut · ㄴ with a lid",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0034",
+      "front": "ㄹ",
+      "back": "r / l",
+      "gloss": "rieul · zigzag; r between vowels, l at the end",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0035",
+      "front": "ㅁ",
+      "back": "m",
+      "gloss": "mieum · a closed mouth (box)",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0036",
+      "front": "ㅂ",
+      "back": "b / p",
+      "gloss": "bieup · a bucket",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0037",
+      "front": "ㅅ",
+      "back": "s",
+      "gloss": "siot · a little hat; 시 sounds shi",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0038",
+      "front": "ㅈ",
+      "back": "j",
+      "gloss": "jieut · ㅅ with a bar on top",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0039",
+      "front": "ㅎ",
+      "back": "h",
+      "gloss": "hieut · a man with a hat",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "hangul",
+        "consonants"
+      ]
+    },
+    {
+      "id": "ko-0040",
+      "front": "나무",
+      "back": "나무 · tree",
+      "gloss": "namu · tree · 树",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0041",
+      "front": "바다",
+      "back": "바다 · sea",
+      "gloss": "bada · sea · 海",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0042",
+      "front": "모자",
+      "back": "모자 · hat",
+      "gloss": "moja · hat · 帽子 (sounds like Chinese!)",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0043",
+      "front": "어머니",
+      "back": "어머니 · mother",
+      "gloss": "eomeoni · mother · 母亲",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0044",
+      "front": "아버지",
+      "back": "아버지 · father",
+      "gloss": "abeoji · father · 父亲",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0045",
+      "front": "우리",
+      "back": "우리 · we / our",
+      "gloss": "uri · we, our · 我们",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
+      ]
+    },
+    {
+      "id": "ko-0046",
+      "front": "하나",
+      "back": "하나 · one",
+      "gloss": "hana · one (native number) · 一",
+      "lang": "ko-KR",
+      "tags": [
+        "tue27k",
+        "words"
       ]
     }
   ]

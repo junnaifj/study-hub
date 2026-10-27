@@ -1,217 +1,191 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-10-27",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean",
+  "japanese"
  ],
  "minutes": 20,
- "new_cards_limit": 20,
- "note": "Tuesday = English 15 + Cantonese 5. Monday's Hard cards come back for revenge, 20 new cards, then the 60-sec intro in the RIGHT order (Present→Past→Future). Quiz was 3/7 yesterday. The owl remembers. 别偷懒。",
+ "new_cards_limit": 16,
+ "note": "Korean night: 9 consonants + 7 words (16 new, trimmed after this morning's 31 Hard — quality over pile-up). Warm-up け and きく first, then vowels come back. 写三遍，念出声。",
  "tasks": [
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "recap27"
+    "warm27"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "tue27"
+    "recap27k"
    ]
   },
   {
    "id": "t3",
-   "type": "reading",
-   "title": "60-sec intro v1 · Present → Past → Future (read once, then one take without looking)",
-   "lang": "en-GB",
-   "lines": [
-    {
-     "text": "I'm an urban analytics graduate from HKU, and I work with geospatial data and Python.",
-     "gloss": "PRESENT: who you are now",
-     "translation": "现在: 港大城市分析毕业，做地理空间数据"
-    },
-    {
-     "text": "Most recently, I worked as a research assistant on an ageing-friendly city project, where I built street view image datasets and analysed how older residents use open space.",
-     "gloss": "PAST 1: most recent, strongest",
-     "translation": "过去: 最近的研究助理经历"
-    },
-    {
-     "text": "Before that, I studied urban studies at Sheffield and trained at an architecture firm in Beijing.",
-     "gloss": "PAST 2: one line",
-     "translation": "更早: 谢菲尔德本科 + 北京实习"
-    },
-    {
-     "text": "Data work comes naturally to me, especially turning messy spatial data into clear insights for planners.",
-     "gloss": "strength (comes naturally, not 'comes easier')",
-     "translation": "优势"
-    },
-    {
-     "text": "Going forward, I'm looking to apply spatial analysis to real decisions, and I'm keen to bring my GIS and Python skills to this role.",
-     "gloss": "FUTURE + closing",
-     "translation": "未来 + 收尾"
-    }
-   ]
+   "type": "link",
+   "title": "How to Study Korean · Unit 0 Lesson 1 · consonants ㄱㄴㄷㄹㅁㅂㅅㅈㅎ only",
+   "url": "https://www.howtostudykorean.com/unit0/unit0lesson1/",
+   "minutes": 4
   },
   {
    "id": "t4",
-   "type": "speaking",
-   "prompt": "1) 60-sec intro, ONE take, Present→Past→Future, glance at most twice. Say ArcGIS (ark-JEE-eye-ess) if it comes up. 2) STAR #2 Situation + Task lines once, out loud (‘our regression needed a distance buffer…’ / ‘My job was to find out when and where…’).",
-   "seconds": 150
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "tue27k"
+   ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "recap27"
+   "type": "reading",
+   "title": "Read aloud: consonant + vowel blocks",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "가 나 다 라 마",
+     "gloss": "ga na da ra ma",
+     "translation": "consonant + ㅏ"
+    },
+    {
+     "text": "바 사 자 하",
+     "gloss": "ba sa ja ha",
+     "translation": "consonant + ㅏ"
+    },
+    {
+     "text": "고 노 도 로 모",
+     "gloss": "go no do ro mo",
+     "translation": "consonant + ㅗ (stick up)"
+    },
+    {
+     "text": "구 누 두 루 무",
+     "gloss": "gu nu du ru mu",
+     "translation": "consonant + ㅜ (stick down)"
+    },
+    {
+     "text": "나무 바다",
+     "gloss": "namu bada",
+     "translation": "tree, sea · 树，海"
+    },
+    {
+     "text": "어머니 아버지",
+     "gloss": "eomeoni abeoji",
+     "translation": "mother, father · 母亲，父亲"
+    },
+    {
+     "text": "우리 모자",
+     "gloss": "uri moja",
+     "translation": "our hat · 我们的帽子"
+    },
+    {
+     "text": "아이 하나",
+     "gloss": "ai hana",
+     "translation": "one child · 一个孩子"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "tue27"
-   ]
+   "type": "speaking",
+   "prompt": "Write ㄱㄴㄷㄹㅁㅂㅅㅈㅎ ×3 each, saying the sound aloud (~4 min). Then write 나무 바다 모자 어머니 once each and read the 8 lines twice: slowly, then normal speed. Watch ㄷ vs ㄹ, ㅅ vs ㅈ, and ㅓ vs ㅗ.",
+   "seconds": 360
   },
   {
    "id": "t7",
-   "type": "reading",
-   "title": "粤语自我介绍 · shadow ×3 (also in chat as mp3)",
-   "lang": "yue-HK",
-   "lines": [
-    {
-     "text": "我叫傅佳。",
-     "gloss": "ngo5 giu3 Fu6 Gaai1",
-     "translation": "My name is Fu Jia."
-    },
-    {
-     "text": "我喺港大讀咗城市分析。",
-     "gloss": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1",
-     "translation": "I studied urban analytics at HKU."
-    },
-    {
-     "text": "我鍾意數據分析。",
-     "gloss": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1",
-     "translation": "I like data analysis."
-    },
-    {
-     "text": "我好想加入你哋嘅團隊。",
-     "gloss": "ngo5 hou2 soeng2 gaa1 jap6 nei5 dei6 ge3 tyun4 deoi6",
-     "translation": "I'd really like to join your team."
-    },
-    {
-     "text": "多謝你嘅時間。",
-     "gloss": "do1 ze6 nei5 ge3 si4 gaan3",
-     "translation": "Thank you for your time. (多謝 for a gift/favour; 唔該 for service)"
-    }
-   ]
-  },
-  {
-   "id": "t8",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Intro order?",
+     "q": "Which letter is m?",
      "options": [
-      "Past → Present → Future",
-      "Present → Past → Future",
-      "Future → Present → Past"
+      "ㅂ",
+      "ㅁ",
+      "ㅇ"
      ],
      "answer": 1,
-     "explain": "Present (who you are) → Past (how you got here) → Future (why this role). 现在→过去→未来"
+     "explain": "ㅁ = m (closed box mouth). ㅂ = b/p (bucket), ㅇ = silent before a vowel."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "Which is correct?",
-     "options": [
-      "Data work comes easier to me.",
-      "Data work comes naturally to me.",
-      "Data work is come naturally."
+     "type": "typed",
+     "q": "Romanise 바다.",
+     "answer": [
+      "bada"
      ],
-     "answer": 1,
-     "explain": "‘comes easier’ needs a comparison (than…). Use ‘comes naturally’."
+     "explain": "ㅂ b + ㅏ a, ㄷ d + ㅏ a = bada, sea."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Stressed part of ArcGIS? (type the chunk)",
-     "answer": [
-      "GIS",
-      "gis",
-      "jee",
-      "JEE"
+     "type": "mc",
+     "q": "ㅈ vs ㅅ: which is j?",
+     "options": [
+      "ㅅ",
+      "ㅈ"
      ],
-     "explain": "ark-JEE-eye-ess. Third time, the owl is watching."
+     "answer": 1,
+     "explain": "ㅈ has the extra bar on top = j. ㅅ = s."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "‘stakeholder’ stress:",
+     "q": "모자 means…",
      "options": [
-      "STAKE-hold-er",
-      "stake-HOLD-er",
-      "stake-hold-ER"
+      "mother",
+      "hat",
+      "tree"
      ],
-     "answer": 0,
-     "explain": "STAKE-hold-er, 利益相关方"
+     "answer": 1,
+     "explain": "모자 moja = hat (帽子). Mother = 어머니, tree = 나무."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "面試 Jyutping?",
-     "options": [
-      "min3 si4",
-      "min6 si3",
-      "min6 si6"
+     "type": "typed",
+     "q": "Write tree (namu) in Hangul.",
+     "answer": [
+      "나무"
      ],
-     "answer": 1,
-     "explain": "min6 si3. Low-level then mid-level. 4th try, nail it."
+     "explain": "ㄴ+ㅏ = 나, ㅁ+ㅜ = 무."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "市 in 城市 is…",
+     "q": "ㄹ between two vowels sounds like…",
      "options": [
-      "si3",
-      "si4",
-      "si5"
+      "r (flap)",
+      "l",
+      "n"
      ],
-     "answer": 2,
-     "explain": "si5 low-rising. 試 si3 · 時 si4 · 市 si5 · 事 si6"
+     "answer": 0,
+     "explain": "Between vowels ㄹ is a light r flap: 우리 = uri."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "After the interviewer's time, you say…",
+     "q": "어 or 오: which is eo (uh)?",
      "options": [
-      "唔該你嘅時間",
-      "多謝你嘅時間"
+      "어",
+      "오"
      ],
-     "answer": 1,
-     "explain": "多謝 = thanks for a favour/gift (their time). 唔該 = thanks for a service / excuse me."
+     "answer": 0,
+     "explain": "어 = eo (stick left of ㅓ); 오 = o (stick up)."
     },
     {
      "id": "q8",
      "type": "mc",
-     "q": "‘Going forward, I'm looking to…’ belongs to which part?",
+     "q": "Warm-up: きく means…",
      "options": [
-      "Present",
-      "Past",
-      "Future"
+      "listen / ask",
+      "station",
+      "tree"
      ],
-     "answer": 2,
-     "explain": "Future: what you want next → link to the role."
+     "answer": 0,
+     "explain": "きく kiku = listen / ask (聞く), both short syllables. Station = えき."
     }
    ]
   }
