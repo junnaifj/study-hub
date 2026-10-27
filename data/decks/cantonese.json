@@ -1,193 +1,280 @@
 {
-  "schema": "studyhub.deck.v1",
-  "track": "cantonese",
-  "cards": [
-    {
-      "id": "yue-0001",
-      "front": "詩",
-      "back": "si1 · poem",
-      "gloss": "高平調 · high level · tone 1",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0002",
-      "front": "史",
-      "back": "si2 · history",
-      "gloss": "高升調 · high rising · tone 2",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0003",
-      "front": "試",
-      "back": "si3 · try / test",
-      "gloss": "中平調 · mid level · tone 3",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0004",
-      "front": "時",
-      "back": "si4 · time",
-      "gloss": "低降調 · low falling · tone 4",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0005",
-      "front": "市",
-      "back": "si5 · market / city",
-      "gloss": "低升調 · low rising · tone 5",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0006",
-      "front": "事",
-      "back": "si6 · matter / event",
-      "gloss": "低平調 · low level · tone 6",
-      "lang": "yue-HK",
-      "tags": [
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0007",
-      "front": "你好",
-      "back": "nei5 hou2 · hello",
-      "gloss": "A simple greeting.",
-      "lang": "yue-HK",
-      "tags": [
-        "introductions"
-      ]
-    },
-    {
-      "id": "yue-0008",
-      "front": "面試",
-      "back": "min6 si3 · interview",
-      "gloss": "Watch the two tones: 6, then 3.",
-      "lang": "yue-HK",
-      "tags": [
-        "workplace",
-        "tones"
-      ]
-    },
-    {
-      "id": "yue-0009",
-      "front": "我叫阿佳。",
-      "back": "ngo5 giu3 aa3 gaai1 · My name is Jia.",
-      "gloss": "我叫… means My name is…",
-      "lang": "yue-HK",
-      "tags": [
-        "introductions"
-      ]
-    },
-    {
-      "id": "yue-0010",
-      "front": "多謝",
-      "back": "do1 ze6 · thank you",
-      "gloss": "Often used when receiving a gift.",
-      "lang": "yue-HK",
-      "tags": [
-        "introductions"
-      ]
-    },
-    {
-      "id": "yue-0011",
-      "front": "唔該",
-      "back": "m4 goi1 · thanks (for a service) / excuse me",
-      "gloss": "Use with shop staff and waiters; 多謝 is for gifts.",
-      "lang": "yue-HK",
-      "tags": [
-        "introductions",
-        "phrases"
-      ]
-    },
-    {
-      "id": "yue-0012",
-      "front": "我叫…",
-      "back": "ngo5 giu3 … · My name is…",
-      "gloss": "Add your name after 叫.",
-      "lang": "yue-HK",
-      "tags": [
-        "introductions"
-      ]
-    },
-    {
-      "id": "yue-0013",
-      "front": "工作經驗",
-      "back": "gung1 zok3 ging1 jim6 · work experience",
-      "gloss": "Useful in interviews.",
-      "lang": "yue-HK",
-      "tags": [
-        "workplace"
-      ]
-    },
-    {
-      "id": "yue-0014",
-      "front": "面試 (trap tones)",
-      "back": "min6 si3 · interview",
-      "gloss": "NOT min6 si1 / si2. Second syllable is tone 3 (試).",
-      "lang": "yue-HK",
-      "tags": [
-        "tones",
-        "phrase"
-      ]
-    },
-    {
-      "id": "yue-0015",
-      "front": "工作經驗",
-      "back": "gung1 zok3 ging1 jim6 · work experience",
-      "gloss": "Four tones: 1-3-1-6. Say each number in your head once.",
-      "lang": "yue-HK",
-      "tags": [
-        "tones",
-        "phrase"
-      ]
-    },
-    {
-      "id": "yue-0016",
-      "front": "我嚟面試",
-      "back": "ngo5 lai4 min6 si3 · I’ve come for the interview / I’m here for an interview.",
-      "gloss": "嚟 = lai4 (spoken). Full phrase for the door.",
-      "lang": "yue-HK",
-      "tags": [
-        "tones",
-        "phrase"
-      ]
-    },
-    {
-      "id": "yue-0017",
-      "front": "試 si3 vs 事 si6",
-      "back": "試 si3 = try/test (in 面試). 事 si6 = matter/affair. Mid level vs low level.",
-      "gloss": "面试用 試 (3)，不是 事 (6)。",
-      "lang": "yue-HK",
-      "tags": [
-        "tones",
-        "phrase"
-      ]
-    },
-    {
-      "id": "yue-0018",
-      "front": "嚟 lai4 (spoken) vs 來",
-      "back": "Spoken Cantonese prefers 嚟 lai4; 來 is the written form. Same meaning: come.",
-      "gloss": "口語用嚟，書面用來。Say: ngo5 lai4…",
-      "lang": "yue-HK",
-      "tags": [
-        "tones",
-        "phrase"
-      ]
-    }
-  ]
+ "schema": "studyhub.deck.v1",
+ "track": "cantonese",
+ "cards": [
+  {
+   "id": "yue-0001",
+   "front": "詩",
+   "back": "si1 · poem",
+   "gloss": "高平調 · high level · tone 1",
+   "lang": "yue-HK",
+   "tags": [
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0002",
+   "front": "史",
+   "back": "si2 · history",
+   "gloss": "高升調 · high rising · tone 2",
+   "lang": "yue-HK",
+   "tags": [
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0003",
+   "front": "試",
+   "back": "si3 · try / test",
+   "gloss": "中平調 · mid level · tone 3",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0004",
+   "front": "時",
+   "back": "si4 · time",
+   "gloss": "低降調 · low falling · tone 4",
+   "lang": "yue-HK",
+   "tags": [
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0005",
+   "front": "市",
+   "back": "si5 · market / city",
+   "gloss": "低升調 · low rising · tone 5",
+   "lang": "yue-HK",
+   "tags": [
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0006",
+   "front": "事",
+   "back": "si6 · matter / event",
+   "gloss": "低平調 · low level · tone 6",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0007",
+   "front": "你好",
+   "back": "nei5 hou2 · hello",
+   "gloss": "A simple greeting.",
+   "lang": "yue-HK",
+   "tags": [
+    "introductions"
+   ]
+  },
+  {
+   "id": "yue-0008",
+   "front": "面試",
+   "back": "min6 si3 · interview",
+   "gloss": "Watch the two tones: 6, then 3.",
+   "lang": "yue-HK",
+   "tags": [
+    "workplace",
+    "tones",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0009",
+   "front": "我叫阿佳。",
+   "back": "ngo5 giu3 aa3 gaai1 · My name is Jia.",
+   "gloss": "我叫… means My name is…",
+   "lang": "yue-HK",
+   "tags": [
+    "introductions"
+   ]
+  },
+  {
+   "id": "yue-0010",
+   "front": "多謝",
+   "back": "do1 ze6 · thank you",
+   "gloss": "Often used when receiving a gift.",
+   "lang": "yue-HK",
+   "tags": [
+    "introductions",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0011",
+   "front": "唔該",
+   "back": "m4 goi1 · thanks (for a service) / excuse me",
+   "gloss": "Use with shop staff and waiters; 多謝 is for gifts.",
+   "lang": "yue-HK",
+   "tags": [
+    "introductions",
+    "phrases",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0012",
+   "front": "我叫…",
+   "back": "ngo5 giu3 … · My name is…",
+   "gloss": "Add your name after 叫.",
+   "lang": "yue-HK",
+   "tags": [
+    "introductions"
+   ]
+  },
+  {
+   "id": "yue-0013",
+   "front": "工作經驗",
+   "back": "gung1 zok3 ging1 jim6 · work experience",
+   "gloss": "Useful in interviews.",
+   "lang": "yue-HK",
+   "tags": [
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0014",
+   "front": "面試 (trap tones)",
+   "back": "min6 si3 · interview",
+   "gloss": "NOT min6 si1 / si2. Second syllable is tone 3 (試).",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "phrase",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0015",
+   "front": "工作經驗",
+   "back": "gung1 zok3 ging1 jim6 · work experience",
+   "gloss": "Four tones: 1-3-1-6. Say each number in your head once.",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "phrase"
+   ]
+  },
+  {
+   "id": "yue-0016",
+   "front": "我嚟面試",
+   "back": "ngo5 lai4 min6 si3 · I’ve come for the interview / I’m here for an interview.",
+   "gloss": "嚟 = lai4 (spoken). Full phrase for the door.",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "phrase"
+   ]
+  },
+  {
+   "id": "yue-0017",
+   "front": "試 si3 vs 事 si6",
+   "back": "試 si3 = try/test (in 面試). 事 si6 = matter/affair. Mid level vs low level.",
+   "gloss": "面试用 試 (3)，不是 事 (6)。",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "phrase",
+    "recap27"
+   ]
+  },
+  {
+   "id": "yue-0018",
+   "front": "嚟 lai4 (spoken) vs 來",
+   "back": "Spoken Cantonese prefers 嚟 lai4; 來 is the written form. Same meaning: come.",
+   "gloss": "口語用嚟，書面用來。Say: ngo5 lai4…",
+   "lang": "yue-HK",
+   "tags": [
+    "tones",
+    "phrase"
+   ]
+  },
+  {
+   "id": "yue-0019",
+   "front": "我叫傅佳。",
+   "back": "ngo5 giu3 Fu6 Gaai1 · My name is Fu Jia.",
+   "gloss": "我叫傅佳。叫 giu3 = 叫做",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0020",
+   "front": "我喺港大讀咗城市分析。",
+   "back": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1 · I studied urban analytics at HKU.",
+   "gloss": "喺 hai2 = 在; 咗 zo2 = 了",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0021",
+   "front": "我鍾意數據分析。",
+   "back": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1 · I like data analysis.",
+   "gloss": "鍾意 = 喜欢",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0022",
+   "front": "我好想加入你哋嘅團隊。",
+   "back": "ngo5 hou2 soeng2 gaa1 jap6 nei5 dei6 ge3 tyun4 deoi6 · I'd really like to join your team.",
+   "gloss": "你哋 = 你们; 嘅 = 的",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0023",
+   "front": "時間",
+   "back": "si4 gaan3 · time (多謝你嘅時間 = thanks for your time)",
+   "gloss": "si4 low-falling — not si3!",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0024",
+   "front": "城市",
+   "back": "sing4 si5 · city",
+   "gloss": "市 si5 low-rising. 試 si3 / 時 si4 / 市 si5 / 事 si6",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0025",
+   "front": "數據",
+   "back": "sou3 geoi3 · data",
+   "gloss": "数据",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "yue-0026",
+   "front": "團隊",
+   "back": "tyun4 deoi6 · team",
+   "gloss": "团队",
+   "lang": "yue-HK",
+   "tags": [
+    "tue27"
+   ]
+  }
+ ]
 }

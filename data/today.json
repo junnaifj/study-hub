@@ -1,181 +1,219 @@
 {
-  "schema": "studyhub.today.v1",
-  "date": "2026-10-26",
-  "slot": "evening",
-  "tracks": [
-    "japanese"
-  ],
-  "minutes": 20,
-  "new_cards_limit": 24,
-  "note": "Japanese night, double dose: さ行 + た行 (10 kana) and 14 words. あ–こ come back first, plus へや/いえ and きく. Five-minute runs are over. 写三遍，念出声。",
-  "tasks": [
+ "schema": "studyhub.today.v1",
+ "date": "2026-10-27",
+ "slot": "morning",
+ "tracks": [
+  "english",
+  "cantonese"
+ ],
+ "minutes": 20,
+ "new_cards_limit": 20,
+ "note": "Tuesday = English 15 + Cantonese 5. Monday's Hard cards come back for revenge, 20 new cards, then the 60-sec intro in the RIGHT order (Present→Past→Future). Quiz was 3/7 yesterday. The owl remembers. 别偷懒。",
+ "tasks": [
+  {
+   "id": "t1",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap27"
+   ]
+  },
+  {
+   "id": "t2",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "reading",
+   "title": "60-sec intro v1 · Present → Past → Future (read once, then one take without looking)",
+   "lang": "en-GB",
+   "lines": [
     {
-      "id": "t1",
-      "type": "cards",
-      "deck": "japanese",
-      "tags": [
-        "recap26"
-      ]
+     "text": "I'm an urban analytics graduate from HKU, and I work with geospatial data and Python.",
+     "gloss": "PRESENT: who you are now",
+     "translation": "现在: 港大城市分析毕业，做地理空间数据"
     },
     {
-      "id": "t2",
-      "type": "link",
-      "title": "NHK hiragana chart · tap さ–と and repeat each",
-      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-      "minutes": 3
+     "text": "Most recently, I worked as a research assistant on an ageing-friendly city project, where I built street view image datasets and analysed how older residents use open space.",
+     "gloss": "PAST 1: most recent, strongest",
+     "translation": "过去: 最近的研究助理经历"
     },
     {
-      "id": "t3",
-      "type": "link",
-      "title": "Tofugu mnemonics · S-column + T-column only",
-      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
-      "minutes": 4
+     "text": "Before that, I studied urban studies at Sheffield and trained at an architecture firm in Beijing.",
+     "gloss": "PAST 2: one line",
+     "translation": "更早: 谢菲尔德本科 + 北京实习"
     },
     {
-      "id": "t4",
-      "type": "cards",
-      "deck": "japanese",
-      "tags": [
-        "mon26"
-      ]
+     "text": "Data work comes naturally to me, especially turning messy spatial data into clear insights for planners.",
+     "gloss": "strength (comes naturally, not 'comes easier')",
+     "translation": "优势"
     },
     {
-      "id": "t5",
-      "type": "reading",
-      "title": "Read without romaji first (only kana you know)",
-      "lang": "ja-JP",
-      "lines": [
-        {
-          "text": "あかい いす",
-          "gloss": "akai isu",
-          "translation": "red chair · 红椅子"
-        },
-        {
-          "text": "たかい すし",
-          "gloss": "takai sushi",
-          "translation": "expensive sushi · 贵的寿司"
-        },
-        {
-          "text": "ちかい えき",
-          "gloss": "chikai eki",
-          "translation": "a nearby station · 近的车站"
-        },
-        {
-          "text": "あした いく",
-          "gloss": "ashita iku",
-          "translation": "(I) go tomorrow · 明天去"
-        },
-        {
-          "text": "あさ、ちかてつ",
-          "gloss": "asa, chikatetsu",
-          "translation": "morning, subway · 早上，地铁"
-        },
-        {
-          "text": "そと、くつ",
-          "gloss": "soto, kutsu",
-          "translation": "outside, shoes · 外面，鞋"
-        },
-        {
-          "text": "うた きく",
-          "gloss": "uta kiku",
-          "translation": "listen to songs · 听歌"
-        }
-      ]
-    },
-    {
-      "id": "t6",
-      "type": "speaking",
-      "prompt": "Write さしすせそ たちつてと ×3 each, saying each aloud (~5 min). Then read the 7 lines twice: once slowly, once at normal speed. Watch さ vs ち vs き, and し shi / ち chi / つ tsu (never si / ti / tu).",
-      "seconds": 360
-    },
-    {
-      "id": "t7",
-      "type": "quiz",
-      "questions": [
-        {
-          "id": "q1",
-          "type": "typed",
-          "q": "Romaji for し?",
-          "answer": [
-            "shi"
-          ],
-          "explain": "し is shi, not si."
-        },
-        {
-          "id": "q2",
-          "type": "typed",
-          "q": "Romaji for つ?",
-          "answer": [
-            "tsu"
-          ],
-          "explain": "つ is tsu, not tu."
-        },
-        {
-          "id": "q3",
-          "type": "mc",
-          "q": "Which one is chi?",
-          "options": [
-            "さ",
-            "ち",
-            "き"
-          ],
-          "answer": 1,
-          "explain": "ち chi curls left at the bottom; さ sa has one bar and opens; き ki has two bars."
-        },
-        {
-          "id": "q4",
-          "type": "mc",
-          "q": "て means…",
-          "options": [
-            "hand",
-            "desk",
-            "song"
-          ],
-          "answer": 0,
-          "explain": "て te = hand (手). Desk = つくえ, song = うた."
-        },
-        {
-          "id": "q5",
-          "type": "typed",
-          "q": "Write sushi in hiragana.",
-          "answer": [
-            "すし"
-          ],
-          "explain": "すし = す su + し shi."
-        },
-        {
-          "id": "q6",
-          "type": "mc",
-          "q": "ちかてつ is…",
-          "options": [
-            "station",
-            "subway",
-            "outside"
-          ],
-          "answer": 1,
-          "explain": "ちかてつ chikatetsu = subway (地下鉄). Station = えき, outside = そと."
-        },
-        {
-          "id": "q7",
-          "type": "typed",
-          "q": "Write tomorrow (ashita) in hiragana.",
-          "answer": [
-            "あした"
-          ],
-          "explain": "あした = あ a + し shi + た ta."
-        },
-        {
-          "id": "q8",
-          "type": "mc",
-          "q": "へや vs いえ: which is \"room\"?",
-          "options": [
-            "へや",
-            "いえ"
-          ],
-          "answer": 0,
-          "explain": "へや heya = room (部屋); いえ ie = house (家). Third time lucky."
-        }
-      ]
+     "text": "Going forward, I'm looking to apply spatial analysis to real decisions, and I'm keen to bring my GIS and Python skills to this role.",
+     "gloss": "FUTURE + closing",
+     "translation": "未来 + 收尾"
     }
-  ]
+   ]
+  },
+  {
+   "id": "t4",
+   "type": "speaking",
+   "prompt": "1) 60-sec intro, ONE take, Present→Past→Future, glance at most twice. Say ArcGIS (ark-JEE-eye-ess) if it comes up. 2) STAR #2 Situation + Task lines once, out loud (‘our regression needed a distance buffer…’ / ‘My job was to find out when and where…’).",
+   "seconds": 150
+  },
+  {
+   "id": "t5",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap27"
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "tue27"
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "reading",
+   "title": "粤语自我介绍 · shadow ×3 (also in chat as mp3)",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "我叫傅佳。",
+     "gloss": "ngo5 giu3 Fu6 Gaai1",
+     "translation": "My name is Fu Jia."
+    },
+    {
+     "text": "我喺港大讀咗城市分析。",
+     "gloss": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1",
+     "translation": "I studied urban analytics at HKU."
+    },
+    {
+     "text": "我鍾意數據分析。",
+     "gloss": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1",
+     "translation": "I like data analysis."
+    },
+    {
+     "text": "我好想加入你哋嘅團隊。",
+     "gloss": "ngo5 hou2 soeng2 gaa1 jap6 nei5 dei6 ge3 tyun4 deoi6",
+     "translation": "I'd really like to join your team."
+    },
+    {
+     "text": "多謝你嘅時間。",
+     "gloss": "do1 ze6 nei5 ge3 si4 gaan3",
+     "translation": "Thank you for your time. (多謝 for a gift/favour; 唔該 for service)"
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "q": "Intro order?",
+     "options": [
+      "Past → Present → Future",
+      "Present → Past → Future",
+      "Future → Present → Past"
+     ],
+     "answer": 1,
+     "explain": "Present (who you are) → Past (how you got here) → Future (why this role). 现在→过去→未来"
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "Which is correct?",
+     "options": [
+      "Data work comes easier to me.",
+      "Data work comes naturally to me.",
+      "Data work is come naturally."
+     ],
+     "answer": 1,
+     "explain": "‘comes easier’ needs a comparison (than…). Use ‘comes naturally’."
+    },
+    {
+     "id": "q3",
+     "type": "typed",
+     "q": "Stressed part of ArcGIS? (type the chunk)",
+     "answer": [
+      "GIS",
+      "gis",
+      "jee",
+      "JEE"
+     ],
+     "explain": "ark-JEE-eye-ess. Third time, the owl is watching."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "‘stakeholder’ stress:",
+     "options": [
+      "STAKE-hold-er",
+      "stake-HOLD-er",
+      "stake-hold-ER"
+     ],
+     "answer": 0,
+     "explain": "STAKE-hold-er, 利益相关方"
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "面試 Jyutping?",
+     "options": [
+      "min3 si4",
+      "min6 si3",
+      "min6 si6"
+     ],
+     "answer": 1,
+     "explain": "min6 si3. Low-level then mid-level. 4th try, nail it."
+    },
+    {
+     "id": "q6",
+     "type": "mc",
+     "q": "市 in 城市 is…",
+     "options": [
+      "si3",
+      "si4",
+      "si5"
+     ],
+     "answer": 2,
+     "explain": "si5 low-rising. 試 si3 · 時 si4 · 市 si5 · 事 si6"
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "After the interviewer's time, you say…",
+     "options": [
+      "唔該你嘅時間",
+      "多謝你嘅時間"
+     ],
+     "answer": 1,
+     "explain": "多謝 = thanks for a favour/gift (their time). 唔該 = thanks for a service / excuse me."
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "q": "‘Going forward, I'm looking to…’ belongs to which part?",
+     "options": [
+      "Present",
+      "Past",
+      "Future"
+     ],
+     "answer": 2,
+     "explain": "Future: what you want next → link to the role."
+    }
+   ]
+  }
+ ]
 }
