@@ -1,158 +1,175 @@
 {
-  "schema": "studyhub.today.v1",
-  "date": "2026-10-28",
-  "slot": "morning",
-  "tracks": [
-    "english"
-  ],
-  "minutes": 15,
-  "new_cards_limit": 10,
-  "note": "Wednesday = English 15. Yesterday 31/34 came back Hard, so today the owl is merciful-ish: Hard cards first, only 10 new (STAR #2 Action + Result), then the intro and STAR #2 out loud. 先复习，再学新。",
-  "tasks": [
+ "schema": "studyhub.today.v1",
+ "date": "2026-10-28",
+ "slot": "evening",
+ "tracks": [
+  "cantonese"
+ ],
+ "minutes": 20,
+ "new_cards_limit": 7,
+ "note": "Cantonese speaking night: Hard cards first, then 4 'why this job' lines and your own 1-min intro. 7 new only, because this morning still had 15 Hard. 讲出声，唔好偷懒。",
+ "tasks": [
+  {
+   "id": "t1",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap28y"
+   ]
+  },
+  {
+   "id": "t2",
+   "type": "reading",
+   "title": "Shadow ×3: Tuesday intro lines (mp3 in chat: tue27_intro_lines.mp3)",
+   "lang": "yue-HK",
+   "lines": [
     {
-      "id": "t1",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "recap28"
-      ]
+     "text": "我叫傅佳。",
+     "gloss": "ngo5 giu3 Fu6 Gaai1",
+     "translation": "My name is Fu Jia."
     },
     {
-      "id": "t2",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "wed28"
-      ]
+     "text": "我喺港大讀咗城市分析。",
+     "gloss": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1",
+     "translation": "I studied urban analytics at HKU."
     },
     {
-      "id": "t3",
-      "type": "reading",
-      "title": "STAR #2 · narrowed buffer (read once aloud, then t4)",
-      "lang": "en-GB",
-      "lines": [
-        {
-          "text": "Situation: Our regression needed a distance buffer around public housing estates, but we didn't know how far older residents really went.",
-          "gloss": "S: the problem",
-          "translation": "情境：回归需要距离缓冲区"
-        },
-        {
-          "text": "Task: My job was to find out when and where older residents were active.",
-          "gloss": "T: your job, one line",
-          "translation": "任务：找出何时何地活跃"
-        },
-        {
-          "text": "Action: First, I cleaned the activity data and split it by season and by location. Then I mapped where older residents were active compared with MTR stations.",
-          "gloss": "A: First → Then",
-          "translation": "行动：清洗数据，再画图"
-        },
-        {
-          "text": "I noticed a clear pattern: they were mainly active in spring and winter, and most activity happened within two to three MTR stations. I took the initiative to suggest a narrower buffer.",
-          "gloss": "A: insight + initiative",
-          "translation": "发现规律，主动提出"
-        },
-        {
-          "text": "Result: As a result, the team narrowed the distance buffer for the regression analysis, which made the model more focused on where older residents actually go.",
-          "gloss": "R: what changed",
-          "translation": "结果：缩小缓冲区，模型更聚焦"
-        }
-      ]
+     "text": "我鍾意數據分析。",
+     "gloss": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1",
+     "translation": "I like data analysis."
     },
     {
-      "id": "t4",
-      "type": "speaking",
-      "prompt": "1) 60-sec intro v1, ONE take, Present → Past → Future (no peeking more than twice). 2) STAR #2 S-T-A once out loud, ending the Action with the 'two to three MTR stations' insight, then say the Result line. Say regression as ri-GRESH-un.",
-      "seconds": 180
-    },
-    {
-      "id": "t5",
-      "type": "quiz",
-      "questions": [
-        {
-          "id": "q1",
-          "type": "mc",
-          "q": "Best way to open the Result?",
-          "options": [
-            "Finally we finished.",
-            "As a result, the team narrowed the distance buffer.",
-            "The result is good."
-          ],
-          "answer": 1,
-          "explain": "‘As a result,’ + what changed for the team. 结果要说具体变化"
-        },
-        {
-          "id": "q2",
-          "type": "mc",
-          "q": "Which is correct?",
-          "options": [
-            "They were mainly active in the spring and the winter.",
-            "They were mainly active in spring and winter.",
-            "They were mainly active at spring and winter."
-          ],
-          "answer": 1,
-          "explain": "in + season, no ‘the’ needed. 季节前用 in"
-        },
-        {
-          "id": "q3",
-          "type": "mc",
-          "q": "‘I took the initiative to…’ means…",
-          "options": [
-            "I was told to do it",
-            "I did it without being asked",
-            "I started a new project"
-          ],
-          "answer": 1,
-          "explain": "主动去做"
-        },
-        {
-          "id": "q4",
-          "type": "typed",
-          "q": "Stressed part of ‘regression’? (type the chunk)",
-          "answer": [
-            "GRESH",
-            "gresh",
-            "GRES",
-            "gres"
-          ],
-          "explain": "ri-GRESH-un"
-        },
-        {
-          "id": "q5",
-          "type": "mc",
-          "q": "In the Action, use…",
-          "options": [
-            "‘we’ for everything",
-            "‘I’ for your own steps",
-            "no subject"
-          ],
-          "answer": 1,
-          "explain": "Interviewers hire YOU: ‘I cleaned… I mapped…’"
-        },
-        {
-          "id": "q6",
-          "type": "mc",
-          "q": "Intro order? (yes, again)",
-          "options": [
-            "Past → Present → Future",
-            "Present → Past → Future",
-            "Future → Past → Present"
-          ],
-          "answer": 1,
-          "explain": "现在 → 过去 → 未来"
-        },
-        {
-          "id": "q7",
-          "type": "mc",
-          "q": "STAR stands for…",
-          "options": [
-            "Situation · Task · Action · Result",
-            "Story · Task · Answer · Reason",
-            "Situation · Target · Action · Review"
-          ],
-          "answer": 0,
-          "explain": "Still Hard yesterday. Now it isn't."
-        }
-      ]
+     "text": "多謝你嘅時間。",
+     "gloss": "do1 ze6 nei5 ge3 si4 gaan3",
+     "translation": "Thank you for your time. (時 si4, not si3)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed28y"
+   ]
+  },
+  {
+   "id": "t4",
+   "type": "reading",
+   "title": "'Why this job' lines · read slowly, then shadow the mp3 ×2 (wed28_why_lines.mp3)",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "我想做呢份工，因為我鍾意用數據幫城市規劃。",
+     "gloss": "ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6",
+     "translation": "I want this job because I like using data to help city planning."
+    },
+    {
+     "text": "我有地理空間數據分析嘅經驗。",
+     "gloss": "ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6",
+     "translation": "I have experience in geospatial data analysis."
+    },
+    {
+     "text": "我學嘢好快，亦都鍾意團隊合作。",
+     "gloss": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3",
+     "translation": "I learn fast, and I also enjoy teamwork."
+    },
+    {
+     "text": "我覺得呢個職位好適合我。",
+     "gloss": "ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5",
+     "translation": "I think this role suits me well."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "type": "speaking",
+   "prompt": "Write your 1-min self-intro in Chinese characters with Jyutping (5–6 lines: name, study, data work, why this job, thanks). Record one take, listen back, fix one tone (watch 面試 min6 si3, 時間 si4 gaan3, 職位 zik1 wai6), then re-record once.",
+   "seconds": 420
+  },
+  {
+   "id": "t6",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "q": "面試 is…",
+     "options": [
+      "min6 si1",
+      "min6 si3",
+      "min3 si6"
+     ],
+     "answer": 1,
+     "explain": "min6 si3: low level, then mid level (試 = test)."
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "Thanking a waiter who brings water:",
+     "options": [
+      "多謝",
+      "唔該",
+      "時間"
+     ],
+     "answer": 1,
+     "explain": "唔該 for a service; 多謝 for a gift or favour."
+    },
+    {
+     "id": "q3",
+     "type": "typed",
+     "q": "Jyutping for 因為 (with tone numbers, space between syllables).",
+     "answer": [
+      "jan1 wai6"
+     ],
+     "explain": "jan1 wai6, high level then low level."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "Which character is si6?",
+     "options": [
+      "試",
+      "時",
+      "事"
+     ],
+     "answer": 2,
+     "explain": "事 si6 low level. 試 si3, 時 si4."
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "我覺得呢個職位好適合我 means…",
+     "options": [
+      "I think this role suits me well.",
+      "I want to join your team.",
+      "I learn fast."
+     ],
+     "answer": 0,
+     "explain": "職位 role, 適合 suit."
+    },
+    {
+     "id": "q6",
+     "type": "typed",
+     "q": "Jyutping for 合作.",
+     "answer": [
+      "hap6 zok3"
+     ],
+     "explain": "hap6 zok3; 作 zok3 as in 工作 gung1 zok3."
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "呢份工 means…",
+     "options": [
+      "this job",
+      "that person",
+      "every day"
+     ],
+     "answer": 0,
+     "explain": "呢 ni1 = this, 份工 = job."
+    }
+   ]
+  }
+ ]
 }
