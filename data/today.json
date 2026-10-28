@@ -1,193 +1,158 @@
 {
- "schema": "studyhub.today.v1",
- "date": "2026-10-27",
- "slot": "evening",
- "tracks": [
-  "korean",
-  "japanese"
- ],
- "minutes": 20,
- "new_cards_limit": 16,
- "note": "Korean night: 9 consonants + 7 words (16 new, trimmed after this morning's 31 Hard — quality over pile-up). Warm-up け and きく first, then vowels come back. 写三遍，念出声。",
- "tasks": [
-  {
-   "id": "t1",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "warm27"
-   ]
-  },
-  {
-   "id": "t2",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "recap27k"
-   ]
-  },
-  {
-   "id": "t3",
-   "type": "link",
-   "title": "How to Study Korean · Unit 0 Lesson 1 · consonants ㄱㄴㄷㄹㅁㅂㅅㅈㅎ only",
-   "url": "https://www.howtostudykorean.com/unit0/unit0lesson1/",
-   "minutes": 4
-  },
-  {
-   "id": "t4",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "tue27k"
-   ]
-  },
-  {
-   "id": "t5",
-   "type": "reading",
-   "title": "Read aloud: consonant + vowel blocks",
-   "lang": "ko-KR",
-   "lines": [
+  "schema": "studyhub.today.v1",
+  "date": "2026-10-28",
+  "slot": "morning",
+  "tracks": [
+    "english"
+  ],
+  "minutes": 15,
+  "new_cards_limit": 10,
+  "note": "Wednesday = English 15. Yesterday 31/34 came back Hard, so today the owl is merciful-ish: Hard cards first, only 10 new (STAR #2 Action + Result), then the intro and STAR #2 out loud. 先复习，再学新。",
+  "tasks": [
     {
-     "text": "가 나 다 라 마",
-     "gloss": "ga na da ra ma",
-     "translation": "consonant + ㅏ"
+      "id": "t1",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "recap28"
+      ]
     },
     {
-     "text": "바 사 자 하",
-     "gloss": "ba sa ja ha",
-     "translation": "consonant + ㅏ"
+      "id": "t2",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "wed28"
+      ]
     },
     {
-     "text": "고 노 도 로 모",
-     "gloss": "go no do ro mo",
-     "translation": "consonant + ㅗ (stick up)"
+      "id": "t3",
+      "type": "reading",
+      "title": "STAR #2 · narrowed buffer (read once aloud, then t4)",
+      "lang": "en-GB",
+      "lines": [
+        {
+          "text": "Situation: Our regression needed a distance buffer around public housing estates, but we didn't know how far older residents really went.",
+          "gloss": "S: the problem",
+          "translation": "情境：回归需要距离缓冲区"
+        },
+        {
+          "text": "Task: My job was to find out when and where older residents were active.",
+          "gloss": "T: your job, one line",
+          "translation": "任务：找出何时何地活跃"
+        },
+        {
+          "text": "Action: First, I cleaned the activity data and split it by season and by location. Then I mapped where older residents were active compared with MTR stations.",
+          "gloss": "A: First → Then",
+          "translation": "行动：清洗数据，再画图"
+        },
+        {
+          "text": "I noticed a clear pattern: they were mainly active in spring and winter, and most activity happened within two to three MTR stations. I took the initiative to suggest a narrower buffer.",
+          "gloss": "A: insight + initiative",
+          "translation": "发现规律，主动提出"
+        },
+        {
+          "text": "Result: As a result, the team narrowed the distance buffer for the regression analysis, which made the model more focused on where older residents actually go.",
+          "gloss": "R: what changed",
+          "translation": "结果：缩小缓冲区，模型更聚焦"
+        }
+      ]
     },
     {
-     "text": "구 누 두 루 무",
-     "gloss": "gu nu du ru mu",
-     "translation": "consonant + ㅜ (stick down)"
+      "id": "t4",
+      "type": "speaking",
+      "prompt": "1) 60-sec intro v1, ONE take, Present → Past → Future (no peeking more than twice). 2) STAR #2 S-T-A once out loud, ending the Action with the 'two to three MTR stations' insight, then say the Result line. Say regression as ri-GRESH-un.",
+      "seconds": 180
     },
     {
-     "text": "나무 바다",
-     "gloss": "namu bada",
-     "translation": "tree, sea · 树，海"
-    },
-    {
-     "text": "어머니 아버지",
-     "gloss": "eomeoni abeoji",
-     "translation": "mother, father · 母亲，父亲"
-    },
-    {
-     "text": "우리 모자",
-     "gloss": "uri moja",
-     "translation": "our hat · 我们的帽子"
-    },
-    {
-     "text": "아이 하나",
-     "gloss": "ai hana",
-     "translation": "one child · 一个孩子"
+      "id": "t5",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mc",
+          "q": "Best way to open the Result?",
+          "options": [
+            "Finally we finished.",
+            "As a result, the team narrowed the distance buffer.",
+            "The result is good."
+          ],
+          "answer": 1,
+          "explain": "‘As a result,’ + what changed for the team. 结果要说具体变化"
+        },
+        {
+          "id": "q2",
+          "type": "mc",
+          "q": "Which is correct?",
+          "options": [
+            "They were mainly active in the spring and the winter.",
+            "They were mainly active in spring and winter.",
+            "They were mainly active at spring and winter."
+          ],
+          "answer": 1,
+          "explain": "in + season, no ‘the’ needed. 季节前用 in"
+        },
+        {
+          "id": "q3",
+          "type": "mc",
+          "q": "‘I took the initiative to…’ means…",
+          "options": [
+            "I was told to do it",
+            "I did it without being asked",
+            "I started a new project"
+          ],
+          "answer": 1,
+          "explain": "主动去做"
+        },
+        {
+          "id": "q4",
+          "type": "typed",
+          "q": "Stressed part of ‘regression’? (type the chunk)",
+          "answer": [
+            "GRESH",
+            "gresh",
+            "GRES",
+            "gres"
+          ],
+          "explain": "ri-GRESH-un"
+        },
+        {
+          "id": "q5",
+          "type": "mc",
+          "q": "In the Action, use…",
+          "options": [
+            "‘we’ for everything",
+            "‘I’ for your own steps",
+            "no subject"
+          ],
+          "answer": 1,
+          "explain": "Interviewers hire YOU: ‘I cleaned… I mapped…’"
+        },
+        {
+          "id": "q6",
+          "type": "mc",
+          "q": "Intro order? (yes, again)",
+          "options": [
+            "Past → Present → Future",
+            "Present → Past → Future",
+            "Future → Past → Present"
+          ],
+          "answer": 1,
+          "explain": "现在 → 过去 → 未来"
+        },
+        {
+          "id": "q7",
+          "type": "mc",
+          "q": "STAR stands for…",
+          "options": [
+            "Situation · Task · Action · Result",
+            "Story · Task · Answer · Reason",
+            "Situation · Target · Action · Review"
+          ],
+          "answer": 0,
+          "explain": "Still Hard yesterday. Now it isn't."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "t6",
-   "type": "speaking",
-   "prompt": "Write ㄱㄴㄷㄹㅁㅂㅅㅈㅎ ×3 each, saying the sound aloud (~4 min). Then write 나무 바다 모자 어머니 once each and read the 8 lines twice: slowly, then normal speed. Watch ㄷ vs ㄹ, ㅅ vs ㅈ, and ㅓ vs ㅗ.",
-   "seconds": 360
-  },
-  {
-   "id": "t7",
-   "type": "quiz",
-   "questions": [
-    {
-     "id": "q1",
-     "type": "mc",
-     "q": "Which letter is m?",
-     "options": [
-      "ㅂ",
-      "ㅁ",
-      "ㅇ"
-     ],
-     "answer": 1,
-     "explain": "ㅁ = m (closed box mouth). ㅂ = b/p (bucket), ㅇ = silent before a vowel."
-    },
-    {
-     "id": "q2",
-     "type": "typed",
-     "q": "Romanise 바다.",
-     "answer": [
-      "bada"
-     ],
-     "explain": "ㅂ b + ㅏ a, ㄷ d + ㅏ a = bada, sea."
-    },
-    {
-     "id": "q3",
-     "type": "mc",
-     "q": "ㅈ vs ㅅ: which is j?",
-     "options": [
-      "ㅅ",
-      "ㅈ"
-     ],
-     "answer": 1,
-     "explain": "ㅈ has the extra bar on top = j. ㅅ = s."
-    },
-    {
-     "id": "q4",
-     "type": "mc",
-     "q": "모자 means…",
-     "options": [
-      "mother",
-      "hat",
-      "tree"
-     ],
-     "answer": 1,
-     "explain": "모자 moja = hat (帽子). Mother = 어머니, tree = 나무."
-    },
-    {
-     "id": "q5",
-     "type": "typed",
-     "q": "Write tree (namu) in Hangul.",
-     "answer": [
-      "나무"
-     ],
-     "explain": "ㄴ+ㅏ = 나, ㅁ+ㅜ = 무."
-    },
-    {
-     "id": "q6",
-     "type": "mc",
-     "q": "ㄹ between two vowels sounds like…",
-     "options": [
-      "r (flap)",
-      "l",
-      "n"
-     ],
-     "answer": 0,
-     "explain": "Between vowels ㄹ is a light r flap: 우리 = uri."
-    },
-    {
-     "id": "q7",
-     "type": "mc",
-     "q": "어 or 오: which is eo (uh)?",
-     "options": [
-      "어",
-      "오"
-     ],
-     "answer": 0,
-     "explain": "어 = eo (stick left of ㅓ); 오 = o (stick up)."
-    },
-    {
-     "id": "q8",
-     "type": "mc",
-     "q": "Warm-up: きく means…",
-     "options": [
-      "listen / ask",
-      "station",
-      "tree"
-     ],
-     "answer": 0,
-     "explain": "きく kiku = listen / ask (聞く), both short syllables. Station = えき."
-    }
-   ]
-  }
- ]
+  ]
 }
