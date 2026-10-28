@@ -30,7 +30,8 @@
    "lang": "yue-HK",
    "tags": [
     "tones",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -61,7 +62,8 @@
    "lang": "yue-HK",
    "tags": [
     "tones",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -83,7 +85,8 @@
    "tags": [
     "workplace",
     "tones",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -104,7 +107,8 @@
    "lang": "yue-HK",
    "tags": [
     "introductions",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -116,7 +120,8 @@
    "tags": [
     "introductions",
     "phrases",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -148,7 +153,8 @@
    "tags": [
     "tones",
     "phrase",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -182,7 +188,8 @@
    "tags": [
     "tones",
     "phrase",
-    "recap27"
+    "recap27",
+    "recap28y"
    ]
   },
   {
@@ -203,7 +210,8 @@
    "gloss": "我叫傅佳。叫 giu3 = 叫做",
    "lang": "yue-HK",
    "tags": [
-    "tue27"
+    "tue27",
+    "recap28y"
    ]
   },
   {
@@ -213,7 +221,8 @@
    "gloss": "喺 hai2 = 在; 咗 zo2 = 了",
    "lang": "yue-HK",
    "tags": [
-    "tue27"
+    "tue27",
+    "recap28y"
    ]
   },
   {
@@ -223,7 +232,8 @@
    "gloss": "鍾意 = 喜欢",
    "lang": "yue-HK",
    "tags": [
-    "tue27"
+    "tue27",
+    "recap28y"
    ]
   },
   {
@@ -243,7 +253,8 @@
    "gloss": "si4 low-falling — not si3!",
    "lang": "yue-HK",
    "tags": [
-    "tue27"
+    "tue27",
+    "recap28y"
    ]
   },
   {
@@ -274,6 +285,83 @@
    "lang": "yue-HK",
    "tags": [
     "tue27"
+   ]
+  },
+  {
+   "id": "yue-0027",
+   "front": "我想做呢份工，因為我鍾意用數據幫城市規劃。",
+   "back": "ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6 · I want this job because I like using data to help city planning.",
+   "gloss": "呢份工 = 这份工作; 規劃 = 规划",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0028",
+   "front": "我有地理空間數據分析嘅經驗。",
+   "back": "ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6 · I have experience in geospatial data analysis.",
+   "gloss": "嘅經驗 = 的经验 (ging1 jim6, 1-6)",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0029",
+   "front": "我學嘢好快，亦都鍾意團隊合作。",
+   "back": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3 · I learn fast, and I also enjoy teamwork.",
+   "gloss": "學嘢 = 学东西; 亦都 = 也",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0030",
+   "front": "我覺得呢個職位好適合我。",
+   "back": "ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5 · I think this role suits me well.",
+   "gloss": "覺得 = 觉得; 適合 = 适合",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0031",
+   "front": "因為",
+   "back": "jan1 wai6 · because",
+   "gloss": "因为 — both syllables: 1 then 6",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0032",
+   "front": "職位",
+   "back": "zik1 wai6 · position / role",
+   "gloss": "职位 — 位 wai6 low level, like 事 si6",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0033",
+   "front": "合作",
+   "back": "hap6 zok3 · cooperate / teamwork",
+   "gloss": "合作 — 作 zok3 same as 工作",
+   "lang": "yue-HK",
+   "tags": [
+    "wed28y",
+    "interview"
    ]
   }
  ]
