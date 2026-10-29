@@ -128,7 +128,8 @@
         "kana",
         "set1",
         "recap26",
-        "warm27"
+        "warm27",
+        "recap29j"
       ]
     },
     {
@@ -228,7 +229,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -240,7 +242,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -252,7 +255,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -264,7 +268,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -276,7 +281,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -288,7 +294,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -300,7 +307,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -312,7 +320,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -324,7 +333,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -336,7 +346,8 @@
       "tags": [
         "kana",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -348,7 +359,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -360,7 +372,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -372,7 +385,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -384,7 +398,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -396,7 +411,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -408,7 +424,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -420,7 +437,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -432,7 +450,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -444,7 +463,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -456,7 +476,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -468,7 +489,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -480,7 +502,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -492,7 +515,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -504,7 +528,8 @@
       "tags": [
         "words",
         "set23",
-        "mon26"
+        "mon26",
+        "recap29j"
       ]
     },
     {
@@ -541,7 +566,140 @@
         "words",
         "recap26",
         "weakspot",
-        "warm27"
+        "warm27",
+        "recap29j"
+      ]
+    },
+    {
+      "id": "ja-0046",
+      "front": "な",
+      "back": "な · na",
+      "gloss": "na · な (奈). Looks like a cross + knot: 'a knot on a stick'.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0047",
+      "front": "に",
+      "back": "に · ni",
+      "gloss": "ni · に (仁). Looks like a 'knee' next to two lines; も has a hook, に doesn't.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0048",
+      "front": "ぬ",
+      "back": "ぬ · nu",
+      "gloss": "nu · ぬ (奴). Like め me but with a loop tail; noodles 'nu-dles'.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0049",
+      "front": "ね",
+      "back": "ね · ne",
+      "gloss": "ne · ね (祢). Loop tail like ぬ, but left side is a straight line; a cat's (ねこ) tail.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0050",
+      "front": "の",
+      "back": "の · no",
+      "gloss": "no · の (乃). One swirl, like a 'no entry' sign.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0051",
+      "front": "は",
+      "back": "は · ha",
+      "gloss": "ha · は (波). As particle は it reads 'wa' (わたしは = watashi wa).",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0052",
+      "front": "ひ",
+      "back": "ひ · hi",
+      "gloss": "hi · ひ (比). A big grin: 'hee hee'.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0053",
+      "front": "ふ",
+      "back": "ふ · fu",
+      "gloss": "fu · ふ (不). Soft 'fu', between f and h, not 'hu'. Mt Fuji ふじ.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0054",
+      "front": "へ",
+      "back": "へ · he",
+      "gloss": "he · へ (部). A small hill; same as katakana ヘ. As particle へ reads 'e'. Remember へや heya = room.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0055",
+      "front": "ほ",
+      "back": "ほ · ho",
+      "gloss": "ho · ほ (保). は with an extra top bar.",
+      "lang": "ja-JP",
+      "tags": [
+        "hiragana",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0056",
+      "front": "ねこ",
+      "back": "ねこ · cat",
+      "gloss": "neko · 猫 · cat",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "thu29j"
+      ]
+    },
+    {
+      "id": "ja-0057",
+      "front": "はな",
+      "back": "はな · flower / nose",
+      "gloss": "hana · 花 / 鼻 · flower or nose (same kana, context decides)",
+      "lang": "ja-JP",
+      "tags": [
+        "words",
+        "thu29j"
       ]
     }
   ]

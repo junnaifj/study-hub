@@ -1,162 +1,163 @@
 {
- "schema": "studyhub.today.v1",
- "date": "2026-10-29",
- "slot": "morning",
- "tracks": [
-  "english",
-  "cantonese"
- ],
- "minutes": 20,
- "new_cards_limit": 6,
- "note": "Eased Thursday: Hard cards first (15 EN + 8 YUE), then only 6 new STAR #2 Result / 'so that' lines. Say it out loud, the owl is listening. 先复习，再开口。",
- "tasks": [
-  {
-   "id": "t1",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap29"
-   ]
-  },
-  {
-   "id": "t2",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "thu29"
-   ]
-  },
-  {
-   "id": "t3",
-   "type": "speaking",
-   "prompt": "Say ×3 each: 'in spring and winter' (no *the*) and 'regression' (ri-GRESH-un). Then STAR #2 full S-T-A-R in one take (~90 s): buffer question → your job → season/MTR pattern + took the initiative → 'As a result, the team narrowed the distance buffer… which made the model more focused…'.",
-   "seconds": 240
-  },
-  {
-   "id": "t4",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "recap29y"
-   ]
-  },
-  {
-   "id": "t5",
-   "type": "reading",
-   "title": "Shadow ×3: 'why this job' lines (mp3 in chat: wed28_why_lines.mp3)",
-   "lang": "yue-HK",
-   "lines": [
+  "schema": "studyhub.today.v1",
+  "date": "2026-10-29",
+  "slot": "evening",
+  "tracks": [
+    "japanese"
+  ],
+  "minutes": 20,
+  "new_cards_limit": 12,
+  "note": "Japanese night. Recap さ行+た行 and the two stubborn ones (け, きく) first, then new な行 + は行. Twelve new, no more: Monday had 7 Hard. 写三遍，念出声。",
+  "tasks": [
     {
-     "text": "我想做呢份工，因為我鍾意用數據幫城市規劃。",
-     "gloss": "ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6",
-     "translation": "I want this job because I like using data to help city planning."
+      "id": "t1",
+      "type": "cards",
+      "deck": "japanese",
+      "tags": [
+        "recap29j"
+      ]
     },
     {
-     "text": "我有地理空間數據分析嘅經驗。",
-     "gloss": "ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6",
-     "translation": "I have experience in geospatial data analysis."
+      "id": "t2",
+      "type": "link",
+      "title": "NHK hiragana chart · tap な–の and は–ほ, repeat each",
+      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
+      "minutes": 3
     },
     {
-     "text": "我學嘢好快，亦都鍾意團隊合作。",
-     "gloss": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3",
-     "translation": "I learn fast, and I also enjoy teamwork. (合作 hap6 zok3)"
+      "id": "t3",
+      "type": "link",
+      "title": "Tofugu mnemonics · N-column + H-column only",
+      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
+      "minutes": 4
     },
     {
-     "text": "我覺得呢個職位好適合我。",
-     "gloss": "ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5",
-     "translation": "I think this role suits me well."
+      "id": "t4",
+      "type": "cards",
+      "deck": "japanese",
+      "tags": [
+        "thu29j"
+      ]
+    },
+    {
+      "id": "t5",
+      "type": "reading",
+      "title": "Read without romaji first (only kana you know)",
+      "lang": "ja-JP",
+      "lines": [
+        {
+          "text": "ねこ の いえ",
+          "gloss": "neko no ie",
+          "translation": "the cat's house · 猫的家"
+        },
+        {
+          "text": "あかい はな",
+          "gloss": "akai hana",
+          "translation": "a red flower · 红花"
+        },
+        {
+          "text": "ふね に のる",
+          "gloss": "fune ni noru",
+          "translation": "ride a boat · 坐船"
+        },
+        {
+          "text": "ひとつ ください",
+          "gloss": "hitotsu kudasai",
+          "translation": "one, please · 请给我一个"
+        },
+        {
+          "text": "へや は ちかい",
+          "gloss": "heya wa chikai",
+          "translation": "the room is close · 房间很近 (は reads wa!)"
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "type": "speaking",
+      "prompt": "Write なにぬねの はひふへほ ×3 each, saying each aloud (~5 min). Then read the 5 lines twice, slowly then normal speed. Watch ぬ vs ね (both loop; ね has a straight left stroke), は vs ほ (extra top bar), ふ = fu not hu, and particle は = wa.",
+      "seconds": 360
+    },
+    {
+      "id": "t7",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "typed",
+          "q": "Romaji for ふ?",
+          "answer": [
+            "fu"
+          ],
+          "explain": "ふ is fu, not hu."
+        },
+        {
+          "id": "q2",
+          "type": "mc",
+          "q": "Which one is ne?",
+          "options": [
+            "ぬ",
+            "ね",
+            "め"
+          ],
+          "answer": 1,
+          "explain": "ね ne has a straight left stroke; ぬ nu and め me don't."
+        },
+        {
+          "id": "q3",
+          "type": "mc",
+          "q": "Which one is ho?",
+          "options": [
+            "は",
+            "ほ",
+            "け"
+          ],
+          "answer": 1,
+          "explain": "ほ ho = は with an extra bar on top."
+        },
+        {
+          "id": "q4",
+          "type": "typed",
+          "q": "Write cat (neko) in hiragana.",
+          "answer": [
+            "ねこ"
+          ],
+          "explain": "ねこ = ね ne + こ ko."
+        },
+        {
+          "id": "q5",
+          "type": "mc",
+          "q": "In へや は ちかい, the は is read…",
+          "options": [
+            "ha",
+            "wa",
+            "ho"
+          ],
+          "answer": 1,
+          "explain": "As a topic particle は reads wa."
+        },
+        {
+          "id": "q6",
+          "type": "typed",
+          "q": "Romaji for ち? (recap)",
+          "answer": [
+            "chi"
+          ],
+          "explain": "ち is chi, not ti."
+        },
+        {
+          "id": "q7",
+          "type": "mc",
+          "q": "きく means…",
+          "options": [
+            "listen / ask",
+            "station",
+            "tree"
+          ],
+          "answer": 0,
+          "explain": "きく kiku = listen/ask (聞く); station = えき, tree = き."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "t6",
-   "type": "speaking",
-   "prompt": "Carried over: record your 1-min Chinese self-intro once (name, study, data work, why this job, 多謝你嘅時間). Watch 事 si6, 合作 hap6 zok3, 時間 si4 gaan3. One take is enough.",
-   "seconds": 120
-  },
-  {
-   "id": "t7",
-   "type": "quiz",
-   "questions": [
-    {
-     "id": "q1",
-     "type": "mc",
-     "q": "Which is correct?",
-     "options": [
-      "active in the spring and the winter",
-      "active in spring and winter",
-      "active at spring and winter"
-     ],
-     "answer": 1,
-     "explain": "Seasons in general: in spring, in winter, no *the*."
-    },
-    {
-     "id": "q2",
-     "type": "mc",
-     "q": "Stress in 'regression':",
-     "options": [
-      "RE-gres-sion",
-      "ri-GRESH-un",
-      "re-gres-SION"
-     ],
-     "answer": 1,
-     "explain": "ri-GRESH-un, stress on the 2nd syllable."
-    },
-    {
-     "id": "q3",
-     "type": "mc",
-     "q": "Best STAR #2 Result opener:",
-     "options": [
-      "My job was to…",
-      "As a result, the team narrowed the buffer…",
-      "First, I cleaned the data…"
-     ],
-     "answer": 1,
-     "explain": "R = what changed: 'As a result…'. 'My job was to' is T, 'First, I…' is A."
-    },
-    {
-     "id": "q4",
-     "type": "mc",
-     "q": "'so that' should describe…",
-     "options": [
-      "what you did",
-      "the outcome for others",
-      "the problem"
-     ],
-     "answer": 1,
-     "explain": "…so that the team could… → impact for others."
-    },
-    {
-     "id": "q5",
-     "type": "typed",
-     "q": "Complete: I took the initiative ___ suggest a narrower buffer.",
-     "answer": [
-      "to"
-     ],
-     "explain": "took the initiative to + verb."
-    },
-    {
-     "id": "q6",
-     "type": "mc",
-     "q": "事 (as in 做事) is…",
-     "options": [
-      "si3",
-      "si6",
-      "si4"
-     ],
-     "answer": 1,
-     "explain": "事 si6 (low level); 試 si3 (mid level)."
-    },
-    {
-     "id": "q7",
-     "type": "typed",
-     "q": "Jyutping for 合作 (tone numbers, space between).",
-     "answer": [
-      "hap6 zok3"
-     ],
-     "explain": "合 hap6, 作 zok3 (same 作 as 工作)."
-    }
-   ]
-  }
- ]
+  ]
 }
