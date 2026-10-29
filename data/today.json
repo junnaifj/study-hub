@@ -1,62 +1,49 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-10-28",
- "slot": "evening",
+ "date": "2026-10-29",
+ "slot": "morning",
  "tracks": [
+  "english",
   "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 7,
- "note": "Cantonese speaking night: Hard cards first, then 4 'why this job' lines and your own 1-min intro. 7 new only, because this morning still had 15 Hard. 讲出声，唔好偷懒。",
+ "new_cards_limit": 6,
+ "note": "Eased Thursday: Hard cards first (15 EN + 8 YUE), then only 6 new STAR #2 Result / 'so that' lines. Say it out loud, the owl is listening. 先复习，再开口。",
  "tasks": [
   {
    "id": "t1",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "recap28y"
+    "recap29"
    ]
   },
   {
    "id": "t2",
-   "type": "reading",
-   "title": "Shadow ×3: Tuesday intro lines (mp3 in chat: tue27_intro_lines.mp3)",
-   "lang": "yue-HK",
-   "lines": [
-    {
-     "text": "我叫傅佳。",
-     "gloss": "ngo5 giu3 Fu6 Gaai1",
-     "translation": "My name is Fu Jia."
-    },
-    {
-     "text": "我喺港大讀咗城市分析。",
-     "gloss": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1",
-     "translation": "I studied urban analytics at HKU."
-    },
-    {
-     "text": "我鍾意數據分析。",
-     "gloss": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1",
-     "translation": "I like data analysis."
-    },
-    {
-     "text": "多謝你嘅時間。",
-     "gloss": "do1 ze6 nei5 ge3 si4 gaan3",
-     "translation": "Thank you for your time. (時 si4, not si3)"
-    }
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "thu29"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "wed28y"
-   ]
+   "type": "speaking",
+   "prompt": "Say ×3 each: 'in spring and winter' (no *the*) and 'regression' (ri-GRESH-un). Then STAR #2 full S-T-A-R in one take (~90 s): buffer question → your job → season/MTR pattern + took the initiative → 'As a result, the team narrowed the distance buffer… which made the model more focused…'.",
+   "seconds": 240
   },
   {
    "id": "t4",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap29y"
+   ]
+  },
+  {
+   "id": "t5",
    "type": "reading",
-   "title": "'Why this job' lines · read slowly, then shadow the mp3 ×2 (wed28_why_lines.mp3)",
+   "title": "Shadow ×3: 'why this job' lines (mp3 in chat: wed28_why_lines.mp3)",
    "lang": "yue-HK",
    "lines": [
     {
@@ -72,7 +59,7 @@
     {
      "text": "我學嘢好快，亦都鍾意團隊合作。",
      "gloss": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3",
-     "translation": "I learn fast, and I also enjoy teamwork."
+     "translation": "I learn fast, and I also enjoy teamwork. (合作 hap6 zok3)"
     },
     {
      "text": "我覺得呢個職位好適合我。",
@@ -82,92 +69,92 @@
    ]
   },
   {
-   "id": "t5",
+   "id": "t6",
    "type": "speaking",
-   "prompt": "Write your 1-min self-intro in Chinese characters with Jyutping (5–6 lines: name, study, data work, why this job, thanks). Record one take, listen back, fix one tone (watch 面試 min6 si3, 時間 si4 gaan3, 職位 zik1 wai6), then re-record once.",
-   "seconds": 420
+   "prompt": "Carried over: record your 1-min Chinese self-intro once (name, study, data work, why this job, 多謝你嘅時間). Watch 事 si6, 合作 hap6 zok3, 時間 si4 gaan3. One take is enough.",
+   "seconds": 120
   },
   {
-   "id": "t6",
+   "id": "t7",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "面試 is…",
+     "q": "Which is correct?",
      "options": [
-      "min6 si1",
-      "min6 si3",
-      "min3 si6"
+      "active in the spring and the winter",
+      "active in spring and winter",
+      "active at spring and winter"
      ],
      "answer": 1,
-     "explain": "min6 si3: low level, then mid level (試 = test)."
+     "explain": "Seasons in general: in spring, in winter, no *the*."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "Thanking a waiter who brings water:",
+     "q": "Stress in 'regression':",
      "options": [
-      "多謝",
-      "唔該",
-      "時間"
+      "RE-gres-sion",
+      "ri-GRESH-un",
+      "re-gres-SION"
      ],
      "answer": 1,
-     "explain": "唔該 for a service; 多謝 for a gift or favour."
+     "explain": "ri-GRESH-un, stress on the 2nd syllable."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Jyutping for 因為 (with tone numbers, space between syllables).",
-     "answer": [
-      "jan1 wai6"
+     "type": "mc",
+     "q": "Best STAR #2 Result opener:",
+     "options": [
+      "My job was to…",
+      "As a result, the team narrowed the buffer…",
+      "First, I cleaned the data…"
      ],
-     "explain": "jan1 wai6, high level then low level."
+     "answer": 1,
+     "explain": "R = what changed: 'As a result…'. 'My job was to' is T, 'First, I…' is A."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Which character is si6?",
+     "q": "'so that' should describe…",
      "options": [
-      "試",
-      "時",
-      "事"
+      "what you did",
+      "the outcome for others",
+      "the problem"
      ],
-     "answer": 2,
-     "explain": "事 si6 low level. 試 si3, 時 si4."
+     "answer": 1,
+     "explain": "…so that the team could… → impact for others."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "我覺得呢個職位好適合我 means…",
-     "options": [
-      "I think this role suits me well.",
-      "I want to join your team.",
-      "I learn fast."
+     "type": "typed",
+     "q": "Complete: I took the initiative ___ suggest a narrower buffer.",
+     "answer": [
+      "to"
      ],
-     "answer": 0,
-     "explain": "職位 role, 適合 suit."
+     "explain": "took the initiative to + verb."
     },
     {
      "id": "q6",
-     "type": "typed",
-     "q": "Jyutping for 合作.",
-     "answer": [
-      "hap6 zok3"
+     "type": "mc",
+     "q": "事 (as in 做事) is…",
+     "options": [
+      "si3",
+      "si6",
+      "si4"
      ],
-     "explain": "hap6 zok3; 作 zok3 as in 工作 gung1 zok3."
+     "answer": 1,
+     "explain": "事 si6 (low level); 試 si3 (mid level)."
     },
     {
      "id": "q7",
-     "type": "mc",
-     "q": "呢份工 means…",
-     "options": [
-      "this job",
-      "that person",
-      "every day"
+     "type": "typed",
+     "q": "Jyutping for 合作 (tone numbers, space between).",
+     "answer": [
+      "hap6 zok3"
      ],
-     "answer": 0,
-     "explain": "呢 ni1 = this, 份工 = job."
+     "explain": "合 hap6, 作 zok3 (same 作 as 工作)."
     }
    ]
   }

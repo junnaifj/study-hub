@@ -1,754 +1,835 @@
 {
-  "schema": "studyhub.deck.v1",
-  "track": "english",
-  "cards": [
-    {
-      "id": "en-0001",
-      "front": "What does STAR stand for?",
-      "back": "Situation · Task · Action · Result",
-      "gloss": "A clear structure for an interview example.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0002",
-      "front": "Describe a measurable result.",
-      "back": "I reduced the processing time by 30%.",
-      "gloss": "Choose a concrete outcome rather than a general claim.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0003",
-      "front": "practise / practice",
-      "back": "Practise is the verb; practice is the noun.",
-      "gloss": "I practise daily. Daily practice helps.",
-      "lang": "en-GB",
-      "tags": [
-        "vocabulary",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0004",
-      "front": "Could you clarify that?",
-      "back": "A polite way to ask for a clearer explanation.",
-      "gloss": "Useful in meetings and interviews.",
-      "lang": "en-GB",
-      "tags": [
-        "workplace",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0005",
-      "front": "STAR · Situation opener",
-      "back": "“In my previous role, we needed to…”",
-      "gloss": "情境: set the scene in 1–2 sentences.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0006",
-      "front": "STAR · Task",
-      "back": "“My responsibility was to…”",
-      "gloss": "任务: your specific goal.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0007",
-      "front": "STAR · Action",
-      "back": "“I decided to… / I built… / I coordinated…”",
-      "gloss": "行动: say I, not we.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0008",
-      "front": "STAR · Result",
-      "back": "“As a result, … improved by … / which led to…”",
-      "gloss": "结果: quantify if possible.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0009",
-      "front": "Buying thinking time",
-      "back": "“That's a great question. Let me think for a second.”",
-      "gloss": "Pause calmly instead of filling with um.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0010",
-      "front": "Answering a weakness question",
-      "back": "“One area I've been working on is… so I've started…”",
-      "gloss": "Name the weakness, then show the fix.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0011",
-      "front": "Why this role?",
-      "back": "“What draws me to this role is… and it connects directly to my work on…”",
-      "gloss": "Link the role to your experience.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0012",
-      "front": "Closing the interview",
-      "back": "“Thank you for your time. I'm really excited about the chance to contribute to…”",
-      "gloss": "End warmly and specifically.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "recap27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0013",
-      "front": "Linking skills to impact",
-      "back": "“I used data analysis to identify…, which helped the team decide…”",
-      "gloss": "Skill → action → decision.",
-      "lang": "en-GB",
-      "tags": [
-        "interviews",
-        "STAR",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0014",
-      "front": "STAR · Result with a number",
-      "back": "“As a result, we delivered ___ % of the data we needed / YOLO reached ___.” Fill ONE number you can defend.",
-      "gloss": "结果必须带数字. Vague praise is not a Result.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0015",
-      "front": "ArcGIS Pro (say it)",
-      "back": "ark-JEE-eye-ess Pro · “I tried annotating the sites in ArcGIS Pro, but coverage was still too thin.”",
-      "gloss": "Say each letter of GIS slowly: G-I-S.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0016",
-      "front": "YOLO (say it)",
-      "back": "YOH-loh (You Only Look Once) · “Our YOLO model detected older pedestrians in the street-view frames.”",
-      "gloss": "Two syllables: YO-LO. Not “yolo” mumbled as one blur.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0017",
-      "front": "CSDI API (say it)",
-      "back": "C-S-D-I A-P-I · “I proposed the Hong Kong government CSDI API for spatial data.”",
-      "gloss": "Spell both acronyms letter by letter.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0018",
-      "front": "pandas (say it)",
-      "back": "PAN-duz · “I ran a Python pilot with pandas to check the CSDI sample.”",
-      "gloss": "Like the animal. Not “pan-DAS”.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0019",
-      "front": "Purpose sentence",
-      "back": "“The purpose was to [deliver X] so that [another team / the project could Y].”",
-      "gloss": "目的句: purpose + so that. Put this in Task or early Action.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap",
-        "recap27"
-      ]
-    },
-    {
-      "id": "en-0020",
-      "front": "Situation vs Task — pick one",
-      "back": "Situation = the messy context (patchy SVI, project stalled). Task = YOUR job (deliver a usable dataset + analyse features).",
-      "gloss": "情境 vs 任务. Don’t merge them into one blurry paragraph.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1",
-        "recap"
-      ]
-    },
-    {
-      "id": "en-0021",
-      "front": "magic bullet (BBC sleep)",
-      "back": "a single perfect fix · “There is no magic bullet for better sleep — diet is only one factor.”",
-      "gloss": "万能药 / 一招解决. Use it about sleep research, not your STAR.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1"
-      ]
-    },
-    {
-      "id": "en-0022",
-      "front": "feed information (BBC sleep)",
-      "back": "to give your body useful signals through food · “Evening meals can feed information to your sleep system.”",
-      "gloss": "向身体“投喂”信息. Not about social-media feeds.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1"
-      ]
-    },
-    {
-      "id": "en-0023",
-      "front": "nutrients (BBC sleep)",
-      "back": "useful substances in food · “Researchers asked which nutrients support deeper sleep.”",
-      "gloss": "营养素. Harder: use it in a sentence about sleep research.",
-      "lang": "en-GB",
-      "tags": [
-        "star",
-        "story1"
-      ]
-    },
-    {
-      "id": "en-0024",
-      "front": "rejection (BBC)",
-      "back": "being told no; an idea or application refused · “Every rejection told me something about the role.”",
-      "gloss": "被拒绝. Harder: say one sentence about job applications using it.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0025",
-      "front": "spike (BBC)",
-      "back": "to increase suddenly · “Applications spike in September.”",
-      "gloss": "骤增. Verb and noun: a spike in demand.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0026",
-      "front": "socially anxious (BBC)",
-      "back": "worried about talking to people or being judged · “I used to feel socially anxious in group interviews.”",
-      "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0027",
-      "front": "come easier (BBC)",
-      "back": "become easier to do · “Speaking up comes easier with practice.”",
-      "gloss": "变得更容易. Note: comes easier, not ‘more easy’.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0028",
-      "front": "perfectionism (BBC)",
-      "back": "feeling everything must be perfect · a safe ‘weakness’ if you show how you manage it",
-      "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0029",
-      "front": "appraise (BBC)",
-      "back": "to judge or assess · “I appraised each data source against our protocol.”",
-      "gloss": "评估. Formal; good in STAR Action lines.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26",
-        "recap27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0030",
-      "front": "Tell me about yourself: 3-part order",
-      "back": "Present (who I am now) → Past (proof: projects) → Future (why this role)",
-      "gloss": "自我介绍三段式: 现在→过去→未来. 60 秒内.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26",
-        "recap27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0031",
-      "front": "60-sec intro: your first line",
-      "back": "“I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.”",
-      "gloss": "第一句要短、有力. Say it without notes.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26",
-        "recap27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0032",
-      "front": "narrow down (the buffer)",
-      "back": "make a range smaller and more precise · “This let the team narrow down the distance buffer.”",
-      "gloss": "缩小范围. STAR #2 key verb.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26",
-        "recap27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0033",
-      "front": "seasonal pattern",
-      "back": "a change that repeats by season · “Older residents were mainly active in spring and winter.”",
-      "gloss": "季节性规律. SEE-zuh-nuhl.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0034",
-      "front": "buffer (GIS) — say it in a sentence",
-      "back": "the zone around a feature within a set distance · “a 2–3 station buffer around each estate”",
-      "gloss": "缓冲区. BUF-er, not boo-fer.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0035",
-      "front": "regression analysis (say it)",
-      "back": "ri-GRESH-un uh-NAL-uh-sis · stress on GRESH and NAL",
-      "gloss": "回归分析. Two stresses; don't flatten them.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0036",
-      "front": "spatial / geospatial (say it)",
-      "back": "SPAY-shul · JEE-oh-SPAY-shul",
-      "gloss": "空间的 / 地理空间的. Not spa-tee-al.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0037",
-      "front": "“The key insight was that…”",
-      "back": "Insight line between Action and Result · “The key insight was that most trips stayed within two to three MTR stations.”",
-      "gloss": "关键发现是…. Use once per STAR.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0038",
-      "front": "“This allowed the team to…”",
-      "back": "Result linker: outcome for OTHERS, not just you",
-      "gloss": "这让团队得以…. Fixes Sat's purpose-sentence slip.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0039",
-      "front": "“I took ownership of…”",
-      "back": "shows initiative · “I took ownership of the SVI pipeline.”",
-      "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0040",
-      "front": "trade-off",
-      "back": "a balance between two good things · “The trade-off was coverage versus image quality.”",
-      "gloss": "权衡取舍. Interviewers love hearing you name one.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0041",
-      "front": "stakeholder",
-      "back": "a person or team affected by your work · “I shared the dataset with the partner team, a key stakeholder.”",
-      "gloss": "利益相关方. STAYK-hol-der.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0042",
-      "front": "Handling rejection — interview answer",
-      "back": "“I treat a no as feedback: I ask what was missing, adjust, and try again.”",
-      "gloss": "如何面对被拒. Ties BBC topic to interviews.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0043",
-      "front": "“If I did it again, I would…”",
-      "back": "reflection line after Result; shows learning · second conditional",
-      "gloss": "如果重来我会…. would + verb, not will.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0044",
-      "front": "dissertation (say it)",
-      "back": "dis-er-TAY-shun",
-      "gloss": "毕业论文. Stress on TAY.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0045",
-      "front": "“I'm keen to bring … to this role.”",
-      "back": "closing line of the 60-sec intro · “I'm keen to bring my GIS and Python skills to this role.”",
-      "gloss": "我希望把…带到这个岗位. keen = eager, British.",
-      "lang": "en-GB",
-      "tags": [
-        "mon26"
-      ]
-    },
-    {
-      "id": "en-0046",
-      "front": "“I'm an urban analytics graduate from HKU, and I work with geospatial data.”",
-      "back": "60-sec intro, PRESENT opener: who you are now (1 sentence).",
-      "gloss": "现在: 我是谁。Start here, not with your childhood.",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0047",
-      "front": "“Most recently, I worked as a research assistant on…”",
-      "back": "PAST bridge: ‘…an ageing-friendly city project at HKU.’",
-      "gloss": "过去: 最近的经历。most recently = 最近一段",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0048",
-      "front": "“Before that, I studied urban studies at Sheffield.”",
-      "back": "PAST, earlier step. Keep it to one line.",
-      "gloss": "更早: 一句带过",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0049",
-      "front": "“Going forward, I'm looking to…”",
-      "back": "FUTURE close: ‘…apply spatial analysis to real planning decisions.’",
-      "gloss": "未来: 接下来想做什么",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0050",
-      "front": "“What draws me to this role is…”",
-      "back": "Why-this-job opener; then ONE specific thing about the team/company.",
-      "gloss": "吸引我的是… draw = 吸引",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0051",
-      "front": "“X comes naturally to me.”",
-      "back": "✓ Data work comes naturally to me. ✗ comes easier (needs ‘than’). ✓ It comes more easily now.",
-      "gloss": "对我来说很自然。Monday's miss: 'comes easier'",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0052",
-      "front": "hands-on",
-      "back": "practical, done yourself: ‘hands-on experience with ArcGIS Pro’",
-      "gloss": "亲手做的、实操的",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0053",
-      "front": "end-to-end",
-      "back": "whole process start→finish: ‘I built the pipeline end-to-end, from API to map.’",
-      "gloss": "从头到尾全流程",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0054",
-      "front": "stakeholder (STAKE-hold-er)",
-      "back": "people affected by / caring about the project: planners, residents, funders",
-      "gloss": "利益相关方。stress on STAKE",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0055",
-      "front": "“derive insights from”",
-      "back": "‘I derive insights from street-level imagery.’ derive = get from (formal)",
-      "gloss": "从…中得出洞见",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0056",
-      "front": "streamline",
-      "back": "make a process simpler/faster: ‘I streamlined the image download with the CSDI API.’",
-      "gloss": "简化、精简流程",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0057",
-      "front": "“I'd describe myself as…”",
-      "back": "‘…detail-oriented and curious.’ Then PROVE it with one example.",
-      "gloss": "我会形容自己是… (后面要有例子)",
-      "lang": "en-GB",
-      "tags": [
-        "tue27",
-        "recap28"
-      ]
-    },
-    {
-      "id": "en-0058",
-      "front": "Action, step 1: “First, I cleaned the activity data and split it by season and by location.”",
-      "back": "Start the Action with ONE concrete step, using ‘I’, not ‘we’.",
-      "gloss": "行动第一步：先说你自己做的具体动作",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0059",
-      "front": "Action, step 2: “Then I mapped where older residents were active compared with MTR stations.”",
-      "back": "‘compared with’ links two things. Keep the steps in order: First → Then.",
-      "gloss": "第二步：画图对比 MTR 站",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0060",
-      "front": "Action, insight: “I noticed a clear pattern: most activity happened within two to three MTR stations.”",
-      "back": "‘I noticed a clear pattern:’ + colon + the finding. This is your hook.",
-      "gloss": "发现规律",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0061",
-      "front": "Action, seasonal: “They were mainly active in spring and winter.”",
-      "back": "‘mainly active in + season’. No ‘the’ before spring/winter here.",
-      "gloss": "季节规律，季节前不加 the",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0062",
-      "front": "Action, initiative: “I took the initiative to flag this to the team and suggest a narrower buffer.”",
-      "back": "‘took the initiative to + verb’ = did it without being asked.",
-      "gloss": "主动提出",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0063",
-      "front": "Result: “As a result, the team narrowed the distance buffer for the regression analysis.”",
-      "back": "Open the Result with ‘As a result,’. Say what CHANGED for the team.",
-      "gloss": "结果：团队缩小了距离缓冲区",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0064",
-      "front": "Result, why it matters: “…which made the model more focused on where older residents actually go.”",
-      "back": "‘which made…’ adds the impact. Don't invent numbers; say the real change.",
-      "gloss": "影响：模型更聚焦",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0065",
-      "front": "Reflection: “Looking back, I learned that a quick descriptive check can save a lot of modelling time.”",
-      "back": "Optional last line after R: what you learned. Keep it to one sentence.",
-      "gloss": "反思：一句话",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0066",
-      "front": "Say it right: regression · buffer · descriptive",
-      "back": "ri-GRESH-un · BUFF-er · dis-KRIP-tiv",
-      "gloss": "发音：回归 · 缓冲区 · 描述性",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    },
-    {
-      "id": "en-0067",
-      "front": "“narrow” (verb) vs “narrow down”",
-      "back": "narrow the buffer = make the range smaller · narrow down the options = reduce the choices",
-      "gloss": "narrow 缩小（范围） · narrow down 筛选",
-      "lang": "en-GB",
-      "tags": [
-        "wed28",
-        "STAR"
-      ]
-    }
-  ]
+ "schema": "studyhub.deck.v1",
+ "track": "english",
+ "cards": [
+  {
+   "id": "en-0001",
+   "front": "What does STAR stand for?",
+   "back": "Situation · Task · Action · Result",
+   "gloss": "A clear structure for an interview example.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0002",
+   "front": "Describe a measurable result.",
+   "back": "I reduced the processing time by 30%.",
+   "gloss": "Choose a concrete outcome rather than a general claim.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0003",
+   "front": "practise / practice",
+   "back": "Practise is the verb; practice is the noun.",
+   "gloss": "I practise daily. Daily practice helps.",
+   "lang": "en-GB",
+   "tags": [
+    "vocabulary",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0004",
+   "front": "Could you clarify that?",
+   "back": "A polite way to ask for a clearer explanation.",
+   "gloss": "Useful in meetings and interviews.",
+   "lang": "en-GB",
+   "tags": [
+    "workplace",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0005",
+   "front": "STAR · Situation opener",
+   "back": "“In my previous role, we needed to…”",
+   "gloss": "情境: set the scene in 1–2 sentences.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0006",
+   "front": "STAR · Task",
+   "back": "“My responsibility was to…”",
+   "gloss": "任务: your specific goal.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0007",
+   "front": "STAR · Action",
+   "back": "“I decided to… / I built… / I coordinated…”",
+   "gloss": "行动: say I, not we.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0008",
+   "front": "STAR · Result",
+   "back": "“As a result, … improved by … / which led to…”",
+   "gloss": "结果: quantify if possible.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0009",
+   "front": "Buying thinking time",
+   "back": "“That's a great question. Let me think for a second.”",
+   "gloss": "Pause calmly instead of filling with um.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0010",
+   "front": "Answering a weakness question",
+   "back": "“One area I've been working on is… so I've started…”",
+   "gloss": "Name the weakness, then show the fix.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0011",
+   "front": "Why this role?",
+   "back": "“What draws me to this role is… and it connects directly to my work on…”",
+   "gloss": "Link the role to your experience.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0012",
+   "front": "Closing the interview",
+   "back": "“Thank you for your time. I'm really excited about the chance to contribute to…”",
+   "gloss": "End warmly and specifically.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "recap27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0013",
+   "front": "Linking skills to impact",
+   "back": "“I used data analysis to identify…, which helped the team decide…”",
+   "gloss": "Skill → action → decision.",
+   "lang": "en-GB",
+   "tags": [
+    "interviews",
+    "STAR",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0014",
+   "front": "STAR · Result with a number",
+   "back": "“As a result, we delivered ___ % of the data we needed / YOLO reached ___.” Fill ONE number you can defend.",
+   "gloss": "结果必须带数字. Vague praise is not a Result.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0015",
+   "front": "ArcGIS Pro (say it)",
+   "back": "ark-JEE-eye-ess Pro · “I tried annotating the sites in ArcGIS Pro, but coverage was still too thin.”",
+   "gloss": "Say each letter of GIS slowly: G-I-S.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0016",
+   "front": "YOLO (say it)",
+   "back": "YOH-loh (You Only Look Once) · “Our YOLO model detected older pedestrians in the street-view frames.”",
+   "gloss": "Two syllables: YO-LO. Not “yolo” mumbled as one blur.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0017",
+   "front": "CSDI API (say it)",
+   "back": "C-S-D-I A-P-I · “I proposed the Hong Kong government CSDI API for spatial data.”",
+   "gloss": "Spell both acronyms letter by letter.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0018",
+   "front": "pandas (say it)",
+   "back": "PAN-duz · “I ran a Python pilot with pandas to check the CSDI sample.”",
+   "gloss": "Like the animal. Not “pan-DAS”.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0019",
+   "front": "Purpose sentence",
+   "back": "“The purpose was to [deliver X] so that [another team / the project could Y].”",
+   "gloss": "目的句: purpose + so that. Put this in Task or early Action.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap",
+    "recap27"
+   ]
+  },
+  {
+   "id": "en-0020",
+   "front": "Situation vs Task — pick one",
+   "back": "Situation = the messy context (patchy SVI, project stalled). Task = YOUR job (deliver a usable dataset + analyse features).",
+   "gloss": "情境 vs 任务. Don’t merge them into one blurry paragraph.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1",
+    "recap"
+   ]
+  },
+  {
+   "id": "en-0021",
+   "front": "magic bullet (BBC sleep)",
+   "back": "a single perfect fix · “There is no magic bullet for better sleep — diet is only one factor.”",
+   "gloss": "万能药 / 一招解决. Use it about sleep research, not your STAR.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1"
+   ]
+  },
+  {
+   "id": "en-0022",
+   "front": "feed information (BBC sleep)",
+   "back": "to give your body useful signals through food · “Evening meals can feed information to your sleep system.”",
+   "gloss": "向身体“投喂”信息. Not about social-media feeds.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1"
+   ]
+  },
+  {
+   "id": "en-0023",
+   "front": "nutrients (BBC sleep)",
+   "back": "useful substances in food · “Researchers asked which nutrients support deeper sleep.”",
+   "gloss": "营养素. Harder: use it in a sentence about sleep research.",
+   "lang": "en-GB",
+   "tags": [
+    "star",
+    "story1"
+   ]
+  },
+  {
+   "id": "en-0024",
+   "front": "rejection (BBC)",
+   "back": "being told no; an idea or application refused · “Every rejection told me something about the role.”",
+   "gloss": "被拒绝. Harder: say one sentence about job applications using it.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0025",
+   "front": "spike (BBC)",
+   "back": "to increase suddenly · “Applications spike in September.”",
+   "gloss": "骤增. Verb and noun: a spike in demand.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0026",
+   "front": "socially anxious (BBC)",
+   "back": "worried about talking to people or being judged · “I used to feel socially anxious in group interviews.”",
+   "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0027",
+   "front": "come easier (BBC)",
+   "back": "become easier to do · “Speaking up comes easier with practice.”",
+   "gloss": "变得更容易. Note: comes easier, not ‘more easy’.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0028",
+   "front": "perfectionism (BBC)",
+   "back": "feeling everything must be perfect · a safe ‘weakness’ if you show how you manage it",
+   "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0029",
+   "front": "appraise (BBC)",
+   "back": "to judge or assess · “I appraised each data source against our protocol.”",
+   "gloss": "评估. Formal; good in STAR Action lines.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26",
+    "recap27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0030",
+   "front": "Tell me about yourself: 3-part order",
+   "back": "Present (who I am now) → Past (proof: projects) → Future (why this role)",
+   "gloss": "自我介绍三段式: 现在→过去→未来. 60 秒内.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26",
+    "recap27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0031",
+   "front": "60-sec intro: your first line",
+   "back": "“I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.”",
+   "gloss": "第一句要短、有力. Say it without notes.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26",
+    "recap27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0032",
+   "front": "narrow down (the buffer)",
+   "back": "make a range smaller and more precise · “This let the team narrow down the distance buffer.”",
+   "gloss": "缩小范围. STAR #2 key verb.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26",
+    "recap27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0033",
+   "front": "seasonal pattern",
+   "back": "a change that repeats by season · “Older residents were mainly active in spring and winter.”",
+   "gloss": "季节性规律. SEE-zuh-nuhl.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0034",
+   "front": "buffer (GIS) — say it in a sentence",
+   "back": "the zone around a feature within a set distance · “a 2–3 station buffer around each estate”",
+   "gloss": "缓冲区. BUF-er, not boo-fer.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0035",
+   "front": "regression analysis (say it)",
+   "back": "ri-GRESH-un uh-NAL-uh-sis · stress on GRESH and NAL",
+   "gloss": "回归分析. Two stresses; don't flatten them.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0036",
+   "front": "spatial / geospatial (say it)",
+   "back": "SPAY-shul · JEE-oh-SPAY-shul",
+   "gloss": "空间的 / 地理空间的. Not spa-tee-al.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0037",
+   "front": "“The key insight was that…”",
+   "back": "Insight line between Action and Result · “The key insight was that most trips stayed within two to three MTR stations.”",
+   "gloss": "关键发现是…. Use once per STAR.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0038",
+   "front": "“This allowed the team to…”",
+   "back": "Result linker: outcome for OTHERS, not just you",
+   "gloss": "这让团队得以…. Fixes Sat's purpose-sentence slip.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0039",
+   "front": "“I took ownership of…”",
+   "back": "shows initiative · “I took ownership of the SVI pipeline.”",
+   "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0040",
+   "front": "trade-off",
+   "back": "a balance between two good things · “The trade-off was coverage versus image quality.”",
+   "gloss": "权衡取舍. Interviewers love hearing you name one.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0041",
+   "front": "stakeholder",
+   "back": "a person or team affected by your work · “I shared the dataset with the partner team, a key stakeholder.”",
+   "gloss": "利益相关方. STAYK-hol-der.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0042",
+   "front": "Handling rejection — interview answer",
+   "back": "“I treat a no as feedback: I ask what was missing, adjust, and try again.”",
+   "gloss": "如何面对被拒. Ties BBC topic to interviews.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0043",
+   "front": "“If I did it again, I would…”",
+   "back": "reflection line after Result; shows learning · second conditional",
+   "gloss": "如果重来我会…. would + verb, not will.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0044",
+   "front": "dissertation (say it)",
+   "back": "dis-er-TAY-shun",
+   "gloss": "毕业论文. Stress on TAY.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0045",
+   "front": "“I'm keen to bring … to this role.”",
+   "back": "closing line of the 60-sec intro · “I'm keen to bring my GIS and Python skills to this role.”",
+   "gloss": "我希望把…带到这个岗位. keen = eager, British.",
+   "lang": "en-GB",
+   "tags": [
+    "mon26"
+   ]
+  },
+  {
+   "id": "en-0046",
+   "front": "“I'm an urban analytics graduate from HKU, and I work with geospatial data.”",
+   "back": "60-sec intro, PRESENT opener: who you are now (1 sentence).",
+   "gloss": "现在: 我是谁。Start here, not with your childhood.",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0047",
+   "front": "“Most recently, I worked as a research assistant on…”",
+   "back": "PAST bridge: ‘…an ageing-friendly city project at HKU.’",
+   "gloss": "过去: 最近的经历。most recently = 最近一段",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0048",
+   "front": "“Before that, I studied urban studies at Sheffield.”",
+   "back": "PAST, earlier step. Keep it to one line.",
+   "gloss": "更早: 一句带过",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0049",
+   "front": "“Going forward, I'm looking to…”",
+   "back": "FUTURE close: ‘…apply spatial analysis to real planning decisions.’",
+   "gloss": "未来: 接下来想做什么",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0050",
+   "front": "“What draws me to this role is…”",
+   "back": "Why-this-job opener; then ONE specific thing about the team/company.",
+   "gloss": "吸引我的是… draw = 吸引",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0051",
+   "front": "“X comes naturally to me.”",
+   "back": "✓ Data work comes naturally to me. ✗ comes easier (needs ‘than’). ✓ It comes more easily now.",
+   "gloss": "对我来说很自然。Monday's miss: 'comes easier'",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0052",
+   "front": "hands-on",
+   "back": "practical, done yourself: ‘hands-on experience with ArcGIS Pro’",
+   "gloss": "亲手做的、实操的",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0053",
+   "front": "end-to-end",
+   "back": "whole process start→finish: ‘I built the pipeline end-to-end, from API to map.’",
+   "gloss": "从头到尾全流程",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0054",
+   "front": "stakeholder (STAKE-hold-er)",
+   "back": "people affected by / caring about the project: planners, residents, funders",
+   "gloss": "利益相关方。stress on STAKE",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28"
+   ]
+  },
+  {
+   "id": "en-0055",
+   "front": "“derive insights from”",
+   "back": "‘I derive insights from street-level imagery.’ derive = get from (formal)",
+   "gloss": "从…中得出洞见",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0056",
+   "front": "streamline",
+   "back": "make a process simpler/faster: ‘I streamlined the image download with the CSDI API.’",
+   "gloss": "简化、精简流程",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0057",
+   "front": "“I'd describe myself as…”",
+   "back": "‘…detail-oriented and curious.’ Then PROVE it with one example.",
+   "gloss": "我会形容自己是… (后面要有例子)",
+   "lang": "en-GB",
+   "tags": [
+    "tue27",
+    "recap28",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0058",
+   "front": "Action, step 1: “First, I cleaned the activity data and split it by season and by location.”",
+   "back": "Start the Action with ONE concrete step, using ‘I’, not ‘we’.",
+   "gloss": "行动第一步：先说你自己做的具体动作",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0059",
+   "front": "Action, step 2: “Then I mapped where older residents were active compared with MTR stations.”",
+   "back": "‘compared with’ links two things. Keep the steps in order: First → Then.",
+   "gloss": "第二步：画图对比 MTR 站",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0060",
+   "front": "Action, insight: “I noticed a clear pattern: most activity happened within two to three MTR stations.”",
+   "back": "‘I noticed a clear pattern:’ + colon + the finding. This is your hook.",
+   "gloss": "发现规律",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0061",
+   "front": "Action, seasonal: “They were mainly active in spring and winter.”",
+   "back": "‘mainly active in + season’. No ‘the’ before spring/winter here.",
+   "gloss": "季节规律，季节前不加 the",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0062",
+   "front": "Action, initiative: “I took the initiative to flag this to the team and suggest a narrower buffer.”",
+   "back": "‘took the initiative to + verb’ = did it without being asked.",
+   "gloss": "主动提出",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0063",
+   "front": "Result: “As a result, the team narrowed the distance buffer for the regression analysis.”",
+   "back": "Open the Result with ‘As a result,’. Say what CHANGED for the team.",
+   "gloss": "结果：团队缩小了距离缓冲区",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0064",
+   "front": "Result, why it matters: “…which made the model more focused on where older residents actually go.”",
+   "back": "‘which made…’ adds the impact. Don't invent numbers; say the real change.",
+   "gloss": "影响：模型更聚焦",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0065",
+   "front": "Reflection: “Looking back, I learned that a quick descriptive check can save a lot of modelling time.”",
+   "back": "Optional last line after R: what you learned. Keep it to one sentence.",
+   "gloss": "反思：一句话",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR",
+    "recap29"
+   ]
+  },
+  {
+   "id": "en-0066",
+   "front": "Say it right: regression · buffer · descriptive",
+   "back": "ri-GRESH-un · BUFF-er · dis-KRIP-tiv",
+   "gloss": "发音：回归 · 缓冲区 · 描述性",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0067",
+   "front": "“narrow” (verb) vs “narrow down”",
+   "back": "narrow the buffer = make the range smaller · narrow down the options = reduce the choices",
+   "gloss": "narrow 缩小（范围） · narrow down 筛选",
+   "lang": "en-GB",
+   "tags": [
+    "wed28",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0068",
+   "front": "STAR #2 Result line",
+   "back": "As a result, the team narrowed the distance buffer for the regression analysis.",
+   "gloss": "结果：团队缩小了回归分析的距离缓冲区",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0069",
+   "front": "Result + 'which made…'",
+   "back": "…which made the model more focused on where older residents actually go.",
+   "gloss": "which made… 使得……（结果的影响）",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0070",
+   "front": "'so that' = outcome for OTHERS",
+   "back": "I flagged the pattern so that the team could choose a tighter buffer.",
+   "gloss": "so that 后面写别人能做到什么",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0071",
+   "front": "'so that' + could (past)",
+   "back": "I cleaned the data by season so that we could compare spring and winter.",
+   "gloss": "过去时：so that + could + 动词原形",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0072",
+   "front": "took the initiative to + verb",
+   "back": "I took the initiative to suggest a narrower buffer.",
+   "gloss": "主动去做 = took the initiative to + 原形",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0073",
+   "front": "Learning line (optional R)",
+   "back": "Looking back, I learned that a quick descriptive check can save a lot of modelling time.",
+   "gloss": "回顾：快速描述性检查能省大量建模时间 · descriptive = dis-KRIP-tiv",
+   "lang": "en-GB",
+   "tags": [
+    "thu29",
+    "STAR"
+   ]
+  }
+ ]
 }
