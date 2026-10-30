@@ -1,95 +1,100 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-10-30",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean",
+  "japanese"
  ],
  "minutes": 20,
- "new_cards_limit": 14,
- "note": "Friday: Hard first, then STAR #3 (AI data centre) + café Cantonese. Point first, reason second, example third. The owl is timing you. 先复习，再开口。",
+ "new_cards_limit": 16,
+ "note": "Korean café night: aspirated ㅊㅋㅌㅍ (puff of air) vs tense ㄲㄸㅃㅆㅉ (tight, no air) — real goal: read a Seoul café menu (커피, 차). Warm-up さ/た rows first. 写三遍，念出声。",
  "tasks": [
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "recap30"
+    "warm30"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "fri30"
+    "recap30k"
    ]
   },
   {
    "id": "t3",
-   "type": "speaking",
-   "prompt": "Say ×3: 'I took the initiative TO propose…', 'I took the initiative TO flag…', 'I took the initiative TO map…'. Then STAR #3 timed take (2 min, star_stories/star03): S sole analyst → T defensible evidence base → A definition, data gaps, iterative workflow, meeting log → R baseline analysis + missing-data list. Then answer ONE follow-up aloud (30–45 s): 'How did you handle the direction changing?' Point first, then reason, then example.",
-   "seconds": 300
+   "type": "link",
+   "title": "How to Study Korean · Unit 0 Lesson 1 · skim the ㅊㅋㅌㅍ and double-consonant parts",
+   "url": "https://www.howtostudykorean.com/unit0/unit0lesson1/",
+   "minutes": 4
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "korean",
    "tags": [
-    "recap30y"
+    "fri30k"
    ]
   },
   {
    "id": "t5",
    "type": "reading",
-   "title": "Tone drill ×3, then shadow wed28_why_lines.mp3 ×2 (mp3 in chat: fri30_tone_cafe.mp3)",
-   "lang": "yue-HK",
+   "title": "Read aloud: plain vs aspirated vs tense",
+   "lang": "ko-KR",
    "lines": [
     {
-     "text": "做事",
-     "gloss": "zou6 si6",
-     "translation": "do things (事 si6, low level)"
+     "text": "가 카 까",
+     "gloss": "ga ka kka",
+     "translation": "plain · puff · tight"
     },
     {
-     "text": "面試",
-     "gloss": "min6 si3",
-     "translation": "interview (試 si3, mid level)"
+     "text": "다 타 따",
+     "gloss": "da ta tta",
+     "translation": "plain · puff · tight"
     },
     {
-     "text": "團隊合作",
-     "gloss": "tyun4 deoi6 hap6 zok3",
-     "translation": "teamwork"
+     "text": "바 파 빠",
+     "gloss": "ba pa ppa",
+     "translation": "plain · puff · tight"
     },
     {
-     "text": "唔該，一杯凍檸茶。",
-     "gloss": "m4 goi1, jat1 bui1 dung3 ning4 caa4",
-     "translation": "One iced lemon tea, please."
+     "text": "자 차 짜",
+     "gloss": "ja cha jja",
+     "translation": "plain · puff · tight"
     },
     {
-     "text": "走冰，少甜。",
-     "gloss": "zau2 bing1, siu2 tim4",
-     "translation": "No ice, less sweet."
+     "text": "사 싸",
+     "gloss": "sa ssa",
+     "translation": "soft s · sharp s"
     },
     {
-     "text": "幾多錢呀？",
-     "gloss": "gei2 do1 cin2 aa3",
-     "translation": "How much is it?"
+     "text": "커피 차",
+     "gloss": "keopi cha",
+     "translation": "coffee, tea · 咖啡，茶"
     },
     {
-     "text": "可唔可以畀八達通？",
-     "gloss": "ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1",
-     "translation": "Can I pay by Octopus?"
+     "text": "포도 토마토",
+     "gloss": "podo tomato",
+     "translation": "grapes, tomato · 葡萄，西红柿"
+    },
+    {
+     "text": "아빠 커피 싸다",
+     "gloss": "appa keopi ssada",
+     "translation": "Dad's coffee is cheap · 爸爸的咖啡便宜"
     }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "fri30y"
-   ]
+   "type": "speaking",
+   "prompt": "Hold a tissue in front of your mouth: ㅋㅌㅍㅊ should make it move, ㄲㄸㅃㅉ should not. Say 가/카/까, 다/타/따, 바/파/빠, 자/차/짜 ×3. Write 바다 and 나무 ×3 (Tuesday's misses), then 커피 차 포도 once each. Last, explain in one breath the difference between ㅋ and ㄲ: point, reason, example.",
+   "seconds": 360,
+   "script": "Rows: 가 카 까 (ga ka kka), 다 타 따 (da ta tta), 바 파 빠 (ba pa ppa), 자 차 짜 (ja cha jja) — tissue moves on the middle one only. Writing: 바다 바다 바다 (bada, sea), 나무 나무 나무 (namu, tree), 커피 차 포도. Explanation: \"ㅋ is aspirated and ㄲ is tense. ㅋ comes with a puff of air, while ㄲ is tight with no air. For example, 카 has a puff and 까 doesn't.\""
   },
   {
    "id": "t7",
@@ -97,81 +102,94 @@
    "questions": [
     {
      "id": "q1",
-     "type": "typed",
-     "q": "Complete: I took the initiative ___ propose a working definition.",
-     "answer": [
-      "to"
+     "type": "mc",
+     "q": "Which one has a puff of air?",
+     "options": [
+      "ㄲ",
+      "ㅋ",
+      "ㄱ"
      ],
-     "explain": "took the initiative to + verb (3rd time, make it stick!)"
+     "answer": 1,
+     "explain": "ㅋ = aspirated k (puff). ㄲ = tense kk (no air), ㄱ = plain g/k."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "STAR #3: which line is the Task?",
-     "options": [
-      "First, I pushed for a working definition…",
-      "My task was to build a defensible evidence base…",
-      "As a result, I delivered a baseline analysis…"
+     "type": "typed",
+     "q": "Romanise 커피.",
+     "answer": [
+      "keopi",
+      "keo pi"
      ],
-     "answer": 1,
-     "explain": "T = your job. 'First…' is A, 'As a result…' is R."
+     "explain": "ㅋ k + ㅓ eo = 커, ㅍ p + ㅣ i = 피 → keopi, coffee."
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Stress in 'defensible':",
+     "q": "ㅆ sounds like…",
      "options": [
-      "DE-fen-si-bul",
-      "di-FEN-si-bul",
-      "de-fen-SI-bul"
+      "soft s",
+      "sharp, tense ss",
+      "j"
      ],
      "answer": 1,
-     "explain": "di-FEN-si-bul."
+     "explain": "Double ㅅ = tense ss, as in 싸다 ssada (cheap)."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best answer to 'Your manager kept changing direction?'",
+     "q": "짜다 means…",
      "options": [
-      "The lead kept changing their mind, which was frustrating.",
-      "I stayed neutral and kept written notes of what we agreed.",
-      "I just waited for a final decision."
+      "cheap",
+      "salty",
+      "tea"
      ],
      "answer": 1,
-     "explain": "Neutral, no blame, shows a system."
+     "explain": "짜다 jjada = salty. Cheap = 싸다, tea = 차."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "事 (as in 做事) is…",
-     "options": [
-      "si3",
-      "si6",
-      "si1"
+     "type": "typed",
+     "q": "Recap: write sea (bada) in Hangul.",
+     "answer": [
+      "바다"
      ],
-     "answer": 1,
-     "explain": "事 si6 low; 試 si3 mid."
+     "explain": "ㅂ+ㅏ = 바, ㄷ+ㅏ = 다. You missed this Tuesday; ㅂ is the bucket."
     },
     {
      "id": "q6",
-     "type": "typed",
-     "q": "Jyutping for 合作 (tone numbers, space between).",
-     "answer": [
-      "hap6 zok3"
+     "type": "mc",
+     "q": "Recap: 우리 is read…",
+     "options": [
+      "uli",
+      "uri (light flap)",
+      "udi"
      ],
-     "explain": "合 hap6, 作 zok3."
+     "answer": 1,
+     "explain": "ㄹ between vowels is a light r flap: uri."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "走冰 means…",
+     "q": "Which is 'tea'?",
      "options": [
-      "extra ice",
-      "no ice",
-      "walk to the ice"
+      "차",
+      "자",
+      "짜"
+     ],
+     "answer": 0,
+     "explain": "차 cha (aspirated) = tea/car. 자 ja is plain, 짜 jja is tense."
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "q": "Warm-up: which hiragana is 'chi'?",
+     "options": [
+      "さ",
+      "ち",
+      "き"
      ],
      "answer": 1,
-     "explain": "走 = leave out → no ice."
+     "explain": "ち = chi (た row). さ = sa, き = ki."
     }
    ]
   }
