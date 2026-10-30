@@ -1,706 +1,713 @@
 {
-  "schema": "studyhub.deck.v1",
-  "track": "japanese",
-  "cards": [
-    {
-      "id": "ja-0001",
-      "front": "こんにちは",
-      "back": "こんにちは · hello",
-      "gloss": "konnichiwa · a daytime greeting",
-      "lang": "ja-JP",
-      "tags": [
-        "greetings"
-      ]
-    },
-    {
-      "id": "ja-0002",
-      "front": "ありがとうございます",
-      "back": "ありがとうございます · thank you",
-      "gloss": "arigatou gozaimasu · polite thanks",
-      "lang": "ja-JP",
-      "tags": [
-        "greetings"
-      ]
-    },
-    {
-      "id": "ja-0003",
-      "front": "あ",
-      "back": "a",
-      "gloss": "The first hiragana vowel.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0004",
-      "front": "い",
-      "back": "i",
-      "gloss": "The second hiragana vowel.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0005",
-      "front": "う",
-      "back": "u",
-      "gloss": "Hiragana vowel · u",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0006",
-      "front": "え",
-      "back": "e",
-      "gloss": "Hiragana vowel · e",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0007",
-      "front": "お",
-      "back": "o",
-      "gloss": "Hiragana vowel · o",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0008",
-      "front": "か",
-      "back": "ka",
-      "gloss": "Hiragana k-row · ka",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0009",
-      "front": "き",
-      "back": "ki",
-      "gloss": "Hiragana k-row · ki",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0010",
-      "front": "く",
-      "back": "ku",
-      "gloss": "Hiragana k-row · ku",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0011",
-      "front": "け",
-      "back": "ke",
-      "gloss": "Hiragana k-row · ke",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26",
-        "warm27",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0012",
-      "front": "こ",
-      "back": "ko",
-      "gloss": "Hiragana k-row · ko",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0013",
-      "front": "あおい",
-      "back": "aoi · blue",
-      "gloss": "aoi · 蓝色的 (adjective)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0014",
-      "front": "いえ",
-      "back": "ie · house",
-      "gloss": "ie · house (家). Not へや (room)!",
-      "lang": "ja-JP",
-      "tags": [
-        "review",
-        "set1",
-        "weakspot",
-        "word",
-        "words",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0015",
-      "front": "かお",
-      "back": "kao · face",
-      "gloss": "kao · 脸",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0016",
-      "front": "えき",
-      "back": "eki · station",
-      "gloss": "eki · 车站",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0017",
-      "front": "ここ",
-      "back": "koko · here",
-      "gloss": "koko · 这里",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set1",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0018",
-      "front": "へや",
-      "back": "へや · room",
-      "gloss": "heya · room (部屋). Mix-up with いえ (house) — owl remembers.",
-      "lang": "ja-JP",
-      "tags": [
-        "word",
-        "weakspot",
-        "review",
-        "recap26"
-      ]
-    },
-    {
-      "id": "ja-0019",
-      "front": "さ",
-      "back": "さ · sa",
-      "gloss": "sa · a sake cup with a hook. Not き (ki has 2 bars).",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0020",
-      "front": "し",
-      "back": "し · shi",
-      "gloss": "shi · a fishing hook / she has long hair. NOT \"si\".",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0021",
-      "front": "す",
-      "back": "す · su",
-      "gloss": "su · a swing with a loop.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0022",
-      "front": "せ",
-      "back": "せ · se",
-      "gloss": "se · \"say\" with a big mouth, like セ.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0023",
-      "front": "そ",
-      "back": "そ · so",
-      "gloss": "so · zig-zag sewing thread.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0024",
-      "front": "た",
-      "back": "た · ta",
-      "gloss": "ta · t + a: looks like \"ta\".",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0025",
-      "front": "ち",
-      "back": "ち · chi",
-      "gloss": "chi · a cheerleader turned left. NOT \"ti\". Mirror of さ? No: ち faces left curl, さ is open.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0026",
-      "front": "つ",
-      "back": "つ · tsu",
-      "gloss": "tsu · a tsunami wave. NOT \"tu\".",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0027",
-      "front": "て",
-      "back": "て · te",
-      "gloss": "te · a hand reaching (te = hand).",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0028",
-      "front": "と",
-      "back": "と · to",
-      "gloss": "to · a toe with a thorn.",
-      "lang": "ja-JP",
-      "tags": [
-        "kana",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0029",
-      "front": "すし",
-      "back": "すし · sushi",
-      "gloss": "sushi · sushi · 寿司",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0030",
-      "front": "あさ",
-      "back": "あさ · morning",
-      "gloss": "asa · morning · 早上 (朝)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0031",
-      "front": "いす",
-      "back": "いす · chair",
-      "gloss": "isu · chair · 椅子",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0032",
-      "front": "せき",
-      "back": "せき · seat",
-      "gloss": "seki · seat · 座位 (席)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0033",
-      "front": "した",
-      "back": "した · below / under",
-      "gloss": "shita · below / under · 下面 (下)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0034",
-      "front": "たかい",
-      "back": "たかい · expensive / tall",
-      "gloss": "takai · expensive / tall · 贵的/高的",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0035",
-      "front": "ちかてつ",
-      "back": "ちかてつ · subway",
-      "gloss": "chikatetsu · subway · 地铁 (地下鉄)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0036",
-      "front": "つくえ",
-      "back": "つくえ · desk",
-      "gloss": "tsukue · desk · 桌子 (机)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0037",
-      "front": "そと",
-      "back": "そと · outside",
-      "gloss": "soto · outside · 外面 (外)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0038",
-      "front": "くつ",
-      "back": "くつ · shoes",
-      "gloss": "kutsu · shoes · 鞋 (靴)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0039",
-      "front": "あした",
-      "back": "あした · tomorrow",
-      "gloss": "ashita · tomorrow · 明天 (明日)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0040",
-      "front": "うた",
-      "back": "うた · song",
-      "gloss": "uta · song · 歌",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0041",
-      "front": "ちかい",
-      "back": "ちかい · near",
-      "gloss": "chikai · near · 近的",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0042",
-      "front": "たこ",
-      "back": "たこ · octopus",
-      "gloss": "tako · octopus · 章鱼 (蛸)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "set23",
-        "mon26",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0043",
-      "front": "あかい",
-      "back": "あかい · red",
-      "gloss": "akai · red · 红色的 (赤い)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "recap26",
-        "weakspot"
-      ]
-    },
-    {
-      "id": "ja-0044",
-      "front": "いく",
-      "back": "いく · go",
-      "gloss": "iku · go · 去 (行く)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "recap26",
-        "weakspot"
-      ]
-    },
-    {
-      "id": "ja-0045",
-      "front": "きく",
-      "back": "きく · listen / ask",
-      "gloss": "kiku · listen / ask · 听/问 (聞く). Sat miss: it is ki-ku, both short.",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "recap26",
-        "weakspot",
-        "warm27",
-        "recap29j"
-      ]
-    },
-    {
-      "id": "ja-0046",
-      "front": "な",
-      "back": "な · na",
-      "gloss": "na · な (奈). Looks like a cross + knot: 'a knot on a stick'.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0047",
-      "front": "に",
-      "back": "に · ni",
-      "gloss": "ni · に (仁). Looks like a 'knee' next to two lines; も has a hook, に doesn't.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0048",
-      "front": "ぬ",
-      "back": "ぬ · nu",
-      "gloss": "nu · ぬ (奴). Like め me but with a loop tail; noodles 'nu-dles'.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0049",
-      "front": "ね",
-      "back": "ね · ne",
-      "gloss": "ne · ね (祢). Loop tail like ぬ, but left side is a straight line; a cat's (ねこ) tail.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0050",
-      "front": "の",
-      "back": "の · no",
-      "gloss": "no · の (乃). One swirl, like a 'no entry' sign.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0051",
-      "front": "は",
-      "back": "は · ha",
-      "gloss": "ha · は (波). As particle は it reads 'wa' (わたしは = watashi wa).",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0052",
-      "front": "ひ",
-      "back": "ひ · hi",
-      "gloss": "hi · ひ (比). A big grin: 'hee hee'.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0053",
-      "front": "ふ",
-      "back": "ふ · fu",
-      "gloss": "fu · ふ (不). Soft 'fu', between f and h, not 'hu'. Mt Fuji ふじ.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0054",
-      "front": "へ",
-      "back": "へ · he",
-      "gloss": "he · へ (部). A small hill; same as katakana ヘ. As particle へ reads 'e'. Remember へや heya = room.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0055",
-      "front": "ほ",
-      "back": "ほ · ho",
-      "gloss": "ho · ほ (保). は with an extra top bar.",
-      "lang": "ja-JP",
-      "tags": [
-        "hiragana",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0056",
-      "front": "ねこ",
-      "back": "ねこ · cat",
-      "gloss": "neko · 猫 · cat",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "thu29j"
-      ]
-    },
-    {
-      "id": "ja-0057",
-      "front": "はな",
-      "back": "はな · flower / nose",
-      "gloss": "hana · 花 / 鼻 · flower or nose (same kana, context decides)",
-      "lang": "ja-JP",
-      "tags": [
-        "words",
-        "thu29j"
-      ]
-    }
-  ]
+ "schema": "studyhub.deck.v1",
+ "track": "japanese",
+ "cards": [
+  {
+   "id": "ja-0001",
+   "front": "こんにちは",
+   "back": "こんにちは · hello",
+   "gloss": "konnichiwa · a daytime greeting",
+   "lang": "ja-JP",
+   "tags": [
+    "greetings"
+   ]
+  },
+  {
+   "id": "ja-0002",
+   "front": "ありがとうございます",
+   "back": "ありがとうございます · thank you",
+   "gloss": "arigatou gozaimasu · polite thanks",
+   "lang": "ja-JP",
+   "tags": [
+    "greetings"
+   ]
+  },
+  {
+   "id": "ja-0003",
+   "front": "あ",
+   "back": "a",
+   "gloss": "The first hiragana vowel.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0004",
+   "front": "い",
+   "back": "i",
+   "gloss": "The second hiragana vowel.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0005",
+   "front": "う",
+   "back": "u",
+   "gloss": "Hiragana vowel · u",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0006",
+   "front": "え",
+   "back": "e",
+   "gloss": "Hiragana vowel · e",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0007",
+   "front": "お",
+   "back": "o",
+   "gloss": "Hiragana vowel · o",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0008",
+   "front": "か",
+   "back": "ka",
+   "gloss": "Hiragana k-row · ka",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0009",
+   "front": "き",
+   "back": "ki",
+   "gloss": "Hiragana k-row · ki",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0010",
+   "front": "く",
+   "back": "ku",
+   "gloss": "Hiragana k-row · ku",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0011",
+   "front": "け",
+   "back": "ke",
+   "gloss": "Hiragana k-row · ke",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26",
+    "warm27",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0012",
+   "front": "こ",
+   "back": "ko",
+   "gloss": "Hiragana k-row · ko",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0013",
+   "front": "あおい",
+   "back": "aoi · blue",
+   "gloss": "aoi · 蓝色的 (adjective)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0014",
+   "front": "いえ",
+   "back": "ie · house",
+   "gloss": "ie · house (家). Not へや (room)!",
+   "lang": "ja-JP",
+   "tags": [
+    "review",
+    "set1",
+    "weakspot",
+    "word",
+    "words",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0015",
+   "front": "かお",
+   "back": "kao · face",
+   "gloss": "kao · 脸",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0016",
+   "front": "えき",
+   "back": "eki · station",
+   "gloss": "eki · 车站",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0017",
+   "front": "ここ",
+   "back": "koko · here",
+   "gloss": "koko · 这里",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set1",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0018",
+   "front": "へや",
+   "back": "へや · room",
+   "gloss": "heya · room (部屋). Mix-up with いえ (house) — owl remembers.",
+   "lang": "ja-JP",
+   "tags": [
+    "word",
+    "weakspot",
+    "review",
+    "recap26"
+   ]
+  },
+  {
+   "id": "ja-0019",
+   "front": "さ",
+   "back": "さ · sa",
+   "gloss": "sa · a sake cup with a hook. Not き (ki has 2 bars).",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0020",
+   "front": "し",
+   "back": "し · shi",
+   "gloss": "shi · a fishing hook / she has long hair. NOT \"si\".",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0021",
+   "front": "す",
+   "back": "す · su",
+   "gloss": "su · a swing with a loop.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0022",
+   "front": "せ",
+   "back": "せ · se",
+   "gloss": "se · \"say\" with a big mouth, like セ.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0023",
+   "front": "そ",
+   "back": "そ · so",
+   "gloss": "so · zig-zag sewing thread.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0024",
+   "front": "た",
+   "back": "た · ta",
+   "gloss": "ta · t + a: looks like \"ta\".",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0025",
+   "front": "ち",
+   "back": "ち · chi",
+   "gloss": "chi · a cheerleader turned left. NOT \"ti\". Mirror of さ? No: ち faces left curl, さ is open.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0026",
+   "front": "つ",
+   "back": "つ · tsu",
+   "gloss": "tsu · a tsunami wave. NOT \"tu\".",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0027",
+   "front": "て",
+   "back": "て · te",
+   "gloss": "te · a hand reaching (te = hand).",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0028",
+   "front": "と",
+   "back": "と · to",
+   "gloss": "to · a toe with a thorn.",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0029",
+   "front": "すし",
+   "back": "すし · sushi",
+   "gloss": "sushi · sushi · 寿司",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0030",
+   "front": "あさ",
+   "back": "あさ · morning",
+   "gloss": "asa · morning · 早上 (朝)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j",
+    "warm30"
+   ]
+  },
+  {
+   "id": "ja-0031",
+   "front": "いす",
+   "back": "いす · chair",
+   "gloss": "isu · chair · 椅子",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0032",
+   "front": "せき",
+   "back": "せき · seat",
+   "gloss": "seki · seat · 座位 (席)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0033",
+   "front": "した",
+   "back": "した · below / under",
+   "gloss": "shita · below / under · 下面 (下)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0034",
+   "front": "たかい",
+   "back": "たかい · expensive / tall",
+   "gloss": "takai · expensive / tall · 贵的/高的",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0035",
+   "front": "ちかてつ",
+   "back": "ちかてつ · subway",
+   "gloss": "chikatetsu · subway · 地铁 (地下鉄)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0036",
+   "front": "つくえ",
+   "back": "つくえ · desk",
+   "gloss": "tsukue · desk · 桌子 (机)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0037",
+   "front": "そと",
+   "back": "そと · outside",
+   "gloss": "soto · outside · 外面 (外)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0038",
+   "front": "くつ",
+   "back": "くつ · shoes",
+   "gloss": "kutsu · shoes · 鞋 (靴)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0039",
+   "front": "あした",
+   "back": "あした · tomorrow",
+   "gloss": "ashita · tomorrow · 明天 (明日)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0040",
+   "front": "うた",
+   "back": "うた · song",
+   "gloss": "uta · song · 歌",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0041",
+   "front": "ちかい",
+   "back": "ちかい · near",
+   "gloss": "chikai · near · 近的",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0042",
+   "front": "たこ",
+   "back": "たこ · octopus",
+   "gloss": "tako · octopus · 章鱼 (蛸)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "set23",
+    "mon26",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0043",
+   "front": "あかい",
+   "back": "あかい · red",
+   "gloss": "akai · red · 红色的 (赤い)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "recap26",
+    "weakspot"
+   ]
+  },
+  {
+   "id": "ja-0044",
+   "front": "いく",
+   "back": "いく · go",
+   "gloss": "iku · go · 去 (行く)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "recap26",
+    "weakspot"
+   ]
+  },
+  {
+   "id": "ja-0045",
+   "front": "きく",
+   "back": "きく · listen / ask",
+   "gloss": "kiku · listen / ask · 听/问 (聞く). Sat miss: it is ki-ku, both short.",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "recap26",
+    "weakspot",
+    "warm27",
+    "recap29j"
+   ]
+  },
+  {
+   "id": "ja-0046",
+   "front": "な",
+   "back": "な · na",
+   "gloss": "na · な (奈). Looks like a cross + knot: 'a knot on a stick'.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0047",
+   "front": "に",
+   "back": "に · ni",
+   "gloss": "ni · に (仁). Looks like a 'knee' next to two lines; も has a hook, に doesn't.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0048",
+   "front": "ぬ",
+   "back": "ぬ · nu",
+   "gloss": "nu · ぬ (奴). Like め me but with a loop tail; noodles 'nu-dles'.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0049",
+   "front": "ね",
+   "back": "ね · ne",
+   "gloss": "ne · ね (祢). Loop tail like ぬ, but left side is a straight line; a cat's (ねこ) tail.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0050",
+   "front": "の",
+   "back": "の · no",
+   "gloss": "no · の (乃). One swirl, like a 'no entry' sign.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0051",
+   "front": "は",
+   "back": "は · ha",
+   "gloss": "ha · は (波). As particle は it reads 'wa' (わたしは = watashi wa).",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0052",
+   "front": "ひ",
+   "back": "ひ · hi",
+   "gloss": "hi · ひ (比). A big grin: 'hee hee'.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0053",
+   "front": "ふ",
+   "back": "ふ · fu",
+   "gloss": "fu · ふ (不). Soft 'fu', between f and h, not 'hu'. Mt Fuji ふじ.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0054",
+   "front": "へ",
+   "back": "へ · he",
+   "gloss": "he · へ (部). A small hill; same as katakana ヘ. As particle へ reads 'e'. Remember へや heya = room.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0055",
+   "front": "ほ",
+   "back": "ほ · ho",
+   "gloss": "ho · ほ (保). は with an extra top bar.",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0056",
+   "front": "ねこ",
+   "back": "ねこ · cat",
+   "gloss": "neko · 猫 · cat",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "thu29j"
+   ]
+  },
+  {
+   "id": "ja-0057",
+   "front": "はな",
+   "back": "はな · flower / nose",
+   "gloss": "hana · 花 / 鼻 · flower or nose (same kana, context decides)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "thu29j"
+   ]
+  }
+ ]
 }

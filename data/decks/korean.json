@@ -1,539 +1,735 @@
 {
-  "schema": "studyhub.deck.v1",
-  "track": "korean",
-  "cards": [
-    {
-      "id": "ko-0001",
-      "front": "안녕하세요",
-      "back": "안녕하세요 · hello",
-      "gloss": "annyeonghaseyo · a polite greeting",
-      "lang": "ko-KR",
-      "tags": [
-        "greetings"
-      ]
-    },
-    {
-      "id": "ko-0002",
-      "front": "감사합니다",
-      "back": "감사합니다 · thank you",
-      "gloss": "gamsahamnida · polite thanks",
-      "lang": "ko-KR",
-      "tags": [
-        "greetings"
-      ]
-    },
-    {
-      "id": "ko-0003",
-      "front": "ㅏ",
-      "back": "a (father)",
-      "gloss": "ㅏ a · like \"father\". Vertical line + short arm right.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0004",
-      "front": "ㅗ",
-      "back": "o",
-      "gloss": "ㅗ o · like \"ore\". Short stick up from the bar.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0005",
-      "front": "ㅑ",
-      "back": "ya",
-      "gloss": "ㅑ ya · ㅏ + extra arm = y-sound.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0006",
-      "front": "ㅓ",
-      "back": "eo (uh)",
-      "gloss": "ㅓ eo · like \"uh\" in \"cup\". Arm on the LEFT of the vertical.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0007",
-      "front": "ㅕ",
-      "back": "yeo",
-      "gloss": "ㅕ yeo · ㅓ + extra arm = y-sound.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0008",
-      "front": "ㅛ",
-      "back": "yo",
-      "gloss": "ㅛ yo · ㅗ + extra stick = y-sound.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0009",
-      "front": "ㅜ",
-      "back": "u",
-      "gloss": "ㅜ u · like \"boot\". Stick hangs DOWN from the bar.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0010",
-      "front": "ㅠ",
-      "back": "yu",
-      "gloss": "ㅠ yu · ㅜ + extra stick = y-sound.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0011",
-      "front": "ㅡ",
-      "back": "eu (flat lips)",
-      "gloss": "ㅡ eu · flat lips, no round \"oo\". Just a horizontal bar.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0012",
-      "front": "ㅣ",
-      "back": "i",
-      "gloss": "ㅣ i · like \"see\". One vertical stroke.",
-      "lang": "ko-KR",
-      "tags": [
-        "hangul",
-        "vowels"
-      ]
-    },
-    {
-      "id": "ko-0013",
-      "front": "아",
-      "back": "아 · a",
-      "gloss": "ㅇ is silent here · ㅏ = a",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0014",
-      "front": "야",
-      "back": "야 · ya",
-      "gloss": "silent ㅇ + ㅑ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0015",
-      "front": "어",
-      "back": "어 · eo",
-      "gloss": "silent ㅇ + ㅓ (uh)",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0016",
-      "front": "여",
-      "back": "여 · yeo",
-      "gloss": "silent ㅇ + ㅕ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0017",
-      "front": "오",
-      "back": "오 · o",
-      "gloss": "silent ㅇ + ㅗ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0018",
-      "front": "요",
-      "back": "요 · yo",
-      "gloss": "silent ㅇ + ㅛ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0019",
-      "front": "우",
-      "back": "우 · u",
-      "gloss": "silent ㅇ + ㅜ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0020",
-      "front": "유",
-      "back": "유 · yu",
-      "gloss": "silent ㅇ + ㅠ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0021",
-      "front": "으",
-      "back": "으 · eu",
-      "gloss": "silent ㅇ + ㅡ (flat)",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0022",
-      "front": "이",
-      "back": "이 · i",
-      "gloss": "silent ㅇ + ㅣ",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "syllables",
-        "hangul"
-      ]
-    },
-    {
-      "id": "ko-0023",
-      "front": "ㅏ vs ㅓ",
-      "back": "ㅏ = a (father) · ㅓ = eo (uh)",
-      "gloss": "Arm RIGHT = a; arm LEFT = eo",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "contrast",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0024",
-      "front": "ㅗ vs ㅜ",
-      "back": "ㅗ = o (stick up) · ㅜ = u (stick down)",
-      "gloss": "Up = o; down = u",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "contrast",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0025",
-      "front": "ㅡ vs ㅜ",
-      "back": "ㅡ = eu (flat bar) · ㅜ = u (stick down)",
-      "gloss": "No stick = eu; stick down = u",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "contrast",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0026",
-      "front": "ㅇ placeholder",
-      "back": "ㅇ is silent before a vowel: 아 이 우…",
-      "gloss": "Placeholder so a vowel can stand alone",
-      "lang": "ko-KR",
-      "tags": [
-        "night1",
-        "contrast",
-        "hangul",
-        "recap27k"
-      ]
-    },
-    {
-      "id": "ko-0027",
-      "front": "아이",
-      "back": "아이 · child",
-      "gloss": "ai · child · 孩子",
-      "lang": "ko-KR",
-      "tags": [
-        "recap27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0028",
-      "front": "오이",
-      "back": "오이 · cucumber",
-      "gloss": "oi · cucumber · 黄瓜",
-      "lang": "ko-KR",
-      "tags": [
-        "recap27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0029",
-      "front": "우유",
-      "back": "우유 · milk",
-      "gloss": "uyu · milk · 牛奶 (Sat card)",
-      "lang": "ko-KR",
-      "tags": [
-        "recap27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0030",
-      "front": "이유",
-      "back": "이유 · reason",
-      "gloss": "iyu · reason · 理由",
-      "lang": "ko-KR",
-      "tags": [
-        "recap27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0031",
-      "front": "ㄱ",
-      "back": "g / k",
-      "gloss": "giyeok · like a gun-shaped 7; g between vowels, k at start-ish",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0032",
-      "front": "ㄴ",
-      "back": "n",
-      "gloss": "nieun · tongue touches behind teeth, shape = tongue",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0033",
-      "front": "ㄷ",
-      "back": "d / t",
-      "gloss": "digeut · ㄴ with a lid",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0034",
-      "front": "ㄹ",
-      "back": "r / l",
-      "gloss": "rieul · zigzag; r between vowels, l at the end",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0035",
-      "front": "ㅁ",
-      "back": "m",
-      "gloss": "mieum · a closed mouth (box)",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0036",
-      "front": "ㅂ",
-      "back": "b / p",
-      "gloss": "bieup · a bucket",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0037",
-      "front": "ㅅ",
-      "back": "s",
-      "gloss": "siot · a little hat; 시 sounds shi",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0038",
-      "front": "ㅈ",
-      "back": "j",
-      "gloss": "jieut · ㅅ with a bar on top",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0039",
-      "front": "ㅎ",
-      "back": "h",
-      "gloss": "hieut · a man with a hat",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "hangul",
-        "consonants"
-      ]
-    },
-    {
-      "id": "ko-0040",
-      "front": "나무",
-      "back": "나무 · tree",
-      "gloss": "namu · tree · 树",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0041",
-      "front": "바다",
-      "back": "바다 · sea",
-      "gloss": "bada · sea · 海",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0042",
-      "front": "모자",
-      "back": "모자 · hat",
-      "gloss": "moja · hat · 帽子 (sounds like Chinese!)",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0043",
-      "front": "어머니",
-      "back": "어머니 · mother",
-      "gloss": "eomeoni · mother · 母亲",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0044",
-      "front": "아버지",
-      "back": "아버지 · father",
-      "gloss": "abeoji · father · 父亲",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0045",
-      "front": "우리",
-      "back": "우리 · we / our",
-      "gloss": "uri · we, our · 我们",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    },
-    {
-      "id": "ko-0046",
-      "front": "하나",
-      "back": "하나 · one",
-      "gloss": "hana · one (native number) · 一",
-      "lang": "ko-KR",
-      "tags": [
-        "tue27k",
-        "words"
-      ]
-    }
-  ]
+ "schema": "studyhub.deck.v1",
+ "track": "korean",
+ "cards": [
+  {
+   "id": "ko-0001",
+   "front": "안녕하세요",
+   "back": "안녕하세요 · hello",
+   "gloss": "annyeonghaseyo · a polite greeting",
+   "lang": "ko-KR",
+   "tags": [
+    "greetings"
+   ]
+  },
+  {
+   "id": "ko-0002",
+   "front": "감사합니다",
+   "back": "감사합니다 · thank you",
+   "gloss": "gamsahamnida · polite thanks",
+   "lang": "ko-KR",
+   "tags": [
+    "greetings"
+   ]
+  },
+  {
+   "id": "ko-0003",
+   "front": "ㅏ",
+   "back": "a (father)",
+   "gloss": "ㅏ a · like \"father\". Vertical line + short arm right.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0004",
+   "front": "ㅗ",
+   "back": "o",
+   "gloss": "ㅗ o · like \"ore\". Short stick up from the bar.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0005",
+   "front": "ㅑ",
+   "back": "ya",
+   "gloss": "ㅑ ya · ㅏ + extra arm = y-sound.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0006",
+   "front": "ㅓ",
+   "back": "eo (uh)",
+   "gloss": "ㅓ eo · like \"uh\" in \"cup\". Arm on the LEFT of the vertical.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0007",
+   "front": "ㅕ",
+   "back": "yeo",
+   "gloss": "ㅕ yeo · ㅓ + extra arm = y-sound.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0008",
+   "front": "ㅛ",
+   "back": "yo",
+   "gloss": "ㅛ yo · ㅗ + extra stick = y-sound.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0009",
+   "front": "ㅜ",
+   "back": "u",
+   "gloss": "ㅜ u · like \"boot\". Stick hangs DOWN from the bar.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0010",
+   "front": "ㅠ",
+   "back": "yu",
+   "gloss": "ㅠ yu · ㅜ + extra stick = y-sound.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0011",
+   "front": "ㅡ",
+   "back": "eu (flat lips)",
+   "gloss": "ㅡ eu · flat lips, no round \"oo\". Just a horizontal bar.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0012",
+   "front": "ㅣ",
+   "back": "i",
+   "gloss": "ㅣ i · like \"see\". One vertical stroke.",
+   "lang": "ko-KR",
+   "tags": [
+    "hangul",
+    "vowels"
+   ]
+  },
+  {
+   "id": "ko-0013",
+   "front": "아",
+   "back": "아 · a",
+   "gloss": "ㅇ is silent here · ㅏ = a",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0014",
+   "front": "야",
+   "back": "야 · ya",
+   "gloss": "silent ㅇ + ㅑ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0015",
+   "front": "어",
+   "back": "어 · eo",
+   "gloss": "silent ㅇ + ㅓ (uh)",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0016",
+   "front": "여",
+   "back": "여 · yeo",
+   "gloss": "silent ㅇ + ㅕ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0017",
+   "front": "오",
+   "back": "오 · o",
+   "gloss": "silent ㅇ + ㅗ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0018",
+   "front": "요",
+   "back": "요 · yo",
+   "gloss": "silent ㅇ + ㅛ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0019",
+   "front": "우",
+   "back": "우 · u",
+   "gloss": "silent ㅇ + ㅜ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0020",
+   "front": "유",
+   "back": "유 · yu",
+   "gloss": "silent ㅇ + ㅠ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0021",
+   "front": "으",
+   "back": "으 · eu",
+   "gloss": "silent ㅇ + ㅡ (flat)",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0022",
+   "front": "이",
+   "back": "이 · i",
+   "gloss": "silent ㅇ + ㅣ",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "syllables",
+    "hangul"
+   ]
+  },
+  {
+   "id": "ko-0023",
+   "front": "ㅏ vs ㅓ",
+   "back": "ㅏ = a (father) · ㅓ = eo (uh)",
+   "gloss": "Arm RIGHT = a; arm LEFT = eo",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "contrast",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0024",
+   "front": "ㅗ vs ㅜ",
+   "back": "ㅗ = o (stick up) · ㅜ = u (stick down)",
+   "gloss": "Up = o; down = u",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "contrast",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0025",
+   "front": "ㅡ vs ㅜ",
+   "back": "ㅡ = eu (flat bar) · ㅜ = u (stick down)",
+   "gloss": "No stick = eu; stick down = u",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "contrast",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0026",
+   "front": "ㅇ placeholder",
+   "back": "ㅇ is silent before a vowel: 아 이 우…",
+   "gloss": "Placeholder so a vowel can stand alone",
+   "lang": "ko-KR",
+   "tags": [
+    "night1",
+    "contrast",
+    "hangul",
+    "recap27k"
+   ]
+  },
+  {
+   "id": "ko-0027",
+   "front": "아이",
+   "back": "아이 · child",
+   "gloss": "ai · child · 孩子",
+   "lang": "ko-KR",
+   "tags": [
+    "recap27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0028",
+   "front": "오이",
+   "back": "오이 · cucumber",
+   "gloss": "oi · cucumber · 黄瓜",
+   "lang": "ko-KR",
+   "tags": [
+    "recap27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0029",
+   "front": "우유",
+   "back": "우유 · milk",
+   "gloss": "uyu · milk · 牛奶 (Sat card)",
+   "lang": "ko-KR",
+   "tags": [
+    "recap27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0030",
+   "front": "이유",
+   "back": "이유 · reason",
+   "gloss": "iyu · reason · 理由",
+   "lang": "ko-KR",
+   "tags": [
+    "recap27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0031",
+   "front": "ㄱ",
+   "back": "g / k",
+   "gloss": "giyeok · like a gun-shaped 7; g between vowels, k at start-ish",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0032",
+   "front": "ㄴ",
+   "back": "n",
+   "gloss": "nieun · tongue touches behind teeth, shape = tongue",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0033",
+   "front": "ㄷ",
+   "back": "d / t",
+   "gloss": "digeut · ㄴ with a lid",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0034",
+   "front": "ㄹ",
+   "back": "r / l",
+   "gloss": "rieul · zigzag; r between vowels, l at the end",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0035",
+   "front": "ㅁ",
+   "back": "m",
+   "gloss": "mieum · a closed mouth (box)",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0036",
+   "front": "ㅂ",
+   "back": "b / p",
+   "gloss": "bieup · a bucket",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0037",
+   "front": "ㅅ",
+   "back": "s",
+   "gloss": "siot · a little hat; 시 sounds shi",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0038",
+   "front": "ㅈ",
+   "back": "j",
+   "gloss": "jieut · ㅅ with a bar on top",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0039",
+   "front": "ㅎ",
+   "back": "h",
+   "gloss": "hieut · a man with a hat",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "hangul",
+    "consonants",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0040",
+   "front": "나무",
+   "back": "나무 · tree",
+   "gloss": "namu · tree · 树",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0041",
+   "front": "바다",
+   "back": "바다 · sea",
+   "gloss": "bada · sea · 海",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0042",
+   "front": "모자",
+   "back": "모자 · hat",
+   "gloss": "moja · hat · 帽子 (sounds like Chinese!)",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0043",
+   "front": "어머니",
+   "back": "어머니 · mother",
+   "gloss": "eomeoni · mother · 母亲",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0044",
+   "front": "아버지",
+   "back": "아버지 · father",
+   "gloss": "abeoji · father · 父亲",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0045",
+   "front": "우리",
+   "back": "우리 · we / our",
+   "gloss": "uri · we, our · 我们",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0046",
+   "front": "하나",
+   "back": "하나 · one",
+   "gloss": "hana · one (native number) · 一",
+   "lang": "ko-KR",
+   "tags": [
+    "tue27k",
+    "words",
+    "recap30k"
+   ]
+  },
+  {
+   "id": "ko-0047",
+   "front": "ㅊ",
+   "back": "ㅊ · ch (aspirated)",
+   "gloss": "ch + puff of air · ㅈ with a hat · 送气 ch",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0048",
+   "front": "ㅋ",
+   "back": "ㅋ · k (aspirated)",
+   "gloss": "k + puff · ㄱ with an extra bar · 送气 k",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0049",
+   "front": "ㅌ",
+   "back": "ㅌ · t (aspirated)",
+   "gloss": "t + puff · ㄷ with an extra bar · 送气 t",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0050",
+   "front": "ㅍ",
+   "back": "ㅍ · p (aspirated)",
+   "gloss": "p + puff · looks like 立/π · 送气 p",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0051",
+   "front": "ㄲ",
+   "back": "ㄲ · kk (tense)",
+   "gloss": "double ㄱ: tight throat, no air · 紧音 kk",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0052",
+   "front": "ㄸ",
+   "back": "ㄸ · tt (tense)",
+   "gloss": "double ㄷ: tight, no air · 紧音 tt",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0053",
+   "front": "ㅃ",
+   "back": "ㅃ · pp (tense)",
+   "gloss": "double ㅂ: tight, no air · 紧音 pp",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0054",
+   "front": "ㅆ",
+   "back": "ㅆ · ss (tense)",
+   "gloss": "double ㅅ: sharp, hissy s · 紧音 ss",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0055",
+   "front": "ㅉ",
+   "back": "ㅉ · jj (tense)",
+   "gloss": "double ㅈ: tight j · 紧音 jj",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "letters"
+   ]
+  },
+  {
+   "id": "ko-0056",
+   "front": "커피",
+   "back": "커피 · coffee",
+   "gloss": "keopi · coffee · 咖啡",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0057",
+   "front": "차",
+   "back": "차 · tea / car",
+   "gloss": "cha · tea; also car · 茶 / 车",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0058",
+   "front": "포도",
+   "back": "포도 · grapes",
+   "gloss": "podo · grapes · 葡萄",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0059",
+   "front": "토마토",
+   "back": "토마토 · tomato",
+   "gloss": "tomato · 西红柿",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0060",
+   "front": "아빠",
+   "back": "아빠 · dad",
+   "gloss": "appa · dad (casual 아버지) · 爸爸",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0061",
+   "front": "싸다",
+   "back": "싸다 · (is) cheap",
+   "gloss": "ssada · cheap · 便宜",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0062",
+   "front": "짜다",
+   "back": "짜다 · (is) salty",
+   "gloss": "jjada · salty · 咸",
+   "lang": "ko-KR",
+   "tags": [
+    "fri30k",
+    "words"
+   ]
+  }
+ ]
 }
