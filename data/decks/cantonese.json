@@ -63,7 +63,8 @@
    "tags": [
     "tones",
     "recap27",
-    "recap28y"
+    "recap28y",
+    "recap30y"
    ]
   },
   {
@@ -298,7 +299,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -310,7 +312,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -322,7 +325,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -334,7 +338,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -346,7 +351,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -358,7 +364,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap29y"
+    "recap29y",
+    "recap30y"
    ]
   },
   {
@@ -369,7 +376,52 @@
    "lang": "yue-HK",
    "tags": [
     "wed28y",
-    "interview"
+    "interview",
+    "recap30y"
+   ]
+  },
+  {
+   "id": "yue-0034",
+   "front": "唔該，一杯凍檸茶。",
+   "back": "m4 goi1, jat1 bui1 dung3 ning4 caa4 · One iced lemon tea, please.",
+   "gloss": "唔該 = please (asking for service)",
+   "lang": "yue-HK",
+   "tags": [
+    "fri30y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0035",
+   "front": "走冰，少甜。",
+   "back": "zau2 bing1, siu2 tim4 · No ice, less sweet.",
+   "gloss": "走 = leave out",
+   "lang": "yue-HK",
+   "tags": [
+    "fri30y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0036",
+   "front": "幾多錢呀？",
+   "back": "gei2 do1 cin2 aa3 · How much is it?",
+   "gloss": "錢 cin2 (changed tone)",
+   "lang": "yue-HK",
+   "tags": [
+    "fri30y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0037",
+   "front": "可唔可以畀八達通？",
+   "back": "ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1 · Can I pay by Octopus?",
+   "gloss": "畀 bei2 = give/pay",
+   "lang": "yue-HK",
+   "tags": [
+    "fri30y",
+    "cafe"
    ]
   }
  ]

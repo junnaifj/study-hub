@@ -531,7 +531,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -554,7 +555,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -566,7 +568,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -578,7 +581,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -623,7 +627,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -635,7 +640,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -647,7 +653,8 @@
    "tags": [
     "tue27",
     "recap28",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -670,7 +677,8 @@
    "tags": [
     "wed28",
     "STAR",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -682,7 +690,8 @@
    "tags": [
     "wed28",
     "STAR",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -694,7 +703,8 @@
    "tags": [
     "wed28",
     "STAR",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -706,7 +716,8 @@
    "tags": [
     "wed28",
     "STAR",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -740,7 +751,8 @@
    "tags": [
     "wed28",
     "STAR",
-    "recap29"
+    "recap29",
+    "recap30"
    ]
   },
   {
@@ -784,7 +796,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "recap30"
    ]
   },
   {
@@ -795,7 +808,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "recap30"
    ]
   },
   {
@@ -817,7 +831,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "recap30"
    ]
   },
   {
@@ -829,6 +844,116 @@
    "tags": [
     "thu29",
     "STAR"
+   ]
+  },
+  {
+   "id": "en-0074",
+   "front": "STAR #3 Situation opener",
+   "back": "On an AI data-centre policy research programme, I was the sole analyst, and the scope was ambiguous.",
+   "gloss": "STAR #3 情境：唯一分析员 + 范围模糊 · sole = SOHL",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0075",
+   "front": "STAR #3 Task",
+   "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
+   "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0076",
+   "front": "STAR #3 Action 1: definition",
+   "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
+   "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0077",
+   "front": "STAR #3 Action 2: data gaps",
+   "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
+   "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0078",
+   "front": "STAR #3 Action 3+4: workflow + log",
+   "back": "Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.",
+   "gloss": "迭代流程 + 会议记录 · iterative = IT-er-uh-tiv",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0079",
+   "front": "STAR #3 Result",
+   "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
+   "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0080",
+   "front": "Follow-up: changing direction",
+   "back": "I stayed neutral and kept written notes of the agreed direction, deliverables and deadlines, so changes were visible to everyone.",
+   "gloss": "追问：方向变动 → 中立 + 书面记录（不甩锅）",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "followup"
+   ]
+  },
+  {
+   "id": "en-0081",
+   "front": "Follow-up: missing data",
+   "back": "I treated the gaps as a finding: the list of missing indicators became one of the outputs.",
+   "gloss": "追问：缺数据 → 缺口本身成为成果",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "followup"
+   ]
+  },
+  {
+   "id": "en-0082",
+   "front": "Hedging under ambiguity",
+   "back": "Based on the data available, my working assumption was… and I flagged it clearly.",
+   "gloss": "模糊情境下的稳妥说法 · flagged = 明确标注",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "phrase"
+   ]
+  },
+  {
+   "id": "en-0083",
+   "front": "'took the initiative to' ×STAR #3",
+   "back": "I took the initiative to propose a working definition before the analysis started.",
+   "gloss": "took the initiative + to + 动词（第3次巩固）",
+   "lang": "en-GB",
+   "tags": [
+    "fri30",
+    "phrase"
    ]
   }
  ]
