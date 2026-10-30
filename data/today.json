@@ -1,163 +1,179 @@
 {
-  "schema": "studyhub.today.v1",
-  "date": "2026-10-29",
-  "slot": "evening",
-  "tracks": [
-    "japanese"
-  ],
-  "minutes": 20,
-  "new_cards_limit": 12,
-  "note": "Japanese night. Recap さ行+た行 and the two stubborn ones (け, きく) first, then new な行 + は行. Twelve new, no more: Monday had 7 Hard. 写三遍，念出声。",
-  "tasks": [
+ "schema": "studyhub.today.v1",
+ "date": "2026-10-30",
+ "slot": "morning",
+ "tracks": [
+  "english",
+  "cantonese"
+ ],
+ "minutes": 20,
+ "new_cards_limit": 14,
+ "note": "Friday: Hard first, then STAR #3 (AI data centre) + café Cantonese. Point first, reason second, example third. The owl is timing you. 先复习，再开口。",
+ "tasks": [
+  {
+   "id": "t1",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap30"
+   ]
+  },
+  {
+   "id": "t2",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "fri30"
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "speaking",
+   "prompt": "Say ×3: 'I took the initiative TO propose…', 'I took the initiative TO flag…', 'I took the initiative TO map…'. Then STAR #3 timed take (2 min, star_stories/star03): S sole analyst → T defensible evidence base → A definition, data gaps, iterative workflow, meeting log → R baseline analysis + missing-data list. Then answer ONE follow-up aloud (30–45 s): 'How did you handle the direction changing?' Point first, then reason, then example.",
+   "seconds": 300
+  },
+  {
+   "id": "t4",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap30y"
+   ]
+  },
+  {
+   "id": "t5",
+   "type": "reading",
+   "title": "Tone drill ×3, then shadow wed28_why_lines.mp3 ×2 (mp3 in chat: fri30_tone_cafe.mp3)",
+   "lang": "yue-HK",
+   "lines": [
     {
-      "id": "t1",
-      "type": "cards",
-      "deck": "japanese",
-      "tags": [
-        "recap29j"
-      ]
+     "text": "做事",
+     "gloss": "zou6 si6",
+     "translation": "do things (事 si6, low level)"
     },
     {
-      "id": "t2",
-      "type": "link",
-      "title": "NHK hiragana chart · tap な–の and は–ほ, repeat each",
-      "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-      "minutes": 3
+     "text": "面試",
+     "gloss": "min6 si3",
+     "translation": "interview (試 si3, mid level)"
     },
     {
-      "id": "t3",
-      "type": "link",
-      "title": "Tofugu mnemonics · N-column + H-column only",
-      "url": "https://www.tofugu.com/japanese/learn-hiragana/",
-      "minutes": 4
+     "text": "團隊合作",
+     "gloss": "tyun4 deoi6 hap6 zok3",
+     "translation": "teamwork"
     },
     {
-      "id": "t4",
-      "type": "cards",
-      "deck": "japanese",
-      "tags": [
-        "thu29j"
-      ]
+     "text": "唔該，一杯凍檸茶。",
+     "gloss": "m4 goi1, jat1 bui1 dung3 ning4 caa4",
+     "translation": "One iced lemon tea, please."
     },
     {
-      "id": "t5",
-      "type": "reading",
-      "title": "Read without romaji first (only kana you know)",
-      "lang": "ja-JP",
-      "lines": [
-        {
-          "text": "ねこ の いえ",
-          "gloss": "neko no ie",
-          "translation": "the cat's house · 猫的家"
-        },
-        {
-          "text": "あかい はな",
-          "gloss": "akai hana",
-          "translation": "a red flower · 红花"
-        },
-        {
-          "text": "ふね に のる",
-          "gloss": "fune ni noru",
-          "translation": "ride a boat · 坐船"
-        },
-        {
-          "text": "ひとつ ください",
-          "gloss": "hitotsu kudasai",
-          "translation": "one, please · 请给我一个"
-        },
-        {
-          "text": "へや は ちかい",
-          "gloss": "heya wa chikai",
-          "translation": "the room is close · 房间很近 (は reads wa!)"
-        }
-      ]
+     "text": "走冰，少甜。",
+     "gloss": "zau2 bing1, siu2 tim4",
+     "translation": "No ice, less sweet."
     },
     {
-      "id": "t6",
-      "type": "speaking",
-      "prompt": "Write なにぬねの はひふへほ ×3 each, saying each aloud (~5 min). Then read the 5 lines twice, slowly then normal speed. Watch ぬ vs ね (both loop; ね has a straight left stroke), は vs ほ (extra top bar), ふ = fu not hu, and particle は = wa.",
-      "seconds": 360
+     "text": "幾多錢呀？",
+     "gloss": "gei2 do1 cin2 aa3",
+     "translation": "How much is it?"
     },
     {
-      "id": "t7",
-      "type": "quiz",
-      "questions": [
-        {
-          "id": "q1",
-          "type": "typed",
-          "q": "Romaji for ふ?",
-          "answer": [
-            "fu"
-          ],
-          "explain": "ふ is fu, not hu."
-        },
-        {
-          "id": "q2",
-          "type": "mc",
-          "q": "Which one is ne?",
-          "options": [
-            "ぬ",
-            "ね",
-            "め"
-          ],
-          "answer": 1,
-          "explain": "ね ne has a straight left stroke; ぬ nu and め me don't."
-        },
-        {
-          "id": "q3",
-          "type": "mc",
-          "q": "Which one is ho?",
-          "options": [
-            "は",
-            "ほ",
-            "け"
-          ],
-          "answer": 1,
-          "explain": "ほ ho = は with an extra bar on top."
-        },
-        {
-          "id": "q4",
-          "type": "typed",
-          "q": "Write cat (neko) in hiragana.",
-          "answer": [
-            "ねこ"
-          ],
-          "explain": "ねこ = ね ne + こ ko."
-        },
-        {
-          "id": "q5",
-          "type": "mc",
-          "q": "In へや は ちかい, the は is read…",
-          "options": [
-            "ha",
-            "wa",
-            "ho"
-          ],
-          "answer": 1,
-          "explain": "As a topic particle は reads wa."
-        },
-        {
-          "id": "q6",
-          "type": "typed",
-          "q": "Romaji for ち? (recap)",
-          "answer": [
-            "chi"
-          ],
-          "explain": "ち is chi, not ti."
-        },
-        {
-          "id": "q7",
-          "type": "mc",
-          "q": "きく means…",
-          "options": [
-            "listen / ask",
-            "station",
-            "tree"
-          ],
-          "answer": 0,
-          "explain": "きく kiku = listen/ask (聞く); station = えき, tree = き."
-        }
-      ]
+     "text": "可唔可以畀八達通？",
+     "gloss": "ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1",
+     "translation": "Can I pay by Octopus?"
     }
-  ]
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "fri30y"
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "typed",
+     "q": "Complete: I took the initiative ___ propose a working definition.",
+     "answer": [
+      "to"
+     ],
+     "explain": "took the initiative to + verb (3rd time, make it stick!)"
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "STAR #3: which line is the Task?",
+     "options": [
+      "First, I pushed for a working definition…",
+      "My task was to build a defensible evidence base…",
+      "As a result, I delivered a baseline analysis…"
+     ],
+     "answer": 1,
+     "explain": "T = your job. 'First…' is A, 'As a result…' is R."
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "q": "Stress in 'defensible':",
+     "options": [
+      "DE-fen-si-bul",
+      "di-FEN-si-bul",
+      "de-fen-SI-bul"
+     ],
+     "answer": 1,
+     "explain": "di-FEN-si-bul."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "Best answer to 'Your manager kept changing direction?'",
+     "options": [
+      "The lead kept changing their mind, which was frustrating.",
+      "I stayed neutral and kept written notes of what we agreed.",
+      "I just waited for a final decision."
+     ],
+     "answer": 1,
+     "explain": "Neutral, no blame, shows a system."
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "事 (as in 做事) is…",
+     "options": [
+      "si3",
+      "si6",
+      "si1"
+     ],
+     "answer": 1,
+     "explain": "事 si6 low; 試 si3 mid."
+    },
+    {
+     "id": "q6",
+     "type": "typed",
+     "q": "Jyutping for 合作 (tone numbers, space between).",
+     "answer": [
+      "hap6 zok3"
+     ],
+     "explain": "合 hap6, 作 zok3."
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "走冰 means…",
+     "options": [
+      "extra ice",
+      "no ice",
+      "walk to the ice"
+     ],
+     "answer": 1,
+     "explain": "走 = leave out → no ice."
+    }
+   ]
+  }
+ ]
 }
