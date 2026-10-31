@@ -297,7 +297,8 @@
    "gloss": "骤增. Verb and noun: a spike in demand.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -307,7 +308,8 @@
    "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -327,7 +329,8 @@
    "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -428,7 +431,8 @@
    "gloss": "关键发现是…. Use once per STAR.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -448,7 +452,8 @@
    "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -458,7 +463,8 @@
    "gloss": "权衡取舍. Interviewers love hearing you name one.",
    "lang": "en-GB",
    "tags": [
-    "mon26"
+    "mon26",
+    "sat31"
    ]
   },
   {
@@ -569,7 +575,8 @@
     "tue27",
     "recap28",
     "recap29",
-    "recap30"
+    "recap30",
+    "sat31"
    ]
   },
   {
@@ -785,7 +792,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "sat31r"
    ]
   },
   {
@@ -797,7 +805,8 @@
    "tags": [
     "thu29",
     "STAR",
-    "recap30"
+    "recap30",
+    "sat31"
    ]
   },
   {
@@ -809,7 +818,8 @@
    "tags": [
     "thu29",
     "STAR",
-    "recap30"
+    "recap30",
+    "sat31"
    ]
   },
   {
@@ -820,7 +830,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "sat31r"
    ]
   },
   {
@@ -832,7 +843,8 @@
    "tags": [
     "thu29",
     "STAR",
-    "recap30"
+    "recap30",
+    "sat31"
    ]
   },
   {
@@ -843,7 +855,8 @@
    "lang": "en-GB",
    "tags": [
     "thu29",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -854,7 +867,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -865,7 +879,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -876,7 +891,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -887,7 +903,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -898,7 +915,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -909,7 +927,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "STAR"
+    "STAR",
+    "sat31"
    ]
   },
   {
@@ -920,7 +939,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "followup"
+    "followup",
+    "sat31"
    ]
   },
   {
@@ -931,7 +951,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "followup"
+    "followup",
+    "sat31"
    ]
   },
   {
@@ -942,7 +963,8 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
-    "phrase"
+    "phrase",
+    "sat31"
    ]
   },
   {
@@ -953,7 +975,41 @@
    "lang": "en-GB",
    "tags": [
     "fri30",
+    "phrase",
+    "sat31"
+   ]
+  },
+  {
+   "id": "en-0084",
+   "front": "Follow-up: \"Without peer review, how did you check quality?\"",
+   "back": "I cross-checked my figures against other regions' data, and I stated my assumptions and data gaps openly.",
+   "gloss": "没有同行评审时如何保证质量 · point → reason → example",
+   "lang": "en-GB",
+   "tags": [
+    "sat31new",
     "phrase"
+   ]
+  },
+  {
+   "id": "en-0085",
+   "front": "defensible (di-FEN-si-bul)",
+   "back": "able to be justified · \"I built a defensible evidence base.\"",
+   "gloss": "站得住脚的 · stress on FEN",
+   "lang": "en-GB",
+   "tags": [
+    "sat31new",
+    "word"
+   ]
+  },
+  {
+   "id": "en-0086",
+   "front": "governance (GUV-er-nunss)",
+   "back": "how something is managed and regulated · \"data-centre governance mechanisms\"",
+   "gloss": "治理 · stress on GUV",
+   "lang": "en-GB",
+   "tags": [
+    "sat31new",
+    "word"
    ]
   }
  ]

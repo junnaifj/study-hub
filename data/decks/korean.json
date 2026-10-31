@@ -480,7 +480,8 @@
    "tags": [
     "tue27k",
     "words",
-    "recap30k"
+    "recap30k",
+    "sat31"
    ]
   },
   {
@@ -492,7 +493,8 @@
    "tags": [
     "tue27k",
     "words",
-    "recap30k"
+    "recap30k",
+    "sat31"
    ]
   },
   {
@@ -728,6 +730,28 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0063",
+   "front": "코",
+   "back": "코 · nose",
+   "gloss": "ko · 鼻子 · ㅋ = puff of air",
+   "lang": "ko-KR",
+   "tags": [
+    "sat31new",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0064",
+   "front": "아파트",
+   "back": "아파트 · apartment",
+   "gloss": "apateu · 公寓 · ㅍ puff, ㅌ puff",
+   "lang": "ko-KR",
+   "tags": [
+    "sat31new",
     "words"
    ]
   }

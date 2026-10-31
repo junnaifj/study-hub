@@ -129,7 +129,8 @@
     "set1",
     "recap26",
     "warm27",
-    "recap29j"
+    "recap29j",
+    "sat31"
    ]
   },
   {
@@ -231,7 +232,8 @@
     "set23",
     "mon26",
     "recap29j",
-    "warm30"
+    "warm30",
+    "sat31"
    ]
   },
   {
@@ -245,7 +247,8 @@
     "set23",
     "mon26",
     "recap29j",
-    "warm30"
+    "warm30",
+    "sat31"
    ]
   },
   {
@@ -560,7 +563,8 @@
    "tags": [
     "words",
     "recap26",
-    "weakspot"
+    "weakspot",
+    "sat31"
    ]
   },
   {
@@ -574,7 +578,8 @@
     "recap26",
     "weakspot",
     "warm27",
-    "recap29j"
+    "recap29j",
+    "sat31"
    ]
   },
   {
@@ -585,7 +590,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -607,7 +613,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -618,7 +625,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -640,7 +648,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -662,7 +671,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -695,7 +705,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "thu29j"
+    "thu29j",
+    "sat31r"
    ]
   },
   {
@@ -706,7 +717,30 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "thu29j"
+    "thu29j",
+    "sat31r"
+   ]
+  },
+  {
+   "id": "ja-0058",
+   "front": "なつ",
+   "back": "なつ · summer",
+   "gloss": "natsu · 夏",
+   "lang": "ja-JP",
+   "tags": [
+    "sat31new",
+    "words"
+   ]
+  },
+  {
+   "id": "ja-0059",
+   "front": "ふね",
+   "back": "ふね · boat / ship",
+   "gloss": "fune · 船 · ふ = fu (soft, not hu)",
+   "lang": "ja-JP",
+   "tags": [
+    "sat31new",
+    "words"
    ]
   }
  ]

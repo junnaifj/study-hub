@@ -64,7 +64,8 @@
     "tones",
     "recap27",
     "recap28y",
-    "recap30y"
+    "recap30y",
+    "sat31"
    ]
   },
   {
@@ -300,7 +301,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -313,7 +315,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -326,7 +329,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -339,7 +343,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -352,7 +357,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -365,7 +371,8 @@
     "wed28y",
     "interview",
     "recap29y",
-    "recap30y"
+    "recap30y",
+    "sat31r"
    ]
   },
   {
@@ -377,7 +384,8 @@
    "tags": [
     "wed28y",
     "interview",
-    "recap30y"
+    "recap30y",
+    "sat31"
    ]
   },
   {
@@ -388,7 +396,8 @@
    "lang": "yue-HK",
    "tags": [
     "fri30y",
-    "cafe"
+    "cafe",
+    "sat31"
    ]
   },
   {
@@ -399,7 +408,8 @@
    "lang": "yue-HK",
    "tags": [
     "fri30y",
-    "cafe"
+    "cafe",
+    "sat31"
    ]
   },
   {
@@ -422,6 +432,39 @@
    "tags": [
     "fri30y",
     "cafe"
+   ]
+  },
+  {
+   "id": "yue-0038",
+   "front": "有咩事呀？",
+   "back": "jau5 me1 si6 aa3 · What's up? / What's the matter?",
+   "gloss": "事 si6 = LOW level tone (≠ 試 si3 mid)",
+   "lang": "yue-HK",
+   "tags": [
+    "sat31new",
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0039",
+   "front": "考試",
+   "back": "haau2 si3 · exam",
+   "gloss": "試 si3 = MID level tone (面試 min6 si3 也是 si3)",
+   "lang": "yue-HK",
+   "tags": [
+    "sat31new",
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0040",
+   "front": "合作愉快！",
+   "back": "hap6 zok3 jyu4 faai3 · Happy to work together!",
+   "gloss": "合作 hap6 zok3：低-中 · end-of-interview line",
+   "lang": "yue-HK",
+   "tags": [
+    "sat31new",
+    "interview"
    ]
   }
  ]
