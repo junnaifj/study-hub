@@ -233,7 +233,8 @@
     "mon26",
     "recap29j",
     "warm30",
-    "sat31"
+    "sat31",
+    "warm02"
    ]
   },
   {
@@ -248,7 +249,8 @@
     "mon26",
     "recap29j",
     "warm30",
-    "sat31"
+    "sat31",
+    "warm02"
    ]
   },
   {
@@ -290,7 +292,8 @@
     "set23",
     "mon26",
     "recap29j",
-    "warm30"
+    "warm30",
+    "warm02"
    ]
   },
   {
@@ -383,7 +386,8 @@
     "set23",
     "mon26",
     "recap29j",
-    "warm30"
+    "warm30",
+    "warm02"
    ]
   },
   {
@@ -564,7 +568,8 @@
     "words",
     "recap26",
     "weakspot",
-    "sat31"
+    "sat31",
+    "warm02"
    ]
   },
   {
@@ -579,7 +584,8 @@
     "weakspot",
     "warm27",
     "recap29j",
-    "sat31"
+    "sat31",
+    "warm02"
    ]
   },
   {
@@ -591,7 +597,8 @@
    "tags": [
     "hiragana",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -602,7 +609,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "recap02j"
    ]
   },
   {
@@ -614,7 +622,8 @@
    "tags": [
     "hiragana",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -626,7 +635,8 @@
    "tags": [
     "hiragana",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -637,7 +647,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "recap02j"
    ]
   },
   {
@@ -649,7 +660,8 @@
    "tags": [
     "hiragana",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -660,7 +672,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "recap02j"
    ]
   },
   {
@@ -672,7 +685,8 @@
    "tags": [
     "hiragana",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -683,7 +697,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "recap02j"
    ]
   },
   {
@@ -694,7 +709,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "thu29j"
+    "thu29j",
+    "recap02j"
    ]
   },
   {
@@ -706,7 +722,8 @@
    "tags": [
     "words",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -718,7 +735,8 @@
    "tags": [
     "words",
     "thu29j",
-    "sat31r"
+    "sat31r",
+    "recap02j"
    ]
   },
   {
@@ -729,7 +747,8 @@
    "lang": "ja-JP",
    "tags": [
     "sat31new",
-    "words"
+    "words",
+    "recap02j"
    ]
   },
   {
@@ -740,7 +759,228 @@
    "lang": "ja-JP",
    "tags": [
     "sat31new",
-    "words"
+    "words",
+    "recap02j"
+   ]
+  },
+  {
+   "id": "ja-0060",
+   "front": "ま",
+   "back": "ま · ma",
+   "gloss": "ma · 末 · a cross with a loop at the bottom; like ほ without the left stroke",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0061",
+   "front": "み",
+   "back": "み · mi",
+   "gloss": "mi · 美 · a \"21\" shape with a loop",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0062",
+   "front": "む",
+   "back": "む · mu",
+   "gloss": "mu · 武 · a cow saying \"moo\" with a loop and a tail flick",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0063",
+   "front": "め",
+   "back": "め · me",
+   "gloss": "me · 女 · an eye (め also means eye); like ぬ but NO curl at the end",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0064",
+   "front": "も",
+   "back": "も · mo",
+   "gloss": "mo · 毛 · fishhook with two bars; like し with two lines",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0065",
+   "front": "ら",
+   "back": "ら · ra",
+   "gloss": "ra · 良 · ra = a soft flap, between r and l",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0066",
+   "front": "り",
+   "back": "り · ri",
+   "gloss": "ri · 利 · two strokes, like a reed; tip: り short left, long right",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0067",
+   "front": "る",
+   "back": "る · ru",
+   "gloss": "ru · 留 · like ろ but WITH a loop at the bottom (ru has a loop, ro doesn't)",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0068",
+   "front": "れ",
+   "back": "れ · re",
+   "gloss": "re · 礼 · like ね but the end kicks out, no loop",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0069",
+   "front": "ろ",
+   "back": "ろ · ro",
+   "gloss": "ro · 呂 · like る without the loop; open bottom",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0070",
+   "front": "まち",
+   "back": "まち · town",
+   "gloss": "machi · town · 城镇 (町)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0071",
+   "front": "みせ",
+   "back": "みせ · shop",
+   "gloss": "mise · shop · 店",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0072",
+   "front": "くるま",
+   "back": "くるま · car",
+   "gloss": "kuruma · car · 车 (車)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0073",
+   "front": "はる",
+   "back": "はる · spring",
+   "gloss": "haru · spring · 春",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0074",
+   "front": "そら",
+   "back": "そら · sky",
+   "gloss": "sora · sky · 天空 (空)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0075",
+   "front": "しろ",
+   "back": "しろ · white",
+   "gloss": "shiro · white · 白",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0076",
+   "front": "くろ",
+   "back": "くろ · black",
+   "gloss": "kuro · black · 黑",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0077",
+   "front": "あめ",
+   "back": "あめ · rain / candy",
+   "gloss": "ame · rain / candy · 雨 / 飴 (context decides)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0078",
+   "front": "さむい",
+   "back": "さむい · cold (weather)",
+   "gloss": "samui · cold (weather) · 冷 (寒い)",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0079",
+   "front": "むし",
+   "back": "むし · insect",
+   "gloss": "mushi · insect · 虫",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon02j"
    ]
   }
  ]
