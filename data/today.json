@@ -1,286 +1,65 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-10-31",
- "slot": "weekend_test",
+ "date": "2026-11-02",
+ "slot": "morning",
  "tracks": [
-  "english",
-  "cantonese",
-  "japanese",
-  "korean"
+  "english"
  ],
- "minutes": 30,
- "new_cards_limit": 10,
- "note": "Weekly test (每周测验). Real-world scenario: a Hong Kong panel interview — STAR #3 in English, then small talk and a café order in Cantonese — plus reading a Tokyo street sign and a Seoul café menu. Hard cards first, then 2–3-day recap, then 10 light new cards, then the 15-question test. 先难后新，念出声。",
+ "minutes": 20,
+ "new_cards_limit": 12,
+ "note": "Monday: 事 si6 first, then Saturday's Hard cards, then intro v2 + STAR #3 follow-ups. Point first, reason second, example third. The owl has your Saturday results. 先复习难卡，再开口。",
  "tasks": [
+  {
+   "id": "t0",
+   "type": "speaking",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Keep it low and flat, not rising like 試 si3.",
+   "seconds": 30,
+   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
+  },
   {
    "id": "t1",
    "type": "cards",
    "deck": "english",
    "tags": [
-    "sat31"
+    "hard02"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "sat31"
+    "recap02"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "sat31"
+    "mon02"
    ]
   },
   {
    "id": "t4",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat31"
-   ]
+   "type": "speaking",
+   "prompt": "60-second self-intro v2, ONE take, no notes: Present → Past → Future (现在 → 过去 → 未来). Include one number and one method. Then check against the script.",
+   "seconds": 75,
+   "script": "I'm an urban analytics graduate from HKU, and I turn spatial data into decisions. Most recently, I worked as a research assistant on an ageing-friendly city project. I built a street-view dataset with about 98% coverage, using Python and ArcGIS Pro, and my analysis helped the team narrow the distance buffer for the regression. Before that, I was the sole analyst on an AI data-centre policy project. Going forward, I'm looking to apply spatial analysis to real planning decisions. That's why this role really appeals to me."
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat31r"
-   ]
+   "type": "speaking",
+   "prompt": "STAR #3 Result line, point → reason → example (30 s). Then answer ONE follow-up aloud: 'How did you handle the direction changing?'",
+   "seconds": 120,
+   "script": "As a result, I delivered a baseline analysis of data-centre governance mechanisms from an international perspective, plus a clear list of the data Hong Kong is still missing. (Point.) That matters because it gives future policy work a starting point. (Reason.) For example, the gap list showed exactly which indicators Hong Kong still needs to collect. (Example.) || Follow-up: I kept a written log after every meeting, so everyone agreed on the direction, the deliverables and the deadlines. That stopped rework, because each change was written down. For example, when the scope shifted, I updated the workflow step by step instead of starting again."
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "sat31r"
-   ]
-  },
-  {
-   "id": "t7",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "sat31r"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "speaking",
-   "prompt": "STAR #3 timed take (2 min, aim 260–280 words): say S-T-A-R aloud, then answer one follow-up: 'How did you deal with missing data?' Record, listen back once, fix one phrase. Watch: defensible (di-FEN-si-bul), governance (GUV-er-nunss), took the initiative TO.",
-   "seconds": 180,
-   "script": "S: On an AI data-centre policy research programme, I was the sole analyst. The scope was ambiguous: there was no agreed definition of an 'AI data centre', the public data on energy, water, cooling, cost and land use was fragmented and inconsistent, and the project direction changed quite often.\nT: My task was to build a defensible evidence base and policy analysis for urban and governance questions, even though the requirements were unclear and I had no one to review my work.\nA: First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis was built on the same scope. Second, I mapped the data gaps. I counted which indicators Hong Kong was missing and compared them with other governments and regions. Third, because the direction kept shifting, I built an iterative research workflow, so I could update the analysis step by step without starting again. And after every meeting, I kept a written log of what we agreed: the direction, the deliverables and the deadlines.\nR: As a result, I delivered a baseline analysis of data-centre governance mechanisms from an international perspective, plus a clear list of the data Hong Kong is still missing, which gives future policy work a starting point.\nLooking back: I learned that in ambiguous projects, confirming the scope early and keeping a written record protects both quality and timelines. Next time, I'd also structure the questions as an issue tree from day one.\nFollow-up (missing data, ~30 s): I treated the gaps as a finding. I counted which indicators Hong Kong was missing, compared them with other regions, and the gap list became one of the deliverables."
-  },
-  {
-   "id": "t9",
-   "type": "speaking",
-   "prompt": "60-second self-intro, no notes. Order: Present → Past → Future (现在→过去→未来). One method + one number.",
-   "seconds": 75,
-   "script": "I'm an urban analytics graduate from HKU, and I turn spatial data into decisions. Most recently, I worked as a research assistant on an ageing-friendly city project at HKU. I built street view image datasets of public housing estates with the government's CSDI API, Python and ArcGIS Pro, reaching about 98% coverage, and used a YOLO model with a precision of about 0.8 to detect older pedestrians. Going forward, I'm looking to apply spatial analysis to real planning decisions, and that's why this role interests me."
-  },
-  {
-   "id": "t10",
-   "type": "reading",
-   "title": "粤语: 事 / 試 / 合作 + café exchange",
-   "lang": "yue-HK",
-   "lines": [
-    {
-     "text": "有咩事呀？",
-     "gloss": "jau5 me1 si6 aa3",
-     "translation": "What's up? · 事 si6 low"
-    },
-    {
-     "text": "我嚟面試。",
-     "gloss": "ngo5 lai4 min6 si3",
-     "translation": "I'm here for the interview · 試 si3 mid"
-    },
-    {
-     "text": "考試",
-     "gloss": "haau2 si3",
-     "translation": "exam · 試 si3"
-    },
-    {
-     "text": "合作愉快！",
-     "gloss": "hap6 zok3 jyu4 faai3",
-     "translation": "Happy to work together!"
-    },
-    {
-     "text": "唔該，一杯凍檸茶。",
-     "gloss": "m4 goi1, jat1 bui1 dung3 ning4 caa4",
-     "translation": "One iced lemon tea, please."
-    },
-    {
-     "text": "走冰，少甜。",
-     "gloss": "zau2 bing1, siu2 tim4",
-     "translation": "No ice, less sweet."
-    },
-    {
-     "text": "幾多錢呀？可唔可以畀八達通？",
-     "gloss": "gei2 do1 cin2 aa3? ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1?",
-     "translation": "How much? Can I pay by Octopus?"
-    }
-   ]
-  },
-  {
-   "id": "t11",
-   "type": "speaking",
-   "prompt": "Tone pairs ×3 each: 事 si6 / 試 si3, then 合作 hap6 zok3. Then play the café scene both roles in one go: order, customise, ask the price, pay. Last, explain in one breath why 事 and 試 sound different: point, reason, example.",
-   "seconds": 180,
-   "script": "事 si6 (low, flat) / 試 si3 (mid, flat) ×3 · 合作 hap6 zok3 (low-short, then mid-short) ×3.\nCafé: 店員: 飲咩呀？ (jam2 me1 aa3? What to drink?) · 你: 唔該，一杯凍檸茶，走冰，少甜。 · 你: 幾多錢呀？ · 店員: 十八蚊。 (sap6 baat3 man1, $18) · 你: 可唔可以畀八達通？ · 店員: 得。 (dak1, OK)\nExplanation: \"事 and 試 have the same syllable but different tones. 事 is tone 6, low and flat, while 試 is tone 3, mid and flat. For example, 有咩事 uses the low one and 面試 uses the mid one.\""
-  },
-  {
-   "id": "t12",
-   "type": "reading",
-   "title": "日本語: read 5 lines (kana only, は = wa as particle)",
-   "lang": "ja-JP",
-   "lines": [
-    {
-     "text": "あかい はな",
-     "gloss": "akai hana",
-     "translation": "a red flower · 红花"
-    },
-    {
-     "text": "ねこ は ここ",
-     "gloss": "neko wa koko",
-     "translation": "the cat is here · 猫在这里"
-    },
-    {
-     "text": "えき は あそこ",
-     "gloss": "eki wa asoko",
-     "translation": "the station is over there · 车站在那边"
-    },
-    {
-     "text": "すし は おいしい",
-     "gloss": "sushi wa oishii",
-     "translation": "sushi is tasty · 寿司好吃"
-    },
-    {
-     "text": "なつ に ふね で いく",
-     "gloss": "natsu ni fune de iku",
-     "translation": "go by boat in summer · で is け-row+dakuten preview"
-    }
-   ]
-  },
-  {
-   "id": "t13",
-   "type": "reading",
-   "title": "한국어: read 5 lines (plain / puff / tight)",
-   "lang": "ko-KR",
-   "lines": [
-    {
-     "text": "가 카 까",
-     "gloss": "ga ka kka",
-     "translation": "plain · puff · tight"
-    },
-    {
-     "text": "바다 나무 모자",
-     "gloss": "bada namu moja",
-     "translation": "sea, tree, hat · 海，树，帽子"
-    },
-    {
-     "text": "커피 차 포도",
-     "gloss": "keopi cha podo",
-     "translation": "coffee, tea, grapes"
-    },
-    {
-     "text": "코 아파트",
-     "gloss": "ko apateu",
-     "translation": "nose, apartment"
-    },
-    {
-     "text": "아빠 커피 싸다",
-     "gloss": "appa keopi ssada",
-     "translation": "Dad's coffee is cheap"
-    }
-   ]
-  },
-  {
-   "id": "t14",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat31new"
-   ]
-  },
-  {
-   "id": "t15",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "sat31new"
-   ]
-  },
-  {
-   "id": "t16",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "sat31new"
-   ]
-  },
-  {
-   "id": "t17",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat31new"
-   ]
-  },
-  {
-   "id": "t18",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "mc",
-     "q": "STAR order?",
-     "options": [
-      "Situation, Task, Action, Result",
-      "Story, Task, Answer, Review",
-      "Situation, Target, Action, Reason"
-     ],
-     "answer": 0,
-     "explain": "S-T-A-R = Situation, Task, Action, Result."
-    },
-    {
-     "id": "q2",
-     "type": "mc",
-     "q": "Best 'so that' line (outcome for others)?",
-     "options": [
-      "I cleaned data so that I finished early.",
-      "I flagged the pattern so that the team could choose a tighter buffer.",
-      "I flagged the pattern so that to help."
-     ],
-     "answer": 1,
-     "explain": "'so that' + who benefits + could + verb."
-    },
-    {
-     "id": "q3",
-     "type": "typed",
-     "q": "Fill in: I took the initiative ___ propose a working definition.",
-     "answer": [
-      "to"
-     ],
-     "explain": "took the initiative TO + verb."
-    },
-    {
-     "id": "q4",
-     "type": "mc",
-     "q": "Where's the stress in 'defensible'?",
-     "options": [
-      "DE-fen-si-ble",
-      "de-FEN-si-ble",
-      "de-fen-SI-ble"
-     ],
-     "answer": 1,
-     "explain": "di-FEN-si-bul."
-    },
-    {
-     "id": "q5",
      "type": "mc",
      "q": "60-sec intro order?",
      "options": [
@@ -289,117 +68,73 @@
       "Future → Past → Present"
      ],
      "answer": 1,
-     "explain": "现在 → 过去 → 未来."
+     "explain": "现在 → 过去 → 未来. Don't shuffle."
+    },
+    {
+     "id": "q2",
+     "type": "typed",
+     "q": "Complete: That's why this role really appeals ___ me.",
+     "answer": [
+      "to"
+     ],
+     "explain": "appeal TO someone."
+    },
+    {
+     "id": "q3",
+     "type": "typed",
+     "q": "Complete: I took the initiative ___ map the data gaps.",
+     "answer": [
+      "to"
+     ],
+     "explain": "took the initiative to + verb."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "Which stress is right for 'iterative'?",
+     "options": [
+      "it-ER-a-tive",
+      "IT-er-uh-tiv",
+      "it-er-A-tive"
+     ],
+     "answer": 1,
+     "explain": "Stress on IT."
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "'What would you do differently?' Best opener:",
+     "options": [
+      "Next time, I'd structure the questions as an issue tree.",
+      "Next time, I will did an issue tree.",
+      "I don't do anything differently."
+     ],
+     "answer": 0,
+     "explain": "I'd + base verb."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "STAR #3 Result: what did you deliver?",
+     "q": "事 (thing/matter) in Jyutping:",
      "options": [
-      "A new app for the government",
-      "A baseline analysis of governance mechanisms plus a list of Hong Kong's missing data",
-      "Feedback from 50 users"
+      "si3",
+      "si6",
+      "si4"
      ],
      "answer": 1,
-     "explain": "Locked Result; no invented users or feedback."
+     "explain": "si6, low flat. 試 is si3."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "Correct: older residents were mainly active in…",
+     "q": "STAR #3: which is the Result?",
      "options": [
-      "the spring and the winter",
-      "spring and winter",
-      "in the spring and winter season"
+      "My task was to build a defensible evidence base…",
+      "First, I pushed for a working definition…",
+      "As a result, I delivered a baseline analysis…"
      ],
-     "answer": 1,
-     "explain": "Seasons in general: no 'the'."
-    },
-    {
-     "id": "q8",
-     "type": "typed",
-     "q": "Jyutping tone number of 事 (matter)?",
-     "answer": [
-      "6",
-      "si6"
-     ],
-     "explain": "事 si6 low level; 試 si3 mid level. 4th time — nail it!"
-    },
-    {
-     "id": "q9",
-     "type": "typed",
-     "q": "Jyutping of 合作?",
-     "answer": [
-      "hap6 zok3",
-      "hap6zok3"
-     ],
-     "explain": "合 hap6 (low) 作 zok3 (mid)."
-    },
-    {
-     "id": "q10",
-     "type": "mc",
-     "q": "走冰 means…",
-     "options": [
-      "extra ice",
-      "no ice",
-      "walk to the ice shop"
-     ],
-     "answer": 1,
-     "explain": "走冰 zau2 bing1 = no ice. 少甜 = less sweet."
-    },
-    {
-     "id": "q11",
-     "type": "mc",
-     "q": "To ask the price in Cantonese:",
-     "options": [
-      "幾多錢呀？",
-      "唔該晒",
-      "可唔可以畀八達通？"
-     ],
-     "answer": 0,
-     "explain": "幾多錢呀 gei2 do1 cin2 aa3."
-    },
-    {
-     "id": "q12",
-     "type": "typed",
-     "q": "Romanise し.",
-     "answer": [
-      "shi"
-     ],
-     "explain": "さ行: さ sa, し shi (not si), す su, せ se, そ so."
-    },
-    {
-     "id": "q13",
-     "type": "mc",
-     "q": "In ねこ は ここ, は is read…",
-     "options": [
-      "ha",
-      "wa",
-      "ho"
-     ],
-     "answer": 1,
-     "explain": "As a particle は = wa."
-    },
-    {
-     "id": "q14",
-     "type": "typed",
-     "q": "Write tree (namu) in Hangul.",
-     "answer": [
-      "나무"
-     ],
-     "explain": "ㄴ+ㅏ = 나, ㅁ+ㅜ = 무."
-    },
-    {
-     "id": "q15",
-     "type": "mc",
-     "q": "Which has a puff of air?",
-     "options": [
-      "까",
-      "카",
-      "가"
-     ],
-     "answer": 1,
-     "explain": "ㅋ aspirated = puff; ㄲ tense, ㄱ plain."
+     "answer": 2,
+     "explain": "R starts 'As a result…'"
     }
    ]
   }
