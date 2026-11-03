@@ -65,7 +65,8 @@
     "recap27",
     "recap28y",
     "recap30y",
-    "sat31"
+    "sat31",
+    "recap03y"
    ]
   },
   {
@@ -316,7 +317,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard03"
    ]
   },
   {
@@ -330,7 +332,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard03"
    ]
   },
   {
@@ -344,7 +347,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard03"
    ]
   },
   {
@@ -358,7 +362,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard03"
    ]
   },
   {
@@ -372,7 +377,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard03"
    ]
   },
   {
@@ -385,7 +391,8 @@
     "wed28y",
     "interview",
     "recap30y",
-    "sat31"
+    "sat31",
+    "recap03y"
    ]
   },
   {
@@ -397,7 +404,8 @@
    "tags": [
     "fri30y",
     "cafe",
-    "sat31"
+    "sat31",
+    "recap03y"
    ]
   },
   {
@@ -409,7 +417,8 @@
    "tags": [
     "fri30y",
     "cafe",
-    "sat31"
+    "sat31",
+    "recap03y"
    ]
   },
   {
@@ -420,7 +429,8 @@
    "lang": "yue-HK",
    "tags": [
     "fri30y",
-    "cafe"
+    "cafe",
+    "recap03y"
    ]
   },
   {
@@ -431,7 +441,8 @@
    "lang": "yue-HK",
    "tags": [
     "fri30y",
-    "cafe"
+    "cafe",
+    "recap03y"
    ]
   },
   {
@@ -442,7 +453,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat31new",
-    "tones"
+    "tones",
+    "recap03y"
    ]
   },
   {
@@ -453,7 +465,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat31new",
-    "tones"
+    "tones",
+    "recap03y"
    ]
   },
   {
@@ -464,6 +477,51 @@
    "lang": "yue-HK",
    "tags": [
     "sat31new",
+    "interview",
+    "recap03y"
+   ]
+  },
+  {
+   "id": "yue-0041",
+   "front": "堂食，唔該。",
+   "back": "tong4 sik6, m4 goi1 · Eat in, please.",
+   "gloss": "堂食 tong4 sik6：低降-低平",
+   "lang": "yue-HK",
+   "tags": [
+    "tue03y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0042",
+   "front": "可唔可以加多個蛋撻？",
+   "back": "ho2 m4 ho2 ji5 gaa1 do1 go3 daan6 taat1 · Can I add one more egg tart?",
+   "gloss": "蛋撻 daan6 taat1",
+   "lang": "yue-HK",
+   "tags": [
+    "tue03y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0043",
+   "front": "埋單，唔該。",
+   "back": "maai4 daan1, m4 goi1 · The bill, please.",
+   "gloss": "埋單 maai4 daan1 = 买单",
+   "lang": "yue-HK",
+   "tags": [
+    "tue03y",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0044",
+   "front": "我好期待同你哋合作。",
+   "back": "ngo5 hou2 kei4 doi6 tung4 nei5 dei6 hap6 zok3 · I look forward to working with you.",
+   "gloss": "合作 hap6 zok3：低-中 · 期待 kei4 doi6",
+   "lang": "yue-HK",
+   "tags": [
+    "tue03y",
     "interview"
    ]
   }
