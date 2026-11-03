@@ -1,14 +1,14 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-03",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean",
+  "japanese"
  ],
  "minutes": 20,
- "new_cards_limit": 12,
- "note": "Tuesday: 事 si6 first, then yesterday's 35 Hard, then recap, then only 12 new (eased). STAR #3 gets its 2-minute take today. Point → reason → example. The owl is watching. 先难卡，再开口。",
+ "new_cards_limit": 20,
+ "note": "Korean batchim night: the bottom letter of a block only makes 7 sounds (k n t l m p ng). Real goal: read a Korean menu line — 김치, 밥, 물, 맛있다. Cantonese already gave you -k -t -p -m -ng, so you're cheating a bit. 写三遍，念出声。",
  "tasks": [
   {
    "id": "t0",
@@ -20,149 +20,183 @@
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard03"
+    "warm03"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "korean",
    "tags": [
-    "hard03"
+    "recap03k"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap03"
-   ]
+   "type": "link",
+   "title": "90 Day Korean · Batchim (받침) guide · skim the 7 final sounds table only",
+   "url": "https://www.90daykorean.com/batchim/",
+   "minutes": 4
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "korean",
    "tags": [
-    "recap03y"
+    "tue03k"
    ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "tue03"
+   "type": "reading",
+   "title": "Read aloud: menu and everyday batchim",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "밥 물",
+     "gloss": "bap mul",
+     "translation": "rice, water · 饭，水"
+    },
+    {
+     "text": "김치 맛있다",
+     "gloss": "gimchi masitda (ma-si-tta)",
+     "translation": "kimchi is delicious · 泡菜好吃"
+    },
+    {
+     "text": "책 방",
+     "gloss": "chaek bang",
+     "translation": "book, room · 书，房间"
+    },
+    {
+     "text": "산 사람",
+     "gloss": "san saram",
+     "translation": "mountain, person · 山，人"
+    },
+    {
+     "text": "옷 밖",
+     "gloss": "ot bak",
+     "translation": "clothes, outside · 衣服，外面"
+    },
+    {
+     "text": "한국 사람",
+     "gloss": "hanguk saram",
+     "translation": "Korean person · 韩国人"
+    },
+    {
+     "text": "커피 맛있다",
+     "gloss": "keopi masitda",
+     "translation": "the coffee is delicious · 咖啡好喝"
+    },
+    {
+     "text": "사랑 바다 나무",
+     "gloss": "sarang bada namu",
+     "translation": "love, sea, tree · 爱，海，树"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "tue03y"
-   ]
+   "type": "speaking",
+   "prompt": "Say the 7 final sounds with a Cantonese anchor: 악(k) 안(n) 앋(t) 알(l) 암(m) 압(p) 앙(ng) ×2. Write 밥 김치 맛있다 ×3. Then explain in one breath why 옷 ends in t, not s: point, reason, example.",
+   "seconds": 300,
+   "script": "악 ak (like 粤语 -k), 안 an, 앋 at (like -t), 알 al, 암 am (like 心 sam1), 압 ap (like 十 sap6), 앙 ang. Writing: 밥 밥 밥, 김치 김치 김치, 맛있다 맛있다 맛있다. Explanation: \"옷 ends in t. At the bottom of a block, ㅅ is pronounced t, not s. For example, 옷 is ot, but in 맛있다 the ㅅ moves to the next vowel and sounds like s again.\""
   },
   {
    "id": "t7",
-   "type": "speaking",
-   "prompt": "STAR #3 full take, timed 2 minutes (S-T-A-R, Result as point → reason → example). Then answer the follow-up aloud: 'The direction kept changing. What did you do?' Check against the script after.",
-   "seconds": 150,
-   "script": "On an AI data-centre policy research programme, I was the sole analyst. The scope was ambiguous: there was no agreed definition of an 'AI data centre', the public data on energy, water, cooling, cost and land use was fragmented, and the project direction changed quite often. (S) My task was to build a defensible evidence base and policy analysis, even though the requirements were unclear and I had no one to review my work. (T) First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis was built on the same scope. Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other governments and regions. Third, because the direction kept shifting, I built an iterative research workflow, so I could update the analysis step by step without starting again. And after every meeting, I kept a written log of what we agreed: the direction, the deliverables and the deadlines. (A) As a result, I delivered a baseline analysis of data-centre governance from an international perspective. That matters because it gives future policy work a clear starting point. For example, the gap list showed exactly which indicators Hong Kong still needs to collect. (R) Looking back, confirming the scope early and keeping a written record protects both quality and timelines. || Follow-up (changing direction): When the direction changed, I updated the workflow step by step instead of starting again. I focused on what we had agreed, not on who changed it."
-  },
-  {
-   "id": "t8",
-   "type": "speaking",
-   "prompt": "粤语 shadow ×3: the why-this-job lines (yue-0028–0030), then the new 合作 line. Copy the tones, not just the words.",
-   "seconds": 90,
-   "script": "我有地理空間數據分析嘅經驗。ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6 · 我學嘢好快，亦都鍾意團隊合作。ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3 · 我覺得呢個職位好適合我。ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5 · 我好期待同你哋合作。ngo5 hou2 kei4 doi6 tung4 nei5 dei6 hap6 zok3 (audio: tue03_yue_lines.mp3)"
-  },
-  {
-   "id": "t9",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "STAR Result order?",
+     "q": "How many final (batchim) sounds are there?",
      "options": [
-      "Example → Point → Reason",
-      "Point → Reason → Example",
-      "Reason → Example → Point"
+      "5",
+      "7",
+      "14"
      ],
      "answer": 1,
-     "explain": "先结论，再原因，再例子."
+     "explain": "Only 7: k n t l m p ng. Many letters share one sound at the bottom."
     },
     {
      "id": "q2",
      "type": "typed",
-     "q": "Complete: That matters ___ it gives future policy work a starting point.",
+     "q": "Romanise 밥.",
      "answer": [
-      "because"
+      "bap",
+      "pap"
      ],
-     "explain": "Reason line starts with 'because'."
+     "explain": "ㅂ on top = b, ㅂ at the bottom = p → bap, rice/meal."
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Stress in 'baseline'?",
+     "q": "옷 (clothes) ends with which sound?",
      "options": [
-      "BAYSS-line",
-      "base-LINE",
-      "ba-SE-line"
+      "s",
+      "t",
+      "ng"
      ],
-     "answer": 0,
-     "explain": "Stress on BAYSS."
+     "answer": 1,
+     "explain": "ㅅ at the bottom = t → ot."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best neutral answer about changing direction:",
+     "q": "ㅇ at the bottom of a block sounds like…",
      "options": [
-      "My manager kept changing his mind.",
-      "I focused on what we had agreed, not on who changed it.",
-      "It was not my problem."
+      "silent",
+      "ng",
+      "o"
      ],
      "answer": 1,
-     "explain": "Neutral, no blame 不甩锅."
+     "explain": "ㅇ is silent on top, ng at the bottom: 방 bang."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "事 (matter) in Jyutping:",
-     "options": [
-      "si3",
-      "si4",
-      "si6"
+     "type": "typed",
+     "q": "Write water (mul) in Hangul.",
+     "answer": [
+      "물"
      ],
-     "answer": 2,
-     "explain": "si6, low flat. 試 is si3."
+     "explain": "ㅁ + ㅜ + ㄹ at the bottom = 물. ㄹ at the bottom = l."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "合作 (cooperate) in Jyutping:",
+     "q": "맛있다 means…",
      "options": [
-      "hap6 zok3",
-      "hap3 zok6",
-      "hap6 zok6"
+      "expensive",
+      "delicious",
+      "outside"
      ],
-     "answer": 0,
-     "explain": "hap6 low, zok3 mid."
+     "answer": 1,
+     "explain": "맛있다 masitda = delicious. Outside = 밖, cheap = 싸다."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "'The bill, please' in Cantonese:",
+     "q": "Recap: which one has a puff of air?",
      "options": [
-      "堂食，唔該。",
-      "埋單，唔該。",
-      "走冰，少甜。"
+      "ㄲ",
+      "ㅋ",
+      "ㄱ"
      ],
      "answer": 1,
-     "explain": "埋單 maai4 daan1."
+     "explain": "ㅋ is aspirated (puff), ㄲ tense, ㄱ plain."
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "q": "Warm-up: which hiragana is 'mi'?",
+     "options": [
+      "ま",
+      "み",
+      "む"
+     ],
+     "answer": 1,
+     "explain": "み = mi, the \"21\" shape with a loop. ま = ma, む = mu."
     }
    ]
   }
