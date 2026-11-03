@@ -565,7 +565,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -576,7 +577,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -587,7 +589,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -598,7 +601,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -609,7 +613,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -620,7 +625,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -631,7 +637,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -642,7 +649,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -653,7 +661,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "letters"
+    "letters",
+    "recap03k"
    ]
   },
   {
@@ -664,7 +673,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -675,7 +685,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -686,7 +697,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -697,7 +709,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -708,7 +721,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -719,7 +733,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -730,7 +745,8 @@
    "lang": "ko-KR",
    "tags": [
     "fri30k",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -741,7 +757,8 @@
    "lang": "ko-KR",
    "tags": [
     "sat31new",
-    "words"
+    "words",
+    "recap03k"
    ]
   },
   {
@@ -752,6 +769,227 @@
    "lang": "ko-KR",
    "tags": [
     "sat31new",
+    "words",
+    "recap03k"
+   ]
+  },
+  {
+   "id": "ko-0065",
+   "front": "받침",
+   "back": "받침 · batchim, final consonant",
+   "gloss": "batchim · 收音 · the consonant sitting at the bottom of a block",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0066",
+   "front": "받침 ㄱ (ㅋ ㄲ)",
+   "back": "final ㄱ/ㅋ/ㄲ → k",
+   "gloss": "k, unreleased: mouth stops, no puff · like 粤语 收音 -k in 食 sik6",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0067",
+   "front": "받침 ㄴ",
+   "back": "final ㄴ → n",
+   "gloss": "n · like the end of 'sun'",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0068",
+   "front": "받침 ㄷ ㅅ ㅈ ㅊ ㅌ ㅎ",
+   "back": "all of these at the bottom → t",
+   "gloss": "t, unreleased · six letters, one sound · 粤语 收音 -t",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0069",
+   "front": "받침 ㄹ",
+   "back": "final ㄹ → l",
+   "gloss": "l, tongue stays up · not r at the bottom",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0070",
+   "front": "받침 ㅁ",
+   "back": "final ㅁ → m",
+   "gloss": "m, lips closed · 粤语 收音 -m in 心 sam1",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0071",
+   "front": "받침 ㅂ ㅍ",
+   "back": "final ㅂ/ㅍ → p",
+   "gloss": "p, unreleased, lips closed · 粤语 收音 -p in 十 sap6",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0072",
+   "front": "받침 ㅇ",
+   "back": "final ㅇ → ng",
+   "gloss": "ng · silent at the top, ng at the bottom · 粤语 -ng",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "batchim"
+   ]
+  },
+  {
+   "id": "ko-0073",
+   "front": "책",
+   "back": "책 · book",
+   "gloss": "chaek · 书 · ㅊ puff on top, ㄱ = k at the bottom",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0074",
+   "front": "밥",
+   "back": "밥 · rice / meal",
+   "gloss": "bap · 饭 · ㅂ at the bottom = p",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0075",
+   "front": "물",
+   "back": "물 · water",
+   "gloss": "mul · 水 · ㄹ at the bottom = l",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0076",
+   "front": "산",
+   "back": "산 · mountain",
+   "gloss": "san · 山 · same sound as 粤语 山 saan1",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0077",
+   "front": "방",
+   "back": "방 · room",
+   "gloss": "bang · 房 · ㅇ at the bottom = ng",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0078",
+   "front": "김치",
+   "back": "김치 · kimchi",
+   "gloss": "gimchi · 泡菜 · ㅁ at the bottom of 김",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0079",
+   "front": "한국",
+   "back": "한국 · Korea",
+   "gloss": "hanguk · 韩国 · ㄴ then ㄱ = k",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0080",
+   "front": "사람",
+   "back": "사람 · person",
+   "gloss": "saram · 人 · ㄹ flap inside, ㅁ = m at the end",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0081",
+   "front": "옷",
+   "back": "옷 · clothes",
+   "gloss": "ot · 衣服 · ㅅ at the bottom = t, not s",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0082",
+   "front": "밖",
+   "back": "밖 · outside",
+   "gloss": "bak · 外面 · ㄲ at the bottom = k",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0083",
+   "front": "맛있다",
+   "back": "맛있다 · delicious",
+   "gloss": "masitda, said ma-si-tta · 好吃 · ㅅ slides into the next vowel (연음 linking)",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0084",
+   "front": "사랑",
+   "back": "사랑 · love",
+   "gloss": "sarang · 爱 · ㅇ = ng at the end",
+   "lang": "ko-KR",
+   "tags": [
+    "tue03k",
     "words"
    ]
   }
