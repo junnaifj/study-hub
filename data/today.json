@@ -1,177 +1,168 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-02",
- "slot": "evening",
+ "date": "2026-11-03",
+ "slot": "morning",
  "tracks": [
-  "japanese"
+  "english",
+  "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 20,
- "note": "Japanese night. 事 si6 first (the owl never forgets), then six old stragglers, then な行+は行 recap, then new ま行 + ら行 and 10 words. Watch め/ぬ, る/ろ, れ/ね. 写三遍，念出声。",
+ "new_cards_limit": 12,
+ "note": "Tuesday: 事 si6 first, then yesterday's 35 Hard, then recap, then only 12 new (eased). STAR #3 gets its 2-minute take today. Point → reason → example. The owl is watching. 先难卡，再开口。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
+   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "warm02"
+    "hard03"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "cantonese",
    "tags": [
-    "recap02j"
+    "hard03"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "NHK hiragana chart · tap ま–も and ら–ろ, repeat each",
-   "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-   "minutes": 3
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap03"
+   ]
   },
   {
    "id": "t4",
-   "type": "link",
-   "title": "Tofugu mnemonics · M-column + R-column only",
-   "url": "https://www.tofugu.com/japanese/learn-hiragana/",
-   "minutes": 4
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap03y"
+   ]
   },
   {
    "id": "t5",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "mon02j"
+    "tue03"
    ]
   },
   {
    "id": "t6",
-   "type": "reading",
-   "title": "Read without romaji first (only kana you know)",
-   "lang": "ja-JP",
-   "lines": [
-    {
-     "text": "くるま は くろい",
-     "gloss": "kuruma wa kuroi",
-     "translation": "the car is black · 车是黑的 (は = wa)"
-    },
-    {
-     "text": "はる の そら",
-     "gloss": "haru no sora",
-     "translation": "the spring sky · 春天的天空"
-    },
-    {
-     "text": "みせ は まち に ある",
-     "gloss": "mise wa machi ni aru",
-     "translation": "the shop is in town · 店在镇上"
-    },
-    {
-     "text": "しろい ねこ",
-     "gloss": "shiroi neko",
-     "translation": "a white cat · 白猫"
-    },
-    {
-     "text": "あめ の ひ は さむい",
-     "gloss": "ame no hi wa samui",
-     "translation": "rainy days are cold · 下雨天很冷"
-    }
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "tue03y"
    ]
   },
   {
    "id": "t7",
    "type": "speaking",
-   "prompt": "Write まみむめも らりるれろ ×3 each, saying each aloud (~5 min). Then read the 5 lines twice, slow then normal speed. Pairs to watch: め vs ぬ (ぬ curls at the end), る vs ろ (る has the loop), れ vs ね (ね loops, れ kicks out). The r-sound is a light tongue tap, not an English r.",
-   "seconds": 360,
-   "script": "ma mi mu me mo · ra ri ru re ro\nくるま は くろい (kuruma wa kuroi)\nはる の そら (haru no sora)\nみせ は まち に ある (mise wa machi ni aru)\nしろい ねこ (shiroi neko)\nあめ の ひ は さむい (ame no hi wa samui)"
+   "prompt": "STAR #3 full take, timed 2 minutes (S-T-A-R, Result as point → reason → example). Then answer the follow-up aloud: 'The direction kept changing. What did you do?' Check against the script after.",
+   "seconds": 150,
+   "script": "On an AI data-centre policy research programme, I was the sole analyst. The scope was ambiguous: there was no agreed definition of an 'AI data centre', the public data on energy, water, cooling, cost and land use was fragmented, and the project direction changed quite often. (S) My task was to build a defensible evidence base and policy analysis, even though the requirements were unclear and I had no one to review my work. (T) First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis was built on the same scope. Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other governments and regions. Third, because the direction kept shifting, I built an iterative research workflow, so I could update the analysis step by step without starting again. And after every meeting, I kept a written log of what we agreed: the direction, the deliverables and the deadlines. (A) As a result, I delivered a baseline analysis of data-centre governance from an international perspective. That matters because it gives future policy work a clear starting point. For example, the gap list showed exactly which indicators Hong Kong still needs to collect. (R) Looking back, confirming the scope early and keeping a written record protects both quality and timelines. || Follow-up (changing direction): When the direction changed, I updated the workflow step by step instead of starting again. I focused on what we had agreed, not on who changed it."
   },
   {
    "id": "t8",
+   "type": "speaking",
+   "prompt": "粤语 shadow ×3: the why-this-job lines (yue-0028–0030), then the new 合作 line. Copy the tones, not just the words.",
+   "seconds": 90,
+   "script": "我有地理空間數據分析嘅經驗。ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6 · 我學嘢好快，亦都鍾意團隊合作。ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3 · 我覺得呢個職位好適合我。ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5 · 我好期待同你哋合作。ngo5 hou2 kei4 doi6 tung4 nei5 dei6 hap6 zok3 (audio: tue03_yue_lines.mp3)"
+  },
+  {
+   "id": "t9",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which one is ru?",
+     "q": "STAR Result order?",
      "options": [
-      "ろ",
-      "る",
-      "ら"
+      "Example → Point → Reason",
+      "Point → Reason → Example",
+      "Reason → Example → Point"
      ],
      "answer": 1,
-     "explain": "る ru has a loop at the bottom; ろ ro is open."
+     "explain": "先结论，再原因，再例子."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "Which one is me?",
-     "options": [
-      "ぬ",
-      "め",
-      "ね"
+     "type": "typed",
+     "q": "Complete: That matters ___ it gives future policy work a starting point.",
+     "answer": [
+      "because"
      ],
-     "answer": 1,
-     "explain": "め me has no curl at the end; ぬ nu curls."
+     "explain": "Reason line starts with 'because'."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Romaji for む?",
-     "answer": [
-      "mu"
+     "type": "mc",
+     "q": "Stress in 'baseline'?",
+     "options": [
+      "BAYSS-line",
+      "base-LINE",
+      "ba-SE-line"
      ],
-     "explain": "む = mu."
+     "answer": 0,
+     "explain": "Stress on BAYSS."
     },
     {
      "id": "q4",
-     "type": "typed",
-     "q": "Write car (kuruma) in hiragana.",
-     "answer": [
-      "くるま"
+     "type": "mc",
+     "q": "Best neutral answer about changing direction:",
+     "options": [
+      "My manager kept changing his mind.",
+      "I focused on what we had agreed, not on who changed it.",
+      "It was not my problem."
      ],
-     "explain": "く ku + る ru + ま ma."
+     "answer": 1,
+     "explain": "Neutral, no blame 不甩锅."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "そら means…",
+     "q": "事 (matter) in Jyutping:",
      "options": [
-      "sky",
-      "town",
-      "white"
+      "si3",
+      "si4",
+      "si6"
      ],
-     "answer": 0,
-     "explain": "そら sora = sky 空; town = まち, white = しろ."
+     "answer": 2,
+     "explain": "si6, low flat. 試 is si3."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "Which one is re?",
+     "q": "合作 (cooperate) in Jyutping:",
      "options": [
-      "ね",
-      "れ",
-      "わ"
+      "hap6 zok3",
+      "hap3 zok6",
+      "hap6 zok6"
      ],
-     "answer": 1,
-     "explain": "れ re kicks out at the end; ね ne loops."
+     "answer": 0,
+     "explain": "hap6 low, zok3 mid."
     },
     {
      "id": "q7",
-     "type": "typed",
-     "q": "Romaji for そ? (Hard this morning)",
-     "answer": [
-      "so"
+     "type": "mc",
+     "q": "'The bill, please' in Cantonese:",
+     "options": [
+      "堂食，唔該。",
+      "埋單，唔該。",
+      "走冰，少甜。"
      ],
-     "explain": "そ = so, zig-zag thread."
+     "answer": 1,
+     "explain": "埋單 maai4 daan1."
     }
    ]
   }
