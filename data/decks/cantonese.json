@@ -1,529 +1,591 @@
 {
- "schema": "studyhub.deck.v1",
- "track": "cantonese",
- "cards": [
-  {
-   "id": "yue-0001",
-   "front": "詩",
-   "back": "si1 · poem",
-   "gloss": "高平調 · high level · tone 1",
-   "lang": "yue-HK",
-   "tags": [
-    "tones"
-   ]
-  },
-  {
-   "id": "yue-0002",
-   "front": "史",
-   "back": "si2 · history",
-   "gloss": "高升調 · high rising · tone 2",
-   "lang": "yue-HK",
-   "tags": [
-    "tones"
-   ]
-  },
-  {
-   "id": "yue-0003",
-   "front": "試",
-   "back": "si3 · try / test",
-   "gloss": "中平調 · mid level · tone 3",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0004",
-   "front": "時",
-   "back": "si4 · time",
-   "gloss": "低降調 · low falling · tone 4",
-   "lang": "yue-HK",
-   "tags": [
-    "tones"
-   ]
-  },
-  {
-   "id": "yue-0005",
-   "front": "市",
-   "back": "si5 · market / city",
-   "gloss": "低升調 · low rising · tone 5",
-   "lang": "yue-HK",
-   "tags": [
-    "tones"
-   ]
-  },
-  {
-   "id": "yue-0006",
-   "front": "事",
-   "back": "si6 · matter / event",
-   "gloss": "低平調 · low level · tone 6",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "recap27",
-    "recap28y",
-    "recap30y",
-    "sat31",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0007",
-   "front": "你好",
-   "back": "nei5 hou2 · hello",
-   "gloss": "A simple greeting.",
-   "lang": "yue-HK",
-   "tags": [
-    "introductions"
-   ]
-  },
-  {
-   "id": "yue-0008",
-   "front": "面試",
-   "back": "min6 si3 · interview",
-   "gloss": "Watch the two tones: 6, then 3.",
-   "lang": "yue-HK",
-   "tags": [
-    "workplace",
-    "tones",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0009",
-   "front": "我叫阿佳。",
-   "back": "ngo5 giu3 aa3 gaai1 · My name is Jia.",
-   "gloss": "我叫… means My name is…",
-   "lang": "yue-HK",
-   "tags": [
-    "introductions"
-   ]
-  },
-  {
-   "id": "yue-0010",
-   "front": "多謝",
-   "back": "do1 ze6 · thank you",
-   "gloss": "Often used when receiving a gift.",
-   "lang": "yue-HK",
-   "tags": [
-    "introductions",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0011",
-   "front": "唔該",
-   "back": "m4 goi1 · thanks (for a service) / excuse me",
-   "gloss": "Use with shop staff and waiters; 多謝 is for gifts.",
-   "lang": "yue-HK",
-   "tags": [
-    "introductions",
-    "phrases",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0012",
-   "front": "我叫…",
-   "back": "ngo5 giu3 … · My name is…",
-   "gloss": "Add your name after 叫.",
-   "lang": "yue-HK",
-   "tags": [
-    "introductions"
-   ]
-  },
-  {
-   "id": "yue-0013",
-   "front": "工作經驗",
-   "back": "gung1 zok3 ging1 jim6 · work experience",
-   "gloss": "Useful in interviews.",
-   "lang": "yue-HK",
-   "tags": [
-    "workplace"
-   ]
-  },
-  {
-   "id": "yue-0014",
-   "front": "面試 (trap tones)",
-   "back": "min6 si3 · interview",
-   "gloss": "NOT min6 si1 / si2. Second syllable is tone 3 (試).",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "phrase",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0015",
-   "front": "工作經驗",
-   "back": "gung1 zok3 ging1 jim6 · work experience",
-   "gloss": "Four tones: 1-3-1-6. Say each number in your head once.",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "phrase"
-   ]
-  },
-  {
-   "id": "yue-0016",
-   "front": "我嚟面試",
-   "back": "ngo5 lai4 min6 si3 · I’ve come for the interview / I’m here for an interview.",
-   "gloss": "嚟 = lai4 (spoken). Full phrase for the door.",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "phrase"
-   ]
-  },
-  {
-   "id": "yue-0017",
-   "front": "試 si3 vs 事 si6",
-   "back": "試 si3 = try/test (in 面試). 事 si6 = matter/affair. Mid level vs low level.",
-   "gloss": "面试用 試 (3)，不是 事 (6)。",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "phrase",
-    "recap27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0018",
-   "front": "嚟 lai4 (spoken) vs 來",
-   "back": "Spoken Cantonese prefers 嚟 lai4; 來 is the written form. Same meaning: come.",
-   "gloss": "口語用嚟，書面用來。Say: ngo5 lai4…",
-   "lang": "yue-HK",
-   "tags": [
-    "tones",
-    "phrase"
-   ]
-  },
-  {
-   "id": "yue-0019",
-   "front": "我叫傅佳。",
-   "back": "ngo5 giu3 Fu6 Gaai1 · My name is Fu Jia.",
-   "gloss": "我叫傅佳。叫 giu3 = 叫做",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0020",
-   "front": "我喺港大讀咗城市分析。",
-   "back": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1 · I studied urban analytics at HKU.",
-   "gloss": "喺 hai2 = 在; 咗 zo2 = 了",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27",
-    "recap28y",
-    "recap29y"
-   ]
-  },
-  {
-   "id": "yue-0021",
-   "front": "我鍾意數據分析。",
-   "back": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1 · I like data analysis.",
-   "gloss": "鍾意 = 喜欢",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27",
-    "recap28y",
-    "recap29y"
-   ]
-  },
-  {
-   "id": "yue-0022",
-   "front": "我好想加入你哋嘅團隊。",
-   "back": "ngo5 hou2 soeng2 gaa1 jap6 nei5 dei6 ge3 tyun4 deoi6 · I'd really like to join your team.",
-   "gloss": "你哋 = 你们; 嘅 = 的",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27"
-   ]
-  },
-  {
-   "id": "yue-0023",
-   "front": "時間",
-   "back": "si4 gaan3 · time (多謝你嘅時間 = thanks for your time)",
-   "gloss": "si4 low-falling — not si3!",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27",
-    "recap28y"
-   ]
-  },
-  {
-   "id": "yue-0024",
-   "front": "城市",
-   "back": "sing4 si5 · city",
-   "gloss": "市 si5 low-rising. 試 si3 / 時 si4 / 市 si5 / 事 si6",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27"
-   ]
-  },
-  {
-   "id": "yue-0025",
-   "front": "數據",
-   "back": "sou3 geoi3 · data",
-   "gloss": "数据",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27"
-   ]
-  },
-  {
-   "id": "yue-0026",
-   "front": "團隊",
-   "back": "tyun4 deoi6 · team",
-   "gloss": "团队",
-   "lang": "yue-HK",
-   "tags": [
-    "tue27"
-   ]
-  },
-  {
-   "id": "yue-0027",
-   "front": "我想做呢份工，因為我鍾意用數據幫城市規劃。",
-   "back": "ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6 · I want this job because I like using data to help city planning.",
-   "gloss": "呢份工 = 这份工作; 規劃 = 规划",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r"
-   ]
-  },
-  {
-   "id": "yue-0028",
-   "front": "我有地理空間數據分析嘅經驗。",
-   "back": "ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6 · I have experience in geospatial data analysis.",
-   "gloss": "嘅經驗 = 的经验 (ging1 jim6, 1-6)",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r",
-    "hard03"
-   ]
-  },
-  {
-   "id": "yue-0029",
-   "front": "我學嘢好快，亦都鍾意團隊合作。",
-   "back": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3 · I learn fast, and I also enjoy teamwork.",
-   "gloss": "學嘢 = 学东西; 亦都 = 也",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r",
-    "hard03"
-   ]
-  },
-  {
-   "id": "yue-0030",
-   "front": "我覺得呢個職位好適合我。",
-   "back": "ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5 · I think this role suits me well.",
-   "gloss": "覺得 = 觉得; 適合 = 适合",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r",
-    "hard03"
-   ]
-  },
-  {
-   "id": "yue-0031",
-   "front": "因為",
-   "back": "jan1 wai6 · because",
-   "gloss": "因为 — both syllables: 1 then 6",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r",
-    "hard03"
-   ]
-  },
-  {
-   "id": "yue-0032",
-   "front": "職位",
-   "back": "zik1 wai6 · position / role",
-   "gloss": "职位 — 位 wai6 low level, like 事 si6",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap29y",
-    "recap30y",
-    "sat31r",
-    "hard03"
-   ]
-  },
-  {
-   "id": "yue-0033",
-   "front": "合作",
-   "back": "hap6 zok3 · cooperate / teamwork",
-   "gloss": "合作 — 作 zok3 same as 工作",
-   "lang": "yue-HK",
-   "tags": [
-    "wed28y",
-    "interview",
-    "recap30y",
-    "sat31",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0034",
-   "front": "唔該，一杯凍檸茶。",
-   "back": "m4 goi1, jat1 bui1 dung3 ning4 caa4 · One iced lemon tea, please.",
-   "gloss": "唔該 = please (asking for service)",
-   "lang": "yue-HK",
-   "tags": [
-    "fri30y",
-    "cafe",
-    "sat31",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0035",
-   "front": "走冰，少甜。",
-   "back": "zau2 bing1, siu2 tim4 · No ice, less sweet.",
-   "gloss": "走 = leave out",
-   "lang": "yue-HK",
-   "tags": [
-    "fri30y",
-    "cafe",
-    "sat31",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0036",
-   "front": "幾多錢呀？",
-   "back": "gei2 do1 cin2 aa3 · How much is it?",
-   "gloss": "錢 cin2 (changed tone)",
-   "lang": "yue-HK",
-   "tags": [
-    "fri30y",
-    "cafe",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0037",
-   "front": "可唔可以畀八達通？",
-   "back": "ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1 · Can I pay by Octopus?",
-   "gloss": "畀 bei2 = give/pay",
-   "lang": "yue-HK",
-   "tags": [
-    "fri30y",
-    "cafe",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0038",
-   "front": "有咩事呀？",
-   "back": "jau5 me1 si6 aa3 · What's up? / What's the matter?",
-   "gloss": "事 si6 = LOW level tone (≠ 試 si3 mid)",
-   "lang": "yue-HK",
-   "tags": [
-    "sat31new",
-    "tones",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0039",
-   "front": "考試",
-   "back": "haau2 si3 · exam",
-   "gloss": "試 si3 = MID level tone (面試 min6 si3 也是 si3)",
-   "lang": "yue-HK",
-   "tags": [
-    "sat31new",
-    "tones",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0040",
-   "front": "合作愉快！",
-   "back": "hap6 zok3 jyu4 faai3 · Happy to work together!",
-   "gloss": "合作 hap6 zok3：低-中 · end-of-interview line",
-   "lang": "yue-HK",
-   "tags": [
-    "sat31new",
-    "interview",
-    "recap03y"
-   ]
-  },
-  {
-   "id": "yue-0041",
-   "front": "堂食，唔該。",
-   "back": "tong4 sik6, m4 goi1 · Eat in, please.",
-   "gloss": "堂食 tong4 sik6：低降-低平",
-   "lang": "yue-HK",
-   "tags": [
-    "tue03y",
-    "cafe"
-   ]
-  },
-  {
-   "id": "yue-0042",
-   "front": "可唔可以加多個蛋撻？",
-   "back": "ho2 m4 ho2 ji5 gaa1 do1 go3 daan6 taat1 · Can I add one more egg tart?",
-   "gloss": "蛋撻 daan6 taat1",
-   "lang": "yue-HK",
-   "tags": [
-    "tue03y",
-    "cafe"
-   ]
-  },
-  {
-   "id": "yue-0043",
-   "front": "埋單，唔該。",
-   "back": "maai4 daan1, m4 goi1 · The bill, please.",
-   "gloss": "埋單 maai4 daan1 = 买单",
-   "lang": "yue-HK",
-   "tags": [
-    "tue03y",
-    "cafe"
-   ]
-  },
-  {
-   "id": "yue-0044",
-   "front": "我好期待同你哋合作。",
-   "back": "ngo5 hou2 kei4 doi6 tung4 nei5 dei6 hap6 zok3 · I look forward to working with you.",
-   "gloss": "合作 hap6 zok3：低-中 · 期待 kei4 doi6",
-   "lang": "yue-HK",
-   "tags": [
-    "tue03y",
-    "interview"
-   ]
-  }
- ]
+  "schema": "studyhub.deck.v1",
+  "track": "cantonese",
+  "cards": [
+    {
+      "id": "yue-0001",
+      "front": "詩",
+      "back": "si1 · poem",
+      "gloss": "高平調 · high level · tone 1",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0002",
+      "front": "史",
+      "back": "si2 · history",
+      "gloss": "高升調 · high rising · tone 2",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0003",
+      "front": "試",
+      "back": "si3 · try / test",
+      "gloss": "中平調 · mid level · tone 3",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0004",
+      "front": "時",
+      "back": "si4 · time",
+      "gloss": "低降調 · low falling · tone 4",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0005",
+      "front": "市",
+      "back": "si5 · market / city",
+      "gloss": "低升調 · low rising · tone 5",
+      "lang": "yue-HK",
+      "tags": [
+        "tones"
+      ]
+    },
+    {
+      "id": "yue-0006",
+      "front": "事",
+      "back": "si6 · matter / event",
+      "gloss": "低平調 · low level · tone 6",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "recap27",
+        "recap28y",
+        "recap30y",
+        "sat31",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0007",
+      "front": "你好",
+      "back": "nei5 hou2 · hello",
+      "gloss": "A simple greeting.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0008",
+      "front": "面試",
+      "back": "min6 si3 · interview",
+      "gloss": "Watch the two tones: 6, then 3.",
+      "lang": "yue-HK",
+      "tags": [
+        "workplace",
+        "tones",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0009",
+      "front": "我叫阿佳。",
+      "back": "ngo5 giu3 aa3 gaai1 · My name is Jia.",
+      "gloss": "我叫… means My name is…",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0010",
+      "front": "多謝",
+      "back": "do1 ze6 · thank you",
+      "gloss": "Often used when receiving a gift.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0011",
+      "front": "唔該",
+      "back": "m4 goi1 · thanks (for a service) / excuse me",
+      "gloss": "Use with shop staff and waiters; 多謝 is for gifts.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions",
+        "phrases",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0012",
+      "front": "我叫…",
+      "back": "ngo5 giu3 … · My name is…",
+      "gloss": "Add your name after 叫.",
+      "lang": "yue-HK",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "yue-0013",
+      "front": "工作經驗",
+      "back": "gung1 zok3 ging1 jim6 · work experience",
+      "gloss": "Useful in interviews.",
+      "lang": "yue-HK",
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "yue-0014",
+      "front": "面試 (trap tones)",
+      "back": "min6 si3 · interview",
+      "gloss": "NOT min6 si1 / si2. Second syllable is tone 3 (試).",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0015",
+      "front": "工作經驗",
+      "back": "gung1 zok3 ging1 jim6 · work experience",
+      "gloss": "Four tones: 1-3-1-6. Say each number in your head once.",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0016",
+      "front": "我嚟面試",
+      "back": "ngo5 lai4 min6 si3 · I’ve come for the interview / I’m here for an interview.",
+      "gloss": "嚟 = lai4 (spoken). Full phrase for the door.",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0017",
+      "front": "試 si3 vs 事 si6",
+      "back": "試 si3 = try/test (in 面試). 事 si6 = matter/affair. Mid level vs low level.",
+      "gloss": "面试用 試 (3)，不是 事 (6)。",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase",
+        "recap27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0018",
+      "front": "嚟 lai4 (spoken) vs 來",
+      "back": "Spoken Cantonese prefers 嚟 lai4; 來 is the written form. Same meaning: come.",
+      "gloss": "口語用嚟，書面用來。Say: ngo5 lai4…",
+      "lang": "yue-HK",
+      "tags": [
+        "tones",
+        "phrase"
+      ]
+    },
+    {
+      "id": "yue-0019",
+      "front": "我叫傅佳。",
+      "back": "ngo5 giu3 Fu6 Gaai1 · My name is Fu Jia.",
+      "gloss": "我叫傅佳。叫 giu3 = 叫做",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0020",
+      "front": "我喺港大讀咗城市分析。",
+      "back": "ngo5 hai2 Gong2 Daai6 duk6 zo2 sing4 si5 fan1 sik1 · I studied urban analytics at HKU.",
+      "gloss": "喺 hai2 = 在; 咗 zo2 = 了",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27",
+        "recap28y",
+        "recap29y"
+      ]
+    },
+    {
+      "id": "yue-0021",
+      "front": "我鍾意數據分析。",
+      "back": "ngo5 zung1 ji3 sou3 geoi3 fan1 sik1 · I like data analysis.",
+      "gloss": "鍾意 = 喜欢",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27",
+        "recap28y",
+        "recap29y"
+      ]
+    },
+    {
+      "id": "yue-0022",
+      "front": "我好想加入你哋嘅團隊。",
+      "back": "ngo5 hou2 soeng2 gaa1 jap6 nei5 dei6 ge3 tyun4 deoi6 · I'd really like to join your team.",
+      "gloss": "你哋 = 你们; 嘅 = 的",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27"
+      ]
+    },
+    {
+      "id": "yue-0023",
+      "front": "時間",
+      "back": "si4 gaan3 · time (多謝你嘅時間 = thanks for your time)",
+      "gloss": "si4 low-falling — not si3!",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27",
+        "recap28y"
+      ]
+    },
+    {
+      "id": "yue-0024",
+      "front": "城市",
+      "back": "sing4 si5 · city",
+      "gloss": "市 si5 low-rising. 試 si3 / 時 si4 / 市 si5 / 事 si6",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27"
+      ]
+    },
+    {
+      "id": "yue-0025",
+      "front": "數據",
+      "back": "sou3 geoi3 · data",
+      "gloss": "数据",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27"
+      ]
+    },
+    {
+      "id": "yue-0026",
+      "front": "團隊",
+      "back": "tyun4 deoi6 · team",
+      "gloss": "团队",
+      "lang": "yue-HK",
+      "tags": [
+        "tue27"
+      ]
+    },
+    {
+      "id": "yue-0027",
+      "front": "我想做呢份工，因為我鍾意用數據幫城市規劃。",
+      "back": "ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6 · I want this job because I like using data to help city planning.",
+      "gloss": "呢份工 = 这份工作; 規劃 = 规划",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r"
+      ]
+    },
+    {
+      "id": "yue-0028",
+      "front": "我有地理空間數據分析嘅經驗。",
+      "back": "ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6 · I have experience in geospatial data analysis.",
+      "gloss": "嘅經驗 = 的经验 (ging1 jim6, 1-6)",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r",
+        "hard03",
+        "hard04y"
+      ]
+    },
+    {
+      "id": "yue-0029",
+      "front": "我學嘢好快，亦都鍾意團隊合作。",
+      "back": "ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3 · I learn fast, and I also enjoy teamwork.",
+      "gloss": "學嘢 = 学东西; 亦都 = 也",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r",
+        "hard03",
+        "hard04y"
+      ]
+    },
+    {
+      "id": "yue-0030",
+      "front": "我覺得呢個職位好適合我。",
+      "back": "ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5 · I think this role suits me well.",
+      "gloss": "覺得 = 觉得; 適合 = 适合",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r",
+        "hard03",
+        "hard04y"
+      ]
+    },
+    {
+      "id": "yue-0031",
+      "front": "因為",
+      "back": "jan1 wai6 · because",
+      "gloss": "因为 — both syllables: 1 then 6",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r",
+        "hard03",
+        "hard04y"
+      ]
+    },
+    {
+      "id": "yue-0032",
+      "front": "職位",
+      "back": "zik1 wai6 · position / role",
+      "gloss": "职位 — 位 wai6 low level, like 事 si6",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap29y",
+        "recap30y",
+        "sat31r",
+        "hard03",
+        "hard04y"
+      ]
+    },
+    {
+      "id": "yue-0033",
+      "front": "合作",
+      "back": "hap6 zok3 · cooperate / teamwork",
+      "gloss": "合作 — 作 zok3 same as 工作",
+      "lang": "yue-HK",
+      "tags": [
+        "wed28y",
+        "interview",
+        "recap30y",
+        "sat31",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0034",
+      "front": "唔該，一杯凍檸茶。",
+      "back": "m4 goi1, jat1 bui1 dung3 ning4 caa4 · One iced lemon tea, please.",
+      "gloss": "唔該 = please (asking for service)",
+      "lang": "yue-HK",
+      "tags": [
+        "fri30y",
+        "cafe",
+        "sat31",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0035",
+      "front": "走冰，少甜。",
+      "back": "zau2 bing1, siu2 tim4 · No ice, less sweet.",
+      "gloss": "走 = leave out",
+      "lang": "yue-HK",
+      "tags": [
+        "fri30y",
+        "cafe",
+        "sat31",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0036",
+      "front": "幾多錢呀？",
+      "back": "gei2 do1 cin2 aa3 · How much is it?",
+      "gloss": "錢 cin2 (changed tone)",
+      "lang": "yue-HK",
+      "tags": [
+        "fri30y",
+        "cafe",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0037",
+      "front": "可唔可以畀八達通？",
+      "back": "ho2 m4 ho2 ji5 bei2 baat3 daat6 tung1 · Can I pay by Octopus?",
+      "gloss": "畀 bei2 = give/pay",
+      "lang": "yue-HK",
+      "tags": [
+        "fri30y",
+        "cafe",
+        "recap03y",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0038",
+      "front": "有咩事呀？",
+      "back": "jau5 me1 si6 aa3 · What's up? / What's the matter?",
+      "gloss": "事 si6 = LOW level tone (≠ 試 si3 mid)",
+      "lang": "yue-HK",
+      "tags": [
+        "sat31new",
+        "tones",
+        "recap03y"
+      ]
+    },
+    {
+      "id": "yue-0039",
+      "front": "考試",
+      "back": "haau2 si3 · exam",
+      "gloss": "試 si3 = MID level tone (面試 min6 si3 也是 si3)",
+      "lang": "yue-HK",
+      "tags": [
+        "sat31new",
+        "tones",
+        "recap03y"
+      ]
+    },
+    {
+      "id": "yue-0040",
+      "front": "合作愉快！",
+      "back": "hap6 zok3 jyu4 faai3 · Happy to work together!",
+      "gloss": "合作 hap6 zok3：低-中 · end-of-interview line",
+      "lang": "yue-HK",
+      "tags": [
+        "sat31new",
+        "interview",
+        "recap03y"
+      ]
+    },
+    {
+      "id": "yue-0041",
+      "front": "堂食，唔該。",
+      "back": "tong4 sik6, m4 goi1 · Eat in, please.",
+      "gloss": "堂食 tong4 sik6：低降-低平",
+      "lang": "yue-HK",
+      "tags": [
+        "tue03y",
+        "cafe",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0042",
+      "front": "可唔可以加多個蛋撻？",
+      "back": "ho2 m4 ho2 ji5 gaa1 do1 go3 daan6 taat1 · Can I add one more egg tart?",
+      "gloss": "蛋撻 daan6 taat1",
+      "lang": "yue-HK",
+      "tags": [
+        "tue03y",
+        "cafe",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0043",
+      "front": "埋單，唔該。",
+      "back": "maai4 daan1, m4 goi1 · The bill, please.",
+      "gloss": "埋單 maai4 daan1 = 买单",
+      "lang": "yue-HK",
+      "tags": [
+        "tue03y",
+        "cafe",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0044",
+      "front": "我好期待同你哋合作。",
+      "back": "ngo5 hou2 kei4 doi6 tung4 nei5 dei6 hap6 zok3 · I look forward to working with you.",
+      "gloss": "合作 hap6 zok3：低-中 · 期待 kei4 doi6",
+      "lang": "yue-HK",
+      "tags": [
+        "tue03y",
+        "interview",
+        "recap04y"
+      ]
+    },
+    {
+      "id": "yue-0045",
+      "front": "我喺港大做過老齡化友善城市嘅研究。",
+      "back": "ngo5 hai2 Gong2 Daai6 zou6 gwo3 lou5 ling4 faa3 jau5 sin6 sing4 si5 ge3 jin4 gau3 · I did ageing-friendly city research at HKU.",
+      "gloss": "研究 jin4 gau3：低升-高平 · 老齡化 lou5 ling4 faa3",
+      "lang": "yue-HK",
+      "tags": [
+        "wed04y",
+        "interview",
+        "intro"
+      ]
+    },
+    {
+      "id": "yue-0046",
+      "front": "我嘅強項係數據分析同解決問題。",
+      "back": "ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4 · My strengths are data analysis and problem-solving.",
+      "gloss": "強項 koeng4 hong6：低升-低降 · 解決 gaai2 kyut3",
+      "lang": "yue-HK",
+      "tags": [
+        "wed04y",
+        "interview",
+        "intro"
+      ]
+    },
+    {
+      "id": "yue-0047",
+      "front": "有，我想問吓團隊而家最重要嘅研究課題係咩。",
+      "back": "jau5, ngo5 soeng2 man6 haa5 tyun4 deoi6 ji4 gaa1 zeoi3 zung6 jiu3 ge3 jin4 gau3 fo1 tai4 hai6 me1 · Yes — I'd like to ask what the team's most important research topic is right now.",
+      "gloss": "Reply to 有冇問題問我哋 · 課題 fo1 tai4：高平-低升",
+      "lang": "yue-HK",
+      "tags": [
+        "wed04y",
+        "interview"
+      ]
+    },
+    {
+      "id": "yue-0048",
+      "front": "多謝你哋今日嘅時間，我好期待有機會加入。",
+      "back": "do1 ze6 nei5 dei6 gam1 jat6 ge3 si4 gaan3, ngo5 hou2 kei4 doi6 jau5 gei1 wui6 gaa1 jap6 · Thank you for your time today; I look forward to a chance to join.",
+      "gloss": "時間 si4 gaan3（時 = tone 4）· 加入 gaa1 jap6",
+      "lang": "yue-HK",
+      "tags": [
+        "wed04y",
+        "interview",
+        "intro"
+      ]
+    }
+  ]
 }
