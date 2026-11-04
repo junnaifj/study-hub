@@ -304,7 +304,8 @@
     "mon26",
     "sat31",
     "hard02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -316,7 +317,8 @@
    "tags": [
     "mon26",
     "sat31",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -339,7 +341,8 @@
     "mon26",
     "sat31",
     "hard02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -442,7 +445,8 @@
    "tags": [
     "mon26",
     "sat31",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -464,7 +468,8 @@
    "tags": [
     "mon26",
     "sat31",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -477,7 +482,8 @@
     "mon26",
     "sat31",
     "hard02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -593,7 +599,8 @@
     "recap30",
     "sat31",
     "hard02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -828,7 +835,8 @@
     "recap30",
     "sat31",
     "recap02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -844,7 +852,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -873,7 +882,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -887,7 +897,8 @@
     "STAR",
     "sat31",
     "recap02",
-    "recap03"
+    "recap03",
+    "recap04"
    ]
   },
   {
@@ -1206,7 +1217,8 @@
    "lang": "en-GB",
    "tags": [
     "mon02",
-    "word"
+    "word",
+    "recap04"
    ]
   },
   {
@@ -1217,7 +1229,8 @@
    "lang": "en-GB",
    "tags": [
     "mon02",
-    "word"
+    "word",
+    "recap04"
    ]
   },
   {
@@ -1306,6 +1319,138 @@
    "tags": [
     "tue03",
     "word"
+   ]
+  },
+  {
+   "id": "en-0107",
+   "front": "Intro v2 · Close with role",
+   "back": "That's why this role really appeals to me — I want to put spatial analysis into real decisions.",
+   "gloss": "收尾扣岗位 · 一句带住 why",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "intro2"
+   ]
+  },
+  {
+   "id": "en-0108",
+   "front": "Why Hong Kong · opener",
+   "back": "I'm especially interested in Hong Kong roles because I've already worked with Hong Kong spatial data.",
+   "gloss": "为什么选香港 · 先经验后意愿",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0109",
+   "front": "Why Hong Kong · proof line",
+   "back": "For example, I built street-view coverage for public housing estates and used government spatial APIs.",
+   "gloss": "香港证据 · 一项具体工作即可",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0110",
+   "front": "Why this role · opener",
+   "back": "What draws me to this role is the chance to turn analysis into planning decisions.",
+   "gloss": "为什么这个岗位 · draws me to",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0111",
+   "front": "Why this role · research bridge",
+   "back": "It connects directly to my work on ageing-friendly cities and street-view analysis.",
+   "gloss": "岗位 ↔ 研究 · connects directly to",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0112",
+   "front": "Missing data · treat gaps as findings",
+   "back": "When a key indicator was missing, I treated the gap as a finding, not a failure.",
+   "gloss": "缺数跟进 · gap = finding",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "followup"
+   ]
+  },
+  {
+   "id": "en-0113",
+   "front": "Missing data · proxies so work continues",
+   "back": "I listed the missing fields and proposed proxies so the analysis could still move forward.",
+   "gloss": "缺数跟进 · list + proxies",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "followup"
+   ]
+  },
+  {
+   "id": "en-0114",
+   "front": "Interview close · thank-you",
+   "back": "Thank you for your time today. I'd welcome the chance to contribute to your team.",
+   "gloss": "结束语 · welcome the chance",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "phrase"
+   ]
+  },
+  {
+   "id": "en-0115",
+   "front": "life-saving (BBC aircon)",
+   "back": "used to stop people from dying · \"Air conditioning can be life-saving in extreme heat.\"",
+   "gloss": "救命的 · BBC ep-261029",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0116",
+   "front": "vicious cycle (BBC aircon)",
+   "back": "a solution that makes the original problem worse · more AC → more emissions → more heat",
+   "gloss": "恶性循环 · also: vicious circle",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0117",
+   "front": "passive cooling (BBC aircon)",
+   "back": "cooling a building without using much power · shading, trees, blinds first",
+   "gloss": "被动降温 · before AC",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0118",
+   "front": "Intro v2 · order cue",
+   "back": "Present → Past (one number + one method) → Future → Close with role",
+   "gloss": "60秒顺序 · 现在→过去→未来→扣岗位",
+   "lang": "en-GB",
+   "tags": [
+    "wed04",
+    "intro2"
    ]
   }
  ]
