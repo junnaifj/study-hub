@@ -1,66 +1,86 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-04",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 12,
- "note": "Wednesday English: 事 si6 first, re-drill hard03 + tue03, then Sat/Mon recap, then 12 new (wed04). Timed 60-sec intro v2 today — point first. Owl ears are open. 先难卡，再计时自我介绍。",
+ "new_cards_limit": 4,
+ "note": "Wednesday Cantonese speaking: 事 + 合作 warm-up, re-drill why-lines (hard04y), café/合作 recap, then 4 new intro add-ons (wed04y). Record the 1-min intro twice. Hub Play may be silent — use the mp3. 讲出声，猫头鹰在听。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Keep it low and flat, not mid like 試 si3.",
-   "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
+   "prompt": "Warm-up: say 事 (si6, low flat 低平调) three times, then 合作 (hap6 zok3) three times. Keep 事 low and flat — not mid like 試 si3.",
+   "seconds": 45,
+   "script": "事 si6 · 事 si6 · 事 si6\n合作 hap6 zok3 · 合作 hap6 zok3 · 合作 hap6 zok3\n(試 si3 = mid; 事 si6 sits lower. 作 zok3 as in 工作 gung1 zok3.)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "cantonese",
    "tags": [
-    "hard03"
+    "hard04y"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "cantonese",
    "tags": [
-    "tue03"
+    "recap04y"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap04"
-   ]
+   "type": "link",
+   "title": "words.hk 粵典 · look up 研究 / 強項 / 課題 (Jyutping + examples)",
+   "url": "https://words.hk/",
+   "minutes": 2
   },
   {
    "id": "t4",
-   "type": "link",
-   "title": "BBC 6 Minute English · Is aircon the answer to a heating world? (ep-261029)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029",
-   "minutes": 6
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed04y"
+   ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "wed04"
+   "type": "reading",
+   "title": "Shadow ×3: new intro add-ons (mp3 in chat: wed04_intro_addons.mp3) · then why-lines (tue03_yue_lines.mp3) ×3",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "我喺港大做過老齡化友善城市嘅研究。",
+     "gloss": "ngo5 hai2 Gong2 Daai6 zou6 gwo3 lou5 ling4 faa3 jau5 sin6 sing4 si5 ge3 jin4 gau3",
+     "translation": "I did ageing-friendly city research at HKU."
+    },
+    {
+     "text": "我嘅強項係數據分析同解決問題。",
+     "gloss": "ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4",
+     "translation": "My strengths are data analysis and problem-solving."
+    },
+    {
+     "text": "有，我想問吓團隊而家最重要嘅研究課題係咩。",
+     "gloss": "jau5, ngo5 soeng2 man6 haa5 tyun4 deoi6 ji4 gaa1 zeoi3 zung6 jiu3 ge3 jin4 gau3 fo1 tai4 hai6 me1",
+     "translation": "Yes — I'd like to ask what the team's top research topic is now. (reply to 有冇問題問我哋)"
+    },
+    {
+     "text": "多謝你哋今日嘅時間，我好期待有機會加入。",
+     "gloss": "do1 ze6 nei5 dei6 gam1 jat6 ge3 si4 gaan3, ngo5 hou2 kei4 doi6 jau5 gei1 wui6 gaa1 jap6",
+     "translation": "Thank you for your time today; I look forward to a chance to join. (時 si4)"
+    }
    ]
   },
   {
    "id": "t6",
    "type": "speaking",
-   "prompt": "60-second self-intro v2, ONE timed take, no notes: Present → Past (one number + one method) → Future → Close with role. Then check against the script (📜).",
-   "seconds": 75,
-   "script": "I'm an urban analytics graduate from HKU, and I turn spatial data into decisions. Most recently, I worked as a research assistant on an ageing-friendly city project. I built a street-view dataset with about 98% coverage, using Python and ArcGIS Pro, and my analysis helped the team narrow the distance buffer for the regression. Before that, I was the sole analyst on an AI data-centre policy project. Going forward, I'm looking to apply spatial analysis to real planning decisions. That's why this role really appeals to me — I want to put spatial analysis into real decisions."
+   "prompt": "1-min Chinese self-intro + why-this-job: record → listen → re-record once. Point first (who you are / what you did), then reason, then one example. Watch 事 si6, 時間 si4 gaan3, 合作 hap6 zok3, 職位 zik1 wai6. Check the script after.",
+   "seconds": 360,
+   "script": "Model skeleton (swap in your own details, keep the tones):\n我喺港大做過老齡化友善城市嘅研究。ngo5 hai2 Gong2 Daai6 zou6 gwo3 lou5 ling4 faa3 jau5 sin6 sing4 si5 ge3 jin4 gau3\n我有地理空間數據分析嘅經驗。ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6\n我嘅強項係數據分析同解決問題。ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4\n我想做呢份工，因為我鍾意用數據幫城市規劃。ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6\n我覺得呢個職位好適合我。ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5\n有，我想問吓團隊而家最重要嘅研究課題係咩。\n多謝你哋今日嘅時間，我好期待有機會加入。(audio: wed04_intro_addons.mp3 + tue03_yue_lines.mp3)"
   },
   {
    "id": "t7",
@@ -68,84 +88,76 @@
    "questions": [
     {
      "id": "q1",
-     "type": "mc",
-     "q": "60-sec intro v2 order?",
-     "options": [
-      "Past → Present → Future",
-      "Present → Past → Future → Close with role",
-      "Future → Present → Past"
-     ],
-     "answer": 1,
-     "explain": "现在 → 过去 → 未来 → 扣岗位."
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low flat. Not 試 si3 or 時 si4."
     },
     {
      "id": "q2",
      "type": "typed",
-     "q": "Complete: What draws me ___ this role is…",
+     "q": "Jyutping for 合作 (tones, space between syllables).",
      "answer": [
-      "to"
+      "hap6 zok3"
      ],
-     "explain": "draws me to + role."
+     "explain": "hap6 zok3; same 作 as 工作 gung1 zok3."
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Best missing-data answer:",
+     "q": "強項 means…",
      "options": [
-      "The data was bad so I stopped.",
-      "I treated the gap as a finding and proposed proxies.",
-      "Someone else should have collected it."
+      "weakness",
+      "strength / strong suit",
+      "research topic"
      ],
      "answer": 1,
-     "explain": "gap = finding + next step."
+     "explain": "強項 koeng4 hong6 = strength / strong suit."
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "事 (matter) Jyutping?",
-     "options": [
-      "si3",
-      "si4",
-      "si6"
+     "type": "typed",
+     "q": "Jyutping for 研究 (tones).",
+     "answer": [
+      "jin4 gau3"
      ],
-     "answer": 2,
-     "explain": "si6 low flat. 試 is si3."
+     "explain": "jin4 gau3, low rising then mid."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "A vicious cycle is…",
+     "q": "Interviewer says 有冇問題問我哋. A solid reply starts with…",
      "options": [
-      "a short, easy fix",
-      "a solution that makes the original problem worse",
-      "cooling without power"
+      "唔該，一杯凍檸茶。",
+      "有，我想問吓…",
+      "走冰，少甜。"
      ],
      "answer": 1,
-     "explain": "恶性循环. Passive cooling = without much power."
+     "explain": "Yes + one real question about the team or the role's first-year work."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "Why Hong Kong — best first move?",
+     "q": "時間 is…",
      "options": [
-      "Say you like the food",
-      "Lead with HK spatial-data experience, then interest",
-      "Only say you need a visa"
+      "si3 gaan3",
+      "si4 gaan3",
+      "si6 gaan3"
      ],
      "answer": 1,
-     "explain": "经验在前，意愿在后."
+     "explain": "時 si4 (low falling), 間 gaan3. Common trap: saying si3."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "STAR Result speaking order?",
+     "q": "課題 means…",
      "options": [
-      "Example → Point → Reason",
-      "Point → Reason → Example",
-      "Reason → Example → Point"
+      "research topic / subject",
+      "salary",
+      "Octopus card"
      ],
-     "answer": 1,
-     "explain": "先结论，再原因，再例子."
+     "answer": 0,
+     "explain": "課題 fo1 tai4 = research topic / subject of study."
     }
    ]
   }
