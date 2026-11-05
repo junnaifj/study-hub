@@ -1,14 +1,14 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "slot": "morning",
  "tracks": [
   "english",
   "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 15,
- "note": "Thursday EN+Yue: 事 si6 first, re-drill Wed Hard (hard04), recap Mon/Tue (recap05), then 12 new Result/hedging (thu05) + 3 café lines (thu05y). STAR #3 Result only — 60 sec, for Sail at 14:00. Owl wants point → reason → example. 面试日先把结果说清楚。",
+ "new_cards_limit": 13,
+ "note": "Friday EN+Yue (driving exam day 🍀): keep light. 事 si6 first, re-drill Wed Hard (hard05), recap tue03+wed04, then 10 new post-interview/debrief (fri06) + 3 Yue tone fixes (fri06y). 60-sec Sail debrief Point→Reason→Example. No BBC today. 考试日短练，先难卡再复盘。",
  "tasks": [
   {
    "id": "t0",
@@ -22,15 +22,15 @@
    "type": "cards",
    "deck": "english",
    "tags": [
-    "hard04"
+    "hard05"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "recycle05y"
+    "tue03"
    ]
   },
   {
@@ -38,75 +38,86 @@
    "type": "cards",
    "deck": "english",
    "tags": [
-    "recap05"
+    "wed04"
    ]
   },
   {
    "id": "t4",
-   "type": "link",
-   "title": "BBC 6 Minute English · Making cities feel quieter (ep-260521)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260521",
-   "minutes": 6
-  },
-  {
-   "id": "t5",
    "type": "cards",
    "deck": "english",
    "tags": [
-    "thu05"
+    "fri06"
    ]
+  },
+  {
+   "id": "t5",
+   "type": "speaking",
+   "prompt": "Sail interview debrief — ONE 60-sec take in English. Order: Point → Reason → Example, then one Looking-back line. Check 📜 after. (考试日只练复盘，不追新故事。)",
+   "seconds": 75,
+   "script": "Point: Overall, I stayed calm and used a clear Point → Reason → Example structure when they asked about ambiguous scope. Reason: That kept my answers short and concrete. Example: For the missing-data question, I treated the gap as a finding and proposed proxies. Looking back: Looking back, I'd open with the Result number faster, then add one Looking-back line before I stop."
   },
   {
    "id": "t6",
    "type": "cards",
    "deck": "cantonese",
    "tags": [
-    "thu05y"
+    "tue03y"
    ]
   },
   {
    "id": "t7",
-   "type": "speaking",
-   "prompt": "STAR #3 Result only — ONE 60-sec take for Sail later. Order: Point → Reason → Example, then one Looking-back line. No full S-T-A today. Check 📜 after.",
-   "seconds": 75,
-   "script": "Point: As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing. Reason: That matters because it gives future policy work a clear starting point. Example: For example, the gap list showed exactly which indicators Hong Kong still needs to collect. Looking back: Looking back, confirming the scope early and keeping a written record protects both quality and timelines."
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed04y"
+   ]
   },
   {
    "id": "t8",
-   "type": "reading",
-   "title": "粤语 shadow ×2: café close + 時間 (mp3 in chat: thu05_cafe_time.mp3) · then wed04_intro_addons.mp3 ×2",
-   "lang": "yue-HK",
-   "lines": [
-    {
-     "text": "走冰，少甜，唔該。",
-     "gloss": "zau2 bing1, siu2 tim4, m4 goi1",
-     "translation": "No ice, less sugar, please."
-    },
-    {
-     "text": "唔該，打包。",
-     "gloss": "m4 goi1, daa2 baau1",
-     "translation": "Takeaway / pack it to go, please."
-    },
-    {
-     "text": "請問而家幾點？我冇時間。",
-     "gloss": "cing2 man6 ji4 gaa1 gei2 dim2? ngo5 mou5 si4 gaan3",
-     "translation": "Excuse me, what time is it? I don't have time. (時 si4 — not si3)"
-    },
-    {
-     "text": "合作 / 研究",
-     "gloss": "hap6 zok3 · jin4 gau3",
-     "translation": "Wed quiz misses — say each 3× before the café lines."
-    }
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "fri06y"
    ]
   },
   {
    "id": "t9",
+   "type": "reading",
+   "title": "粤语 shadow ×2: 合作 + 時間 closing (mp3: fri06_yue_lines.mp3)",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "合作",
+     "gloss": "hap6 zok3",
+     "translation": "cooperate / collaboration — say 3× (作 = zok3)"
+    },
+    {
+     "text": "時間",
+     "gloss": "si4 gaan3",
+     "translation": "time — 時 si4 (not si3, not si6)"
+    },
+    {
+     "text": "多謝你嘅時間，希望有機會再合作。",
+     "gloss": "do1 ze6 nei5 ge3 si4 gaan3, hei1 mong6 jau5 gei1 wui6 zoi3 hap6 zok3",
+     "translation": "Thank you for your time; I hope we get to work together again."
+    }
+   ]
+  },
+  {
+   "id": "t10",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low flat. Not 試 si3 or 時 si4."
+    },
+    {
+     "id": "q2",
      "type": "mc",
-     "q": "STAR Result speaking order?",
+     "q": "Sail debrief speaking order?",
      "options": [
       "Example → Point → Reason",
       "Point → Reason → Example",
@@ -116,57 +127,37 @@
      "explain": "先结论，再原因，再例子。"
     },
     {
-     "id": "q2",
-     "type": "typed",
-     "q": "Complete the Result glue: …which gives future policy work a ____ point.",
-     "answer": [
-      "starting",
-      "start"
-     ],
-     "explain": "starting point."
-    },
-    {
      "id": "q3",
      "type": "mc",
-     "q": "Best Looking-back line for ambiguous scope:",
+     "q": "Best Looking-back line after ambiguous scope:",
      "options": [
       "I waited until someone told me what to do.",
-      "Confirming the scope early and keeping a written record protects quality and timelines.",
+      "Confirming the scope early and keeping a written record protected quality and timelines.",
       "I ignored the changes."
      ],
      "answer": 1,
-     "explain": "scope early + written record."
+     "explain": "早定范围 + 书面记录。"
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "counterintuitive means…",
-     "options": [
-      "exactly what you expected",
-      "happening differently from what you would expect",
-      "a unit for measuring sound"
+     "type": "typed",
+     "q": "Complete the post-interview opener: Thank you again for your ____ today.",
+     "answer": [
+      "time"
      ],
-     "answer": 1,
-     "explain": "反直觉. decibel = sound unit."
+     "explain": "Thank you for your time."
     },
     {
      "id": "q5",
-     "type": "tone",
-     "q": "Tone number for 事 in 有咩事呀？",
-     "answer": 6,
-     "explain": "事 si6, low flat. Not 試 si3 or 時 si4."
-    },
-    {
-     "id": "q6",
      "type": "typed",
      "q": "Jyutping for 合作 (tones, space between syllables).",
      "answer": [
       "hap6 zok3"
      ],
-     "explain": "Wed B miss again — hap6 zok3."
+     "explain": "hap6 zok3 — same 作 as 工作."
     },
     {
-     "id": "q7",
+     "id": "q6",
      "type": "mc",
      "q": "時間 is…",
      "options": [
