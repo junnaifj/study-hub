@@ -1,27 +1,28 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-04",
- "slot": "evening",
+ "date": "2026-11-05",
+ "slot": "morning",
  "tracks": [
+  "english",
   "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 4,
- "note": "Wednesday Cantonese speaking: 事 + 合作 warm-up, re-drill why-lines (hard04y), café/合作 recap, then 4 new intro add-ons (wed04y). Record the 1-min intro twice. Hub Play may be silent — use the mp3. 讲出声，猫头鹰在听。",
+ "new_cards_limit": 15,
+ "note": "Thursday EN+Yue: 事 si6 first, re-drill Wed Hard (hard04), recap Mon/Tue (recap05), then 12 new Result/hedging (thu05) + 3 café lines (thu05y). STAR #3 Result only — 60 sec, for Sail at 14:00. Owl wants point → reason → example. 面试日先把结果说清楚。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat 低平调) three times, then 合作 (hap6 zok3) three times. Keep 事 low and flat — not mid like 試 si3.",
-   "seconds": 45,
-   "script": "事 si6 · 事 si6 · 事 si6\n合作 hap6 zok3 · 合作 hap6 zok3 · 合作 hap6 zok3\n(試 si3 = mid; 事 si6 sits lower. 作 zok3 as in 工作 gung1 zok3.)"
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Keep it low and flat, not mid like 試 si3.",
+   "seconds": 30,
+   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "hard04y"
+    "hard04"
    ]
   },
   {
@@ -29,114 +30,143 @@
    "type": "cards",
    "deck": "cantonese",
    "tags": [
-    "recap04y"
+    "recycle05y"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "words.hk 粵典 · look up 研究 / 強項 / 課題 (Jyutping + examples)",
-   "url": "https://words.hk/",
-   "minutes": 2
-  },
-  {
-   "id": "t4",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "wed04y"
+    "recap05"
    ]
   },
   {
+   "id": "t4",
+   "type": "link",
+   "title": "BBC 6 Minute English · Making cities feel quieter (ep-260521)",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260521",
+   "minutes": 6
+  },
+  {
    "id": "t5",
-   "type": "reading",
-   "title": "Shadow ×3: new intro add-ons (mp3 in chat: wed04_intro_addons.mp3) · then why-lines (tue03_yue_lines.mp3) ×3",
-   "lang": "yue-HK",
-   "lines": [
-    {
-     "text": "我喺港大做過老齡化友善城市嘅研究。",
-     "gloss": "ngo5 hai2 Gong2 Daai6 zou6 gwo3 lou5 ling4 faa3 jau5 sin6 sing4 si5 ge3 jin4 gau3",
-     "translation": "I did ageing-friendly city research at HKU."
-    },
-    {
-     "text": "我嘅強項係數據分析同解決問題。",
-     "gloss": "ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4",
-     "translation": "My strengths are data analysis and problem-solving."
-    },
-    {
-     "text": "有，我想問吓團隊而家最重要嘅研究課題係咩。",
-     "gloss": "jau5, ngo5 soeng2 man6 haa5 tyun4 deoi6 ji4 gaa1 zeoi3 zung6 jiu3 ge3 jin4 gau3 fo1 tai4 hai6 me1",
-     "translation": "Yes — I'd like to ask what the team's top research topic is now. (reply to 有冇問題問我哋)"
-    },
-    {
-     "text": "多謝你哋今日嘅時間，我好期待有機會加入。",
-     "gloss": "do1 ze6 nei5 dei6 gam1 jat6 ge3 si4 gaan3, ngo5 hou2 kei4 doi6 jau5 gei1 wui6 gaa1 jap6",
-     "translation": "Thank you for your time today; I look forward to a chance to join. (時 si4)"
-    }
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "thu05"
    ]
   },
   {
    "id": "t6",
-   "type": "speaking",
-   "prompt": "1-min Chinese self-intro + why-this-job: record → listen → re-record once. Point first (who you are / what you did), then reason, then one example. Watch 事 si6, 時間 si4 gaan3, 合作 hap6 zok3, 職位 zik1 wai6. Check the script after.",
-   "seconds": 360,
-   "script": "Model skeleton (swap in your own details, keep the tones):\n我喺港大做過老齡化友善城市嘅研究。ngo5 hai2 Gong2 Daai6 zou6 gwo3 lou5 ling4 faa3 jau5 sin6 sing4 si5 ge3 jin4 gau3\n我有地理空間數據分析嘅經驗。ngo5 jau5 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1 ge3 ging1 jim6\n我嘅強項係數據分析同解決問題。ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4\n我想做呢份工，因為我鍾意用數據幫城市規劃。ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6\n我覺得呢個職位好適合我。ngo5 gok3 dak1 ni1 go3 zik1 wai6 hou2 sik1 hap6 ngo5\n有，我想問吓團隊而家最重要嘅研究課題係咩。\n多謝你哋今日嘅時間，我好期待有機會加入。(audio: wed04_intro_addons.mp3 + tue03_yue_lines.mp3)"
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "thu05y"
+   ]
   },
   {
    "id": "t7",
+   "type": "speaking",
+   "prompt": "STAR #3 Result only — ONE 60-sec take for Sail later. Order: Point → Reason → Example, then one Looking-back line. No full S-T-A today. Check 📜 after.",
+   "seconds": 75,
+   "script": "Point: As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing. Reason: That matters because it gives future policy work a clear starting point. Example: For example, the gap list showed exactly which indicators Hong Kong still needs to collect. Looking back: Looking back, confirming the scope early and keeping a written record protects both quality and timelines."
+  },
+  {
+   "id": "t8",
+   "type": "reading",
+   "title": "粤语 shadow ×2: café close + 時間 (mp3 in chat: thu05_cafe_time.mp3) · then wed04_intro_addons.mp3 ×2",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "走冰，少甜，唔該。",
+     "gloss": "zau2 bing1, siu2 tim4, m4 goi1",
+     "translation": "No ice, less sugar, please."
+    },
+    {
+     "text": "唔該，打包。",
+     "gloss": "m4 goi1, daa2 baau1",
+     "translation": "Takeaway / pack it to go, please."
+    },
+    {
+     "text": "請問而家幾點？我冇時間。",
+     "gloss": "cing2 man6 ji4 gaa1 gei2 dim2? ngo5 mou5 si4 gaan3",
+     "translation": "Excuse me, what time is it? I don't have time. (時 si4 — not si3)"
+    },
+    {
+     "text": "合作 / 研究",
+     "gloss": "hap6 zok3 · jin4 gau3",
+     "translation": "Wed quiz misses — say each 3× before the café lines."
+    }
+   ]
+  },
+  {
+   "id": "t9",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
+     "type": "mc",
+     "q": "STAR Result speaking order?",
+     "options": [
+      "Example → Point → Reason",
+      "Point → Reason → Example",
+      "Reason → Example → Point"
+     ],
+     "answer": 1,
+     "explain": "先结论，再原因，再例子。"
+    },
+    {
+     "id": "q2",
+     "type": "typed",
+     "q": "Complete the Result glue: …which gives future policy work a ____ point.",
+     "answer": [
+      "starting",
+      "start"
+     ],
+     "explain": "starting point."
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "q": "Best Looking-back line for ambiguous scope:",
+     "options": [
+      "I waited until someone told me what to do.",
+      "Confirming the scope early and keeping a written record protects quality and timelines.",
+      "I ignored the changes."
+     ],
+     "answer": 1,
+     "explain": "scope early + written record."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "counterintuitive means…",
+     "options": [
+      "exactly what you expected",
+      "happening differently from what you would expect",
+      "a unit for measuring sound"
+     ],
+     "answer": 1,
+     "explain": "反直觉. decibel = sound unit."
+    },
+    {
+     "id": "q5",
      "type": "tone",
      "q": "Tone number for 事 in 有咩事呀？",
      "answer": 6,
      "explain": "事 si6, low flat. Not 試 si3 or 時 si4."
     },
     {
-     "id": "q2",
+     "id": "q6",
      "type": "typed",
      "q": "Jyutping for 合作 (tones, space between syllables).",
      "answer": [
       "hap6 zok3"
      ],
-     "explain": "hap6 zok3; same 作 as 工作 gung1 zok3."
+     "explain": "Wed B miss again — hap6 zok3."
     },
     {
-     "id": "q3",
-     "type": "mc",
-     "q": "強項 means…",
-     "options": [
-      "weakness",
-      "strength / strong suit",
-      "research topic"
-     ],
-     "answer": 1,
-     "explain": "強項 koeng4 hong6 = strength / strong suit."
-    },
-    {
-     "id": "q4",
-     "type": "typed",
-     "q": "Jyutping for 研究 (tones).",
-     "answer": [
-      "jin4 gau3"
-     ],
-     "explain": "jin4 gau3, low rising then mid."
-    },
-    {
-     "id": "q5",
-     "type": "mc",
-     "q": "Interviewer says 有冇問題問我哋. A solid reply starts with…",
-     "options": [
-      "唔該，一杯凍檸茶。",
-      "有，我想問吓…",
-      "走冰，少甜。"
-     ],
-     "answer": 1,
-     "explain": "Yes + one real question about the team or the role's first-year work."
-    },
-    {
-     "id": "q6",
+     "id": "q7",
      "type": "mc",
      "q": "時間 is…",
      "options": [
@@ -145,19 +175,7 @@
       "si6 gaan3"
      ],
      "answer": 1,
-     "explain": "時 si4 (low falling), 間 gaan3. Common trap: saying si3."
-    },
-    {
-     "id": "q7",
-     "type": "mc",
-     "q": "課題 means…",
-     "options": [
-      "research topic / subject",
-      "salary",
-      "Octopus card"
-     ],
-     "answer": 0,
-     "explain": "課題 fo1 tai4 = research topic / subject of study."
+     "explain": "時 si4 (low falling), 間 gaan3."
     }
    ]
   }
