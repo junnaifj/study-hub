@@ -630,6 +630,42 @@
     "cafe",
     "tones"
    ]
+  },
+  {
+   "id": "yue-0052",
+   "front": "合作",
+   "back": "hap6 zok3 · cooperate / collaboration (作 = zok3, same as 工作)",
+   "gloss": "Wed B 错点：合作 hap6 zok3，勿混声调。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri06y",
+    "tones",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0053",
+   "front": "時間",
+   "back": "si4 gaan3 · time (時 = si4 low falling — not si3, not si6)",
+   "gloss": "時間 si4 gaan3；對比 試 si3 / 事 si6。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri06y",
+    "tones"
+   ]
+  },
+  {
+   "id": "yue-0054",
+   "front": "多謝你嘅時間，希望有機會再合作。",
+   "back": "do1 ze6 nei5 ge3 si4 gaan3, hei1 mong6 jau5 gei1 wui6 zoi3 hap6 zok3 · Thank you for your time; I hope we get to work together again.",
+   "gloss": "收尾句：時間 si4 gaan3 + 合作 hap6 zok3。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri06y",
+    "interview",
+    "closing",
+    "tones"
+   ]
   }
  ]
 }
