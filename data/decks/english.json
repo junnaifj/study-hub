@@ -305,7 +305,8 @@
     "sat31",
     "hard02",
     "recap03",
-    "recap04"
+    "recap04",
+    "hard04"
    ]
   },
   {
@@ -483,7 +484,8 @@
     "sat31",
     "hard02",
     "recap03",
-    "recap04"
+    "recap04",
+    "hard04"
    ]
   },
   {
@@ -913,7 +915,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -928,7 +931,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -943,7 +947,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -958,7 +963,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -973,7 +979,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -988,7 +995,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1003,7 +1011,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1018,7 +1027,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1033,7 +1043,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1048,7 +1059,8 @@
     "sat31",
     "hard02",
     "recap02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1061,7 +1073,8 @@
     "sat31new",
     "phrase",
     "hard02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1074,7 +1087,8 @@
     "sat31new",
     "word",
     "hard02",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1086,7 +1100,8 @@
    "tags": [
     "sat31new",
     "word",
-    "hard03"
+    "hard03",
+    "hard04"
    ]
   },
   {
@@ -1098,7 +1113,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1110,7 +1127,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1122,7 +1141,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1134,7 +1155,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1146,7 +1169,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1158,7 +1183,9 @@
    "tags": [
     "mon02",
     "intro2",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1170,7 +1197,9 @@
    "tags": [
     "mon02",
     "star3fu",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1182,7 +1211,9 @@
    "tags": [
     "mon02",
     "star3fu",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1194,7 +1225,9 @@
    "tags": [
     "mon02",
     "star3fu",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1206,7 +1239,9 @@
    "tags": [
     "mon02",
     "star3fu",
-    "hard03"
+    "hard03",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1218,7 +1253,9 @@
    "tags": [
     "mon02",
     "word",
-    "recap04"
+    "recap04",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1230,7 +1267,9 @@
    "tags": [
     "mon02",
     "word",
-    "recap04"
+    "recap04",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1241,7 +1280,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "STAR"
+    "STAR",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1252,7 +1293,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "STAR"
+    "STAR",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1263,7 +1306,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "STAR"
+    "STAR",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1274,7 +1319,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "phrase"
+    "phrase",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1285,7 +1332,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "followup"
+    "followup",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1296,7 +1345,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "followup"
+    "followup",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1307,7 +1358,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "word"
+    "word",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1318,7 +1371,9 @@
    "lang": "en-GB",
    "tags": [
     "tue03",
-    "word"
+    "word",
+    "hard04",
+    "recap05"
    ]
   },
   {
@@ -1329,7 +1384,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "intro2"
+    "intro2",
+    "hard04"
    ]
   },
   {
@@ -1362,7 +1418,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "interviews"
+    "interviews",
+    "hard04"
    ]
   },
   {
@@ -1384,7 +1441,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "followup"
+    "followup",
+    "hard04"
    ]
   },
   {
@@ -1395,7 +1453,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "followup"
+    "followup",
+    "hard04"
    ]
   },
   {
@@ -1417,7 +1476,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "vocabulary"
+    "vocabulary",
+    "hard04"
    ]
   },
   {
@@ -1428,7 +1488,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "vocabulary"
+    "vocabulary",
+    "hard04"
    ]
   },
   {
@@ -1439,7 +1500,8 @@
    "lang": "en-GB",
    "tags": [
     "wed04",
-    "vocabulary"
+    "vocabulary",
+    "hard04"
    ]
   },
   {
@@ -1451,6 +1513,150 @@
    "tags": [
     "wed04",
     "intro2"
+   ]
+  },
+  {
+   "id": "en-0119",
+   "front": "STAR #3 Result · Point (60-sec version)",
+   "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
+   "gloss": "先结论：交付物 = baseline + gap list。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "result"
+   ]
+  },
+  {
+   "id": "en-0120",
+   "front": "STAR #3 Result · Reason",
+   "back": "That matters because it gives future policy work a clear starting point.",
+   "gloss": "再原因：为什么这个结果有用。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "result"
+   ]
+  },
+  {
+   "id": "en-0121",
+   "front": "STAR #3 Result · Example",
+   "back": "For example, the gap list showed exactly which indicators Hong Kong still needs to collect.",
+   "gloss": "再例子：gap list 具体帮了什么。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "result"
+   ]
+  },
+  {
+   "id": "en-0122",
+   "front": "Looking back · scope early",
+   "back": "Looking back, I learned that in ambiguous projects, confirming the scope early protects both quality and timelines.",
+   "gloss": "回顾句 1：先定 scope。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "looking-back"
+   ]
+  },
+  {
+   "id": "en-0123",
+   "front": "Looking back · written record",
+   "back": "Keeping a written record of agreed direction, deliverables and deadlines protects the work when things shift.",
+   "gloss": "回顾句 2：书面记录保护质量与时间。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "looking-back"
+   ]
+  },
+  {
+   "id": "en-0124",
+   "front": "Number frame · regions compared",
+   "back": "I compared Hong Kong against other governments and regions with published data-centre policies.",
+   "gloss": "数字/对比框：别空口说 compared。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "number"
+   ]
+  },
+  {
+   "id": "en-0125",
+   "front": "Hedging · limited data",
+   "back": "Based on the data available, … / To the best of my knowledge, …",
+   "gloss": "不确定时先限缩范围，再下结论。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "hedging",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0126",
+   "front": "Hedging · avoid overclaim",
+   "back": "I wouldn't claim that without more evidence, but the pattern suggests…",
+   "gloss": "别把猜测说成事实。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "hedging",
+    "interviews"
+   ]
+  },
+  {
+   "id": "en-0127",
+   "front": "Result glue · starting point",
+   "back": "…which gives future policy work a starting point.",
+   "gloss": "Result 收尾连接词，挂在交付物后面。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "STAR",
+    "phrase"
+   ]
+  },
+  {
+   "id": "en-0128",
+   "front": "defensible (di-FEN-si-bul)",
+   "back": "able to be justified with evidence · \"a defensible evidence base\"",
+   "gloss": "可辩护的 / 站得住脚的证据基础。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "word",
+    "STAR"
+   ]
+  },
+  {
+   "id": "en-0129",
+   "front": "counterintuitive (BBC cities quieter)",
+   "back": "happening differently from what you would expect · adding calm sounds to make a park feel quieter",
+   "gloss": "反直觉的。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "vocabulary",
+    "bbc"
+   ]
+  },
+  {
+   "id": "en-0130",
+   "front": "soundscaping / art installation (BBC)",
+   "back": "soundscaping = adding sounds so a space feels more relaxing; art installation = interactive artwork in a specific space",
+   "gloss": "城市降噪：用声音设计空间感受。",
+   "lang": "en-GB",
+   "tags": [
+    "thu05",
+    "vocabulary",
+    "bbc"
    ]
   }
  ]
