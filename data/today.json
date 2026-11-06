@@ -1,172 +1,181 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-06",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean"
  ],
  "minutes": 20,
- "new_cards_limit": 13,
- "note": "Friday EN+Yue (driving exam day 🍀): keep light. 事 si6 first, re-drill Wed Hard (hard05), recap tue03+wed04, then 10 new post-interview/debrief (fri06) + 3 Yue tone fixes (fri06y). 60-sec Sail debrief Point→Reason→Example. No BBC today. 考试日短练，先难卡再复盘。",
+ "new_cards_limit": 20,
+ "note": "Fri Korean push (exam-day optional 🍀): Tue B was 6 min → push. 事 si6 first, warm06k (짜다/아파트/받침 + ㅅ→t + 밥), recap tue03k batchim, then 20 new café survival (fri06k: 네/주세요/맛있어요/한국어 linking). 6 café lines. Skip if drained. 考试日可跳过；有力气就推生存句。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Keep it low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard05"
+    "warm06k"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "tue03"
+    "tue03k"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "wed04"
-   ]
+   "type": "link",
+   "title": "How to Study Korean · Unit 0 Lesson 2 (syllable blocks) · skim only if café lines feel fuzzy",
+   "url": "https://www.howtostudykorean.com/unit0/0-lesson-2/unit-0-lesson-2/",
+   "minutes": 3
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "fri06"
+    "fri06k"
    ]
   },
   {
    "id": "t5",
-   "type": "speaking",
-   "prompt": "Sail interview debrief — ONE 60-sec take in English. Order: Point → Reason → Example, then one Looking-back line. Check 📜 after. (考试日只练复盘，不追新故事。)",
-   "seconds": 75,
-   "script": "Point: Overall, I stayed calm and used a clear Point → Reason → Example structure when they asked about ambiguous scope. Reason: That kept my answers short and concrete. Example: For the missing-data question, I treated the gap as a finding and proposed proxies. Looking back: Looking back, I'd open with the Result number faster, then add one Looking-back line before I stop."
-  },
-  {
-   "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "tue03y"
-   ]
-  },
-  {
-   "id": "t7",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "wed04y"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "fri06y"
-   ]
-  },
-  {
-   "id": "t9",
    "type": "reading",
-   "title": "粤语 shadow ×2: 合作 + 時間 closing (mp3: fri06_yue_lines.mp3)",
-   "lang": "yue-HK",
+   "title": "Read aloud: café orders with 주세요",
+   "lang": "ko-KR",
    "lines": [
     {
-     "text": "合作",
-     "gloss": "hap6 zok3",
-     "translation": "cooperate / collaboration — say 3× (作 = zok3)"
+     "text": "안녕하세요. 메뉴 주세요.",
+     "gloss": "annyeonghaseyo. menyu juseyo.",
+     "translation": "Hello. The menu, please. · 你好。请给我菜单。"
     },
     {
-     "text": "時間",
-     "gloss": "si4 gaan3",
-     "translation": "time — 時 si4 (not si3, not si6)"
+     "text": "커피 주세요.",
+     "gloss": "keopi juseyo.",
+     "translation": "Coffee, please. · 请来杯咖啡。"
     },
     {
-     "text": "多謝你嘅時間，希望有機會再合作。",
-     "gloss": "do1 ze6 nei5 ge3 si4 gaan3, hei1 mong6 jau5 gei1 wui6 zoi3 hap6 zok3",
-     "translation": "Thank you for your time; I hope we get to work together again."
+     "text": "물 주세요.",
+     "gloss": "mul juseyo.",
+     "translation": "Water, please. · 请来杯水。"
+    },
+    {
+     "text": "아이스 아메리카노 주세요.",
+     "gloss": "aiseu amerikano juseyo.",
+     "translation": "Iced americano, please. · 请来杯冰美式。"
+    },
+    {
+     "text": "이거 주세요. 얼마예요?",
+     "gloss": "igeo juseyo. eolmayeyo?",
+     "translation": "This one, please. How much? · 请给我这个。多少钱？"
+    },
+    {
+     "text": "맛있어요! 계산해 주세요. 감사합니다.",
+     "gloss": "masisseoyo! gyesanhae juseyo. gamsahamnida.",
+     "translation": "Delicious! The bill, please. Thank you. · 好吃！请结账。谢谢。"
     }
    ]
   },
   {
-   "id": "t10",
+   "id": "t6",
+   "type": "speaking",
+   "prompt": "Write ×3 then say: 주세요 · 맛있어요 · 한국어. Then one breath: Point → Reason → Example on why 맛있어요 sounds like ma-si-sseo-yo (연음).",
+   "seconds": 240,
+   "script": "Writing: 주세요 주세요 주세요 · 맛있어요 맛있어요 맛있어요 · 한국어 한국어 한국어. Explanation: \"Point: 맛있어요 links. Reason: the final ㅅ of 맛 moves onto the next vowel. Example: 맛 + 있어요 → ma-si-sseo-yo, same linking idea as 맛있다 → ma-si-tta.\""
+  },
+  {
+   "id": "t7",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "tone",
-     "q": "Tone number for 事 in 有咩事呀？",
-     "answer": 6,
-     "explain": "事 si6, low flat. Not 試 si3 or 時 si4."
+     "type": "mc",
+     "q": "주세요 means…",
+     "options": [
+      "thank you",
+      "please give me",
+      "just a moment"
+     ],
+     "answer": 1,
+     "explain": "X 주세요 = please give me X. Thank you = 감사합니다; just a moment = 잠시만요."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "Sail debrief speaking order?",
-     "options": [
-      "Example → Point → Reason",
-      "Point → Reason → Example",
-      "Reason → Example → Point"
+     "type": "typed",
+     "q": "Write 'water, please' in Hangul.",
+     "answer": [
+      "물 주세요",
+      "물주세요"
      ],
-     "answer": 1,
-     "explain": "先结论，再原因，再例子。"
+     "explain": "물 (mul, ㄹ=l) + 주세요."
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Best Looking-back line after ambiguous scope:",
+     "q": "Tue weak spot: 밥 romanises as…",
      "options": [
-      "I waited until someone told me what to do.",
-      "Confirming the scope early and keeping a written record protected quality and timelines.",
-      "I ignored the changes."
+      "bab",
+      "bap",
+      "bat"
      ],
      "answer": 1,
-     "explain": "早定范围 + 书面记录。"
+     "explain": "ㅂ at the bottom = p → bap. You missed this on Tue."
     },
     {
      "id": "q4",
-     "type": "typed",
-     "q": "Complete the post-interview opener: Thank you again for your ____ today.",
-     "answer": [
-      "time"
+     "type": "mc",
+     "q": "ㅅ at the bottom of a block (like 옷) sounds like…",
+     "options": [
+      "s",
+      "t",
+      "sh"
      ],
-     "explain": "Thank you for your time."
+     "answer": 1,
+     "explain": "Final ㅅ → t. Recycle from Tue quiz miss."
     },
     {
      "id": "q5",
      "type": "typed",
-     "q": "Jyutping for 合作 (tones, space between syllables).",
+     "q": "Romanise 맛있어요 (polite 'delicious').",
      "answer": [
-      "hap6 zok3"
+      "masisseoyo",
+      "mashisseoyo",
+      "masisseoyo"
      ],
-     "explain": "hap6 zok3 — same 作 as 工作."
+     "explain": "연음: ㅅ links → ma-si-sseo-yo."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "時間 is…",
+     "q": "한국어 means…",
      "options": [
-      "si3 gaan3",
-      "si4 gaan3",
-      "si6 gaan3"
+      "Korea (country)",
+      "Korean language",
+      "hello"
      ],
      "answer": 1,
-     "explain": "時 si4 (low falling), 間 gaan3."
+     "explain": "한국 = Korea; 한국어 = Korean language. ㄱ links into the next vowel."
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "Warm Hard: 짜다 means…",
+     "options": [
+      "cheap",
+      "salty",
+      "apartment"
+     ],
+     "answer": 1,
+     "explain": "짜다 = salty (tense ㅉ). Cheap = 싸다; apartment = 아파트."
     }
    ]
   }

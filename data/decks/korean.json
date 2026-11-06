@@ -746,7 +746,8 @@
    "tags": [
     "fri30k",
     "words",
-    "recap03k"
+    "recap03k",
+    "warm06k"
    ]
   },
   {
@@ -770,7 +771,8 @@
    "tags": [
     "sat31new",
     "words",
-    "recap03k"
+    "recap03k",
+    "warm06k"
    ]
   },
   {
@@ -781,7 +783,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "warm06k"
    ]
   },
   {
@@ -814,7 +817,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "warm06k"
    ]
   },
   {
@@ -880,7 +884,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "words"
+    "words",
+    "warm06k"
    ]
   },
   {
@@ -991,6 +996,231 @@
    "tags": [
     "tue03k",
     "words"
+   ]
+  },
+  {
+   "id": "ko-0085",
+   "front": "네",
+   "back": "네 · yes / okay",
+   "gloss": "ne · 是 / 好的 · short rising nod",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0086",
+   "front": "아니요",
+   "back": "아니요 · no",
+   "gloss": "aniyo · 不是 · polite no",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0087",
+   "front": "주세요",
+   "back": "주세요 · please give me",
+   "gloss": "juseyo · 请给我 · stick after a noun: X 주세요",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0088",
+   "front": "커피 주세요",
+   "back": "커피 주세요 · coffee, please",
+   "gloss": "keopi juseyo · 请来杯咖啡",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0089",
+   "front": "물 주세요",
+   "back": "물 주세요 · water, please",
+   "gloss": "mul juseyo · 请来杯水 · ㄹ batchim = l",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0090",
+   "front": "이거 주세요",
+   "back": "이거 주세요 · this one, please",
+   "gloss": "igeo juseyo · 请给我这个 · point + order",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0091",
+   "front": "메뉴 주세요",
+   "back": "메뉴 주세요 · the menu, please",
+   "gloss": "menyu juseyo · 请给我菜单",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0092",
+   "front": "얼마예요?",
+   "back": "얼마예요? · how much is it?",
+   "gloss": "eolmayeyo · 多少钱？",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0093",
+   "front": "계산해 주세요",
+   "back": "계산해 주세요 · the bill, please",
+   "gloss": "gyesanhae juseyo · 请结账",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0094",
+   "front": "죄송합니다",
+   "back": "죄송합니다 · I'm sorry (polite)",
+   "gloss": "joesonghamnida · 对不起 · formal sorry",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0095",
+   "front": "천만에요",
+   "back": "천만에요 · you're welcome",
+   "gloss": "cheonmaneyo · 不客气",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0096",
+   "front": "잠시만요",
+   "back": "잠시만요 · just a moment",
+   "gloss": "jamsimanyo · 稍等一下",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0097",
+   "front": "맛있어요",
+   "back": "맛있어요 · it's delicious (polite)",
+   "gloss": "masisseoyo · 好吃 · from 맛있다; ㅅ links to next vowel (연음)",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "linking",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0098",
+   "front": "한국어",
+   "back": "한국어 · Korean (language)",
+   "gloss": "hangugeo · 韩语 · ㄱ batchim of 국 links → gu-geo",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "linking",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0099",
+   "front": "연음",
+   "back": "연음 · linking (final consonant moves to next vowel)",
+   "gloss": "yeoneum · 连音 · why 맛있다 → ma-si-tta / 맛있어요 → ma-si-sseo-yo",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "linking"
+   ]
+  },
+  {
+   "id": "ko-0100",
+   "front": "아이스 아메리카노 주세요",
+   "back": "아이스 아메리카노 주세요 · iced americano, please",
+   "gloss": "aiseu amerikano juseyo · 请来杯冰美式",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0101",
+   "front": "차 주세요",
+   "back": "차 주세요 · tea, please",
+   "gloss": "cha juseyo · 请来杯茶 · ㅊ puff",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0102",
+   "front": "화장실이 어디예요?",
+   "back": "화장실이 어디예요? · where is the bathroom?",
+   "gloss": "hwajangshiri eodieyo · 洗手间在哪里？",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0103",
+   "front": "한국어 공부해요",
+   "back": "한국어 공부해요 · I study Korean",
+   "gloss": "hangugeo gongbuhaeyo · 我在学韩语 · café small talk",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "survival"
+   ]
+  },
+  {
+   "id": "ko-0104",
+   "front": "맛있어요! 감사합니다",
+   "back": "맛있어요! 감사합니다 · delicious! thank you",
+   "gloss": "masisseoyo! gamsahamnida · 好吃！谢谢 · closing line after a meal/drink",
+   "lang": "ko-KR",
+   "tags": [
+    "fri06k",
+    "cafe",
+    "survival"
    ]
   }
  ]
