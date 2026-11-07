@@ -666,6 +666,39 @@
     "closing",
     "tones"
    ]
+  },
+  {
+   "id": "yue-0055",
+   "front": "唔該，有冇位呀？",
+   "back": "m4 goi1, jau5 mou5 wai2 aa3 · Excuse me, is there a seat?",
+   "gloss": "位本调 wai6，这里变调成 wai2。有冇 = have or not.",
+   "lang": "yue-HK",
+   "tags": [
+    "sat07",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0056",
+   "front": "唔該，要熱嘅。",
+   "back": "m4 goi1, jiu3 jit6 ge3 · The hot one, please.",
+   "gloss": "熱 jit6（入声）。对比 凍 dung3。",
+   "lang": "yue-HK",
+   "tags": [
+    "sat07",
+    "cafe"
+   ]
+  },
+  {
+   "id": "yue-0057",
+   "front": "唔該，要紙巾。",
+   "back": "m4 goi1, jiu3 zi2 gan1 · A napkin / tissue, please.",
+   "gloss": "紙巾 zi2 gan1。咖啡馆常用短句。",
+   "lang": "yue-HK",
+   "tags": [
+    "sat07",
+    "cafe"
+   ]
   }
  ]
 }

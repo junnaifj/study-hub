@@ -1820,6 +1820,42 @@
     "debrief",
     "looking-back"
    ]
+  },
+  {
+   "id": "en-0141",
+   "front": "Buying a second to think",
+   "back": "That's a good question — let me take a second to think.",
+   "gloss": "先买一秒再开口，别用 um 填满。Mock A 可以用。",
+   "lang": "en-GB",
+   "tags": [
+    "sat07",
+    "interview",
+    "phrase"
+   ]
+  },
+  {
+   "id": "en-0142",
+   "front": "Clarifying before you answer",
+   "back": "Just to make sure I understand — are you asking about the method, or the result?",
+   "gloss": "不确定就先确认，好过答错题。",
+   "lang": "en-GB",
+   "tags": [
+    "sat07",
+    "interview",
+    "phrase"
+   ]
+  },
+  {
+   "id": "en-0143",
+   "front": "Land the answer, then stop",
+   "back": "The short answer is [the result]. The reason is [one reason]. That's the main point I'd leave you with.",
+   "gloss": "先结论，再一个原因，然后停。",
+   "lang": "en-GB",
+   "tags": [
+    "sat07",
+    "interview",
+    "phrase"
+   ]
   }
  ]
 }

@@ -1,181 +1,410 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-06",
- "slot": "evening",
+ "date": "2026-11-07",
+ "slot": "weekend_test",
  "tracks": [
+  "english",
+  "cantonese",
+  "japanese",
   "korean"
  ],
- "minutes": 20,
- "new_cards_limit": 20,
- "note": "Fri Korean push (exam-day optional 🍀): Tue B was 6 min → push. 事 si6 first, warm06k (짜다/아파트/받침 + ㅅ→t + 밥), recap tue03k batchim, then 20 new café survival (fri06k: 네/주세요/맛있어요/한국어 linking). 6 café lines. Skip if drained. 考试日可跳过；有力气就推生存句。",
+ "minutes": 30,
+ "new_cards_limit": 9,
+ "note": "Weekly test (每周测验). Real-world hook: SailGlobal Mock A is at 14:00 — STAR #3 plus three new 'buy a second / clarify / land and stop' lines are for this afternoon. Path: 事 si6 ×3 → Hard EN STAR3/fri06 + KR 7-sound/café + YUE yue-0046/fri06y → Wed/Thu recap → light new sat07 → STAR #3 timed + Yue café shadow → 15-Q quiz. JP thu05j waits until Mon 9; today is only a light ま/み/れ/ろ recap. 先难后新，念出声。Keep eased (Fri A had 43 Hard).",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 事 si6 sits lower)"
+   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 時 si4 falls; 事 si6 sits lower and stays flat)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "warm06k"
+    "fri30"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "tue03k"
+    "fri06"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "How to Study Korean · Unit 0 Lesson 2 (syllable blocks) · skim only if café lines feel fuzzy",
-   "url": "https://www.howtostudykorean.com/unit0/0-lesson-2/unit-0-lesson-2/",
-   "minutes": 3
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat07h"
+   ]
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "korean",
+   "deck": "cantonese",
    "tags": [
-    "fri06k"
+    "fri06y"
    ]
   },
   {
    "id": "t5",
-   "type": "reading",
-   "title": "Read aloud: café orders with 주세요",
-   "lang": "ko-KR",
-   "lines": [
-    {
-     "text": "안녕하세요. 메뉴 주세요.",
-     "gloss": "annyeonghaseyo. menyu juseyo.",
-     "translation": "Hello. The menu, please. · 你好。请给我菜单。"
-    },
-    {
-     "text": "커피 주세요.",
-     "gloss": "keopi juseyo.",
-     "translation": "Coffee, please. · 请来杯咖啡。"
-    },
-    {
-     "text": "물 주세요.",
-     "gloss": "mul juseyo.",
-     "translation": "Water, please. · 请来杯水。"
-    },
-    {
-     "text": "아이스 아메리카노 주세요.",
-     "gloss": "aiseu amerikano juseyo.",
-     "translation": "Iced americano, please. · 请来杯冰美式。"
-    },
-    {
-     "text": "이거 주세요. 얼마예요?",
-     "gloss": "igeo juseyo. eolmayeyo?",
-     "translation": "This one, please. How much? · 请给我这个。多少钱？"
-    },
-    {
-     "text": "맛있어요! 계산해 주세요. 감사합니다.",
-     "gloss": "masisseoyo! gyesanhae juseyo. gamsahamnida.",
-     "translation": "Delicious! The bill, please. Thank you. · 好吃！请结账。谢谢。"
-    }
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed04y"
    ]
   },
   {
    "id": "t6",
-   "type": "speaking",
-   "prompt": "Write ×3 then say: 주세요 · 맛있어요 · 한국어. Then one breath: Point → Reason → Example on why 맛있어요 sounds like ma-si-sseo-yo (연음).",
-   "seconds": 240,
-   "script": "Writing: 주세요 주세요 주세요 · 맛있어요 맛있어요 맛있어요 · 한국어 한국어 한국어. Explanation: \"Point: 맛있어요 links. Reason: the final ㅅ of 맛 moves onto the next vowel. Example: 맛 + 있어요 → ma-si-sseo-yo, same linking idea as 맛있다 → ma-si-tta.\""
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "wed04"
+   ]
   },
   {
    "id": "t7",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "thu05"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "thu05y"
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "sat07r"
+   ]
+  },
+  {
+   "id": "t10",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "sat07"
+   ]
+  },
+  {
+   "id": "t11",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat07"
+   ]
+  },
+  {
+   "id": "t12",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat07"
+   ]
+  },
+  {
+   "id": "t13",
+   "type": "speaking",
+   "prompt": "STAR #3 timed take (2 min, aim 260–280 words): say S-T-A-R aloud, then one follow-up: 'How did you deal with missing data?' Record, listen back once, fix one phrase. This is also warm-up for Mock A at 14:00. Watch: defensible (di-FEN-si-bul), governance (GUV-er-nunss), took the initiative TO.",
+   "seconds": 180,
+   "script": "S: On an AI data-centre policy research programme, I was the sole analyst. The scope was ambiguous: there was no agreed definition of an 'AI data centre', the public data on energy, water, cooling, cost and land use was fragmented and inconsistent, and the project direction changed quite often.\nT: My task was to build a defensible evidence base and policy analysis for urban and governance questions, even though the requirements were unclear and I had no one to review my work.\nA: First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis was built on the same scope. Second, I mapped the data gaps. I counted which indicators Hong Kong was missing and compared them with other governments and regions. Third, because the direction kept shifting, I built an iterative research workflow, so I could update the analysis step by step without starting again. And after every meeting, I kept a written log of what we agreed: the direction, the deliverables and the deadlines.\nR: As a result, I delivered a baseline analysis of data-centre governance mechanisms from an international perspective, plus a clear list of the data Hong Kong is still missing, which gives future policy work a starting point.\nLooking back: I learned that in ambiguous projects, confirming the scope early and keeping a written record protects both quality and timelines. Next time, I'd also structure the questions as an issue tree from day one.\nFollow-up (missing data, ~30 s): I treated the gaps as a finding. I counted which indicators Hong Kong was missing, compared them with other regions, and the gap list became one of the deliverables."
+  },
+  {
+   "id": "t14",
+   "type": "reading",
+   "title": "粤语 café shadow: seat → hot drink → napkin → bill (then say the scene aloud)",
+   "lang": "yue-HK",
+   "lines": [
+    {
+     "text": "唔該，有冇位呀？",
+     "gloss": "m4 goi1, jau5 mou5 wai2 aa3",
+     "translation": "Excuse me, is there a seat?"
+    },
+    {
+     "text": "唔該，要熱嘅，走冰，少甜。",
+     "gloss": "m4 goi1, jiu3 jit6 ge3, zau2 bing1, siu2 tim4",
+     "translation": "The hot one, please — no ice, less sugar."
+    },
+    {
+     "text": "唔該，要紙巾。",
+     "gloss": "m4 goi1, jiu3 zi2 gan1",
+     "translation": "A napkin, please."
+    },
+    {
+     "text": "埋單，唔該。",
+     "gloss": "maai4 daan1, m4 goi1",
+     "translation": "The bill, please."
+    },
+    {
+     "text": "我嘅強項係數據分析同解決問題。",
+     "gloss": "ngo5 ge3 koeng4 hong6 hai6 sou3 geoi3 fan1 sik1 tung4 gaai2 kyut3 man6 tai4",
+     "translation": "My strengths are data analysis and problem-solving. · yue-0046"
+    },
+    {
+     "text": "多謝你嘅時間，希望有機會再合作。",
+     "gloss": "do1 ze6 nei5 ge3 si4 gaan3, hei1 mong6 jau5 gei1 wui6 zoi3 hap6 zok3",
+     "translation": "Thank you for your time; I hope we get to work together again. · 時 si4 / 合作 hap6 zok3"
+    }
+   ]
+  },
+  {
+   "id": "t15",
+   "type": "speaking",
+   "prompt": "Yue café + close: play both roles once. Ask for a seat, order something hot (no ice, less sugar), ask for a napkin, ask for the bill. Then say the 強項 line and the 時間/合作 closing. After that, in one breath explain why 事 / 試 / 時 sound different: point, reason, example.",
+   "seconds": 180,
+   "script": "你: 唔該，有冇位呀？ · 店員: 有，呢邊。 (jau5, ni1 bin1)\n你: 唔該，要熱嘅，走冰，少甜。 · 你: 唔該，要紙巾。 · 你: 埋單，唔該。\n強項: 我嘅強項係數據分析同解決問題。\n收尾: 多謝你嘅時間，希望有機會再合作。\nExplanation: \"事, 試 and 時 share the syllable si but not the tone. 事 is tone 6, low and flat; 試 is tone 3, mid and flat; 時 is tone 4 and falls. For example, 有咩事 uses the low one, 面試 uses the mid one, and 時間 uses the falling one.\""
+  },
+  {
+   "id": "t16",
+   "type": "reading",
+   "title": "日本語: light recap only (ま/み/れ/ろ). thu05j waits until Monday.",
+   "lang": "ja-JP",
+   "lines": [
+    {
+     "text": "まち",
+     "gloss": "machi",
+     "translation": "town · 城镇"
+    },
+    {
+     "text": "みせ",
+     "gloss": "mise",
+     "translation": "shop · 店"
+    },
+    {
+     "text": "れ と ね",
+     "gloss": "re to ne",
+     "translation": "れ kicks out; ね ends in a loop"
+    },
+    {
+     "text": "ろ と る",
+     "gloss": "ro to ru",
+     "translation": "ろ is open at the bottom; る has a loop"
+    },
+    {
+     "text": "まち の みせ",
+     "gloss": "machi no mise",
+     "translation": "a shop in town · 镇上的店"
+    }
+   ]
+  },
+  {
+   "id": "t17",
+   "type": "reading",
+   "title": "한국어: 7-sound + café (Fri misses first)",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "받침 7 sounds: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ",
+     "gloss": "k n t l m p ng",
+     "translation": "seven batchim sounds · 七个收音"
+    },
+    {
+     "text": "밥",
+     "gloss": "bap",
+     "translation": "rice / meal · ㅂ at the bottom = p, not b"
+    },
+    {
+     "text": "옷",
+     "gloss": "ot",
+     "translation": "clothes · final ㅅ sounds as t, not s"
+    },
+    {
+     "text": "커피 주세요. 계산해 주세요.",
+     "gloss": "keopi juseyo. gyesanhae juseyo.",
+     "translation": "Coffee, please. The bill, please."
+    },
+    {
+     "text": "맛있어요. 포장해 주세요. 영수증 주세요.",
+     "gloss": "masisseoyo. pojanghae juseyo. yeongsujeung juseyo.",
+     "translation": "It's delicious. Takeaway, please. The receipt, please."
+    },
+    {
+     "text": "따뜻한 걸로 주세요.",
+     "gloss": "ttatteuthan geollo juseyo.",
+     "translation": "The hot one, please."
+    }
+   ]
+  },
+  {
+   "id": "t18",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "mc",
-     "q": "주세요 means…",
-     "options": [
-      "thank you",
-      "please give me",
-      "just a moment"
-     ],
-     "answer": 1,
-     "explain": "X 주세요 = please give me X. Thank you = 감사합니다; just a moment = 잠시만요."
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low flat. Not 試 si3 (mid) and not 時 si4 (falling)."
     },
     {
      "id": "q2",
-     "type": "typed",
-     "q": "Write 'water, please' in Hangul.",
-     "answer": [
-      "물 주세요",
-      "물주세요"
+     "type": "mc",
+     "q": "面試 uses which 試/事/時?",
+     "options": [
+      "試 si3 (mid)",
+      "事 si6 (low flat)",
+      "時 si4 (falling)"
      ],
-     "explain": "물 (mul, ㄹ=l) + 주세요."
+     "answer": 0,
+     "explain": "面試 min6 si3 — 試 is tone 3, mid and flat."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "Tue weak spot: 밥 romanises as…",
-     "options": [
-      "bab",
-      "bap",
-      "bat"
+     "type": "typed",
+     "q": "Jyutping for 合作 (space between syllables).",
+     "answer": [
+      "hap6 zok3",
+      "hap6zok3"
      ],
-     "answer": 1,
-     "explain": "ㅂ at the bottom = p → bap. You missed this on Tue."
+     "explain": "合 hap6 (low) 作 zok3 (mid), same 作 as 工作."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "ㅅ at the bottom of a block (like 옷) sounds like…",
+     "q": "時間 is…",
      "options": [
-      "s",
-      "t",
-      "sh"
+      "si3 gaan3",
+      "si4 gaan3",
+      "si6 gaan3"
      ],
      "answer": 1,
-     "explain": "Final ㅅ → t. Recycle from Tue quiz miss."
+     "explain": "時 si4 (low falling), 間 gaan3. Not 試 and not 事."
     },
     {
      "id": "q5",
-     "type": "typed",
-     "q": "Romanise 맛있어요 (polite 'delicious').",
-     "answer": [
-      "masisseoyo",
-      "mashisseoyo",
-      "masisseoyo"
+     "type": "mc",
+     "q": "我嘅強項係… means:",
+     "options": [
+      "My weakness is speaking English.",
+      "My strengths are data analysis and problem-solving.",
+      "I studied urban design only."
      ],
-     "explain": "연음: ㅅ links → ma-si-sseo-yo."
+     "answer": 1,
+     "explain": "強項 koeng4 hong6 = strengths. yue-0046 from Wednesday."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "한국어 means…",
+     "q": "STAR #3 Result: what did you deliver?",
      "options": [
-      "Korea (country)",
-      "Korean language",
-      "hello"
+      "A new app for the government",
+      "A baseline analysis of data-centre governance plus a list of Hong Kong's missing data",
+      "Feedback from 50 users"
      ],
      "answer": 1,
-     "explain": "한국 = Korea; 한국어 = Korean language. ㄱ links into the next vowel."
+     "explain": "Locked Result: baseline analysis + gap list. No invented users."
     },
     {
      "id": "q7",
+     "type": "typed",
+     "q": "Fill in: I took the initiative ___ propose a working definition.",
+     "answer": [
+      "to"
+     ],
+     "explain": "took the initiative TO + verb."
+    },
+    {
+     "id": "q8",
      "type": "mc",
-     "q": "Warm Hard: 짜다 means…",
+     "q": "When you explain something (and in Mock A), the order is…",
      "options": [
-      "cheap",
-      "salty",
-      "apartment"
+      "Example → Point → Reason",
+      "Point → Reason → Example",
+      "Reason → Example → Point"
      ],
      "answer": 1,
-     "explain": "짜다 = salty (tense ㅉ). Cheap = 싸다; apartment = 아파트."
+     "explain": "先结论，再原因，再例子。"
+    },
+    {
+     "id": "q9",
+     "type": "mc",
+     "q": "Where's the stress in 'defensible'?",
+     "options": [
+      "DE-fen-si-ble",
+      "de-FEN-si-ble",
+      "de-fen-SI-ble"
+     ],
+     "answer": 1,
+     "explain": "di-FEN-si-bul."
+    },
+    {
+     "id": "q10",
+     "type": "mc",
+     "q": "Korean has how many representative batchim (받침) sounds?",
+     "options": [
+      "5",
+      "7",
+      "14"
+     ],
+     "answer": 1,
+     "explain": "Seven: ㄱ k, ㄴ n, ㄷ t, ㄹ l, ㅁ m, ㅂ p, ㅇ ng."
+    },
+    {
+     "id": "q11",
+     "type": "typed",
+     "q": "How do you read 밥 (romanisation)?",
+     "answer": [
+      "bap"
+     ],
+     "explain": "ㅂ at the bottom = p (unreleased). 밥 = bap, not bab."
+    },
+    {
+     "id": "q12",
+     "type": "mc",
+     "q": "옷 ends with which sound?",
+     "options": [
+      "s, because the letter is ㅅ",
+      "t (unreleased)",
+      "ng"
+     ],
+     "answer": 1,
+     "explain": "Final ㅅ/ㄷ/ㅈ/ㅊ/ㅌ/ㅎ all sound as t. 옷 = ot, not os."
+    },
+    {
+     "id": "q13",
+     "type": "mc",
+     "q": "계산해 주세요 means…",
+     "options": [
+      "You're welcome",
+      "The bill, please",
+      "It's delicious"
+     ],
+     "answer": 1,
+     "explain": "gyesanhae juseyo = please add up / the bill, please. 맛있어요 = delicious; 천만에요 = you're welcome."
+    },
+    {
+     "id": "q14",
+     "type": "typed",
+     "q": "Romanise れ (not ね).",
+     "answer": [
+      "re"
+     ],
+     "explain": "れ re kicks out at the end; ね ne finishes with a loop."
+    },
+    {
+     "id": "q15",
+     "type": "mc",
+     "q": "走冰 means…",
+     "options": [
+      "extra ice",
+      "no ice",
+      "walk to the ice shop"
+     ],
+     "answer": 1,
+     "explain": "走冰 zau2 bing1 = no ice. 少甜 = less sweet."
     }
    ]
   }
