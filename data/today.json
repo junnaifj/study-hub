@@ -1,133 +1,172 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-09",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "japanese"
  ],
- "minutes": 15,
- "new_cards_limit": 12,
- "note": "Monday EN 15. Real-world hook: smart-mobility interview tomorrow — these GIS / movement lines are for that. Path: 事 si6 ×3 → Hard-first STAR #3 / intro (hard09) → recap fri06+sat07 (en-0132–0143) → new mon09 (12 GIS / smart-mobility + cleaner intro) → one timed 60-sec intro. No Yue today (Tue/Thu/Fri). Keep eased after Sat 106 Hard. 先难后新，念出声。",
+ "minutes": 20,
+ "new_cards_limit": 20,
+ "note": "Japanese night. 事 si6 first, then the Hard な/は/ま cards, then the ま/み/れ/ろ recap, then 20 new: やゆよわをん + がぎぐげご + 9 words. 写三遍，念出声。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 時 si4 falls; 事 si6 sits lower and stays flat)"
+   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard09"
+    "hard09j"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "recap09"
+    "recap09j"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "mon09"
-   ]
+   "type": "link",
+   "title": "NHK hiragana chart · tap や–よ, わ, を, ん and the が行 dakuten rows",
+   "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
+   "minutes": 3
   },
   {
    "id": "t4",
-   "type": "speaking",
-   "prompt": "One timed 60-sec intro for tomorrow's smart-mobility interview. Order: Present → Past → Future. In the Past proof, use Point → Reason → Example. Record it, listen back once, then check 📜. (You can swap in STAR #1 or #2 if the intro already feels solid.)",
-   "seconds": 90,
-   "script": "Present: I use GIS and spatial analysis to understand how people move through the city.\nPast: Most recently, I worked as a research assistant on an ageing-friendly city project.\nPoint: I needed a clear picture of how older residents moved around public housing estates.\nReason: The street-view data we first had was too patchy at community level, so any movement analysis would have been guesswork.\nExample: I proposed a government spatial-data API, reached about 98 percent coverage, and then used the activity pattern — mainly in spring and winter, within two to three MTR stations — to recommend a narrower distance buffer.\nFuture: Going forward, I want to apply the same approach to smart-mobility questions: start from observed movement, then tighten the model."
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "mon09j"
+   ]
   },
   {
    "id": "t5",
+   "type": "reading",
+   "title": "Read without romaji first (only kana you know)",
+   "lang": "ja-JP",
+   "lines": [
+    {
+     "text": "やま は たかい",
+     "gloss": "yama wa takai",
+     "translation": "the mountain is high · 山很高 (は = wa; たかい is new, just listen)"
+    },
+    {
+     "text": "ゆき の よる",
+     "gloss": "yuki no yoru",
+     "translation": "a snowy night · 下雪的夜晚"
+    },
+    {
+     "text": "わたし は げんき",
+     "gloss": "watashi wa genki",
+     "translation": "I'm well · 我很好"
+    },
+    {
+     "text": "ごはん を たべる",
+     "gloss": "gohan o taberu",
+     "translation": "eat rice · 吃饭 (を = o)"
+    },
+    {
+     "text": "ほん と かぎ",
+     "gloss": "hon to kagi",
+     "translation": "a book and a key · 书和钥匙"
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "speaking",
+   "prompt": "Write やゆよわをん and がぎぐげご ×3 each, saying each aloud (~5 min). Then read the 5 lines twice, slow then normal speed. Watch: ね vs ぬ vs な (Hard earlier), は vs ほ, ま vs み. が = か with two dots, sounds 'ga'.",
+   "seconds": 360,
+   "script": "ya yu yo wa wo n · ga gi gu ge go\nやま は たかい (yama wa takai)\nゆき の よる (yuki no yoru)\nわたし は げんき (watashi wa genki)\nごはん を たべる (gohan o taberu)\nほん と かぎ (hon to kagi)"
+  },
+  {
+   "id": "t7",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "tone",
-     "q": "Tone number for 事 in 有咩事呀？",
-     "answer": 6,
-     "explain": "事 si6, low flat. Not 試 si3 (mid) and not 時 si4 (falling)."
+     "type": "mc",
+     "q": "Which one is wa?",
+     "options": [
+      "わ",
+      "ね",
+      "れ"
+     ],
+     "answer": 0,
+     "explain": "わ wa; ね and れ look similar but have a loop/kick at the end."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "60-sec intro order?",
+     "q": "Which one is ga?",
      "options": [
-      "Past → Present → Future",
-      "Present → Past → Future",
-      "Future → Past → Present"
+      "か",
+      "が",
+      "ま"
      ],
      "answer": 1,
-     "explain": "现在 → 过去 → 未来. Do not shuffle."
+     "explain": "が = か plus two dots (dakuten)."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Fill in: Older residents were mainly active ___ spring and winter.",
-     "answer": [
-      "in"
+     "type": "mc",
+     "q": "Which one is nu?",
+     "options": [
+      "ぬ",
+      "め",
+      "ね"
      ],
-     "explain": "in spring and winter — no the."
+     "answer": 0,
+     "explain": "ぬ nu curls at the end; め me does not."
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "STAR #2 Result: what changed?",
-     "options": [
-      "I collected more street-view images.",
-      "The team narrowed the distance buffer for the regression analysis.",
-      "We opened a new MTR station."
+     "type": "typed",
+     "q": "Romaji for ゆ?",
+     "answer": [
+      "yu"
      ],
-     "answer": 1,
-     "explain": "As a result, the team narrowed the distance buffer so the model matched where people actually go."
+     "explain": "ゆ = yu."
     },
     {
      "id": "q5",
      "type": "typed",
-     "q": "About what coverage did the street-view dataset reach? (number only is fine)",
+     "q": "Write snow (yuki) in hiragana.",
      "answer": [
-      "98%",
-      "98",
-      "98 percent",
-      "about 98%",
-      "about 98 percent",
-      "98% coverage"
+      "ゆき"
      ],
-     "explain": "About 98% coverage, so movement analysis did not have to guess from missing streets."
+     "explain": "ゆ yu + き ki."
     },
     {
      "id": "q6",
      "type": "mc",
-     "q": "When you explain something, the order is…",
+     "q": "In ごはん を たべる, how is を read?",
      "options": [
-      "Example → Point → Reason",
-      "Point → Reason → Example",
-      "Reason → Example → Point"
+      "wo (w sound)",
+      "o",
+      "wa"
      ],
      "answer": 1,
-     "explain": "先结论，再原因，再例子。"
+     "explain": "を sounds like 'o'; it marks the object."
     },
     {
      "id": "q7",
      "type": "mc",
-     "q": "Smart-mobility bridge line:",
+     "q": "Which is ha / ho: は vs ほ — which is ho?",
      "options": [
-      "I start from a finished model, then look for movement later.",
-      "In mobility work, I start from observed movement, then I tighten the spatial model to match it.",
-      "I only report the coverage number and stop."
+      "は",
+      "ほ"
      ],
      "answer": 1,
-     "explain": "先观察出行，再把空间模型收紧去贴合它。"
+     "explain": "ほ has an extra bar on top; は is plain."
     }
    ]
   }
