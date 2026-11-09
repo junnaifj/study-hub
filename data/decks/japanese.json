@@ -598,7 +598,8 @@
     "hiragana",
     "thu29j",
     "sat31r",
-    "recap02j"
+    "recap02j",
+    "hard09j"
    ]
   },
   {
@@ -623,7 +624,8 @@
     "hiragana",
     "thu29j",
     "sat31r",
-    "recap02j"
+    "recap02j",
+    "hard09j"
    ]
   },
   {
@@ -636,7 +638,8 @@
     "hiragana",
     "thu29j",
     "sat31r",
-    "recap02j"
+    "recap02j",
+    "hard09j"
    ]
   },
   {
@@ -661,7 +664,8 @@
     "hiragana",
     "thu29j",
     "sat31r",
-    "recap02j"
+    "recap02j",
+    "hard09j"
    ]
   },
   {
@@ -686,7 +690,8 @@
     "hiragana",
     "thu29j",
     "sat31r",
-    "recap02j"
+    "recap02j",
+    "hard09j"
    ]
   },
   {
@@ -737,7 +742,8 @@
     "thu29j",
     "sat31r",
     "recap02j",
-    "warm03"
+    "warm03",
+    "hard09j"
    ]
   },
   {
@@ -776,7 +782,9 @@
     "hiragana",
     "mon02j",
     "warm03",
-    "sat07r"
+    "sat07r",
+    "hard09j",
+    "recap09j"
    ]
   },
   {
@@ -789,7 +797,9 @@
     "hiragana",
     "mon02j",
     "warm03",
-    "sat07r"
+    "sat07r",
+    "hard09j",
+    "recap09j"
    ]
   },
   {
@@ -867,7 +877,8 @@
    "tags": [
     "hiragana",
     "mon02j",
-    "sat07r"
+    "sat07r",
+    "recap09j"
    ]
   },
   {
@@ -879,7 +890,8 @@
    "tags": [
     "hiragana",
     "mon02j",
-    "sat07r"
+    "sat07r",
+    "recap09j"
    ]
   },
   {
@@ -891,7 +903,8 @@
    "tags": [
     "words",
     "mon02j",
-    "sat07r"
+    "sat07r",
+    "recap09j"
    ]
   },
   {
@@ -903,7 +916,8 @@
    "tags": [
     "words",
     "mon02j",
-    "sat07r"
+    "sat07r",
+    "recap09j"
    ]
   },
   {
@@ -992,6 +1006,226 @@
    "tags": [
     "words",
     "mon02j"
+   ]
+  },
+  {
+   "id": "ja-0080",
+   "front": "や",
+   "back": "や · ya",
+   "gloss": "ya · ya (yah)",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0081",
+   "front": "ゆ",
+   "back": "ゆ · yu",
+   "gloss": "yu",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0082",
+   "front": "よ",
+   "back": "よ · yo",
+   "gloss": "yo",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0083",
+   "front": "わ",
+   "back": "わ · wa",
+   "gloss": "wa (also the particle は = wa)",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0084",
+   "front": "を",
+   "back": "を · wo",
+   "gloss": "o · object particle, sounds like 'o'",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0085",
+   "front": "ん",
+   "back": "ん · n",
+   "gloss": "n · the only lone consonant",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0086",
+   "front": "が",
+   "back": "が · ga",
+   "gloss": "ga · か + two dots = voiced",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0087",
+   "front": "ぎ",
+   "back": "ぎ · gi",
+   "gloss": "gi",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0088",
+   "front": "ぐ",
+   "back": "ぐ · gu",
+   "gloss": "gu",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0089",
+   "front": "げ",
+   "back": "げ · ge",
+   "gloss": "ge",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0090",
+   "front": "ご",
+   "back": "ご · go",
+   "gloss": "go",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0091",
+   "front": "やま",
+   "back": "やま · mountain 山",
+   "gloss": "yama · mountain 山",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0092",
+   "front": "ゆき",
+   "back": "ゆき · snow 雪",
+   "gloss": "yuki · snow 雪",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0093",
+   "front": "よる",
+   "back": "よる · night 夜",
+   "gloss": "yoru · night 夜",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0094",
+   "front": "わたし",
+   "back": "わたし · I / me 我",
+   "gloss": "watashi · I / me 我",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0095",
+   "front": "ほん",
+   "back": "ほん · book 书",
+   "gloss": "hon · book 书",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0096",
+   "front": "ごはん",
+   "back": "ごはん · rice / meal 饭",
+   "gloss": "gohan · rice / meal 饭",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0097",
+   "front": "かぎ",
+   "back": "かぎ · key 钥匙",
+   "gloss": "kagi · key 钥匙",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0098",
+   "front": "ひがし",
+   "back": "ひがし · east 东",
+   "gloss": "higashi · east 东",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
+   ]
+  },
+  {
+   "id": "ja-0099",
+   "front": "げんき",
+   "back": "げんき · well, energetic 精神",
+   "gloss": "genki · well, energetic 精神",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "mon09j"
    ]
   }
  ]
