@@ -1,172 +1,100 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-09",
- "slot": "evening",
+ "date": "2026-11-10",
+ "slot": "morning",
  "tracks": [
-  "japanese"
+  "english",
+  "cantonese"
  ],
- "minutes": 20,
- "new_cards_limit": 20,
- "note": "Japanese night. 事 si6 first, then the Hard な/は/ま cards, then the ま/み/れ/ろ recap, then 20 new: やゆよわをん + がぎぐげご + 9 words. 写三遍，念出声。",
+ "minutes": 10,
+ "new_cards_limit": 10,
+ "note": "Light day, 10 min max, before your 11:00 HKPC interview. 事 si6 ×3 → recap STAR #1/#2 + intro lines → 6 new interview lines → Cantonese 我嚟面試 lines → one timed take. Skip if drained. 加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "hard09j"
+    "recap10"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "recap09j"
+    "tue10"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "NHK hiragana chart · tap や–よ, わ, を, ん and the が行 dakuten rows",
-   "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-   "minutes": 3
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "hard10y"
+   ]
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "cantonese",
    "tags": [
-    "mon09j"
+    "tue10y"
    ]
   },
   {
    "id": "t5",
-   "type": "reading",
-   "title": "Read without romaji first (only kana you know)",
-   "lang": "ja-JP",
-   "lines": [
-    {
-     "text": "やま は たかい",
-     "gloss": "yama wa takai",
-     "translation": "the mountain is high · 山很高 (は = wa; たかい is new, just listen)"
-    },
-    {
-     "text": "ゆき の よる",
-     "gloss": "yuki no yoru",
-     "translation": "a snowy night · 下雪的夜晚"
-    },
-    {
-     "text": "わたし は げんき",
-     "gloss": "watashi wa genki",
-     "translation": "I'm well · 我很好"
-    },
-    {
-     "text": "ごはん を たべる",
-     "gloss": "gohan o taberu",
-     "translation": "eat rice · 吃饭 (を = o)"
-    },
-    {
-     "text": "ほん と かぎ",
-     "gloss": "hon to kagi",
-     "translation": "a book and a key · 书和钥匙"
-    }
-   ]
+   "type": "speaking",
+   "prompt": "One timed 60-sec take before your 11:00 interview: STAR #1 (estate movement) or the intro. Point → reason → example. Record, listen once, check 📜.",
+   "seconds": 90,
+   "script": "Point: I needed a clear picture of how older residents moved around public housing estates.\nReason: The street-view data we first had was too patchy at community level.\nExample: I used a government spatial-data API, reached about 98 percent coverage, and found activity was mainly in spring and winter, within two to three MTR stations, so I recommended a narrower distance buffer."
   },
   {
    "id": "t6",
-   "type": "speaking",
-   "prompt": "Write やゆよわをん and がぎぐげご ×3 each, saying each aloud (~5 min). Then read the 5 lines twice, slow then normal speed. Watch: ね vs ぬ vs な (Hard earlier), は vs ほ, ま vs み. が = か with two dots, sounds 'ga'.",
-   "seconds": 360,
-   "script": "ya yu yo wa wo n · ga gi gu ge go\nやま は たかい (yama wa takai)\nゆき の よる (yuki no yoru)\nわたし は げんき (watashi wa genki)\nごはん を たべる (gohan o taberu)\nほん と かぎ (hon to kagi)"
-  },
-  {
-   "id": "t7",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which one is wa?",
+     "q": "Which tone is 事 si6?",
      "options": [
-      "わ",
-      "ね",
-      "れ"
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
      ],
-     "answer": 0,
-     "explain": "わ wa; ね and れ look similar but have a loop/kick at the end."
+     "answer": 1,
+     "explain": "事 si6 is low and flat."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "Which one is ga?",
+     "q": "Best order for an interview answer?",
      "options": [
-      "か",
-      "が",
-      "ま"
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
      ],
      "answer": 1,
-     "explain": "が = か plus two dots (dakuten)."
+     "explain": "先说重点，再讲原因，最后举例。"
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Which one is nu?",
+     "q": "Which means 'Thanks for giving me the chance'?",
      "options": [
-      "ぬ",
-      "め",
-      "ね"
+      "多謝你哋俾機會我。",
+      "我可以再講一次嗎？",
+      "期待收到你哋嘅消息。"
      ],
      "answer": 0,
-     "explain": "ぬ nu curls at the end; め me does not."
-    },
-    {
-     "id": "q4",
-     "type": "typed",
-     "q": "Romaji for ゆ?",
-     "answer": [
-      "yu"
-     ],
-     "explain": "ゆ = yu."
-    },
-    {
-     "id": "q5",
-     "type": "typed",
-     "q": "Write snow (yuki) in hiragana.",
-     "answer": [
-      "ゆき"
-     ],
-     "explain": "ゆ yu + き ki."
-    },
-    {
-     "id": "q6",
-     "type": "mc",
-     "q": "In ごはん を たべる, how is を read?",
-     "options": [
-      "wo (w sound)",
-      "o",
-      "wa"
-     ],
-     "answer": 1,
-     "explain": "を sounds like 'o'; it marks the object."
-    },
-    {
-     "id": "q7",
-     "type": "mc",
-     "q": "Which is ha / ho: は vs ほ — which is ho?",
-     "options": [
-      "は",
-      "ほ"
-     ],
-     "answer": 1,
-     "explain": "ほ has an extra bar on top; は is plain."
+     "explain": "多謝 do1 ze6 = thanks."
     }
    ]
   }
