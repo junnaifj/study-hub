@@ -1,14 +1,13 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-10",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean"
  ],
  "minutes": 10,
- "new_cards_limit": 10,
- "note": "Light day, 10 min max, before your 11:00 HKPC interview. 事 si6 ×3 → recap STAR #1/#2 + intro lines → 6 new interview lines → Cantonese 我嚟面試 lines → one timed take. Skip if drained. 加油！",
+ "new_cards_limit": 7,
+ "note": "Light day, optional, 10 min max. 事 si6 ×3 → Hard-first batchim/café (7-sound rule, 밥, 옷, 주세요, 맛있어요) → recap Sat café lines → 7 new cards (둘/셋 and 한·두·세 개 주세요). Skip new if the 10 min is up. Skip if drained. 加油！",
  "tasks": [
   {
    "id": "t0",
@@ -20,41 +19,61 @@
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "recap10"
+    "hard10k"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "tue10"
+    "sat07"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "korean",
    "tags": [
-    "hard10y"
+    "tue10k"
    ]
   },
   {
    "id": "t4",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "tue10y"
+   "type": "reading",
+   "title": "Read aloud: greetings + how many",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "안녕하세요. 얼마예요?",
+     "gloss": "annyeonghaseyo. eolmayeyo?",
+     "translation": "Hello. How much is it? · 你好。多少钱？"
+    },
+    {
+     "text": "한 개 주세요.",
+     "gloss": "han gae juseyo.",
+     "translation": "One, please. · 请给我一个。"
+    },
+    {
+     "text": "두 개 주세요. 감사합니다.",
+     "gloss": "du gae juseyo. gamsahamnida.",
+     "translation": "Two, please. Thank you. · 请给我两个。谢谢。"
+    },
+    {
+     "text": "세 개 주세요. 안녕히 가세요.",
+     "gloss": "se gae juseyo. annyeonghi gaseyo.",
+     "translation": "Three, please. Goodbye. · 请给我三个。再见。"
+    }
    ]
   },
   {
    "id": "t5",
    "type": "speaking",
-   "prompt": "One timed 60-sec take before your 11:00 interview: STAR #1 (estate movement) or the intro. Point → reason → example. Record, listen once, check 📜.",
-   "seconds": 90,
-   "script": "Point: I needed a clear picture of how older residents moved around public housing estates.\nReason: The street-view data we first had was too patchy at community level.\nExample: I used a government spatial-data API, reached about 98 percent coverage, and found activity was mainly in spring and winter, within two to three MTR stations, so I recommended a narrower distance buffer."
+   "prompt": "Write ×3 then say: 둘 · 셋 · 두 개 주세요. If you have time, say 안녕하세요, 감사합니다 and 얼마예요 once each. Then one breath: Point → Reason → Example on why 둘 becomes 두 before 개.",
+   "seconds": 180,
+   "script": "Writing: 둘 둘 둘 · 셋 셋 셋 · 두 개 주세요 두 개 주세요 두 개 주세요. Optional: 안녕하세요. 감사합니다. 얼마예요? Explanation: Point: native numbers change form before the counter 개. Reason: 하나/둘/셋 shorten to 한/두/세 when a counter follows. Example: 둘 → 두 개 주세요 (two, please), not 둘 개 주세요."
   },
   {
    "id": "t6",
@@ -63,38 +82,48 @@
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "밥 romanises as…",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "bab",
+      "bap",
+      "bat"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat."
+     "explain": "Final ㅂ → p, so 밥 is bap. Recycle from the Tue/Fri weak spot."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "Best order for an interview answer?",
+     "q": "The final sound in 옷 and 셋 is…",
      "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+      "s",
+      "t",
+      "d"
      ],
      "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "ㅅ at the bottom of a block sounds like t: 옷 = ot, 셋 = set."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "Which means 'Thanks for giving me the chance'?",
-     "options": [
-      "多謝你哋俾機會我。",
-      "我可以再講一次嗎？",
-      "期待收到你哋嘅消息。"
+     "type": "typed",
+     "q": "Write 'two, please' in Hangul (using 개).",
+     "answer": [
+      "두 개 주세요",
+      "두개 주세요"
      ],
-     "answer": 0,
-     "explain": "多謝 do1 ze6 = thanks."
+     "explain": "둘 becomes 두 before 개 → 두 개 주세요."
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "안녕히 가세요 is said when…",
+     "options": [
+      "you are leaving and the other person stays",
+      "the other person is leaving",
+      "you first meet someone"
+     ],
+     "answer": 1,
+     "explain": "가세요 = go. Say it when the other person is leaving. Hello = 안녕하세요."
     }
    ]
   }
