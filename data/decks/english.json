@@ -1880,7 +1880,8 @@
     "sat07",
     "interview",
     "phrase",
-    "recap09"
+    "recap09",
+    "recap10"
    ]
   },
   {
@@ -1893,7 +1894,8 @@
     "sat07",
     "interview",
     "phrase",
-    "recap09"
+    "recap09",
+    "recap10"
    ]
   },
   {
@@ -1906,7 +1908,8 @@
     "sat07",
     "interview",
     "phrase",
-    "recap09"
+    "recap09",
+    "recap10"
    ]
   },
   {
@@ -1918,7 +1921,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "story1"
+    "story1",
+    "recap10"
    ]
   },
   {
@@ -1930,7 +1934,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "story1"
+    "story1",
+    "recap10"
    ]
   },
   {
@@ -1942,7 +1947,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "story1"
+    "story1",
+    "recap10"
    ]
   },
   {
@@ -1954,7 +1960,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "story1"
+    "story1",
+    "recap10"
    ]
   },
   {
@@ -1965,7 +1972,8 @@
    "lang": "en-GB",
    "tags": [
     "mon09",
-    "STAR"
+    "STAR",
+    "recap10"
    ]
   },
   {
@@ -1976,7 +1984,8 @@
    "lang": "en-GB",
    "tags": [
     "mon09",
-    "STAR"
+    "STAR",
+    "recap10"
    ]
   },
   {
@@ -1987,7 +1996,8 @@
    "lang": "en-GB",
    "tags": [
     "mon09",
-    "STAR"
+    "STAR",
+    "recap10"
    ]
   },
   {
@@ -2043,6 +2053,72 @@
    "tags": [
     "mon09",
     "intro2"
+   ]
+  },
+  {
+   "id": "en-0156",
+   "front": "Why this role?",
+   "back": "I'm applying because the role connects data to real decisions about how people move.",
+   "gloss": "我申请是因为这个岗位把数据和人的出行决策连在一起。",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0157",
+   "front": "Strength · spatial analysis",
+   "back": "My strength is turning messy spatial data into a clear answer people can act on.",
+   "gloss": "优势：把杂乱的空间数据变成可行动的答案。",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0158",
+   "front": "Teamwork line",
+   "back": "I work well in a team: I share early results and ask for feedback before polishing.",
+   "gloss": "团队：尽早分享结果、先要反馈再打磨。",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0159",
+   "front": "Handling a gap",
+   "back": "When data was missing, I said what was missing, proposed a fix, and checked it with the team.",
+   "gloss": "遇到数据缺口：说清缺什么、提方案、和团队核对。",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0160",
+   "front": "Question for them",
+   "back": "Could you tell me how the team measures success in the first six months?",
+   "gloss": "向面试官提问：前六个月怎么衡量成功？",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0161",
+   "front": "Closing line",
+   "back": "Thank you for your time. I'm keen to contribute, and I'd be glad to answer any follow-up questions.",
+   "gloss": "结束语：感谢时间，期待贡献，欢迎追问。",
+   "lang": "en-GB",
+   "tags": [
+    "tue10",
+    "interview"
    ]
   }
  ]

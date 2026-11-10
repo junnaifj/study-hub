@@ -306,7 +306,8 @@
     "interview",
     "recap29y",
     "recap30y",
-    "sat31r"
+    "sat31r",
+    "hard10y"
    ]
   },
   {
@@ -322,7 +323,8 @@
     "recap30y",
     "sat31r",
     "hard03",
-    "hard04y"
+    "hard04y",
+    "hard10y"
    ]
   },
   {
@@ -339,7 +341,8 @@
     "sat31r",
     "hard03",
     "hard04y",
-    "recycle05y"
+    "recycle05y",
+    "hard10y"
    ]
   },
   {
@@ -355,7 +358,8 @@
     "recap30y",
     "sat31r",
     "hard03",
-    "hard04y"
+    "hard04y",
+    "hard10y"
    ]
   },
   {
@@ -372,7 +376,8 @@
     "sat31r",
     "hard03",
     "hard04y",
-    "recycle05y"
+    "recycle05y",
+    "hard10y"
    ]
   },
   {
@@ -388,7 +393,8 @@
     "recap30y",
     "sat31r",
     "hard03",
-    "hard04y"
+    "hard04y",
+    "hard10y"
    ]
   },
   {
@@ -698,6 +704,50 @@
    "tags": [
     "sat07",
     "cafe"
+   ]
+  },
+  {
+   "id": "yue-0058",
+   "front": "我嚟面試，請多多指教。",
+   "back": "ngo5 lai4 min6 si3, cing2 do1 do1 zi2 gaau3 · I'm here for the interview, please guide me.",
+   "gloss": "面試 si3；事 si6 对比。",
+   "lang": "yue-HK",
+   "tags": [
+    "tue10y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0059",
+   "front": "多謝你哋俾機會我。",
+   "back": "do1 ze6 nei5 dei6 bei2 gei1 wui6 ngo5 · Thanks for giving me the chance.",
+   "gloss": "機會 gei1 wui6。",
+   "lang": "yue-HK",
+   "tags": [
+    "tue10y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0060",
+   "front": "我可以再講一次嗎？",
+   "back": "ngo5 ho2 ji5 zoi3 gong2 jat1 ci3 maa3 · Could I say that again?",
+   "gloss": "面试里重说一遍很有用。",
+   "lang": "yue-HK",
+   "tags": [
+    "tue10y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0061",
+   "front": "期待收到你哋嘅消息。",
+   "back": "kei4 doi6 sau1 dou2 nei5 dei6 ge3 siu1 sik1 · Looking forward to hearing from you.",
+   "gloss": "消息 siu1 sik1。",
+   "lang": "yue-HK",
+   "tags": [
+    "tue10y",
+    "interview"
    ]
   }
  ]
