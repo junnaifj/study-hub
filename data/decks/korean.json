@@ -787,7 +787,8 @@
     "tue03k",
     "batchim",
     "warm06k",
-    "sat07h"
+    "sat07h",
+    "hard10k"
    ]
   },
   {
@@ -799,7 +800,8 @@
    "tags": [
     "tue03k",
     "batchim",
-    "sat07h"
+    "sat07h",
+    "hard10k"
    ]
   },
   {
@@ -823,7 +825,8 @@
     "tue03k",
     "batchim",
     "warm06k",
-    "sat07h"
+    "sat07h",
+    "hard10k"
    ]
   },
   {
@@ -856,7 +859,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "hard10k"
    ]
   },
   {
@@ -891,7 +895,8 @@
     "tue03k",
     "words",
     "warm06k",
-    "sat07h"
+    "sat07h",
+    "hard10k"
    ]
   },
   {
@@ -968,7 +973,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "words"
+    "words",
+    "hard10k"
    ]
   },
   {
@@ -1038,7 +1044,8 @@
    "tags": [
     "fri06k",
     "survival",
-    "cafe"
+    "cafe",
+    "hard10k"
    ]
   },
   {
@@ -1153,7 +1160,8 @@
     "fri06k",
     "linking",
     "cafe",
-    "sat07h"
+    "sat07h",
+    "hard10k"
    ]
   },
   {
@@ -1266,6 +1274,90 @@
    "tags": [
     "sat07",
     "cafe"
+   ]
+  },
+  {
+   "id": "ko-0108",
+   "front": "둘",
+   "back": "둘 · two",
+   "gloss": "dul · 二 · native number after 하나",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0109",
+   "front": "셋",
+   "back": "셋 · three",
+   "gloss": "set · 三 · ㅅ at the bottom = t, same rule as 옷",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0110",
+   "front": "개",
+   "back": "개 · counter for things",
+   "gloss": "gae · 个 · goes after the number: X 개",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0111",
+   "front": "한 개 주세요",
+   "back": "한 개 주세요 · one, please",
+   "gloss": "han gae juseyo · 请给我一个 · 하나 becomes 한 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0112",
+   "front": "두 개 주세요",
+   "back": "두 개 주세요 · two, please",
+   "gloss": "du gae juseyo · 请给我两个 · 둘 becomes 두 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0113",
+   "front": "세 개 주세요",
+   "back": "세 개 주세요 · three, please",
+   "gloss": "se gae juseyo · 请给我三个 · 셋 becomes 세 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0114",
+   "front": "안녕히 가세요",
+   "back": "안녕히 가세요 · goodbye (when the other person is leaving)",
+   "gloss": "annyeonghi gaseyo · 再见（对方离开时）",
+   "lang": "ko-KR",
+   "tags": [
+    "tue10k",
+    "greetings"
    ]
   }
  ]
