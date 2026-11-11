@@ -307,7 +307,8 @@
     "recap29y",
     "recap30y",
     "sat31r",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -324,7 +325,8 @@
     "sat31r",
     "hard03",
     "hard04y",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -342,7 +344,8 @@
     "hard03",
     "hard04y",
     "recycle05y",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -359,7 +362,8 @@
     "sat31r",
     "hard03",
     "hard04y",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -377,7 +381,8 @@
     "hard03",
     "hard04y",
     "recycle05y",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -394,7 +399,8 @@
     "sat31r",
     "hard03",
     "hard04y",
-    "hard10y"
+    "hard10y",
+    "hard11y"
    ]
   },
   {
@@ -681,7 +687,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "recap11y"
    ]
   },
   {
@@ -692,7 +699,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "recap11y"
    ]
   },
   {
@@ -703,7 +711,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "recap11y"
    ]
   },
   {
@@ -714,7 +723,8 @@
    "lang": "yue-HK",
    "tags": [
     "tue10y",
-    "interview"
+    "interview",
+    "hard11y"
    ]
   },
   {
@@ -725,7 +735,8 @@
    "lang": "yue-HK",
    "tags": [
     "tue10y",
-    "interview"
+    "interview",
+    "hard11y"
    ]
   },
   {
@@ -736,7 +747,8 @@
    "lang": "yue-HK",
    "tags": [
     "tue10y",
-    "interview"
+    "interview",
+    "hard11y"
    ]
   },
   {
@@ -747,6 +759,51 @@
    "lang": "yue-HK",
    "tags": [
     "tue10y",
+    "interview",
+    "hard11y"
+   ]
+  },
+  {
+   "id": "yue-0062",
+   "front": "我可以再講一次嗎？",
+   "back": "ngo5 ho2 ji5 zoi3 gong2 jat1 ci3 maa3 · Can I say that again?",
+   "gloss": "再 zoi3 = 再一次; 嗎 maa3 句尾助词。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed11y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0063",
+   "front": "呢個問題好好，等我諗一諗。",
+   "back": "ni1 go3 man6 tai4 hou2 hou2, dang2 ngo5 nam2 jat1 nam2 · Good question, let me think for a moment.",
+   "gloss": "問題 man6 tai4; 諗 nam2 = 想。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed11y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0064",
+   "front": "我嘅強項係分析數據。",
+   "back": "ngo5 ge3 koeng4 hong6 hai6 fan1 sik1 sou3 geoi3 · My strength is analysing data.",
+   "gloss": "強項 koeng4 hong6 = 强项; 係 hai6 = 是。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed11y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0065",
+   "front": "多謝你哋俾機會我。",
+   "back": "do1 ze6 nei5 dei6 bei2 gei1 wui6 ngo5 · Thank you for giving me the chance.",
+   "gloss": "俾 bei2 = 给; 機會 gei1 wui6。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed11y",
     "interview"
    ]
   }
