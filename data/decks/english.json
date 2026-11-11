@@ -920,7 +920,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -938,7 +939,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -956,7 +958,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -974,7 +977,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -992,7 +996,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -1010,7 +1015,8 @@
     "hard03",
     "hard04",
     "hard05",
-    "hard09"
+    "hard09",
+    "recap11"
    ]
   },
   {
@@ -1881,7 +1887,8 @@
     "interview",
     "phrase",
     "recap09",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1895,7 +1902,8 @@
     "interview",
     "phrase",
     "recap09",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1909,7 +1917,8 @@
     "interview",
     "phrase",
     "recap09",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1922,7 +1931,8 @@
     "mon09",
     "STAR",
     "story1",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1935,7 +1945,8 @@
     "mon09",
     "STAR",
     "story1",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1948,7 +1959,8 @@
     "mon09",
     "STAR",
     "story1",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1961,7 +1973,8 @@
     "mon09",
     "STAR",
     "story1",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1973,7 +1986,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1985,7 +1999,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -1997,7 +2012,8 @@
    "tags": [
     "mon09",
     "STAR",
-    "recap10"
+    "recap10",
+    "hard11"
    ]
   },
   {
@@ -2063,7 +2079,8 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
-    "interview"
+    "interview",
+    "hard11"
    ]
   },
   {
@@ -2074,7 +2091,8 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
-    "interview"
+    "interview",
+    "hard11"
    ]
   },
   {
@@ -2085,7 +2103,8 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
-    "interview"
+    "interview",
+    "hard11"
    ]
   },
   {
@@ -2096,7 +2115,8 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
-    "interview"
+    "interview",
+    "hard11"
    ]
   },
   {
@@ -2107,7 +2127,8 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
-    "interview"
+    "interview",
+    "hard11"
    ]
   },
   {
@@ -2118,6 +2139,117 @@
    "lang": "en-GB",
    "tags": [
     "tue10",
+    "interview",
+    "hard11"
+   ]
+  },
+  {
+   "id": "en-0162",
+   "front": "Debrief · what went well",
+   "back": "I answered clearly and kept to the point, reason, example order.",
+   "gloss": "复盘：哪里做得好 · 清楚、按先结论后原因再例子。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0163",
+   "front": "Debrief · what to improve",
+   "back": "Next time I'll slow down and give one concrete number earlier.",
+   "gloss": "复盘：下次放慢、更早给一个具体数字。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0164",
+   "front": "Debrief · a question I stumbled on",
+   "back": "I stumbled when they asked about a gap, so I've prepared a shorter answer.",
+   "gloss": "复盘：被问到空档期卡住了，已准备更短的回答。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0165",
+   "front": "Follow-up thank-you line",
+   "back": "Thank you for the conversation today; I enjoyed learning more about the team.",
+   "gloss": "面试后感谢邮件开头。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0166",
+   "front": "Follow-up · restate interest",
+   "back": "I remain very interested in the role and the chance to contribute.",
+   "gloss": "仍然很感兴趣 · remain = ri-MAYN",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0167",
+   "front": "Follow-up · offer more info",
+   "back": "Please let me know if I can share anything else, such as examples of my work.",
+   "gloss": "需要我补充什么请告诉我。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0168",
+   "front": "STAR #3 follow-up · what would you change?",
+   "back": "If I did it again, I'd agree the scope with stakeholders in the first week.",
+   "gloss": "如果重来：第一周就和相关方确认范围。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0169",
+   "front": "STAR #3 follow-up · how did you handle ambiguity?",
+   "back": "I wrote down my assumptions, checked them with the lead, and iterated.",
+   "gloss": "怎么处理模糊：写下假设、与负责人确认、迭代。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0170",
+   "front": "STAR #3 follow-up · biggest risk",
+   "back": "The biggest risk was an unclear definition, so I fixed one working definition first.",
+   "gloss": "最大风险：定义不清，先定一个工作定义。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0171",
+   "front": "Timeline question · notice period",
+   "back": "I'm able to start from mid-November, so I can start soon.",
+   "gloss": "到岗时间（按实际情况调整）。",
+   "lang": "en-GB",
+   "tags": [
+    "wed11",
     "interview"
    ]
   }
