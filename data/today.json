@@ -1,13 +1,14 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-11",
- "slot": "evening",
+ "date": "2026-11-12",
+ "slot": "morning",
  "tracks": [
+  "english",
   "cantonese"
  ],
- "minutes": 18,
- "new_cards_limit": 4,
- "note": "Wed Cantonese speaking, eased: Hard-first 10 interview lines, only 4 new. 事 si6 ×3 → re-drill → new lines → shadow → 1-min Chinese intro → quiz. 加油！",
+ "minutes": 20,
+ "new_cards_limit": 8,
+ "note": "Hard-first day: English in two small sets (1-min break), only 5 new hedging lines, one timed 'why this role' take, then 5 min Cantonese. Point → reason → example. 事 si6 ×3 first. 加油！",
  "tasks": [
   {
    "id": "t0",
@@ -19,43 +20,59 @@
   {
    "id": "t1",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "hard11y"
+    "hard12a"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "recap11y"
+    "hard12b"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "wed11y"
+    "thu12"
    ]
   },
   {
    "id": "t4",
    "type": "speaking",
-   "prompt": "Shadow the 4 new lines ×3 (audio: audio/cantonese/wed11_yue_lines.mp3 in the tutor folder), then say them again without the script.",
-   "seconds": 150,
-   "script": "我可以再講一次嗎？ngo5 ho2 ji5 zoi3 gong2 jat1 ci3 maa3 · 呢個問題好好，等我諗一諗。ni1 go3 man6 tai4 hou2 hou2, dang2 ngo5 nam2 jat1 nam2 · 我嘅強項係分析數據。ngo5 ge3 koeng4 hong6 hai6 fan1 sik1 sou3 geoi3 · 多謝你哋俾機會我。do1 ze6 nei5 dei6 bei2 gei1 wui6 ngo5"
+   "prompt": "One timed 60-sec take: 'Why this role?' Point → reason → example. Try one new line (e.g. 'Does that answer your question?') at the end. Record, listen once, check 📜.",
+   "seconds": 90,
+   "script": "Point: I want this role because it lets me turn spatial data into decisions people can use.\nReason: At HKU I saw that clear, well-checked data changes what a team decides.\nExample: I built a street-view dataset with roughly 98 percent coverage, which helped the team narrow the analysis, and I'd like to do that at larger scale here.\nClose: Does that answer your question, or shall I go into more detail?"
   },
   {
    "id": "t5",
-   "type": "speaking",
-   "prompt": "1-minute Chinese intro in Cantonese: point first (who you are), then why this role, then one example. Record once, check 📜.",
-   "seconds": 75,
-   "script": "你好，我係應徵者。我做過地理空間數據分析，同埋研究長者喺公共屋邨嘅活動。我想做呢份工，因為我鍾意用數據幫城市規劃。我學嘢好快，亦都鍾意團隊合作。多謝你哋俾機會我。\nnei5 hou2, ngo5 hai6 jing3 zing1 ze2. ngo5 zou6 gwo3 dei6 lei5 hung1 gaan1 sou3 geoi3 fan1 sik1, tung4 maai4 jin4 gau3 zoeng2 zje2 hai2 gung1 gung6 uk1 cyun1 ge3 wut6 dung6. ngo5 soeng2 zou6 ni1 fan6 gung1, jan1 wai6 ngo5 zung1 ji3 jung6 sou3 geoi3 bong1 sing4 si5 kwai1 waak6. ngo5 hok6 je5 hou2 faai3, jik6 dou1 zung1 ji3 tyun4 deoi6 hap6 zok3. do1 ze6 nei5 dei6 bei2 gei1 wui6 ngo5."
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "hard12y"
+   ]
   },
   {
    "id": "t6",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "thu12y"
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "speaking",
+   "prompt": "Shadow the 3 new Cantonese lines ×3 (audio: audio/cantonese/thu12_yue_lines.mp3 in the tutor folder; Hub Play may be silent), then say them without the script.",
+   "seconds": 120,
+   "script": "我下個禮拜開始返工。 ngo5 haa6 go3 lai5 baai3 hoi1 ci2 faan1 gung1 · 可唔可以講慢少少？ ho2 m4 ho2 ji5 gong2 maan6 siu2 siu2 · 我會盡力做好。 ngo5 wui5 zeon6 lik6 zou6 hou2"
+  },
+  {
+   "id": "t8",
    "type": "quiz",
    "questions": [
     {
@@ -73,62 +90,38 @@
     {
      "id": "q2",
      "type": "mc",
-     "q": "面試 min6 si3: which tone is 試?",
+     "q": "You haven't used a tool they ask about. Best opener?",
      "options": [
-      "Tone 3 (mid level)",
-      "Tone 6 (low flat)",
-      "Tone 1 (high level)"
+      "No, never.",
+      "I haven't done that directly yet, but here's how I'd approach it.",
+      "Yes, of course."
      ],
-     "answer": 0,
-     "explain": "試 si3 mid level; 事 si6 is the trap."
+     "answer": 1,
+     "explain": "先诚实，再给方法。"
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "Which means 'Can I say that again?'",
+     "q": "返工 faan1 gung1 means…",
      "options": [
-      "我可以再講一次嗎？",
-      "我嘅強項係分析數據。",
-      "期待收到你哋嘅消息。"
+      "go home",
+      "go to work",
+      "change jobs"
      ],
-     "answer": 0,
-     "explain": "再 zoi3 = again."
+     "answer": 1,
+     "explain": "返工 = 上班。"
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Which means 'let me think for a moment'?",
-     "options": [
-      "等我諗一諗",
-      "多謝你哋",
-      "我嚟面試"
-     ],
-     "answer": 0,
-     "explain": "諗 nam2 = think."
-    },
-    {
-     "id": "q5",
-     "type": "mc",
-     "q": "Best order for a spoken answer?",
+     "q": "Best order for an interview answer?",
      "options": [
       "Example → Reason → Point",
       "Point → Reason → Example",
-      "Reason only"
+      "Reason → Point"
      ],
      "answer": 1,
      "explain": "先说重点，再讲原因，最后举例。"
-    },
-    {
-     "id": "q6",
-     "type": "mc",
-     "q": "強項 koeng4 hong6 means…",
-     "options": [
-      "strength",
-      "salary",
-      "interview"
-     ],
-     "answer": 0,
-     "explain": "强项 = strength."
     }
    ]
   }
