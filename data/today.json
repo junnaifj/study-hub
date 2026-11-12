@@ -1,127 +1,161 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-12",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "japanese"
  ],
  "minutes": 20,
  "new_cards_limit": 8,
- "note": "Hard-first day: English in two small sets (1-min break), only 5 new hedging lines, one timed 'why this role' take, then 5 min Cantonese. Point → reason → example. 事 si6 ×3 first. 加油！",
+ "note": "Japanese night, eased pace. 事 si6 first, then 21 Hard kana, a short recap, then only 8 new: ざじずぜぞ + かぜ じかん あじ. Say each aloud before flipping. 写三遍。",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard12a"
+    "hard12j"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard12b"
+    "recap12j"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "thu12"
-   ]
+   "type": "link",
+   "title": "NHK hiragana chart · tap the が行 and ざ行 (dakuten) rows",
+   "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
+   "minutes": 3
   },
   {
    "id": "t4",
-   "type": "speaking",
-   "prompt": "One timed 60-sec take: 'Why this role?' Point → reason → example. Try one new line (e.g. 'Does that answer your question?') at the end. Record, listen once, check 📜.",
-   "seconds": 90,
-   "script": "Point: I want this role because it lets me turn spatial data into decisions people can use.\nReason: At HKU I saw that clear, well-checked data changes what a team decides.\nExample: I built a street-view dataset with roughly 98 percent coverage, which helped the team narrow the analysis, and I'd like to do that at larger scale here.\nClose: Does that answer your question, or shall I go into more detail?"
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "thu12j"
+   ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "hard12y"
+   "type": "reading",
+   "title": "Read without romaji first (only kana you know)",
+   "lang": "ja-JP",
+   "lines": [
+    {
+     "text": "かぜ が つよい",
+     "gloss": "kaze ga tsuyoi",
+     "translation": "the wind is strong · 风很大 (つよい is new, just listen)"
+    },
+    {
+     "text": "じかん が ない",
+     "gloss": "jikan ga nai",
+     "translation": "there is no time · 没有时间"
+    },
+    {
+     "text": "ごはん の あじ",
+     "gloss": "gohan no aji",
+     "translation": "the taste of rice · 米饭的味道"
+    },
+    {
+     "text": "ゆき の よる",
+     "gloss": "yuki no yoru",
+     "translation": "a snowy night · 下雪的夜晚"
+    },
+    {
+     "text": "わたし は げんき",
+     "gloss": "watashi wa genki",
+     "translation": "I'm well · 我很好"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "thu12y"
-   ]
+   "type": "speaking",
+   "prompt": "Write ざじずぜぞ ×3, saying each aloud (~4 min). Then read the 5 lines twice, slow then normal speed. Watch: さ vs ざ (two dots = voiced), し→じ, ね/ぬ/な, は/ほ.",
+   "seconds": 300,
+   "script": "za ji zu ze zo\nかぜ が つよい (kaze ga tsuyoi)\nじかん が ない (jikan ga nai)\nごはん の あじ (gohan no aji)\nゆき の よる (yuki no yoru)\nわたし は げんき (watashi wa genki)"
   },
   {
    "id": "t7",
-   "type": "speaking",
-   "prompt": "Shadow the 3 new Cantonese lines ×3 (audio: audio/cantonese/thu12_yue_lines.mp3 in the tutor folder; Hub Play may be silent), then say them without the script.",
-   "seconds": 120,
-   "script": "我下個禮拜開始返工。 ngo5 haa6 go3 lai5 baai3 hoi1 ci2 faan1 gung1 · 可唔可以講慢少少？ ho2 m4 ho2 ji5 gong2 maan6 siu2 siu2 · 我會盡力做好。 ngo5 wui5 zeon6 lik6 zou6 hou2"
-  },
-  {
-   "id": "t8",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "Which one is ze?",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "せ",
+      "ぜ",
+      "ぞ"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat."
+     "explain": "ぜ = せ plus two dots."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "You haven't used a tool they ask about. Best opener?",
-     "options": [
-      "No, never.",
-      "I haven't done that directly yet, but here's how I'd approach it.",
-      "Yes, of course."
+     "type": "typed",
+     "q": "Romaji for じ?",
+     "answer": [
+      "ji"
      ],
-     "answer": 1,
-     "explain": "先诚实，再给方法。"
+     "explain": "じ = ji (し + dots)."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "返工 faan1 gung1 means…",
-     "options": [
-      "go home",
-      "go to work",
-      "change jobs"
+     "type": "typed",
+     "q": "Write wind (kaze) in hiragana.",
+     "answer": [
+      "かぜ"
      ],
-     "answer": 1,
-     "explain": "返工 = 上班。"
+     "explain": "か ka + ぜ ze."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best order for an interview answer?",
+     "q": "Which one is ga?",
      "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+      "か",
+      "が",
+      "ぎ"
      ],
      "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "が = か + dots; ぎ is gi."
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "Which one is nu?",
+     "options": [
+      "ぬ",
+      "め",
+      "ね"
+     ],
+     "answer": 0,
+     "explain": "ぬ nu curls at the end; め does not."
+    },
+    {
+     "id": "q6",
+     "type": "mc",
+     "q": "In ごはん を たべる, how is を read?",
+     "options": [
+      "wo",
+      "o",
+      "wa"
+     ],
+     "answer": 1,
+     "explain": "を sounds like 'o'."
     }
    ]
   }
