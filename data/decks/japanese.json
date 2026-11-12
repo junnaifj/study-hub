@@ -130,7 +130,8 @@
     "recap26",
     "warm27",
     "recap29j",
-    "sat31"
+    "sat31",
+    "hard12j"
    ]
   },
   {
@@ -585,7 +586,8 @@
     "warm27",
     "recap29j",
     "sat31",
-    "warm02"
+    "warm02",
+    "hard12j"
    ]
   },
   {
@@ -599,7 +601,8 @@
     "thu29j",
     "sat31r",
     "recap02j",
-    "hard09j"
+    "hard09j",
+    "hard12j"
    ]
   },
   {
@@ -769,7 +772,8 @@
     "sat31new",
     "words",
     "recap02j",
-    "warm03"
+    "warm03",
+    "hard12j"
    ]
   },
   {
@@ -810,7 +814,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon02j"
+    "mon02j",
+    "hard12j"
    ]
   },
   {
@@ -821,7 +826,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon02j"
+    "mon02j",
+    "hard12j"
    ]
   },
   {
@@ -891,7 +897,8 @@
     "hiragana",
     "mon02j",
     "sat07r",
-    "recap09j"
+    "recap09j",
+    "hard12j"
    ]
   },
   {
@@ -904,7 +911,8 @@
     "words",
     "mon02j",
     "sat07r",
-    "recap09j"
+    "recap09j",
+    "hard12j"
    ]
   },
   {
@@ -917,7 +925,8 @@
     "words",
     "mon02j",
     "sat07r",
-    "recap09j"
+    "recap09j",
+    "hard12j"
    ]
   },
   {
@@ -1016,7 +1025,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1027,7 +1037,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1038,7 +1049,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1049,7 +1061,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1060,7 +1073,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1071,7 +1085,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1082,7 +1097,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1093,7 +1109,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1104,7 +1121,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1115,7 +1133,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1126,7 +1145,8 @@
    "lang": "ja-JP",
    "tags": [
     "hiragana",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1137,7 +1157,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1148,7 +1169,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1159,7 +1181,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1170,7 +1193,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1181,7 +1205,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "hard12j"
    ]
   },
   {
@@ -1192,7 +1217,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1203,7 +1229,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1214,7 +1241,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "recap12j"
    ]
   },
   {
@@ -1225,7 +1253,96 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "mon09j"
+    "mon09j",
+    "recap12j"
+   ]
+  },
+  {
+   "id": "ja-0100",
+   "front": "ざ",
+   "back": "za · ざ (さ + two dots)",
+   "gloss": "za · ざ (さ + two dots)",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0101",
+   "front": "じ",
+   "back": "ji · じ (し + two dots)",
+   "gloss": "ji · じ (し + two dots)",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0102",
+   "front": "ず",
+   "back": "zu · ず (す + two dots)",
+   "gloss": "zu · ず (す + two dots)",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0103",
+   "front": "ぜ",
+   "back": "ze · ぜ (せ + two dots)",
+   "gloss": "ze · ぜ (せ + two dots)",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0104",
+   "front": "ぞ",
+   "back": "zo · ぞ (そ + two dots)",
+   "gloss": "zo · ぞ (そ + two dots)",
+   "lang": "ja-JP",
+   "tags": [
+    "kana",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0105",
+   "front": "かぜ",
+   "back": "kaze · wind 风",
+   "gloss": "kaze · wind 风",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0106",
+   "front": "じかん",
+   "back": "jikan · time 时间",
+   "gloss": "jikan · time 时间",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "thu12j"
+   ]
+  },
+  {
+   "id": "ja-0107",
+   "front": "あじ",
+   "back": "aji · taste 味道",
+   "gloss": "aji · taste 味道",
+   "lang": "ja-JP",
+   "tags": [
+    "words",
+    "thu12j"
    ]
   }
  ]
