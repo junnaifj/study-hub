@@ -940,7 +940,8 @@
     "hard04",
     "hard05",
     "hard09",
-    "recap11"
+    "recap11",
+    "hard12a"
    ]
   },
   {
@@ -959,7 +960,8 @@
     "hard04",
     "hard05",
     "hard09",
-    "recap11"
+    "recap11",
+    "hard12a"
    ]
   },
   {
@@ -978,7 +980,8 @@
     "hard04",
     "hard05",
     "hard09",
-    "recap11"
+    "recap11",
+    "hard12a"
    ]
   },
   {
@@ -997,7 +1000,8 @@
     "hard04",
     "hard05",
     "hard09",
-    "recap11"
+    "recap11",
+    "hard12a"
    ]
   },
   {
@@ -1016,7 +1020,8 @@
     "hard04",
     "hard05",
     "hard09",
-    "recap11"
+    "recap11",
+    "hard12a"
    ]
   },
   {
@@ -1888,7 +1893,8 @@
     "phrase",
     "recap09",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1903,7 +1909,8 @@
     "phrase",
     "recap09",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1918,7 +1925,8 @@
     "phrase",
     "recap09",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1932,7 +1940,8 @@
     "STAR",
     "story1",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1946,7 +1955,8 @@
     "STAR",
     "story1",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1960,7 +1970,8 @@
     "STAR",
     "story1",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1974,7 +1985,8 @@
     "STAR",
     "story1",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -1987,7 +1999,8 @@
     "mon09",
     "STAR",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2000,7 +2013,8 @@
     "mon09",
     "STAR",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2013,7 +2027,8 @@
     "mon09",
     "STAR",
     "recap10",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2080,7 +2095,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2092,7 +2108,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2104,7 +2121,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2116,7 +2134,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2128,7 +2147,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2140,7 +2160,8 @@
    "tags": [
     "tue10",
     "interview",
-    "hard11"
+    "hard11",
+    "hard12a"
    ]
   },
   {
@@ -2151,7 +2172,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2162,7 +2184,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2173,7 +2196,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2184,7 +2208,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2195,7 +2220,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2206,7 +2232,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2217,7 +2244,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2228,7 +2256,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2239,7 +2268,8 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
-    "interview"
+    "interview",
+    "hard12b"
    ]
   },
   {
@@ -2250,6 +2280,62 @@
    "lang": "en-GB",
    "tags": [
     "wed11",
+    "interview",
+    "hard12b"
+   ]
+  },
+  {
+   "id": "en-0172",
+   "front": "Honest 'not yet'",
+   "back": "I haven't done that directly yet, but here's how I'd approach it.",
+   "gloss": "没直接做过，但说明你会怎么做。先诚实，再给方法。",
+   "lang": "en-GB",
+   "tags": [
+    "thu12",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0173",
+   "front": "Hedging a number",
+   "back": "It was roughly 98 percent coverage, give or take.",
+   "gloss": "roughly / give or take = 大约，留余地。",
+   "lang": "en-GB",
+   "tags": [
+    "thu12",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0174",
+   "front": "Bridging to your strength",
+   "back": "That links to something I did at HKU, if I may give an example.",
+   "gloss": "把话题拉回自己的强项。",
+   "lang": "en-GB",
+   "tags": [
+    "thu12",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0175",
+   "front": "Checking you answered",
+   "back": "Does that answer your question, or shall I go into more detail?",
+   "gloss": "答完确认一下，别一直讲。",
+   "lang": "en-GB",
+   "tags": [
+    "thu12",
+    "interview"
+   ]
+  },
+  {
+   "id": "en-0176",
+   "front": "Polite disagreement",
+   "back": "I see it slightly differently, and here's why.",
+   "gloss": "委婉表达不同意见：先软化，再给理由。",
+   "lang": "en-GB",
+   "tags": [
+    "thu12",
     "interview"
    ]
   }

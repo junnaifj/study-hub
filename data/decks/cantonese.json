@@ -308,7 +308,8 @@
     "recap30y",
     "sat31r",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -326,7 +327,8 @@
     "hard03",
     "hard04y",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -345,7 +347,8 @@
     "hard04y",
     "recycle05y",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -363,7 +366,8 @@
     "hard03",
     "hard04y",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -382,7 +386,8 @@
     "hard04y",
     "recycle05y",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -400,7 +405,8 @@
     "hard03",
     "hard04y",
     "hard10y",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -712,7 +718,8 @@
    "tags": [
     "sat07",
     "cafe",
-    "recap11y"
+    "recap11y",
+    "hard12y"
    ]
   },
   {
@@ -724,7 +731,8 @@
    "tags": [
     "tue10y",
     "interview",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -736,7 +744,8 @@
    "tags": [
     "tue10y",
     "interview",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -748,7 +757,8 @@
    "tags": [
     "tue10y",
     "interview",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -760,7 +770,8 @@
    "tags": [
     "tue10y",
     "interview",
-    "hard11y"
+    "hard11y",
+    "hard12y"
    ]
   },
   {
@@ -771,7 +782,8 @@
    "lang": "yue-HK",
    "tags": [
     "wed11y",
-    "interview"
+    "interview",
+    "hard12y"
    ]
   },
   {
@@ -804,6 +816,39 @@
    "lang": "yue-HK",
    "tags": [
     "wed11y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0066",
+   "front": "我下個禮拜開始返工。",
+   "back": "ngo5 haa6 go3 lai5 baai3 hoi1 ci2 faan1 gung1 · I start work next week.",
+   "gloss": "返工 faan1 gung1 = 上班; 禮拜 lai5 baai3 = 星期。",
+   "lang": "yue-HK",
+   "tags": [
+    "thu12y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0067",
+   "front": "可唔可以講慢少少？",
+   "back": "ho2 m4 ho2 ji5 gong2 maan6 siu2 siu2 · Could you speak a bit more slowly?",
+   "gloss": "慢 maan6; 少少 siu2 siu2 = 一点点。",
+   "lang": "yue-HK",
+   "tags": [
+    "thu12y",
+    "interview"
+   ]
+  },
+  {
+   "id": "yue-0068",
+   "front": "我會盡力做好。",
+   "back": "ngo5 wui5 zeon6 lik6 zou6 hou2 · I'll do my best.",
+   "gloss": "盡力 zeon6 lik6 = 尽力; 做好 zou6 hou2。",
+   "lang": "yue-HK",
+   "tags": [
+    "thu12y",
     "interview"
    ]
   }
