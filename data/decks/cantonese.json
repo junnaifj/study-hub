@@ -719,7 +719,8 @@
     "sat07",
     "cafe",
     "recap11y",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -732,7 +733,8 @@
     "tue10y",
     "interview",
     "hard11y",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -745,7 +747,8 @@
     "tue10y",
     "interview",
     "hard11y",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -758,7 +761,8 @@
     "tue10y",
     "interview",
     "hard11y",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -771,7 +775,8 @@
     "tue10y",
     "interview",
     "hard11y",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -783,7 +788,8 @@
    "tags": [
     "wed11y",
     "interview",
-    "hard12y"
+    "hard12y",
+    "recap13y"
    ]
   },
   {
@@ -850,6 +856,39 @@
    "tags": [
     "thu12y",
     "interview"
+   ]
+  },
+  {
+   "id": "yue-0069",
+   "front": "我係新嚟嘅。",
+   "back": "ngo5 hai6 san1 lai4 ge3 · I'm new here.",
+   "gloss": "新嚟 san1 lai4 = newly arrived / 新来的。第一日打招呼。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri13y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0070",
+   "front": "唔好意思，我聽唔清楚。",
+   "back": "m4 hou2 ji3 si3, ngo5 teng1 m4 cing1 co2 · Sorry, I didn't catch that.",
+   "gloss": "聽唔清楚 teng1 m4 cing1 co2 = didn't hear clearly. 听不清时用。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri13y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0071",
+   "front": "有冇嘢我可以幫手？",
+   "back": "jau5 mou5 je5 ngo5 ho2 ji5 bong1 sau2 · Is there anything I can help with?",
+   "gloss": "有冇嘢 jau5 mou5 je5 = is there anything; 幫手 bong1 sau2 = help. 主动帮忙。",
+   "lang": "yue-HK",
+   "tags": [
+    "fri13y",
+    "workplace"
    ]
   }
  ]
