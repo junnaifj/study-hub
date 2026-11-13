@@ -926,7 +926,7 @@
   },
   {
    "id": "en-0075",
-   "front": "STAR #3 Task",
+   "front": "STAR #3 · Point (task) · cues: defensible, unclear\nM_ t___ w__ t_ b____ a d_________ e_______ b___, e___ t_____ t__ r___________ w___ u______.",
    "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
    "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
    "lang": "en-GB",
@@ -941,12 +941,13 @@
     "hard05",
     "hard09",
     "recap11",
-    "hard12a"
+    "hard12a",
+    "hard13f"
    ]
   },
   {
    "id": "en-0076",
-   "front": "STAR #3 Action 1: definition",
+   "front": "STAR #3 · Reason beat 1: definition · cues: working definition\nF____, I p_____ f__ a w______ d_________ o_ w___ c_____ a_ a_ A_ d___ c_____, s_ t__ w____ a_______ s_____ o__ s____.",
    "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
    "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
    "lang": "en-GB",
@@ -961,12 +962,13 @@
     "hard05",
     "hard09",
     "recap11",
-    "hard12a"
+    "hard12a",
+    "hard13f"
    ]
   },
   {
    "id": "en-0077",
-   "front": "STAR #3 Action 2: data gaps",
+   "front": "STAR #3 · Reason beat 2: data gaps · cues: mapped the data gaps\nS_____, I m_____ t__ d___ g___: I c______ w____ i_________ H___ K___ w__ m______ a__ c_______ t___ w___ o____ r______.",
    "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
    "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
    "lang": "en-GB",
@@ -981,12 +983,13 @@
     "hard05",
     "hard09",
     "recap11",
-    "hard12a"
+    "hard12a",
+    "hard13f"
    ]
   },
   {
    "id": "en-0078",
-   "front": "STAR #3 Action 3+4: workflow + log",
+   "front": "STAR #3 · Reason beat 3: workflow + log · cues: iterative, written log\nB______ t__ d________ k___ s_______, I b____ a_ i________ w_______, a__ a____ e____ m______ I k___ a w______ l__ o_ w___ w_ a_____.",
    "back": "Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.",
    "gloss": "迭代流程 + 会议记录 · iterative = IT-er-uh-tiv",
    "lang": "en-GB",
@@ -1001,12 +1004,13 @@
     "hard05",
     "hard09",
     "recap11",
-    "hard12a"
+    "hard12a",
+    "hard13f"
    ]
   },
   {
    "id": "en-0079",
-   "front": "STAR #3 Result",
+   "front": "STAR #3 · Example / Result · cues: baseline, still missing\nA_ a r_____, I d________ a b_______ a_______ o_ d___-c_____ g_________, p___ a c____ l___ o_ t__ d___ H___ K___ i_ s____ m______.",
    "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
    "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
    "lang": "en-GB",
@@ -1021,7 +1025,8 @@
     "hard05",
     "hard09",
     "recap11",
-    "hard12a"
+    "hard12a",
+    "hard13f"
    ]
   },
   {
@@ -1883,7 +1888,7 @@
   },
   {
    "id": "en-0141",
-   "front": "Buying a second to think",
+   "front": "Buying a second to think · cues: good question, second\nT___'_ a g___ q_______ — l__ m_ t___ a s_____ t_ t____.",
    "back": "That's a good question — let me take a second to think.",
    "gloss": "先买一秒再开口，别用 um 填满。Mock A 可以用。",
    "lang": "en-GB",
@@ -1894,12 +1899,13 @@
     "recap09",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13a"
    ]
   },
   {
    "id": "en-0142",
-   "front": "Clarifying before you answer",
+   "front": "Clarifying before you answer · cues: method, or the result\nJ___ t_ m___ s___ I u_________ — a__ y__ a_____ a____ t__ m_____, o_ t__ r_____?",
    "back": "Just to make sure I understand — are you asking about the method, or the result?",
    "gloss": "不确定就先确认，好过答错题。",
    "lang": "en-GB",
@@ -1910,12 +1916,13 @@
     "recap09",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13a"
    ]
   },
   {
    "id": "en-0143",
-   "front": "Land the answer, then stop",
+   "front": "Land the answer, then stop · cues: short answer, main point\nT__ s____ a_____ i_ [t__ r_____]. T__ r_____ i_ [o__ r_____]. T___'_ t__ m___ p____ I'_ l____ y__ w___.",
    "back": "The short answer is [the result]. The reason is [one reason]. That's the main point I'd leave you with.",
    "gloss": "先结论，再一个原因，然后停。",
    "lang": "en-GB",
@@ -1926,12 +1933,13 @@
     "recap09",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13a"
    ]
   },
   {
    "id": "en-0144",
-   "front": "STAR #1 · walking environment",
+   "front": "STAR #1 · walking environment · cues: street-view, estates\nS_____-v___ i_____ s_____ t__ w______ e__________ a_____ t__ e______, n__ j___ p_____ o_ a m__.",
    "back": "Street-view images showed the walking environment around the estates, not just points on a map.",
    "gloss": "街景看的是步行环境，不只是地图上的点。",
    "lang": "en-GB",
@@ -1941,12 +1949,13 @@
     "story1",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13b"
    ]
   },
   {
    "id": "en-0145",
-   "front": "STAR #1 · purpose for movement",
+   "front": "STAR #1 · purpose for movement · cues: metadata, older residents\nI d________ t__ s_____-v___ m_______ a__ a g_________ p_______ s_ t__ t___ c____ a______ h__ o____ r________ m___ i_ t__ o___ s_____ a_____ t__ e______.",
    "back": "I delivered the street-view metadata and a geospatial protocol so the team could analyse how older residents move in the open spaces around the estates.",
    "gloss": "目的句：so that 后面是别人能做成的事。",
    "lang": "en-GB",
@@ -1956,12 +1965,13 @@
     "story1",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13b"
    ]
   },
   {
    "id": "en-0146",
-   "front": "STAR #1 · coverage, said for movement",
+   "front": "STAR #1 · coverage · cues: 98%, missing streets\nW_ r______ a____ 98% c_______, s_ t__ a_______ o_ e_____ m_______ d__ n__ h___ t_ g____ f___ m______ s______.",
    "back": "We reached about 98% coverage, so the analysis of estate movement did not have to guess from missing streets.",
    "gloss": "数字要连上它改变了什么。",
    "lang": "en-GB",
@@ -1971,12 +1981,13 @@
     "story1",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13b"
    ]
   },
   {
    "id": "en-0147",
-   "front": "STAR #1 · four directions to six",
+   "front": "STAR #1 · four directions to six · cues: four to six\nI e_______ e___ c______ f___ f___ v______ d_________ t_ s__, w____ g___ a f_____ p______ o_ t__ s_____.",
    "back": "I extended each capture from four viewing directions to six, which gave a fuller picture of the street.",
    "gloss": "四个方向扩到六个，街面看得更全。",
    "lang": "en-GB",
@@ -1986,12 +1997,13 @@
     "story1",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13b"
    ]
   },
   {
    "id": "en-0148",
-   "front": "STAR #2 · in spring and winter",
+   "front": "STAR #2 · in spring and winter · cues: spring, winter\nO____ r________ w___ m_____ a_____ i_ s_____ a__ w_____, s_ w_ f______ o_ t__ s______ w___ p_____ w___ a_______ o______.",
    "back": "Older residents were mainly active in spring and winter, so we focused on the seasons when people were actually outside.",
    "gloss": "季节前用 in，不要 the：in spring and winter。",
    "lang": "en-GB",
@@ -2000,12 +2012,13 @@
     "STAR",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13c"
    ]
   },
   {
    "id": "en-0149",
-   "front": "STAR #2 · how far people went",
+   "front": "STAR #2 · how far people went · cues: two to three MTR\nM___ a_______ s_____ w_____ t__ t_ t____ M__ s_______, w____ t___ u_ h__ f__ a t______ t___ r_____ w___.",
    "back": "Most activity stayed within two to three MTR stations, which told us how far a typical trip really went.",
    "gloss": "用活动范围说明人实际走多远。",
    "lang": "en-GB",
@@ -2014,12 +2027,13 @@
     "STAR",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13c"
    ]
   },
   {
    "id": "en-0150",
-   "front": "STAR #2 · skill to impact",
+   "front": "STAR #2 · skill to impact · cues: narrower buffer\nI u___ t___ a_______ p______ t_ r________ a n_______ d_______ b_____, s_ t__ m____ m______ w____ p_____ a_______ g_.",
    "back": "I used that activity pattern to recommend a narrower distance buffer, so the model matched where people actually go.",
    "gloss": "技能→影响：我用规律建议更小的缓冲区。",
    "lang": "en-GB",
@@ -2028,7 +2042,8 @@
     "STAR",
     "recap10",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13c"
    ]
   },
   {
@@ -2088,7 +2103,7 @@
   },
   {
    "id": "en-0156",
-   "front": "Why this role?",
+   "front": "Why this role? · cues: connects, decisions\nI'_ a_______ b______ t__ r___ c_______ d___ t_ r___ d________ a____ h__ p_____ m___.",
    "back": "I'm applying because the role connects data to real decisions about how people move.",
    "gloss": "我申请是因为这个岗位把数据和人的出行决策连在一起。",
    "lang": "en-GB",
@@ -2096,12 +2111,13 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13d"
    ]
   },
   {
    "id": "en-0157",
-   "front": "Strength · spatial analysis",
+   "front": "Strength · spatial analysis · cues: messy spatial data\nM_ s_______ i_ t______ m____ s______ d___ i___ a c____ a_____ p_____ c__ a__ o_.",
    "back": "My strength is turning messy spatial data into a clear answer people can act on.",
    "gloss": "优势：把杂乱的空间数据变成可行动的答案。",
    "lang": "en-GB",
@@ -2109,12 +2125,13 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13d"
    ]
   },
   {
    "id": "en-0158",
-   "front": "Teamwork line",
+   "front": "Teamwork line · cues: share early, feedback\nI w___ w___ i_ a t___: I s____ e____ r______ a__ a__ f__ f_______ b_____ p________.",
    "back": "I work well in a team: I share early results and ask for feedback before polishing.",
    "gloss": "团队：尽早分享结果、先要反馈再打磨。",
    "lang": "en-GB",
@@ -2122,12 +2139,13 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13d"
    ]
   },
   {
    "id": "en-0159",
-   "front": "Handling a gap",
+   "front": "Handling a gap · cues: missing, proposed a fix\nW___ d___ w__ m______, I s___ w___ w__ m______, p_______ a f__, a__ c______ i_ w___ t__ t___.",
    "back": "When data was missing, I said what was missing, proposed a fix, and checked it with the team.",
    "gloss": "遇到数据缺口：说清缺什么、提方案、和团队核对。",
    "lang": "en-GB",
@@ -2135,12 +2153,13 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13e"
    ]
   },
   {
    "id": "en-0160",
-   "front": "Question for them",
+   "front": "Question for them · cues: measures success, six months\nC____ y__ t___ m_ h__ t__ t___ m_______ s______ i_ t__ f____ s__ m_____?",
    "back": "Could you tell me how the team measures success in the first six months?",
    "gloss": "向面试官提问：前六个月怎么衡量成功？",
    "lang": "en-GB",
@@ -2148,12 +2167,13 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13e"
    ]
   },
   {
    "id": "en-0161",
-   "front": "Closing line",
+   "front": "Closing line · cues: keen to contribute\nT____ y__ f__ y___ t___. I'_ k___ t_ c_________, a__ I'_ b_ g___ t_ a_____ a__ f_____-u_ q________.",
    "back": "Thank you for your time. I'm keen to contribute, and I'd be glad to answer any follow-up questions.",
    "gloss": "结束语：感谢时间，期待贡献，欢迎追问。",
    "lang": "en-GB",
@@ -2161,7 +2181,8 @@
     "tue10",
     "interview",
     "hard11",
-    "hard12a"
+    "hard12a",
+    "hard13e"
    ]
   },
   {
@@ -2337,6 +2358,42 @@
    "tags": [
     "thu12",
     "interview"
+   ]
+  },
+  {
+   "id": "en-0177",
+   "front": "fill a void (BBC · generations)",
+   "back": "help to feel better after experiencing loss",
+   "gloss": "填补空缺 / 缓解失落。BBC ep-261122 Learning from different generations.",
+   "lang": "en-GB",
+   "tags": [
+    "fri13bbc",
+    "vocabulary",
+    "bbc"
+   ]
+  },
+  {
+   "id": "en-0178",
+   "front": "hear (something) on the grapevine (BBC · generations)",
+   "back": "hear a rumour; hear news informally from other people",
+   "gloss": "从小道消息听说。BBC ep-261122.",
+   "lang": "en-GB",
+   "tags": [
+    "fri13bbc",
+    "vocabulary",
+    "bbc"
+   ]
+  },
+  {
+   "id": "en-0179",
+   "front": "break down stereotypes (BBC · generations)",
+   "back": "find evidence that common beliefs about a group of people are untrue",
+   "gloss": "打破刻板印象。BBC ep-261122. Ties to ageing / mixing generations.",
+   "lang": "en-GB",
+   "tags": [
+    "fri13bbc",
+    "vocabulary",
+    "bbc"
    ]
   }
  ]

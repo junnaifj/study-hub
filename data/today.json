@@ -1,161 +1,178 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-12",
- "slot": "evening",
+ "date": "2026-11-13",
+ "slot": "morning",
  "tracks": [
-  "japanese"
+  "english",
+  "cantonese"
  ],
  "minutes": 20,
- "new_cards_limit": 8,
- "note": "Japanese night, eased pace. 事 si6 first, then 21 Hard kana, a short recap, then only 8 new: ざじずぜぞ + かぜ じかん あじ. Say each aloud before flipping. 写三遍。",
+ "new_cards_limit": 6,
+ "note": "Friday A: 事 si6 ×3, then BBC 6 Minute English (~6 min). English is RECALL practice (no new interview lines): cue + first-letter skeleton, say the line aloud BEFORE flipping, sets of 3–4, then one from-memory run of the set. One timed STAR #3 take (point → reason → example). Cantonese 5: quick review, 3 new first-week lines, shadow ×3. 加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "hard12j"
-   ]
+   "type": "link",
+   "title": "BBC 6 Minute English · Learning from different generations (ep-261122)",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122",
+   "minutes": 6
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "recap12j"
+    "fri13bbc"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "NHK hiragana chart · tap the が行 and ざ行 (dakuten) rows",
-   "url": "https://www.nhk.or.jp/lesson/en/letters/hiragana.html",
-   "minutes": 3
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard13a"
+   ]
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "thu12j"
+    "hard13b"
    ]
   },
   {
    "id": "t5",
-   "type": "reading",
-   "title": "Read without romaji first (only kana you know)",
-   "lang": "ja-JP",
-   "lines": [
-    {
-     "text": "かぜ が つよい",
-     "gloss": "kaze ga tsuyoi",
-     "translation": "the wind is strong · 风很大 (つよい is new, just listen)"
-    },
-    {
-     "text": "じかん が ない",
-     "gloss": "jikan ga nai",
-     "translation": "there is no time · 没有时间"
-    },
-    {
-     "text": "ごはん の あじ",
-     "gloss": "gohan no aji",
-     "translation": "the taste of rice · 米饭的味道"
-    },
-    {
-     "text": "ゆき の よる",
-     "gloss": "yuki no yoru",
-     "translation": "a snowy night · 下雪的夜晚"
-    },
-    {
-     "text": "わたし は げんき",
-     "gloss": "watashi wa genki",
-     "translation": "I'm well · 我很好"
-    }
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard13c"
    ]
   },
   {
    "id": "t6",
-   "type": "speaking",
-   "prompt": "Write ざじずぜぞ ×3, saying each aloud (~4 min). Then read the 5 lines twice, slow then normal speed. Watch: さ vs ざ (two dots = voiced), し→じ, ね/ぬ/な, は/ほ.",
-   "seconds": 300,
-   "script": "za ji zu ze zo\nかぜ が つよい (kaze ga tsuyoi)\nじかん が ない (jikan ga nai)\nごはん の あじ (gohan no aji)\nゆき の よる (yuki no yoru)\nわたし は げんき (watashi wa genki)"
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard13d"
+   ]
   },
   {
    "id": "t7",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard13e"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard13f"
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "speaking",
+   "prompt": "One timed take: a time the requirements were unclear (STAR #3). Point → reason → example. Recite from memory first, then check 📜. If you still have a minute, run one recall set (e.g. why-this-role) from memory without flipping.",
+   "seconds": 90,
+   "script": "Point: My task was to build a defensible evidence base, even though the requirements were unclear.\nReason: First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope. Second, I mapped the data gaps — I counted which indicators Hong Kong was missing and compared them with other regions. Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.\nExample: As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing."
+  },
+  {
+   "id": "t10",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap13y"
+   ]
+  },
+  {
+   "id": "t11",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "fri13y"
+   ]
+  },
+  {
+   "id": "t12",
+   "type": "speaking",
+   "prompt": "Shadow the 3 new Cantonese lines ×3 (audio: audio/cantonese/fri13_yue_lines.mp3 in the tutor folder; Hub Play may be silent), then say them without the script.",
+   "seconds": 120,
+   "script": "我係新嚟嘅。 ngo5 hai6 san1 lai4 ge3 · 唔好意思，我聽唔清楚。 m4 hou2 ji3 si3, ngo5 teng1 m4 cing1 co2 · 有冇嘢我可以幫手？ jau5 mou5 je5 ngo5 ho2 ji5 bong1 sau2"
+  },
+  {
+   "id": "t13",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which one is ze?",
+     "q": "Which tone is 事 si6?",
      "options": [
-      "せ",
-      "ぜ",
-      "ぞ"
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
      ],
      "answer": 1,
-     "explain": "ぜ = せ plus two dots."
+     "explain": "事 si6 is low and flat."
     },
     {
      "id": "q2",
-     "type": "typed",
-     "q": "Romaji for じ?",
-     "answer": [
-      "ji"
+     "type": "mc",
+     "q": "BBC 6 Minute English: someone born in 1982 belongs to which generation?",
+     "options": [
+      "Generation X",
+      "Millennial",
+      "Gen Z"
      ],
-     "explain": "じ = ji (し + dots)."
+     "answer": 1,
+     "explain": "The answer in the episode is b) Millennial (Georgie had guessed Generation X)."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Write wind (kaze) in hiragana.",
-     "answer": [
-      "かぜ"
+     "type": "mc",
+     "q": "hear something on the grapevine means…",
+     "options": [
+      "hear it officially in a meeting",
+      "hear a rumour / hear news informally",
+      "read it in a report"
      ],
-     "explain": "か ka + ぜ ze."
+     "answer": 1,
+     "explain": "从小道消息听说。"
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Which one is ga?",
+     "q": "Best order for an interview answer?",
      "options": [
-      "か",
-      "が",
-      "ぎ"
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
      ],
      "answer": 1,
-     "explain": "が = か + dots; ぎ is gi."
+     "explain": "先说重点，再讲原因，最后举例。"
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "Which one is nu?",
+     "q": "我係新嚟嘅 means…",
      "options": [
-      "ぬ",
-      "め",
-      "ね"
-     ],
-     "answer": 0,
-     "explain": "ぬ nu curls at the end; め does not."
-    },
-    {
-     "id": "q6",
-     "type": "mc",
-     "q": "In ごはん を たべる, how is を read?",
-     "options": [
-      "wo",
-      "o",
-      "wa"
+      "I'm leaving today",
+      "I'm new here",
+      "I need help"
      ],
      "answer": 1,
-     "explain": "を sounds like 'o'."
+     "explain": "新嚟 = newly arrived / 新来的。"
     }
    ]
   }
