@@ -1,14 +1,13 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-13",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "korean"
  ],
  "minutes": 20,
- "new_cards_limit": 6,
- "note": "Friday A: 事 si6 ×3, then BBC 6 Minute English (~6 min). English is RECALL practice (no new interview lines): cue + first-letter skeleton, say the line aloud BEFORE flipping, sets of 3–4, then one from-memory run of the set. One timed STAR #3 take (point → reason → example). Cantonese 5: quick review, 3 new first-week lines, shadow ×3. 加油！",
+ "new_cards_limit": 8,
+ "note": "Korean night, Hard-first, cap new cards. 事 si6 ×3, then 19 Hard cards (batchim + café), recap Tue 둘/셋 set, then 8 new café/batchim words (넷/다섯 and 빵/컵/얼음/여기요). Write ×3, 7-Q quiz. Say each card aloud before flipping. 加油！",
  "tasks": [
   {
    "id": "t0",
@@ -19,160 +18,148 @@
   },
   {
    "id": "t1",
-   "type": "link",
-   "title": "BBC 6 Minute English · Learning from different generations (ep-261122)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122",
-   "minutes": 6
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "hard13k"
+   ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "fri13bbc"
+    "tue10k"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard13a"
+    "fri13k"
    ]
   },
   {
    "id": "t4",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard13b"
+   "type": "reading",
+   "title": "Read aloud: café order (Hangul first, then check the gloss)",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "여기요. 빵 두 개 주세요.",
+     "gloss": "yeogiyo. ppang du gae juseyo.",
+     "translation": "Excuse me. Two breads, please. · 喂，请给我两个面包。"
+    },
+    {
+     "text": "네 개 주세요. 다섯 개 주세요.",
+     "gloss": "ne gae juseyo. daseot gae juseyo.",
+     "translation": "Four, please. Five, please. · 请给我四个。请给我五个。"
+    },
+    {
+     "text": "컵 하나, 얼음 주세요.",
+     "gloss": "keop hana, eoreum juseyo.",
+     "translation": "One cup, and ice, please. · 请给我一个杯子，还要冰。"
+    },
+    {
+     "text": "맛있어요. 감사합니다. 안녕히 가세요.",
+     "gloss": "masisseoyo. gamsahamnida. annyeonghi gaseyo.",
+     "translation": "It's delicious. Thank you. Goodbye. · 很好吃。谢谢。再见。"
+    }
    ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard13c"
-   ]
+   "type": "speaking",
+   "prompt": "Write ×3 then say: 넷 · 다섯 · 네 개 주세요 · 컵 · 여기요. Then read the café lines twice. If you have a minute, one breath: Point → Reason → Example on why 넷 becomes 네 before 개 (same pattern as 둘 → 두).",
+   "seconds": 180,
+   "script": "Writing: 넷 넷 넷 · 다섯 다섯 다섯 · 네 개 주세요 네 개 주세요 네 개 주세요 · 컵 컵 컵 · 여기요 여기요 여기요.\nLines: 여기요. 빵 두 개 주세요. / 네 개 주세요. 다섯 개 주세요. / 컵 하나, 얼음 주세요. / 맛있어요. 감사합니다. 안녕히 가세요.\nExplanation: Point: native numbers often change form before the counter 개. Reason: 하나/둘/셋/넷 shorten to 한/두/세/네 when a counter follows; 다섯 stays 다섯. Example: 넷 → 네 개 주세요 (four, please), not 넷 개 주세요."
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard13d"
-   ]
-  },
-  {
-   "id": "t7",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard13e"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard13f"
-   ]
-  },
-  {
-   "id": "t9",
-   "type": "speaking",
-   "prompt": "One timed take: a time the requirements were unclear (STAR #3). Point → reason → example. Recite from memory first, then check 📜. If you still have a minute, run one recall set (e.g. why-this-role) from memory without flipping.",
-   "seconds": 90,
-   "script": "Point: My task was to build a defensible evidence base, even though the requirements were unclear.\nReason: First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope. Second, I mapped the data gaps — I counted which indicators Hong Kong was missing and compared them with other regions. Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.\nExample: As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing."
-  },
-  {
-   "id": "t10",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "recap13y"
-   ]
-  },
-  {
-   "id": "t11",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "fri13y"
-   ]
-  },
-  {
-   "id": "t12",
-   "type": "speaking",
-   "prompt": "Shadow the 3 new Cantonese lines ×3 (audio: audio/cantonese/fri13_yue_lines.mp3 in the tutor folder; Hub Play may be silent), then say them without the script.",
-   "seconds": 120,
-   "script": "我係新嚟嘅。 ngo5 hai6 san1 lai4 ge3 · 唔好意思，我聽唔清楚。 m4 hou2 ji3 si3, ngo5 teng1 m4 cing1 co2 · 有冇嘢我可以幫手？ jau5 mou5 je5 ngo5 ho2 ji5 bong1 sau2"
-  },
-  {
-   "id": "t13",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "밥 romanises as…",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "bab",
+      "bap",
+      "bat"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat."
+     "explain": "Final ㅂ → p, so 밥 is bap. Same rule as 컵 (keop)."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "BBC 6 Minute English: someone born in 1982 belongs to which generation?",
+     "q": "The final sound in 옷, 셋 and 넷 is…",
      "options": [
-      "Generation X",
-      "Millennial",
-      "Gen Z"
+      "s",
+      "t",
+      "d"
      ],
      "answer": 1,
-     "explain": "The answer in the episode is b) Millennial (Georgie had guessed Generation X)."
+     "explain": "ㅅ at the bottom of a block sounds like t: 옷 = ot, 셋 = set, 넷 = net."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "hear something on the grapevine means…",
-     "options": [
-      "hear it officially in a meeting",
-      "hear a rumour / hear news informally",
-      "read it in a report"
+     "type": "typed",
+     "q": "Write 'four, please' in Hangul (using 개).",
+     "answer": [
+      "네 개 주세요",
+      "네개 주세요"
      ],
-     "answer": 1,
-     "explain": "从小道消息听说。"
+     "explain": "넷 becomes 네 before 개 → 네 개 주세요. Same pattern as 둘 → 두 개 주세요."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best order for an interview answer?",
+     "q": "여기요 is used when you…",
      "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+      "say goodbye",
+      "call the staff over",
+      "ask the price"
      ],
      "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "여기요 = excuse me / over here, to call café staff. 叫服务员。"
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "我係新嚟嘅 means…",
+     "q": "Before 개, 다섯 becomes…",
      "options": [
-      "I'm leaving today",
-      "I'm new here",
-      "I need help"
+      "다",
+      "다섯 (it stays the same)",
+      "대"
      ],
      "answer": 1,
-     "explain": "新嚟 = newly arrived / 新来的。"
+     "explain": "하나/둘/셋/넷 shorten to 한/두/세/네, but 다섯 stays 다섯 개."
+    },
+    {
+     "id": "q6",
+     "type": "mc",
+     "q": "안녕히 가세요 is said when…",
+     "options": [
+      "you are leaving and the other person stays",
+      "the other person is leaving",
+      "you first meet someone"
+     ],
+     "answer": 1,
+     "explain": "가세요 = go. Say it when the other person is leaving. Recycle from Tuesday."
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "빵 romanises as…",
+     "options": [
+      "bang",
+      "ppang",
+      "pang"
+     ],
+     "answer": 1,
+     "explain": "ㅃ is tense pp, and final ㅇ is ng: 빵 = ppang."
     }
    ]
   }

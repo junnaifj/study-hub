@@ -566,7 +566,8 @@
    "tags": [
     "fri30k",
     "letters",
-    "recap03k"
+    "recap03k",
+    "hard13k"
    ]
   },
   {
@@ -760,7 +761,8 @@
    "tags": [
     "sat31new",
     "words",
-    "recap03k"
+    "recap03k",
+    "hard13k"
    ]
   },
   {
@@ -788,7 +790,8 @@
     "batchim",
     "warm06k",
     "sat07h",
-    "hard10k"
+    "hard10k",
+    "hard13k"
    ]
   },
   {
@@ -801,7 +804,8 @@
     "tue03k",
     "batchim",
     "sat07h",
-    "hard10k"
+    "hard10k",
+    "hard13k"
    ]
   },
   {
@@ -812,7 +816,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "hard13k"
    ]
   },
   {
@@ -826,7 +831,8 @@
     "batchim",
     "warm06k",
     "sat07h",
-    "hard10k"
+    "hard10k",
+    "hard13k"
    ]
   },
   {
@@ -837,7 +843,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "hard13k"
    ]
   },
   {
@@ -848,7 +855,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "hard13k"
    ]
   },
   {
@@ -860,7 +868,8 @@
    "tags": [
     "tue03k",
     "batchim",
-    "hard10k"
+    "hard10k",
+    "hard13k"
    ]
   },
   {
@@ -871,7 +880,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue03k",
-    "batchim"
+    "batchim",
+    "hard13k"
    ]
   },
   {
@@ -974,7 +984,8 @@
    "tags": [
     "tue03k",
     "words",
-    "hard10k"
+    "hard10k",
+    "hard13k"
    ]
   },
   {
@@ -986,7 +997,8 @@
    "tags": [
     "tue03k",
     "words",
-    "sat07h"
+    "sat07h",
+    "hard13k"
    ]
   },
   {
@@ -1113,7 +1125,8 @@
    "tags": [
     "fri06k",
     "cafe",
-    "sat07h"
+    "sat07h",
+    "hard13k"
    ]
   },
   {
@@ -1136,7 +1149,8 @@
    "tags": [
     "fri06k",
     "survival",
-    "sat07h"
+    "sat07h",
+    "hard13k"
    ]
   },
   {
@@ -1251,7 +1265,8 @@
    "lang": "ko-KR",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "hard13k"
    ]
   },
   {
@@ -1262,7 +1277,8 @@
    "lang": "ko-KR",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "hard13k"
    ]
   },
   {
@@ -1273,7 +1289,8 @@
    "lang": "ko-KR",
    "tags": [
     "sat07",
-    "cafe"
+    "cafe",
+    "hard13k"
    ]
   },
   {
@@ -1285,7 +1302,8 @@
    "tags": [
     "tue10k",
     "numbers",
-    "words"
+    "words",
+    "hard13k"
    ]
   },
   {
@@ -1357,7 +1375,109 @@
    "lang": "ko-KR",
    "tags": [
     "tue10k",
-    "greetings"
+    "greetings",
+    "hard13k"
+   ]
+  },
+  {
+   "id": "ko-0115",
+   "front": "넷",
+   "back": "넷 · four",
+   "gloss": "net · 四 · ㅅ at the bottom = t, same rule as 셋 and 옷",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "numbers",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0116",
+   "front": "다섯",
+   "back": "다섯 · five",
+   "gloss": "daseot · 五 · also ends with t (ㅅ batchim)",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "numbers",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0117",
+   "front": "네 개 주세요",
+   "back": "네 개 주세요 · four, please",
+   "gloss": "ne gae juseyo · 请给我四个 · 넷 becomes 네 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0118",
+   "front": "다섯 개 주세요",
+   "back": "다섯 개 주세요 · five, please",
+   "gloss": "daseot gae juseyo · 请给我五个 · 다섯 stays 다섯 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0119",
+   "front": "빵",
+   "back": "빵 · bread",
+   "gloss": "ppang · 面包 · final ㅇ → ng",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "cafe",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0120",
+   "front": "컵",
+   "back": "컵 · cup",
+   "gloss": "keop · 杯子 · final ㅂ → p, same as 밥",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "cafe",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0121",
+   "front": "얼음",
+   "back": "얼음 · ice",
+   "gloss": "eoreum · 冰 · final ㅁ → m",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "cafe",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0122",
+   "front": "여기요",
+   "back": "여기요 · excuse me (to call staff)",
+   "gloss": "yeogiyo · 喂，这边（叫服务员）",
+   "lang": "ko-KR",
+   "tags": [
+    "fri13k",
+    "cafe",
+    "survival"
    ]
   }
  ]
