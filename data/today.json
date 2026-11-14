@@ -1,165 +1,203 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-13",
- "slot": "evening",
+ "date": "2026-11-14",
+ "slot": "weekend_test",
  "tracks": [
+  "english",
+  "cantonese",
+  "japanese",
   "korean"
  ],
- "minutes": 20,
- "new_cards_limit": 8,
- "note": "Korean night, Hard-first, cap new cards. 事 si6 ×3, then 19 Hard cards (batchim + café), recap Tue 둘/셋 set, then 8 new café/batchim words (넷/다섯 and 빵/컵/얼음/여기요). Write ×3, 7-Q quiz. Say each card aloud before flipping. 加油！",
+ "minutes": 30,
+ "new_cards_limit": 4,
+ "note": "Weekly test (每周测验), eased and finished before the 14:00 CodeSignal. 事 si6 ×3 → Hard English recall (say aloud from the cue) → Cantonese Hard + Thu/Fri recap → Japanese dakuten Hard + Thu recap → Korean Hard + Fri recap → 4 new workplace English lines → 60-sec first-week take → 9-Q quiz. 先难后新。加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
+   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "hard13k"
+    "sat14a"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "tue10k"
+    "sat14b"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "fri13k"
+    "sat14r"
    ]
   },
   {
    "id": "t4",
-   "type": "reading",
-   "title": "Read aloud: café order (Hangul first, then check the gloss)",
-   "lang": "ko-KR",
-   "lines": [
-    {
-     "text": "여기요. 빵 두 개 주세요.",
-     "gloss": "yeogiyo. ppang du gae juseyo.",
-     "translation": "Excuse me. Two breads, please. · 喂，请给我两个面包。"
-    },
-    {
-     "text": "네 개 주세요. 다섯 개 주세요.",
-     "gloss": "ne gae juseyo. daseot gae juseyo.",
-     "translation": "Four, please. Five, please. · 请给我四个。请给我五个。"
-    },
-    {
-     "text": "컵 하나, 얼음 주세요.",
-     "gloss": "keop hana, eoreum juseyo.",
-     "translation": "One cup, and ice, please. · 请给我一个杯子，还要冰。"
-    },
-    {
-     "text": "맛있어요. 감사합니다. 안녕히 가세요.",
-     "gloss": "masisseoyo. gamsahamnida. annyeonghi gaseyo.",
-     "translation": "It's delicious. Thank you. Goodbye. · 很好吃。谢谢。再见。"
-    }
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "sat14"
    ]
   },
   {
    "id": "t5",
-   "type": "speaking",
-   "prompt": "Write ×3 then say: 넷 · 다섯 · 네 개 주세요 · 컵 · 여기요. Then read the café lines twice. If you have a minute, one breath: Point → Reason → Example on why 넷 becomes 네 before 개 (same pattern as 둘 → 두).",
-   "seconds": 180,
-   "script": "Writing: 넷 넷 넷 · 다섯 다섯 다섯 · 네 개 주세요 네 개 주세요 네 개 주세요 · 컵 컵 컵 · 여기요 여기요 여기요.\nLines: 여기요. 빵 두 개 주세요. / 네 개 주세요. 다섯 개 주세요. / 컵 하나, 얼음 주세요. / 맛있어요. 감사합니다. 안녕히 가세요.\nExplanation: Point: native numbers often change form before the counter 개. Reason: 하나/둘/셋/넷 shorten to 한/두/세/네 when a counter follows; 다섯 stays 다섯. Example: 넷 → 네 개 주세요 (four, please), not 넷 개 주세요."
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat14y"
+   ]
   },
   {
    "id": "t6",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat14ry"
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "sat14j"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "sat14rj"
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat14k"
+   ]
+  },
+  {
+   "id": "t10",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat14rk"
+   ]
+  },
+  {
+   "id": "t11",
+   "type": "speaking",
+   "prompt": "60 seconds, workplace English: tell a new colleague what you will do in your first week at SailGlobal. Point → reason → example. Say it aloud before opening the script.",
+   "seconds": 60,
+   "script": "My main goal in the first week is to learn the visa process end to end. The reason is that I will support overseas HR, so I need to know where applications usually get stuck. For example, I'll shadow one case from document check to submission and write down the steps. If anything is unclear, I'll ask early."
+  },
+  {
+   "id": "t12",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "mc",
-     "q": "밥 romanises as…",
-     "options": [
-      "bab",
-      "bap",
-      "bat"
-     ],
-     "answer": 1,
-     "explain": "Final ㅂ → p, so 밥 is bap. Same rule as 컵 (keop)."
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low flat."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "The final sound in 옷, 셋 and 넷 is…",
+     "q": "面試 uses which syllable?",
      "options": [
-      "s",
-      "t",
-      "d"
+      "試 si3 (mid)",
+      "事 si6 (low flat)",
+      "時 si4 (falling)"
      ],
-     "answer": 1,
-     "explain": "ㅅ at the bottom of a block sounds like t: 옷 = ot, 셋 = set, 넷 = net."
+     "answer": 0,
+     "explain": "面試 min6 si3."
     },
     {
      "id": "q3",
      "type": "typed",
-     "q": "Write 'four, please' in Hangul (using 개).",
+     "q": "Jyutping for 合作 (space between syllables).",
      "answer": [
-      "네 개 주세요",
-      "네개 주세요"
+      "hap6 zok3",
+      "hap6zok3"
      ],
-     "explain": "넷 becomes 네 before 개 → 네 개 주세요. Same pattern as 둘 → 두 개 주세요."
+     "explain": "合 hap6 作 zok3."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "여기요 is used when you…",
+     "q": "Best way to flag a delay at work?",
      "options": [
-      "say goodbye",
-      "call the staff over",
-      "ask the price"
+      "Say nothing until asked",
+      "“I want to flag early that this may slip to Thursday.”",
+      "Blame the other team"
      ],
      "answer": 1,
-     "explain": "여기요 = excuse me / over here, to call café staff. 叫服务员。"
+     "explain": "Early, calm, specific (en-0181)."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "Before 개, 다섯 becomes…",
-     "options": [
-      "다",
-      "다섯 (it stays the same)",
-      "대"
+     "type": "typed",
+     "q": "Fill in: I took the initiative ___ propose a working definition.",
+     "answer": [
+      "to"
      ],
-     "answer": 1,
-     "explain": "하나/둘/셋/넷 shorten to 한/두/세/네, but 다섯 stays 다섯 개."
+     "explain": "took the initiative TO + verb."
     },
     {
      "id": "q6",
-     "type": "mc",
-     "q": "안녕히 가세요 is said when…",
-     "options": [
-      "you are leaving and the other person stays",
-      "the other person is leaving",
-      "you first meet someone"
+     "type": "typed",
+     "q": "Romanise が (dakuten row).",
+     "answer": [
+      "ga"
      ],
-     "answer": 1,
-     "explain": "가세요 = go. Say it when the other person is leaving. Recycle from Tuesday."
+     "explain": "か ka → が ga with two dots."
     },
     {
      "id": "q7",
+     "type": "typed",
+     "q": "Romanise ざ.",
+     "answer": [
+      "za"
+     ],
+     "explain": "さ sa → ざ za."
+    },
+    {
+     "id": "q8",
+     "type": "typed",
+     "q": "How do you read 밥 (romanisation)?",
+     "answer": [
+      "bap"
+     ],
+     "explain": "ㅂ at the bottom = p."
+    },
+    {
+     "id": "q9",
      "type": "mc",
-     "q": "빵 romanises as…",
+     "q": "옷 ends with which sound?",
      "options": [
-      "bang",
-      "ppang",
-      "pang"
+      "s",
+      "t (unreleased)",
+      "ng"
      ],
      "answer": 1,
-     "explain": "ㅃ is tense pp, and final ㅇ is ng: 빵 = ppang."
+     "explain": "Final ㅅ sounds as t: ot."
     }
    ]
   }

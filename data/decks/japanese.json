@@ -1098,7 +1098,8 @@
    "tags": [
     "hiragana",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1110,7 +1111,8 @@
    "tags": [
     "hiragana",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1122,7 +1124,8 @@
    "tags": [
     "hiragana",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1134,7 +1137,8 @@
    "tags": [
     "hiragana",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1146,7 +1150,8 @@
    "tags": [
     "hiragana",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1158,7 +1163,8 @@
    "tags": [
     "words",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1170,7 +1176,8 @@
    "tags": [
     "words",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1182,7 +1189,8 @@
    "tags": [
     "words",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1206,7 +1214,8 @@
    "tags": [
     "words",
     "mon09j",
-    "hard12j"
+    "hard12j",
+    "sat14j"
    ]
   },
   {
@@ -1218,7 +1227,8 @@
    "tags": [
     "words",
     "mon09j",
-    "recap12j"
+    "recap12j",
+    "sat14j"
    ]
   },
   {
@@ -1230,7 +1240,8 @@
    "tags": [
     "words",
     "mon09j",
-    "recap12j"
+    "recap12j",
+    "sat14j"
    ]
   },
   {
@@ -1242,7 +1253,8 @@
    "tags": [
     "words",
     "mon09j",
-    "recap12j"
+    "recap12j",
+    "sat14j"
    ]
   },
   {
@@ -1254,7 +1266,8 @@
    "tags": [
     "words",
     "mon09j",
-    "recap12j"
+    "recap12j",
+    "sat14j"
    ]
   },
   {
@@ -1265,7 +1278,8 @@
    "lang": "ja-JP",
    "tags": [
     "kana",
-    "thu12j"
+    "thu12j",
+    "sat14j"
    ]
   },
   {
@@ -1276,7 +1290,8 @@
    "lang": "ja-JP",
    "tags": [
     "kana",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   },
   {
@@ -1287,7 +1302,8 @@
    "lang": "ja-JP",
    "tags": [
     "kana",
-    "thu12j"
+    "thu12j",
+    "sat14j"
    ]
   },
   {
@@ -1298,7 +1314,8 @@
    "lang": "ja-JP",
    "tags": [
     "kana",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   },
   {
@@ -1309,7 +1326,8 @@
    "lang": "ja-JP",
    "tags": [
     "kana",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   },
   {
@@ -1320,7 +1338,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   },
   {
@@ -1331,7 +1350,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   },
   {
@@ -1342,7 +1362,8 @@
    "lang": "ja-JP",
    "tags": [
     "words",
-    "thu12j"
+    "thu12j",
+    "sat14rj"
    ]
   }
  ]

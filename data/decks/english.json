@@ -942,7 +942,8 @@
     "hard09",
     "recap11",
     "hard12a",
-    "hard13f"
+    "hard13f",
+    "sat14a"
    ]
   },
   {
@@ -963,7 +964,8 @@
     "hard09",
     "recap11",
     "hard12a",
-    "hard13f"
+    "hard13f",
+    "sat14a"
    ]
   },
   {
@@ -984,7 +986,8 @@
     "hard09",
     "recap11",
     "hard12a",
-    "hard13f"
+    "hard13f",
+    "sat14a"
    ]
   },
   {
@@ -1026,7 +1029,8 @@
     "hard09",
     "recap11",
     "hard12a",
-    "hard13f"
+    "hard13f",
+    "sat14a"
    ]
   },
   {
@@ -1917,7 +1921,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13a"
+    "hard13a",
+    "sat14a"
    ]
   },
   {
@@ -1934,7 +1939,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13a"
+    "hard13a",
+    "sat14a"
    ]
   },
   {
@@ -1950,7 +1956,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13b"
+    "hard13b",
+    "sat14a"
    ]
   },
   {
@@ -1966,7 +1973,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13b"
+    "hard13b",
+    "sat14a"
    ]
   },
   {
@@ -1982,7 +1990,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13b"
+    "hard13b",
+    "sat14a"
    ]
   },
   {
@@ -1998,7 +2007,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13b"
+    "hard13b",
+    "sat14a"
    ]
   },
   {
@@ -2013,7 +2023,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13c"
+    "hard13c",
+    "sat14a"
    ]
   },
   {
@@ -2028,7 +2039,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13c"
+    "hard13c",
+    "sat14a"
    ]
   },
   {
@@ -2043,7 +2055,8 @@
     "recap10",
     "hard11",
     "hard12a",
-    "hard13c"
+    "hard13c",
+    "sat14a"
    ]
   },
   {
@@ -2112,7 +2125,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13d"
+    "hard13d",
+    "sat14b"
    ]
   },
   {
@@ -2126,7 +2140,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13d"
+    "hard13d",
+    "sat14b"
    ]
   },
   {
@@ -2140,7 +2155,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13d"
+    "hard13d",
+    "sat14b"
    ]
   },
   {
@@ -2154,7 +2170,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13e"
+    "hard13e",
+    "sat14b"
    ]
   },
   {
@@ -2168,7 +2185,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13e"
+    "hard13e",
+    "sat14b"
    ]
   },
   {
@@ -2182,7 +2200,8 @@
     "interview",
     "hard11",
     "hard12a",
-    "hard13e"
+    "hard13e",
+    "sat14b"
    ]
   },
   {
@@ -2313,7 +2332,8 @@
    "lang": "en-GB",
    "tags": [
     "thu12",
-    "interview"
+    "interview",
+    "sat14r"
    ]
   },
   {
@@ -2324,7 +2344,8 @@
    "lang": "en-GB",
    "tags": [
     "thu12",
-    "interview"
+    "interview",
+    "sat14r"
    ]
   },
   {
@@ -2335,7 +2356,8 @@
    "lang": "en-GB",
    "tags": [
     "thu12",
-    "interview"
+    "interview",
+    "sat14r"
    ]
   },
   {
@@ -2346,7 +2368,8 @@
    "lang": "en-GB",
    "tags": [
     "thu12",
-    "interview"
+    "interview",
+    "sat14r"
    ]
   },
   {
@@ -2357,7 +2380,8 @@
    "lang": "en-GB",
    "tags": [
     "thu12",
-    "interview"
+    "interview",
+    "sat14r"
    ]
   },
   {
@@ -2369,7 +2393,8 @@
    "tags": [
     "fri13bbc",
     "vocabulary",
-    "bbc"
+    "bbc",
+    "sat14b"
    ]
   },
   {
@@ -2381,7 +2406,8 @@
    "tags": [
     "fri13bbc",
     "vocabulary",
-    "bbc"
+    "bbc",
+    "sat14b"
    ]
   },
   {
@@ -2393,7 +2419,52 @@
    "tags": [
     "fri13bbc",
     "vocabulary",
-    "bbc"
+    "bbc",
+    "sat14b"
+   ]
+  },
+  {
+   "id": "en-0180",
+   "front": "Workplace: asking for a deadline",
+   "back": "“When do you need this by?” · Could you confirm the deadline?",
+   "gloss": "确认截止时间。",
+   "lang": "en-GB",
+   "tags": [
+    "sat14",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0181",
+   "front": "Workplace: flagging a delay early",
+   "back": "“I want to flag early that this may slip to Thursday.”",
+   "gloss": "提前预警延期。",
+   "lang": "en-GB",
+   "tags": [
+    "sat14",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0182",
+   "front": "Workplace: summarising before a meeting ends",
+   "back": "“Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.”",
+   "gloss": "会议收尾复述。",
+   "lang": "en-GB",
+   "tags": [
+    "sat14",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0183",
+   "front": "Workplace: asking for feedback",
+   "back": "“Could you tell me what I could do better next time?”",
+   "gloss": "请求反馈。",
+   "lang": "en-GB",
+   "tags": [
+    "sat14",
+    "workplace"
    ]
   }
  ]
