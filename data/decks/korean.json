@@ -791,7 +791,8 @@
     "warm06k",
     "sat07h",
     "hard10k",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -805,7 +806,8 @@
     "batchim",
     "sat07h",
     "hard10k",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -832,7 +834,8 @@
     "warm06k",
     "sat07h",
     "hard10k",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -869,7 +872,8 @@
     "tue03k",
     "batchim",
     "hard10k",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -985,7 +989,8 @@
     "tue03k",
     "words",
     "hard10k",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1266,7 +1271,8 @@
    "tags": [
     "sat07",
     "cafe",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1278,7 +1284,8 @@
    "tags": [
     "sat07",
     "cafe",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1290,7 +1297,8 @@
    "tags": [
     "sat07",
     "cafe",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1303,7 +1311,8 @@
     "tue10k",
     "numbers",
     "words",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1376,7 +1385,8 @@
    "tags": [
     "tue10k",
     "greetings",
-    "hard13k"
+    "hard13k",
+    "sat14k"
    ]
   },
   {
@@ -1389,7 +1399,8 @@
     "fri13k",
     "numbers",
     "batchim",
-    "words"
+    "words",
+    "sat14rk"
    ]
   },
   {
@@ -1402,7 +1413,8 @@
     "fri13k",
     "numbers",
     "batchim",
-    "words"
+    "words",
+    "sat14rk"
    ]
   },
   {
@@ -1414,7 +1426,8 @@
    "tags": [
     "fri13k",
     "numbers",
-    "cafe"
+    "cafe",
+    "sat14rk"
    ]
   },
   {
@@ -1426,7 +1439,8 @@
    "tags": [
     "fri13k",
     "numbers",
-    "cafe"
+    "cafe",
+    "sat14rk"
    ]
   },
   {
@@ -1439,7 +1453,8 @@
     "fri13k",
     "cafe",
     "batchim",
-    "words"
+    "words",
+    "sat14rk"
    ]
   },
   {
@@ -1452,7 +1467,8 @@
     "fri13k",
     "cafe",
     "batchim",
-    "words"
+    "words",
+    "sat14rk"
    ]
   },
   {
@@ -1465,7 +1481,8 @@
     "fri13k",
     "cafe",
     "batchim",
-    "words"
+    "words",
+    "sat14rk"
    ]
   },
   {
@@ -1477,7 +1494,8 @@
    "tags": [
     "fri13k",
     "cafe",
-    "survival"
+    "survival",
+    "sat14rk"
    ]
   }
  ]
