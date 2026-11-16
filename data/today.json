@@ -1,203 +1,146 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-14",
- "slot": "weekend_test",
+ "date": "2026-11-16",
+ "slot": "morning",
  "tracks": [
-  "english",
-  "cantonese",
-  "japanese",
-  "korean"
+  "english"
  ],
- "minutes": 30,
+ "minutes": 20,
  "new_cards_limit": 4,
- "note": "Weekly test (每周测验), eased and finished before the 14:00 CodeSignal. 事 si6 ×3 → Hard English recall (say aloud from the cue) → Cantonese Hard + Thu/Fri recap → Japanese dakuten Hard + Thu recap → Korean Hard + Fri recap → 4 new workplace English lines → 60-sec first-week take → 9-Q quiz. 先难后新。加油！",
+ "note": "Monday A, first weekday of workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Rude emails” (~6 min). No morning Cantonese. After the listen: 60-sec intro to your new team (point → reason → example), say it aloud before 📜. Hard interview lines in tiny recall sets — cue + keywords only, say the line BEFORE flipping, then one from-memory run of each set. Recap Saturday workplace lines, 4 new cards (3 BBC + 1 first-week request). 加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
+   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat14a"
-   ]
+   "type": "link",
+   "title": "BBC 6 Minute English · Rude emails (ep-260702)",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260702",
+   "minutes": 6
   },
   {
    "id": "t2",
    "type": "cards",
    "deck": "english",
    "tags": [
-    "sat14b"
+    "mon16bbc"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat14r"
-   ]
+   "type": "speaking",
+   "prompt": "60 seconds, workplace English: introduce yourself to your new team. Point → reason → example. Say it aloud before opening the script.",
+   "seconds": 60,
+   "script": "Hi, I'm Junnai. I've just joined the team, and I'll be supporting overseas visa work.\nPoint: My main goal this week is to learn the process end to end.\nReason: I need to see where applications usually get stuck, so I can help properly.\nExample: I'll shadow one case from document check to submission and write down the steps. If anything is unclear, I'll ask early."
   },
   {
    "id": "t4",
    "type": "cards",
    "deck": "english",
    "tags": [
-    "sat14"
+    "hard16a"
    ]
   },
   {
    "id": "t5",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "sat14y"
+    "hard16b"
    ]
   },
   {
    "id": "t6",
    "type": "cards",
-   "deck": "cantonese",
+   "deck": "english",
    "tags": [
-    "sat14ry"
+    "hard16c"
    ]
   },
   {
    "id": "t7",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "sat14j"
+    "recap16"
    ]
   },
   {
    "id": "t8",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "sat14rj"
+    "mon16"
    ]
   },
   {
    "id": "t9",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat14k"
-   ]
-  },
-  {
-   "id": "t10",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat14rk"
-   ]
-  },
-  {
-   "id": "t11",
-   "type": "speaking",
-   "prompt": "60 seconds, workplace English: tell a new colleague what you will do in your first week at SailGlobal. Point → reason → example. Say it aloud before opening the script.",
-   "seconds": 60,
-   "script": "My main goal in the first week is to learn the visa process end to end. The reason is that I will support overseas HR, so I need to know where applications usually get stuck. For example, I'll shadow one case from document check to submission and write down the steps. If anything is unclear, I'll ask early."
-  },
-  {
-   "id": "t12",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "tone",
-     "q": "Tone number for 事 in 有咩事呀？",
-     "answer": 6,
-     "explain": "事 si6, low flat."
+     "type": "mc",
+     "q": "Which tone is 事 si6?",
+     "options": [
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
+     ],
+     "answer": 1,
+     "explain": "事 si6 is low and flat. 低平调。"
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "面試 uses which syllable?",
+     "q": "BBC 6 Minute English: who sent the email asking US government workers to list five things they had accomplished that week, or resign?",
      "options": [
-      "試 si3 (mid)",
-      "事 si6 (low flat)",
-      "時 si4 (falling)"
+      "Donald Trump",
+      "JD Vance",
+      "Elon Musk"
      ],
-     "answer": 0,
-     "explain": "面試 min6 si3."
+     "answer": 2,
+     "explain": "The answer in the episode is c) Elon Musk (Phil had guessed JD Vance)."
     },
     {
      "id": "q3",
-     "type": "typed",
-     "q": "Jyutping for 合作 (space between syllables).",
-     "answer": [
-      "hap6 zok3",
-      "hap6zok3"
+     "type": "mc",
+     "q": "get something off your plate means…",
+     "options": [
+      "finish a task carefully yourself",
+      "pass a task or problem to someone else",
+      "put a meeting in your calendar"
      ],
-     "explain": "合 hap6 作 zok3."
+     "answer": 1,
+     "explain": "把任务从自己的待办里推给别人。"
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best way to flag a delay at work?",
+     "q": "Best order for your 60-sec team intro?",
      "options": [
-      "Say nothing until asked",
-      "“I want to flag early that this may slip to Thursday.”",
-      "Blame the other team"
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
      ],
      "answer": 1,
-     "explain": "Early, calm, specific (en-0181)."
+     "explain": "先说重点，再讲原因，最后举例。"
     },
     {
      "id": "q5",
-     "type": "typed",
-     "q": "Fill in: I took the initiative ___ propose a working definition.",
-     "answer": [
-      "to"
-     ],
-     "explain": "took the initiative TO + verb."
-    },
-    {
-     "id": "q6",
-     "type": "typed",
-     "q": "Romanise が (dakuten row).",
-     "answer": [
-      "ga"
-     ],
-     "explain": "か ka → が ga with two dots."
-    },
-    {
-     "id": "q7",
-     "type": "typed",
-     "q": "Romanise ざ.",
-     "answer": [
-      "za"
-     ],
-     "explain": "さ sa → ざ za."
-    },
-    {
-     "id": "q8",
-     "type": "typed",
-     "q": "How do you read 밥 (romanisation)?",
-     "answer": [
-      "bap"
-     ],
-     "explain": "ㅂ at the bottom = p."
-    },
-    {
-     "id": "q9",
      "type": "mc",
-     "q": "옷 ends with which sound?",
+     "q": "“Would you have ten minutes later to walk me through how this usually works?” is for…",
      "options": [
-      "s",
-      "t (unreleased)",
-      "ng"
+      "politely asking a colleague to show you a process",
+      "telling your manager the work is late",
+      "ending a meeting"
      ],
-     "answer": 1,
-     "explain": "Final ㅅ sounds as t: ot."
+     "answer": 0,
+     "explain": "第一周礼貌请教：先问有没有时间，再请对方带你走一遍流程。"
     }
    ]
   }
