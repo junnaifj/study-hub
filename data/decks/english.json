@@ -926,7 +926,7 @@
   },
   {
    "id": "en-0075",
-   "front": "STAR #3 · Point (task) · cues: defensible, unclear\nM_ t___ w__ t_ b____ a d_________ e_______ b___, e___ t_____ t__ r___________ w___ u______.",
+   "front": "STAR #3 · Point (task) · cues: defensible, unclear",
    "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
    "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
    "lang": "en-GB",
@@ -943,12 +943,13 @@
     "recap11",
     "hard12a",
     "hard13f",
-    "sat14a"
+    "sat14a",
+    "hard16a"
    ]
   },
   {
    "id": "en-0076",
-   "front": "STAR #3 · Reason beat 1: definition · cues: working definition\nF____, I p_____ f__ a w______ d_________ o_ w___ c_____ a_ a_ A_ d___ c_____, s_ t__ w____ a_______ s_____ o__ s____.",
+   "front": "STAR #3 · Reason beat 1 · cues: working definition, scope",
    "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
    "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
    "lang": "en-GB",
@@ -965,12 +966,13 @@
     "recap11",
     "hard12a",
     "hard13f",
-    "sat14a"
+    "sat14a",
+    "hard16a"
    ]
   },
   {
    "id": "en-0077",
-   "front": "STAR #3 · Reason beat 2: data gaps · cues: mapped the data gaps\nS_____, I m_____ t__ d___ g___: I c______ w____ i_________ H___ K___ w__ m______ a__ c_______ t___ w___ o____ r______.",
+   "front": "STAR #3 · Reason beat 2 · cues: mapped gaps, indicators",
    "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
    "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
    "lang": "en-GB",
@@ -987,7 +989,8 @@
     "recap11",
     "hard12a",
     "hard13f",
-    "sat14a"
+    "sat14a",
+    "hard16a"
    ]
   },
   {
@@ -1013,7 +1016,7 @@
   },
   {
    "id": "en-0079",
-   "front": "STAR #3 · Example / Result · cues: baseline, still missing\nA_ a r_____, I d________ a b_______ a_______ o_ d___-c_____ g_________, p___ a c____ l___ o_ t__ d___ H___ K___ i_ s____ m______.",
+   "front": "STAR #3 · Example / Result · cues: baseline, still missing",
    "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
    "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
    "lang": "en-GB",
@@ -1030,7 +1033,8 @@
     "recap11",
     "hard12a",
     "hard13f",
-    "sat14a"
+    "sat14a",
+    "hard16a"
    ]
   },
   {
@@ -1909,7 +1913,7 @@
   },
   {
    "id": "en-0142",
-   "front": "Clarifying before you answer · cues: method, or the result\nJ___ t_ m___ s___ I u_________ — a__ y__ a_____ a____ t__ m_____, o_ t__ r_____?",
+   "front": "Clarifying before you answer · cues: method, or the result",
    "back": "Just to make sure I understand — are you asking about the method, or the result?",
    "gloss": "不确定就先确认，好过答错题。",
    "lang": "en-GB",
@@ -1922,7 +1926,8 @@
     "hard11",
     "hard12a",
     "hard13a",
-    "sat14a"
+    "sat14a",
+    "hard16c"
    ]
   },
   {
@@ -2146,7 +2151,7 @@
   },
   {
    "id": "en-0158",
-   "front": "Teamwork line · cues: share early, feedback\nI w___ w___ i_ a t___: I s____ e____ r______ a__ a__ f__ f_______ b_____ p________.",
+   "front": "Teamwork line · cues: share early, feedback",
    "back": "I work well in a team: I share early results and ask for feedback before polishing.",
    "gloss": "团队：尽早分享结果、先要反馈再打磨。",
    "lang": "en-GB",
@@ -2156,7 +2161,8 @@
     "hard11",
     "hard12a",
     "hard13d",
-    "sat14b"
+    "sat14b",
+    "hard16c"
    ]
   },
   {
@@ -2326,62 +2332,67 @@
   },
   {
    "id": "en-0172",
-   "front": "Honest 'not yet'",
+   "front": "Honest 'not yet' · cues: haven't, approach\nI h____ d___ t___ d_______ y__, b__ h___'s h__ I'_ a______ i_.",
    "back": "I haven't done that directly yet, but here's how I'd approach it.",
    "gloss": "没直接做过，但说明你会怎么做。先诚实，再给方法。",
    "lang": "en-GB",
    "tags": [
     "thu12",
     "interview",
-    "sat14r"
+    "sat14r",
+    "hard16b"
    ]
   },
   {
    "id": "en-0173",
-   "front": "Hedging a number",
+   "front": "Hedging a number · cues: roughly, give or take\nI_ w__ r______ 98 p______ c_______, g___ o_ t___.",
    "back": "It was roughly 98 percent coverage, give or take.",
    "gloss": "roughly / give or take = 大约，留余地。",
    "lang": "en-GB",
    "tags": [
     "thu12",
     "interview",
-    "sat14r"
+    "sat14r",
+    "hard16b"
    ]
   },
   {
    "id": "en-0174",
-   "front": "Bridging to your strength",
+   "front": "Bridging to your strength · cues: links, if I may\nT___ l____ t_ s________ I d__ a_ H__, i_ I m__ g___ a_ e______.",
    "back": "That links to something I did at HKU, if I may give an example.",
    "gloss": "把话题拉回自己的强项。",
    "lang": "en-GB",
    "tags": [
     "thu12",
     "interview",
-    "sat14r"
+    "sat14r",
+    "hard16b"
    ]
   },
   {
    "id": "en-0175",
-   "front": "Checking you answered",
+   "front": "Checking you answered · cues: answer, more detail\nD___ t___ a_____ y___ q_______, o_ s____ I g_ i___ m___ d_____?",
    "back": "Does that answer your question, or shall I go into more detail?",
    "gloss": "答完确认一下，别一直讲。",
    "lang": "en-GB",
    "tags": [
     "thu12",
     "interview",
-    "sat14r"
+    "sat14r",
+    "hard16b"
    ]
   },
   {
    "id": "en-0176",
-   "front": "Polite disagreement",
+   "front": "Polite disagreement · cues: slightly differently, here's why\nI s__ i_ s_______ d__________, a__ h___'s w__.",
    "back": "I see it slightly differently, and here's why.",
    "gloss": "委婉表达不同意见：先软化，再给理由。",
    "lang": "en-GB",
    "tags": [
     "thu12",
     "interview",
-    "sat14r"
+    "sat14r",
+    "hard16c"
    ]
   },
   {
@@ -2431,7 +2442,8 @@
    "lang": "en-GB",
    "tags": [
     "sat14",
-    "workplace"
+    "workplace",
+    "recap16"
    ]
   },
   {
@@ -2442,7 +2454,8 @@
    "lang": "en-GB",
    "tags": [
     "sat14",
-    "workplace"
+    "workplace",
+    "recap16"
    ]
   },
   {
@@ -2453,7 +2466,8 @@
    "lang": "en-GB",
    "tags": [
     "sat14",
-    "workplace"
+    "workplace",
+    "recap16"
    ]
   },
   {
@@ -2464,6 +2478,57 @@
    "lang": "en-GB",
    "tags": [
     "sat14",
+    "workplace",
+    "recap16"
+   ]
+  },
+  {
+   "id": "en-0184",
+   "front": "put someone on the defensive (BBC · rude emails)",
+   "back": "make someone feel unsure or threatened by what you do or say",
+   "gloss": "让对方立刻进入戒备。邮件开头太生硬时常见。BBC ep-260702.",
+   "lang": "en-GB",
+   "tags": [
+    "mon16bbc",
+    "vocabulary",
+    "bbc",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0185",
+   "front": "get something off your plate (BBC · rude emails)",
+   "back": "pass a task or problem from your workload to someone else for them to deal with",
+   "gloss": "把任务从自己的待办里推给别人。BBC ep-260702.",
+   "lang": "en-GB",
+   "tags": [
+    "mon16bbc",
+    "vocabulary",
+    "bbc",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0186",
+   "front": "frazzled (BBC · rude emails)",
+   "back": "tired, nervous or anxious because you have to do too many things at the same time",
+   "gloss": "事情太多，又累又烦躁。忙的时候邮件更容易不礼貌。BBC ep-260702.",
+   "lang": "en-GB",
+   "tags": [
+    "mon16bbc",
+    "vocabulary",
+    "bbc",
+    "workplace"
+   ]
+  },
+  {
+   "id": "en-0187",
+   "front": "First week · ask a colleague to explain a process · cues: ten minutes, walk me through\nW____ y__ h___ t__ m______ l____ t_ w___ m_ t______ h__ t___ u______ w____?",
+   "back": "Would you have ten minutes later to walk me through how this usually works?",
+   "gloss": "第一周礼貌请教：先问有没有时间，再请对方带你走一遍流程。",
+   "lang": "en-GB",
+   "tags": [
+    "mon16",
     "workplace"
    ]
   }
