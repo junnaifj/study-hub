@@ -1,146 +1,149 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-16",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "japanese"
  ],
  "minutes": 20,
- "new_cards_limit": 4,
- "note": "Monday A, first weekday of workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Rude emails” (~6 min). No morning Cantonese. After the listen: 60-sec intro to your new team (point → reason → example), say it aloud before 📜. Hard interview lines in tiny recall sets — cue + keywords only, say the line BEFORE flipping, then one from-memory run of each set. Recap Saturday workplace lines, 4 new cards (3 BBC + 1 first-week request). 加油！",
+ "new_cards_limit": 5,
+ "note": "Monday B, Japanese light maintenance（日语轻维护）. 事 si6 first, then 12 Hard が/ざ cards — say each aloud before flipping. Recap Thursday's じ and ぜ (the two from that set that were not Hard). Only 5 new: だぢづでど. 写三遍。Watch た/だ, て/で, と/ど; ぢ and づ are rare (usually じ / ず).",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
-   "type": "link",
-   "title": "BBC 6 Minute English · Rude emails (ep-260702)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260702",
-   "minutes": 6
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "hard16j"
+   ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "mon16bbc"
+    "recap16j"
    ]
   },
   {
    "id": "t3",
-   "type": "speaking",
-   "prompt": "60 seconds, workplace English: introduce yourself to your new team. Point → reason → example. Say it aloud before opening the script.",
-   "seconds": 60,
-   "script": "Hi, I'm Junnai. I've just joined the team, and I'll be supporting overseas visa work.\nPoint: My main goal this week is to learn the process end to end.\nReason: I need to see where applications usually get stuck, so I can help properly.\nExample: I'll shadow one case from document check to submission and write down the steps. If anything is unclear, I'll ask early."
+   "type": "link",
+   "title": "NHK hiragana chart · tap the だ行 (dakuten) row",
+   "url": "https://www3.nhk.or.jp/nhkworld/lesson/en/letters/hiragana.html",
+   "minutes": 3
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard16a"
+    "mon16j"
    ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard16b"
+   "type": "reading",
+   "title": "Read without romaji first (only kana you know)",
+   "lang": "ja-JP",
+   "lines": [
+    {
+     "text": "だれ ですか",
+     "gloss": "dare desu ka",
+     "translation": "who is it? · 是谁？"
+    },
+    {
+     "text": "どこ ですか",
+     "gloss": "doko desu ka",
+     "translation": "where is it? · 在哪里？"
+    },
+    {
+     "text": "どうぞ",
+     "gloss": "douzo",
+     "translation": "here you go / please · 请 / 给"
+    },
+    {
+     "text": "まだ です",
+     "gloss": "mada desu",
+     "translation": "not yet · 还没有"
+    },
+    {
+     "text": "じかん が ない",
+     "gloss": "jikan ga nai",
+     "translation": "there is no time · 没有时间 (Thursday recap)"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard16c"
-   ]
+   "type": "speaking",
+   "prompt": "Write だぢづでど ×3, saying each aloud (~4 min). Then read the 5 lines twice, slow then normal speed. Watch: た vs だ, て vs で, と vs ど. ぢ and づ are rare — usually write じ and ず.",
+   "seconds": 240,
+   "script": "da (rare di) (rare du) de do\nだれ ですか (dare desu ka)\nどこ ですか (doko desu ka)\nどうぞ (douzo)\nまだ です (mada desu)\nじかん が ない (jikan ga nai)"
   },
   {
    "id": "t7",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap16"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "mon16"
-   ]
-  },
-  {
-   "id": "t9",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "Which one is da?",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "た",
+      "だ",
+      "で"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat. 低平调。"
+     "explain": "だ = た plus two dots. で is de."
     },
     {
      "id": "q2",
-     "type": "mc",
-     "q": "BBC 6 Minute English: who sent the email asking US government workers to list five things they had accomplished that week, or resign?",
-     "options": [
-      "Donald Trump",
-      "JD Vance",
-      "Elon Musk"
+     "type": "typed",
+     "q": "Romaji for ど?",
+     "answer": [
+      "do"
      ],
-     "answer": 2,
-     "explain": "The answer in the episode is c) Elon Musk (Phil had guessed JD Vance)."
+     "explain": "ど = do (と + dots)."
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "get something off your plate means…",
+     "q": "ぢ is usually written as…",
      "options": [
-      "finish a task carefully yourself",
-      "pass a task or problem to someone else",
-      "put a meeting in your calendar"
+      "じ",
+      "ず",
+      "ち"
      ],
-     "answer": 1,
-     "explain": "把任务从自己的待办里推给别人。"
+     "answer": 0,
+     "explain": "ぢ is rare; almost always write じ. (づ is usually ず.)"
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "Best order for your 60-sec team intro?",
-     "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+     "type": "typed",
+     "q": "Write “here you go / please” (douzo) in hiragana.",
+     "answer": [
+      "どうぞ"
      ],
-     "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "ど do + う u + ぞ zo."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "“Would you have ten minutes later to walk me through how this usually works?” is for…",
+     "q": "かぜ means…",
      "options": [
-      "politely asking a colleague to show you a process",
-      "telling your manager the work is late",
-      "ending a meeting"
+      "key",
+      "wind",
+      "taste"
      ],
-     "answer": 0,
-     "explain": "第一周礼貌请教：先问有没有时间，再请对方带你走一遍流程。"
+     "answer": 1,
+     "explain": "かぜ = kaze = wind 风. かぎ is key; あじ is taste."
     }
    ]
   }

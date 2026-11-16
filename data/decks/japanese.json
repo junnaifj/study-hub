@@ -1112,7 +1112,8 @@
     "hiragana",
     "mon09j",
     "hard12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1138,7 +1139,8 @@
     "hiragana",
     "mon09j",
     "hard12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1164,7 +1166,8 @@
     "words",
     "mon09j",
     "hard12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1190,7 +1193,8 @@
     "words",
     "mon09j",
     "hard12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1241,7 +1245,8 @@
     "words",
     "mon09j",
     "recap12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1254,7 +1259,8 @@
     "words",
     "mon09j",
     "recap12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1279,7 +1285,8 @@
    "tags": [
     "kana",
     "thu12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1291,7 +1298,8 @@
    "tags": [
     "kana",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "recap16j"
    ]
   },
   {
@@ -1303,7 +1311,8 @@
    "tags": [
     "kana",
     "thu12j",
-    "sat14j"
+    "sat14j",
+    "hard16j"
    ]
   },
   {
@@ -1315,7 +1324,8 @@
    "tags": [
     "kana",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "recap16j"
    ]
   },
   {
@@ -1327,7 +1337,8 @@
    "tags": [
     "kana",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "hard16j"
    ]
   },
   {
@@ -1339,7 +1350,8 @@
    "tags": [
     "words",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "hard16j"
    ]
   },
   {
@@ -1351,7 +1363,8 @@
    "tags": [
     "words",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "hard16j"
    ]
   },
   {
@@ -1363,7 +1376,63 @@
    "tags": [
     "words",
     "thu12j",
-    "sat14rj"
+    "sat14rj",
+    "hard16j"
+   ]
+  },
+  {
+   "id": "ja-0108",
+   "front": "だ",
+   "back": "だ · da",
+   "gloss": "da · た + two dots = voiced",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon16j"
+   ]
+  },
+  {
+   "id": "ja-0109",
+   "front": "ぢ",
+   "back": "ぢ · di (usually written じ)",
+   "gloss": "ji (di) · rare; almost always write じ instead",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon16j"
+   ]
+  },
+  {
+   "id": "ja-0110",
+   "front": "づ",
+   "back": "づ · du (usually written ず)",
+   "gloss": "zu (du) · rare; almost always write ず instead (e.g. つづく)",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon16j"
+   ]
+  },
+  {
+   "id": "ja-0111",
+   "front": "で",
+   "back": "で · de",
+   "gloss": "de · て + two dots = voiced; also the particle 'at / by / with'",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon16j"
+   ]
+  },
+  {
+   "id": "ja-0112",
+   "front": "ど",
+   "back": "ど · do",
+   "gloss": "do · と + two dots = voiced",
+   "lang": "ja-JP",
+   "tags": [
+    "hiragana",
+    "mon16j"
    ]
   }
  ]
