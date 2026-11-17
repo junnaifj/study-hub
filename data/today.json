@@ -1,91 +1,92 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-16",
- "slot": "evening",
+ "date": "2026-11-17",
+ "slot": "morning",
  "tracks": [
-  "japanese"
+  "english"
  ],
  "minutes": 20,
- "new_cards_limit": 5,
- "note": "Monday B, Japanese light maintenance（日语轻维护）. 事 si6 first, then 12 Hard が/ざ cards — say each aloud before flipping. Recap Thursday's じ and ぜ (the two from that set that were not Hard). Only 5 new: だぢづでど. 写三遍。Watch た/だ, て/で, と/ど; ぢ and づ are rare (usually じ / ず).",
+ "new_cards_limit": 0,
+ "note": "Tuesday A, workplace English（职场英语）: 事 si6 ×3, then one short standup email (read it once). No BBC today. 30–60 sec day-2 update (point → reason → example) — say it aloud before 📜. Hard recall only in tiny sets, stronger skeletons, no new cards. Recap Saturday workplace lines (deadline / flag a delay / recap / feedback). 加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "hard16j"
-   ]
-  },
-  {
-   "id": "t2",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "recap16j"
-   ]
-  },
-  {
-   "id": "t3",
-   "type": "link",
-   "title": "NHK hiragana chart · tap the だ行 (dakuten) row",
-   "url": "https://www3.nhk.or.jp/nhkworld/lesson/en/letters/hiragana.html",
-   "minutes": 3
-  },
-  {
-   "id": "t4",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "mon16j"
-   ]
-  },
-  {
-   "id": "t5",
    "type": "reading",
-   "title": "Read without romaji first (only kana you know)",
-   "lang": "ja-JP",
+   "title": "Read once: a short Tuesday standup email (workplace input)",
+   "lang": "en-GB",
    "lines": [
     {
-     "text": "だれ ですか",
-     "gloss": "dare desu ka",
-     "translation": "who is it? · 是谁？"
+     "text": "Hi team, a quick update from my side.",
+     "gloss": "opening",
+     "translation": "大家好，先从我这边做一个简短更新。"
     },
     {
-     "text": "どこ ですか",
-     "gloss": "doko desu ka",
-     "translation": "where is it? · 在哪里？"
+     "text": "Yesterday I got set up and started learning the usual workflow.",
+     "gloss": "yesterday",
+     "translation": "昨天我完成了上手，并开始了解平常的流程。"
     },
     {
-     "text": "どうぞ",
-     "gloss": "douzo",
-     "translation": "here you go / please · 请 / 给"
+     "text": "Today I will follow one case and write down the steps.",
+     "gloss": "today",
+     "translation": "今天我会跟一个案例，并把步骤记下来。"
     },
     {
-     "text": "まだ です",
-     "gloss": "mada desu",
-     "translation": "not yet · 还没有"
+     "text": "One ask: when you have ten minutes, could you walk me through how this usually works?",
+     "gloss": "polite request",
+     "translation": "有一个请求：你方便的时候，能否花十分钟带我走一遍这个流程通常是怎么做的？"
     },
     {
-     "text": "じかん が ない",
-     "gloss": "jikan ga nai",
-     "translation": "there is no time · 没有时间 (Thursday recap)"
+     "text": "Thanks.",
+     "gloss": "close",
+     "translation": "谢谢。"
     }
    ]
   },
   {
-   "id": "t6",
+   "id": "t2",
    "type": "speaking",
-   "prompt": "Write だぢづでど ×3, saying each aloud (~4 min). Then read the 5 lines twice, slow then normal speed. Watch: た vs だ, て vs で, と vs ど. ぢ and づ are rare — usually write じ and ず.",
-   "seconds": 240,
-   "script": "da (rare di) (rare du) de do\nだれ ですか (dare desu ka)\nどこ ですか (doko desu ka)\nどうぞ (douzo)\nまだ です (mada desu)\nじかん が ない (jikan ga nai)"
+   "prompt": "30–60 seconds, workplace English: a day-2 daily update. Point → reason → example. Say it aloud before opening the script. You can use a polite “could you walk me through…?” as the ask at the end.",
+   "seconds": 60,
+   "script": "Point: Today I am focusing on one process, end to end.\nReason: I want the usual steps clear, so I can help without slowing anyone down.\nExample: I will follow one case and write down the steps. If anything is unclear, I will ask: “Would you have ten minutes later to walk me through how this usually works?”"
+  },
+  {
+   "id": "t3",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard17a"
+   ]
+  },
+  {
+   "id": "t4",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard17b"
+   ]
+  },
+  {
+   "id": "t5",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard17c"
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap17"
+   ]
   },
   {
    "id": "t7",
@@ -94,56 +95,62 @@
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which one is da?",
+     "q": "Which tone is 事 si6?",
      "options": [
-      "た",
-      "だ",
-      "で"
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
      ],
      "answer": 1,
-     "explain": "だ = た plus two dots. で is de."
+     "explain": "事 si6 is low and flat. 低平调。"
     },
     {
      "id": "q2",
-     "type": "typed",
-     "q": "Romaji for ど?",
-     "answer": [
-      "do"
+     "type": "mc",
+     "q": "Best order for your 30–60 sec day-2 update?",
+     "options": [
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
      ],
-     "explain": "ど = do (と + dots)."
+     "answer": 1,
+     "explain": "先说重点，再讲原因，最后举例。"
     },
     {
      "id": "q3",
      "type": "mc",
-     "q": "ぢ is usually written as…",
+     "q": "“I want to flag early that this may slip” means…",
      "options": [
-      "じ",
-      "ず",
-      "ち"
+      "you are announcing a possible delay now",
+      "you are asking for a pay rise",
+      "you are ending the meeting"
      ],
      "answer": 0,
-     "explain": "ぢ is rare; almost always write じ. (づ is usually ず.)"
+     "explain": "flag early = 提前说明风险；slip = 可能延期。"
     },
     {
      "id": "q4",
-     "type": "typed",
-     "q": "Write “here you go / please” (douzo) in hiragana.",
-     "answer": [
-      "どうぞ"
+     "type": "mc",
+     "q": "“Could you walk me through how this usually works?” is for…",
+     "options": [
+      "politely asking a colleague to show you a process",
+      "telling someone the work is late",
+      "disagreeing in a meeting"
      ],
-     "explain": "ど do + う u + ぞ zo."
+     "answer": 0,
+     "explain": "礼貌请教：请对方带你走一遍通常的做法。"
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "かぜ means…",
+     "q": "“When do you need this by?” is asking for…",
      "options": [
-      "key",
-      "wind",
-      "taste"
+      "feedback",
+      "a deadline",
+      "a meeting recap"
      ],
      "answer": 1,
-     "explain": "かぜ = kaze = wind 风. かぎ is key; あじ is taste."
+     "explain": "在确认截止时间。反馈是 “what I could do better next time”；收尾复述是 “Just to recap…”。"
     }
    ]
   }
