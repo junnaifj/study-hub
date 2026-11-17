@@ -1272,7 +1272,8 @@
     "sat07",
     "cafe",
     "hard13k",
-    "sat14k"
+    "sat14k",
+    "hard17k"
    ]
   },
   {
@@ -1285,7 +1286,8 @@
     "sat07",
     "cafe",
     "hard13k",
-    "sat14k"
+    "sat14k",
+    "hard17k"
    ]
   },
   {
@@ -1298,7 +1300,8 @@
     "sat07",
     "cafe",
     "hard13k",
-    "sat14k"
+    "sat14k",
+    "hard17k"
    ]
   },
   {
@@ -1400,7 +1403,8 @@
     "numbers",
     "batchim",
     "words",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
    ]
   },
   {
@@ -1414,7 +1418,8 @@
     "numbers",
     "batchim",
     "words",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
    ]
   },
   {
@@ -1427,7 +1432,8 @@
     "fri13k",
     "numbers",
     "cafe",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
    ]
   },
   {
@@ -1440,7 +1446,8 @@
     "fri13k",
     "numbers",
     "cafe",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
    ]
   },
   {
@@ -1468,7 +1475,8 @@
     "cafe",
     "batchim",
     "words",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
    ]
   },
   {
@@ -1482,7 +1490,8 @@
     "cafe",
     "batchim",
     "words",
-    "sat14rk"
+    "sat14rk",
+    "hard17k"
    ]
   },
   {
@@ -1495,7 +1504,69 @@
     "fri13k",
     "cafe",
     "survival",
-    "sat14rk"
+    "sat14rk",
+    "recap17k"
+   ]
+  },
+  {
+   "id": "ko-0123",
+   "front": "여섯",
+   "back": "여섯 · six",
+   "gloss": "yeoseot · 六 · ㅅ at the bottom = t, same as 다섯",
+   "lang": "ko-KR",
+   "tags": [
+    "tue17k",
+    "numbers",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0124",
+   "front": "일곱",
+   "back": "일곱 · seven",
+   "gloss": "ilgop · 七 · final ㅂ → p, same as 밥 and 컵",
+   "lang": "ko-KR",
+   "tags": [
+    "tue17k",
+    "numbers",
+    "batchim",
+    "words"
+   ]
+  },
+  {
+   "id": "ko-0125",
+   "front": "여섯 개 주세요",
+   "back": "여섯 개 주세요 · six, please",
+   "gloss": "yeoseot gae juseyo · 请给我六个 · 여섯 stays 여섯 before 개, like 다섯",
+   "lang": "ko-KR",
+   "tags": [
+    "tue17k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0126",
+   "front": "일곱 개 주세요",
+   "back": "일곱 개 주세요 · seven, please",
+   "gloss": "ilgop gae juseyo · 请给我七个 · 일곱 stays 일곱 before 개",
+   "lang": "ko-KR",
+   "tags": [
+    "tue17k",
+    "numbers",
+    "cafe"
+   ]
+  },
+  {
+   "id": "ko-0127",
+   "front": "아이스로 주세요",
+   "back": "아이스로 주세요 · the iced one, please",
+   "gloss": "aiseuro juseyo · 请来冰的 · contrast 따뜻한 걸로 주세요",
+   "lang": "ko-KR",
+   "tags": [
+    "tue17k",
+    "cafe"
    ]
   }
  ]

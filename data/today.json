@@ -1,13 +1,13 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-17",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "korean"
  ],
  "minutes": 20,
- "new_cards_limit": 0,
- "note": "Tuesday A, workplace English（职场英语）: 事 si6 ×3, then one short standup email (read it once). No BBC today. 30–60 sec day-2 update (point → reason → example) — say it aloud before 📜. Hard recall only in tiny sets, stronger skeletons, no new cards. Recap Saturday workplace lines (deadline / flag a delay / recap / feedback). 加油！",
+ "new_cards_limit": 5,
+ "note": "Tuesday B, Korean light maintenance（韩语轻维护）. 事 si6 first, then 4 Hard café cards — say each aloud before flipping. Recap Friday's 넷/다섯 set that came back Good. Only 5 new: 여섯/일곱 and 아이스로 주세요. Write ×3. Watch ㅅ→t in 여섯, ㅂ→p in 일곱, and 여섯/일곱 staying unchanged before 개.",
  "tasks": [
   {
    "id": "t0",
@@ -18,75 +18,74 @@
   },
   {
    "id": "t1",
-   "type": "reading",
-   "title": "Read once: a short Tuesday standup email (workplace input)",
-   "lang": "en-GB",
-   "lines": [
-    {
-     "text": "Hi team, a quick update from my side.",
-     "gloss": "opening",
-     "translation": "大家好，先从我这边做一个简短更新。"
-    },
-    {
-     "text": "Yesterday I got set up and started learning the usual workflow.",
-     "gloss": "yesterday",
-     "translation": "昨天我完成了上手，并开始了解平常的流程。"
-    },
-    {
-     "text": "Today I will follow one case and write down the steps.",
-     "gloss": "today",
-     "translation": "今天我会跟一个案例，并把步骤记下来。"
-    },
-    {
-     "text": "One ask: when you have ten minutes, could you walk me through how this usually works?",
-     "gloss": "polite request",
-     "translation": "有一个请求：你方便的时候，能否花十分钟带我走一遍这个流程通常是怎么做的？"
-    },
-    {
-     "text": "Thanks.",
-     "gloss": "close",
-     "translation": "谢谢。"
-    }
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "hard17k"
    ]
   },
   {
    "id": "t2",
-   "type": "speaking",
-   "prompt": "30–60 seconds, workplace English: a day-2 daily update. Point → reason → example. Say it aloud before opening the script. You can use a polite “could you walk me through…?” as the ask at the end.",
-   "seconds": 60,
-   "script": "Point: Today I am focusing on one process, end to end.\nReason: I want the usual steps clear, so I can help without slowing anyone down.\nExample: I will follow one case and write down the steps. If anything is unclear, I will ask: “Would you have ten minutes later to walk me through how this usually works?”"
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "recap17k"
+   ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard17a"
-   ]
+   "type": "link",
+   "title": "Native Korean numbers 6–7 (여섯, 일곱) — skim the native-number list only",
+   "url": "https://www.90daykorean.com/korean-numbers/",
+   "minutes": 2
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard17b"
+    "tue17k"
    ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard17c"
+   "type": "reading",
+   "title": "Read aloud: café order (Hangul first, then check the gloss)",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "여기요. 여섯 개 주세요.",
+     "gloss": "yeogiyo. yeoseot gae juseyo.",
+     "translation": "Excuse me. Six, please. · 喂，请给我六个。"
+    },
+    {
+     "text": "따뜻한 걸로 주세요. 아이스로 주세요.",
+     "gloss": "ttatteuthan geollo juseyo. aiseuro juseyo.",
+     "translation": "The hot one, please. The iced one, please. · 请来热的。请来冰的。"
+    },
+    {
+     "text": "얼음 주세요. 포장해 주세요.",
+     "gloss": "eoreum juseyo. pojanghae juseyo.",
+     "translation": "Ice, please. Takeaway, please. · 请加冰。请打包。"
+    },
+    {
+     "text": "일곱 개 주세요. 영수증 주세요.",
+     "gloss": "ilgop gae juseyo. yeongsujeung juseyo.",
+     "translation": "Seven, please. The receipt, please. · 请给我七个。请给我收据。"
+    },
+    {
+     "text": "네 개 주세요. 다섯 개 주세요.",
+     "gloss": "ne gae juseyo. daseot gae juseyo.",
+     "translation": "Four, please. Five, please. · 请给我四个。请给我五个。"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap17"
-   ]
+   "type": "speaking",
+   "prompt": "Write ×3 then say: 여섯 · 일곱 · 여섯 개 주세요 · 아이스로 주세요. Then read the café lines twice. If you have a minute, one breath: Point → Reason → Example on why 여섯 and 일곱 stay the same before 개 (unlike 넷 → 네).",
+   "seconds": 180,
+   "script": "Writing: 여섯 여섯 여섯 · 일곱 일곱 일곱 · 여섯 개 주세요 여섯 개 주세요 여섯 개 주세요 · 아이스로 주세요 아이스로 주세요 아이스로 주세요.\nLines: 여기요. 여섯 개 주세요. / 따뜻한 걸로 주세요. 아이스로 주세요. / 얼음 주세요. 포장해 주세요. / 일곱 개 주세요. 영수증 주세요. / 네 개 주세요. 다섯 개 주세요.\nExplanation: Point: native numbers from 다섯 onward keep the same form before the counter 개. Reason: only 하나/둘/셋/넷 shorten to 한/두/세/네; 다섯/여섯/일곱 do not. Example: 여섯 → 여섯 개 주세요 (six, please), not 여 개 주세요."
   },
   {
    "id": "t7",
@@ -95,62 +94,60 @@
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "포장해 주세요 means…",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "the receipt, please",
+      "takeaway, please",
+      "the hot one, please"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat. 低平调。"
+     "explain": "포장 = pack / takeaway. 영수증 주세요 is the receipt; 따뜻한 걸로 주세요 is the hot one."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "Best order for your 30–60 sec day-2 update?",
+     "q": "The final sound in 여섯 and 다섯 is…",
      "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+      "s",
+      "t",
+      "n"
      ],
      "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "ㅅ at the bottom of a block sounds like t: 다섯 = daseot, 여섯 = yeoseot. Same rule as 옷 and 셋."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "“I want to flag early that this may slip” means…",
-     "options": [
-      "you are announcing a possible delay now",
-      "you are asking for a pay rise",
-      "you are ending the meeting"
+     "type": "typed",
+     "q": "Write 'six, please' in Hangul (using 개).",
+     "answer": [
+      "여섯 개 주세요",
+      "여섯개 주세요"
      ],
-     "answer": 0,
-     "explain": "flag early = 提前说明风险；slip = 可能延期。"
+     "explain": "여섯 stays 여섯 before 개 → 여섯 개 주세요. Same pattern as 다섯 개 주세요."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "“Could you walk me through how this usually works?” is for…",
+     "q": "아이스로 주세요 is the contrast of…",
      "options": [
-      "politely asking a colleague to show you a process",
-      "telling someone the work is late",
-      "disagreeing in a meeting"
+      "포장해 주세요",
+      "따뜻한 걸로 주세요",
+      "영수증 주세요"
      ],
-     "answer": 0,
-     "explain": "礼貌请教：请对方带你走一遍通常的做法。"
+     "answer": 1,
+     "explain": "아이스로 주세요 = the iced one, please. 따뜻한 걸로 주세요 = the hot one, please."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "“When do you need this by?” is asking for…",
+     "q": "영수증 주세요 means…",
      "options": [
-      "feedback",
-      "a deadline",
-      "a meeting recap"
+      "the receipt, please",
+      "ice, please",
+      "excuse me (to call staff)"
      ],
-     "answer": 1,
-     "explain": "在确认截止时间。反馈是 “what I could do better next time”；收尾复述是 “Just to recap…”。"
+     "answer": 0,
+     "explain": "영수증 = receipt. 얼음 is ice; 여기요 calls the staff over."
     }
    ]
   }
