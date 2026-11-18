@@ -878,7 +878,8 @@
    "tags": [
     "fri13y",
     "workplace",
-    "sat14ry"
+    "sat14ry",
+    "recap18y"
    ]
   },
   {
@@ -890,7 +891,8 @@
    "tags": [
     "fri13y",
     "workplace",
-    "sat14ry"
+    "sat14ry",
+    "recap18y"
    ]
   },
   {
@@ -902,7 +904,41 @@
    "tags": [
     "fri13y",
     "workplace",
-    "sat14ry"
+    "sat14ry",
+    "recap18y"
+   ]
+  },
+  {
+   "id": "yue-0072",
+   "front": "你而家方便嗎？",
+   "back": "nei5 ji4 gaa1 fong1 bin6 maa3 · Are you free now?",
+   "gloss": "而家 ji4 gaa1 = now; 方便 fong1 bin6 = free / convenient. 问对方现在方不方便。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed18y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0073",
+   "front": "我傳咗俾你啦。",
+   "back": "ngo5 cyun4 zo2 bei2 nei5 laa1 · I've sent it over to you.",
+   "gloss": "傳咗 cyun4 zo2 = have sent / forwarded; 俾 bei2 = to. 已经发给你了。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed18y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0074",
+   "front": "唔該晒，幫咗大忙。",
+   "back": "m4 goi1 saai3, bong1 zo2 daai6 mong4 · Thanks so much, that was a big help.",
+   "gloss": "唔該晒 m4 goi1 saai3 = thanks a lot; 幫咗大忙 bong1 zo2 daai6 mong4 = helped a lot. 感谢帮忙。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed18y",
+    "workplace"
    ]
   }
  ]
