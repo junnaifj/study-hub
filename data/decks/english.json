@@ -926,7 +926,7 @@
   },
   {
    "id": "en-0075",
-   "front": "STAR #3 · Point (task) · cues: defensible, unclear\nM_ t___ w__ t_ b____ a d_________ e_______ b___, e___ t_____ t__ r____________ w___ u______.",
+   "front": "STAR #3 · Point (task) · one cue: defensible",
    "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
    "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
    "lang": "en-GB",
@@ -945,12 +945,13 @@
     "hard13f",
     "sat14a",
     "hard16a",
-    "hard17a"
+    "hard17a",
+    "hard18a"
    ]
   },
   {
    "id": "en-0076",
-   "front": "STAR #3 · Reason beat 1 · cues: working definition, scope\nF____, I p_____ f__ a w______ d_________ ..., s_ the whole analysis shared one s____.",
+   "front": "STAR #3 · Reason beat 1 · one cue: working definition",
    "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
    "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
    "lang": "en-GB",
@@ -969,12 +970,13 @@
     "hard13f",
     "sat14a",
     "hard16a",
-    "hard17a"
+    "hard17a",
+    "hard18a"
    ]
   },
   {
    "id": "en-0077",
-   "front": "STAR #3 · Reason beat 2 · cues: mapped gaps, indicators\nS______, I m_____ the data g____: I counted which i_________ were missing and compared them with other regions.",
+   "front": "STAR #3 · Reason beat 2 · one cue: mapped",
    "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
    "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
    "lang": "en-GB",
@@ -993,7 +995,8 @@
     "hard13f",
     "sat14a",
     "hard16a",
-    "hard17a"
+    "hard17a",
+    "hard18a"
    ]
   },
   {
@@ -1019,7 +1022,7 @@
   },
   {
    "id": "en-0079",
-   "front": "STAR #3 · Example / Result · cues: baseline, still missing\nA_ a r_____, I d________ a b_______ analysis ..., p___ a clear list of the data ... is still m______.",
+   "front": "STAR #3 · Example / Result · one cue: baseline",
    "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
    "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
    "lang": "en-GB",
@@ -1038,7 +1041,8 @@
     "hard13f",
     "sat14a",
     "hard16a",
-    "hard17a"
+    "hard17a",
+    "hard18a"
    ]
   },
   {
@@ -1917,7 +1921,7 @@
   },
   {
    "id": "en-0142",
-   "front": "Clarifying before you answer · cues: method, or the result\nJ___ t_ m___ s___ I understand — are you asking about the m_____, or the r______?",
+   "front": "Clarifying before you answer · one cue: method",
    "back": "Just to make sure I understand — are you asking about the method, or the result?",
    "gloss": "不确定就先确认，好过答错题。",
    "lang": "en-GB",
@@ -1932,7 +1936,8 @@
     "hard13a",
     "sat14a",
     "hard16c",
-    "hard17c"
+    "hard17c",
+    "hard18b"
    ]
   },
   {
@@ -2156,7 +2161,7 @@
   },
   {
    "id": "en-0158",
-   "front": "Teamwork line · cues: share early, feedback\nI work well in a t____: I s____ e____ results and ask for f_______ before polishing.",
+   "front": "Teamwork line · one cue: share early",
    "back": "I work well in a team: I share early results and ask for feedback before polishing.",
    "gloss": "团队：尽早分享结果、先要反馈再打磨。",
    "lang": "en-GB",
@@ -2168,7 +2173,8 @@
     "hard13d",
     "sat14b",
     "hard16c",
-    "hard17c"
+    "hard17c",
+    "hard18c"
    ]
   },
   {
@@ -2338,7 +2344,7 @@
   },
   {
    "id": "en-0172",
-   "front": "Honest 'not yet' · cues: haven't, approach\nI haven't d___ t___ d_______ yet, but here's how I'd a______ it.",
+   "front": "Honest 'not yet' · one cue: approach",
    "back": "I haven't done that directly yet, but here's how I'd approach it.",
    "gloss": "没直接做过，但说明你会怎么做。先诚实，再给方法。",
    "lang": "en-GB",
@@ -2347,12 +2353,13 @@
     "interview",
     "sat14r",
     "hard16b",
-    "hard17b"
+    "hard17b",
+    "hard18b"
    ]
   },
   {
    "id": "en-0173",
-   "front": "Hedging a number · cues: roughly, give or take\nIt was r______ 98 percent c_______, g___ or take.",
+   "front": "Hedging a number · one cue: roughly",
    "back": "It was roughly 98 percent coverage, give or take.",
    "gloss": "roughly / give or take = 大约，留余地。",
    "lang": "en-GB",
@@ -2361,12 +2368,13 @@
     "interview",
     "sat14r",
     "hard16b",
-    "hard17b"
+    "hard17b",
+    "hard18b"
    ]
   },
   {
    "id": "en-0174",
-   "front": "Bridging to your strength · cues: links, if I may\nThat l____ to something I did at HKU, i_ I may give an e______.",
+   "front": "Bridging to your strength · one cue: links",
    "back": "That links to something I did at HKU, if I may give an example.",
    "gloss": "把话题拉回自己的强项。",
    "lang": "en-GB",
@@ -2375,12 +2383,13 @@
     "interview",
     "sat14r",
     "hard16b",
-    "hard17b"
+    "hard17b",
+    "hard18b"
    ]
   },
   {
    "id": "en-0175",
-   "front": "Checking you answered · cues: answer, more detail\nDoes that a_____ your q_______, or shall I go into more d_____?",
+   "front": "Checking you answered · one cue: more detail",
    "back": "Does that answer your question, or shall I go into more detail?",
    "gloss": "答完确认一下，别一直讲。",
    "lang": "en-GB",
@@ -2389,12 +2398,13 @@
     "interview",
     "sat14r",
     "hard16b",
-    "hard17c"
+    "hard17c",
+    "hard18c"
    ]
   },
   {
    "id": "en-0176",
-   "front": "Polite disagreement · cues: slightly differently, here's why\nI see it s_______ d__________, and here's why.",
+   "front": "Polite disagreement · one cue: slightly differently",
    "back": "I see it slightly differently, and here's why.",
    "gloss": "委婉表达不同意见：先软化，再给理由。",
    "lang": "en-GB",
@@ -2403,7 +2413,8 @@
     "interview",
     "sat14r",
     "hard16c",
-    "hard17c"
+    "hard17c",
+    "hard18c"
    ]
   },
   {
@@ -2447,7 +2458,7 @@
   },
   {
    "id": "en-0180",
-   "front": "Workplace: asking for a deadline · cues: need this by, confirm\nW___ d_ you n___ this b_? / Could you c______ the deadline?",
+   "front": "Workplace: asking for a deadline · one cue: confirm",
    "back": "“When do you need this by?” · Could you confirm the deadline?",
    "gloss": "确认截止时间。",
    "lang": "en-GB",
@@ -2455,12 +2466,13 @@
     "sat14",
     "workplace",
     "recap16",
-    "recap17"
+    "recap17",
+    "hard18d"
    ]
   },
   {
    "id": "en-0181",
-   "front": "Workplace: flagging a delay early · cues: flag early, slip\nI want to f___ e____ that this may s___ to Thursday.",
+   "front": "Workplace: flagging a delay early · one cue: flag",
    "back": "“I want to flag early that this may slip to Thursday.”",
    "gloss": "提前预警延期。",
    "lang": "en-GB",
@@ -2468,12 +2480,13 @@
     "sat14",
     "workplace",
     "recap16",
-    "recap17"
+    "recap17",
+    "hard18d"
    ]
   },
   {
    "id": "en-0182",
-   "front": "Workplace: summarising before a meeting ends · cues: recap, review\nJust to r_____: I'll send the draft by noon, and you'll r_____ it tomorrow.",
+   "front": "Workplace: summarising before a meeting ends · one cue: recap",
    "back": "“Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.”",
    "gloss": "会议收尾复述。",
    "lang": "en-GB",
@@ -2481,12 +2494,13 @@
     "sat14",
     "workplace",
     "recap16",
-    "recap17"
+    "recap17",
+    "hard18d"
    ]
   },
   {
    "id": "en-0183",
-   "front": "Workplace: asking for feedback · cues: better, next time\nCould you tell me what I could do b_____ next time?",
+   "front": "Workplace: asking for feedback · one cue: next time",
    "back": "“Could you tell me what I could do better next time?”",
    "gloss": "请求反馈。",
    "lang": "en-GB",
@@ -2494,7 +2508,8 @@
     "sat14",
     "workplace",
     "recap16",
-    "recap17"
+    "recap17",
+    "hard18d"
    ]
   },
   {
@@ -2507,7 +2522,8 @@
     "mon16bbc",
     "vocabulary",
     "bbc",
-    "workplace"
+    "workplace",
+    "recap18"
    ]
   },
   {
@@ -2520,7 +2536,8 @@
     "mon16bbc",
     "vocabulary",
     "bbc",
-    "workplace"
+    "workplace",
+    "recap18"
    ]
   },
   {
@@ -2533,7 +2550,8 @@
     "mon16bbc",
     "vocabulary",
     "bbc",
-    "workplace"
+    "workplace",
+    "recap18"
    ]
   },
   {
@@ -2544,6 +2562,57 @@
    "lang": "en-GB",
    "tags": [
     "mon16",
+    "workplace",
+    "recap18"
+   ]
+  },
+  {
+   "id": "en-0188",
+   "front": "the done thing (BBC · phrases)",
+   "back": "what you are expected to do in a particular social situation",
+   "gloss": "工作场合“约定俗成的做法”。例：Is it the done thing to reply-all? BBC ep-260115.",
+   "lang": "en-GB",
+   "tags": [
+    "wed18new",
+    "workplace",
+    "bbc",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0189",
+   "front": "miffed (BBC · phrases)",
+   "back": "slightly annoyed by someone's behaviour towards you",
+   "gloss": "有点恼火（比 angry 轻很多）。BBC ep-260115.",
+   "lang": "en-GB",
+   "tags": [
+    "wed18new",
+    "workplace",
+    "bbc",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0190",
+   "front": "a mare (BBC · phrases)",
+   "back": "short for nightmare: an unpleasant or difficult experience (often said with a bit of exaggeration)",
+   "gloss": "“a mare” = 糟心的一天，常带夸张。例：I've had a mare of a morning. BBC ep-260115.",
+   "lang": "en-GB",
+   "tags": [
+    "wed18new",
+    "workplace",
+    "bbc",
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "en-0191",
+   "front": "Check-back · cues: confirm, right\nJ___ t_ c______ I've got this r____: ...",
+   "back": "Just to confirm I've got this right: [one-line summary of the process]. Is that correct?",
+   "gloss": "复述确认：先说 Just to confirm I've got this right，再用一句话复述流程。",
+   "lang": "en-GB",
+   "tags": [
+    "wed18new",
     "workplace"
    ]
   }
