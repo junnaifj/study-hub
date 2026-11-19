@@ -1,132 +1,158 @@
 {
- "schema": "studyhub.today.v1",
- "date": "2026-11-18",
- "slot": "evening",
- "tracks": [
-  "cantonese"
- ],
- "minutes": 20,
- "new_cards_limit": 3,
- "note": "Wednesday B, Cantonese speaking（粤语口语）, light maintenance. 事 si6 ×3, recap Friday's workplace lines, then 3 new daily-work lines to shadow. No Hard leftover. Keep only if dinner allows. 加油！",
- "tasks": [
-  {
-   "id": "t0",
-   "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
-   "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
-  },
-  {
-   "id": "t1",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "recap18y"
-   ]
-  },
-  {
-   "id": "t2",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "wed18y"
-   ]
-  },
-  {
-   "id": "t3",
-   "type": "reading",
-   "title": "Read / shadow the 3 new workplace lines (Hub Play may be silent — use the mp3: audio/cantonese/wed18_yue_lines.mp3)",
-   "lang": "yue-HK",
-   "lines": [
+  "schema": "studyhub.today.v1",
+  "date": "2026-11-19",
+  "slot": "morning",
+  "tracks": [
+    "english"
+  ],
+  "minutes": 20,
+  "new_cards_limit": 0,
+  "note": "Thursday A, workplace English（职场英语）: 事 si6 ×3, then Hard recall only (no new cards, no BBC today). Sets of 3–4, one-keyword cue, say each aloud before flipping, then a 3-beat run-through. Then one two-line work email and a 30–60 sec “I’ll take this and come back to you”. 加油！",
+  "tasks": [
     {
-     "text": "你而家方便嗎？",
-     "gloss": "nei5 ji4 gaa1 fong1 bin6 maa3",
-     "translation": "Are you free now? · 你现在方便吗？"
+      "id": "t0",
+      "type": "speaking",
+      "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+      "seconds": 30,
+      "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
     },
     {
-     "text": "我傳咗俾你啦。",
-     "gloss": "ngo5 cyun4 zo2 bei2 nei5 laa1",
-     "translation": "I've sent it over to you. · 我已经发给你了。"
+      "id": "t1",
+      "type": "reading",
+      "title": "Input: read this two-line work email once (what is being asked? what are the next steps?)",
+      "lang": "en-GB",
+      "lines": [
+        {
+          "text": "Hi Jia, could you clarify whether the visa checklist should cover all new hires or only overseas ones?",
+          "gloss": "clarify = KLA-ri-fy",
+          "translation": "想确认清单是覆盖所有新人还是只含海外员工。"
+        },
+        {
+          "text": "Once you confirm, please send the updated version to the team by Friday noon.",
+          "gloss": "next steps = 下一步",
+          "translation": "你确认后，请在周五中午前把更新版发给团队。"
+        }
+      ]
     },
     {
-     "text": "唔該晒，幫咗大忙。",
-     "gloss": "m4 goi1 saai3, bong1 zo2 daai6 mong4",
-     "translation": "Thanks so much, that was a big help. · 太谢谢了，帮了大忙。"
+      "id": "t2",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "hard19a"
+      ]
+    },
+    {
+      "id": "t3",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "hard19b"
+      ]
+    },
+    {
+      "id": "t4",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "hard19c"
+      ]
+    },
+    {
+      "id": "t5",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "hard19d"
+      ]
+    },
+    {
+      "id": "t6",
+      "type": "cards",
+      "deck": "english",
+      "tags": [
+        "recap19"
+      ]
+    },
+    {
+      "id": "t7",
+      "type": "speaking",
+      "prompt": "Output 1, two lines aloud (or typed): reply to that email. Line 1 clarifies, line 2 gives next steps. Say it before opening the script.",
+      "seconds": 60,
+      "script": "Hi, thanks for your message. Just to make sure I understand: should the checklist cover all new hires, or only overseas ones?\nOnce I have your answer, I will send the updated version to the team by Friday noon."
+    },
+    {
+      "id": "t8",
+      "type": "speaking",
+      "prompt": "Output 2, 30–60 sec: “I’ll take this and come back to you.” Point → reason → example. Say it aloud before opening the script.",
+      "seconds": 60,
+      "script": "Point: I’ll take this and come back to you by the end of the day.\nReason: I want to check the details first so my answer is accurate.\nExample: So I will look at the checklist this afternoon and send you a short reply before 5 pm."
+    },
+    {
+      "id": "t9",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mc",
+          "q": "Which tone is 事 si6?",
+          "options": [
+            "Mid level (3)",
+            "Low flat (6)",
+            "Falling (4)"
+          ],
+          "answer": 1,
+          "explain": "事 si6 is low and flat. 低平调。"
+        },
+        {
+          "id": "q2",
+          "type": "mc",
+          "q": "“I’ll take this and come back to you” means…",
+          "options": [
+            "I will handle it and reply later",
+            "I refuse this task",
+            "Please do it for me"
+          ],
+          "answer": 0,
+          "explain": "接下这件事，稍后回复你。"
+        },
+        {
+          "id": "q3",
+          "type": "mc",
+          "q": "“I want to flag early that this may slip to Thursday” means…",
+          "options": [
+            "warn early about a delay",
+            "ask for a day off",
+            "celebrate finishing early"
+          ],
+          "answer": 0,
+          "explain": "flag = 提前提醒；slip = 延期。"
+        },
+        {
+          "id": "q4",
+          "type": "mc",
+          "q": "Which line clarifies before answering?",
+          "options": [
+            "Just to make sure I understand — are you asking about the method, or the result?",
+            "I haven't done that.",
+            "Does that answer your question?"
+          ],
+          "answer": 0,
+          "explain": "先确认问题，再回答。"
+        },
+        {
+          "id": "q5",
+          "type": "mc",
+          "q": "Best order for your check-back?",
+          "options": [
+            "Example → Reason → Point",
+            "Point → Reason → Example",
+            "Reason → Point"
+          ],
+          "answer": 1,
+          "explain": "先说重点，再讲原因，最后举例。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "t4",
-   "type": "speaking",
-   "prompt": "Shadow the 3 new lines ×3 (audio: audio/cantonese/wed18_yue_lines.mp3 in the tutor folder; Hub Play may be silent), then say them without the script. If you have a minute, run the mini exchange once: ask if they are free, say you have sent it, then thank them.",
-   "seconds": 150,
-   "script": "你而家方便嗎？ nei5 ji4 gaa1 fong1 bin6 maa3 · 我傳咗俾你啦。 ngo5 cyun4 zo2 bei2 nei5 laa1 · 唔該晒，幫咗大忙。 m4 goi1 saai3, bong1 zo2 daai6 mong4"
-  },
-  {
-   "id": "t5",
-   "type": "quiz",
-   "questions": [
-    {
-     "id": "q1",
-     "type": "mc",
-     "q": "Which tone is 事 si6?",
-     "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
-     ],
-     "answer": 1,
-     "explain": "事 si6 is low and flat. 低平调。"
-    },
-    {
-     "id": "q2",
-     "type": "mc",
-     "q": "我係新嚟嘅 means…",
-     "options": [
-      "I'm new here.",
-      "I'll get back to you.",
-      "I didn't catch that."
-     ],
-     "answer": 0,
-     "explain": "新嚟 san1 lai4 = newly arrived. Recap from Friday. 我是新来的。"
-    },
-    {
-     "id": "q3",
-     "type": "mc",
-     "q": "我傳咗俾你啦 means…",
-     "options": [
-      "Please take a look.",
-      "I've sent it over to you.",
-      "Are you free now?"
-     ],
-     "answer": 1,
-     "explain": "傳咗 cyun4 zo2 = have sent / forwarded. 已经发给你了。"
-    },
-    {
-     "id": "q4",
-     "type": "mc",
-     "q": "唔該晒 is used to…",
-     "options": [
-      "say thanks (a lot)",
-      "ask someone to wait",
-      "say goodbye"
-     ],
-     "answer": 0,
-     "explain": "唔該晒 m4 goi1 saai3 = thanks so much. 晒 saai3 adds 'completely / a lot'."
-    },
-    {
-     "id": "q5",
-     "type": "mc",
-     "q": "你而家方便嗎？ is asking…",
-     "options": [
-      "what time it is",
-      "whether they are free now",
-      "whether the file arrived"
-     ],
-     "answer": 1,
-     "explain": "而家 ji4 gaa1 = now; 方便 fong1 bin6 = free / convenient. 你现在方便吗？"
-    }
-   ]
-  }
- ]
+  ]
 }
