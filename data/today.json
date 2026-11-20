@@ -1,13 +1,13 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-20",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "korean"
  ],
  "minutes": 20,
- "new_cards_limit": 0,
- "note": "Friday A, workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Is it OK to disagree?” (~6 min). Hard recall only (no new cards). Sets of 3–4, one-keyword cue, say each aloud before flipping, then a 3-beat run-through. Then a 30–60 sec end-of-week wrap: “Here's where I got to this week, and what I'll pick up next.” 加油！",
+ "new_cards_limit": 5,
+ "note": "Friday B, Korean light maintenance（韩语轻维护）. This is Tuesday's unlogged set — the five new cards are still new. 事 si6 first, then 4 Hard café cards — say each aloud before flipping. Recap Friday's 넷/다섯 set that came back Good. Only 5 new: 여섯/일곱 and 아이스로 주세요. Write ×3. Watch ㅅ→t in 여섯, ㅂ→p in 일곱, and 여섯/일곱 staying unchanged before 개.",
  "tasks": [
   {
    "id": "t0",
@@ -18,129 +18,136 @@
   },
   {
    "id": "t1",
-   "type": "link",
-   "title": "BBC 6 Minute English: “Is it OK to disagree?” (listen ~6 min; notice open-minded / silver bullet / take the heat out)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260101",
-   "minutes": 6
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "hard17k"
+   ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard20a"
+    "recap17k"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard20b"
-   ]
+   "type": "link",
+   "title": "Native Korean numbers 6–7 (여섯, 일곱) — skim the native-number list only",
+   "url": "https://www.90daykorean.com/korean-numbers/",
+   "minutes": 2
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard20c"
+    "tue17k"
    ]
   },
   {
    "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard20d"
+   "type": "reading",
+   "title": "Read aloud: café order (Hangul first, then check the gloss)",
+   "lang": "ko-KR",
+   "lines": [
+    {
+     "text": "여기요. 여섯 개 주세요.",
+     "gloss": "yeogiyo. yeoseot gae juseyo.",
+     "translation": "Excuse me. Six, please. · 喂，请给我六个。"
+    },
+    {
+     "text": "따뜻한 걸로 주세요. 아이스로 주세요.",
+     "gloss": "ttatteuthan geollo juseyo. aiseuro juseyo.",
+     "translation": "The hot one, please. The iced one, please. · 请来热的。请来冰的。"
+    },
+    {
+     "text": "얼음 주세요. 포장해 주세요.",
+     "gloss": "eoreum juseyo. pojanghae juseyo.",
+     "translation": "Ice, please. Takeaway, please. · 请加冰。请打包。"
+    },
+    {
+     "text": "일곱 개 주세요. 영수증 주세요.",
+     "gloss": "ilgop gae juseyo. yeongsujeung juseyo.",
+     "translation": "Seven, please. The receipt, please. · 请给我七个。请给我收据。"
+    },
+    {
+     "text": "네 개 주세요. 다섯 개 주세요.",
+     "gloss": "ne gae juseyo. daseot gae juseyo.",
+     "translation": "Four, please. Five, please. · 请给我四个。请给我五个。"
+    }
    ]
   },
   {
    "id": "t6",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "hard20e"
-   ]
+   "type": "speaking",
+   "prompt": "Write ×3 then say: 여섯 · 일곱 · 여섯 개 주세요 · 아이스로 주세요. Then read the café lines twice. If you have a minute, one breath: Point → Reason → Example on why 여섯 and 일곱 stay the same before 개 (unlike 넷 → 네).",
+   "seconds": 180,
+   "script": "Writing: 여섯 여섯 여섯 · 일곱 일곱 일곱 · 여섯 개 주세요 여섯 개 주세요 여섯 개 주세요 · 아이스로 주세요 아이스로 주세요 아이스로 주세요.\nLines: 여기요. 여섯 개 주세요. / 따뜻한 걸로 주세요. 아이스로 주세요. / 얼음 주세요. 포장해 주세요. / 일곱 개 주세요. 영수증 주세요. / 네 개 주세요. 다섯 개 주세요.\nExplanation: Point: native numbers from 다섯 onward keep the same form before the counter 개. Reason: only 하나/둘/셋/넷 shorten to 한/두/세/네; 다섯/여섯/일곱 do not. Example: 여섯 → 여섯 개 주세요 (six, please), not 여 개 주세요."
   },
   {
    "id": "t7",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap20"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "speaking",
-   "prompt": "Workplace output, 30–60 sec: end-of-week wrap. “Here's where I got to this week, and what I'll pick up next.” Point → reason → example. Say it aloud before opening the script.",
-   "seconds": 60,
-   "script": "Point: Here's where I got to this week: I learned the basic process and wrote down the steps I wasn't sure about.\nReason: I wanted a clear picture before I try to improve anything.\nExample: Next week I'll pick up those notes and turn one of the steps into a short checklist."
-  },
-  {
-   "id": "t9",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "포장해 주세요 means…",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "the receipt, please",
+      "takeaway, please",
+      "the hot one, please"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat. 低平调。"
+     "explain": "포장 = pack / takeaway. 영수증 주세요 is the receipt; 따뜻한 걸로 주세요 is the hot one."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "BBC: according to a recent Ipsos poll, what percentage of the British population believes society is divided?",
+     "q": "The final sound in 여섯 and 다섯 is…",
      "options": [
-      "20%",
-      "50%",
-      "80%"
+      "s",
+      "t",
+      "n"
      ],
-     "answer": 2,
-     "explain": "The answer in the episode is 80%."
+     "answer": 1,
+     "explain": "ㅅ at the bottom of a block sounds like t: 다섯 = daseot, 여섯 = yeoseot. Same rule as 옷 and 셋."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "BBC: a “silver bullet” is…",
-     "options": [
-      "a simple solution to a complicated problem",
-      "a polite way to disagree",
-      "an angry email"
+     "type": "typed",
+     "q": "Write 'six, please' in Hangul (using 개).",
+     "answer": [
+      "여섯 개 주세요",
+      "여섯개 주세요"
      ],
-     "answer": 0,
-     "explain": "silver bullet = 简单可行的解决办法。"
+     "explain": "여섯 stays 여섯 before 개 → 여섯 개 주세요. Same pattern as 다섯 개 주세요."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "An end-of-week wrap should cover…",
+     "q": "아이스로 주세요 is the contrast of…",
      "options": [
-      "where you got to this week, and what you'll pick up next",
-      "only what went wrong",
-      "your weekend plans in detail"
+      "포장해 주세요",
+      "따뜻한 걸로 주세요",
+      "영수증 주세요"
      ],
-     "answer": 0,
-     "explain": "本周进展 + 下周接着做什么。"
+     "answer": 1,
+     "explain": "아이스로 주세요 = the iced one, please. 따뜻한 걸로 주세요 = the hot one, please."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "Best order for the wrap?",
+     "q": "영수증 주세요 means…",
      "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+      "the receipt, please",
+      "ice, please",
+      "excuse me (to call staff)"
      ],
-     "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "answer": 0,
+     "explain": "영수증 = receipt. 얼음 is ice; 여기요 calls the staff over."
     }
    ]
   }
