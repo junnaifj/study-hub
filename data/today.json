@@ -1,83 +1,148 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-19",
- "slot": "evening",
+ "date": "2026-11-20",
+ "slot": "morning",
  "tracks": [
-  "japanese"
+  "english"
  ],
  "minutes": 20,
  "new_cards_limit": 0,
- "note": "Thursday B, Japanese light maintenance（日语轻维护）, lighter day. 事 si6 first, then 12 Hard が/ざ leftover cards — say each aloud before flipping. Recap じ and ぜ (the two from that set that were not Hard). No new cards (だ行 waits). Write the Hard ones once only. No quiz. Keep the slot at 20:40.",
+ "note": "Friday A, workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Is it OK to disagree?” (~6 min). Hard recall only (no new cards). Sets of 3–4, one-keyword cue, say each aloud before flipping, then a 3-beat run-through. Then a 30–60 sec end-of-week wrap: “Here's where I got to this week, and what I'll pick up next.” 加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not rising like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
    "seconds": 30,
    "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
   },
   {
    "id": "t1",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "hard16j"
-   ]
+   "type": "link",
+   "title": "BBC 6 Minute English: “Is it OK to disagree?” (listen ~6 min; notice open-minded / silver bullet / take the heat out)",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260101",
+   "minutes": 6
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "english",
    "tags": [
-    "recap16j"
+    "hard20a"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "NHK hiragana chart · tap the が行 and ざ行 (dakuten) rows",
-   "url": "https://www3.nhk.or.jp/nhkworld/lesson/en/letters/hiragana.html",
-   "minutes": 2
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard20b"
+   ]
   },
   {
    "id": "t4",
-   "type": "reading",
-   "title": "Read without romaji first (only kana you already know)",
-   "lang": "ja-JP",
-   "lines": [
-    {
-     "text": "かぎ",
-     "gloss": "kagi",
-     "translation": "key · 钥匙"
-    },
-    {
-     "text": "かぜ",
-     "gloss": "kaze",
-     "translation": "wind · 风"
-    },
-    {
-     "text": "あじ",
-     "gloss": "aji",
-     "translation": "taste · 味道"
-    },
-    {
-     "text": "ひがし の やま",
-     "gloss": "higashi no yama",
-     "translation": "the mountain in the east · 东边的山"
-    },
-    {
-     "text": "じかん が ない",
-     "gloss": "jikan ga nai",
-     "translation": "there is no time · 没有时间 (recap じ)"
-    }
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard20c"
    ]
   },
   {
    "id": "t5",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard20d"
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard20e"
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap20"
+   ]
+  },
+  {
+   "id": "t8",
    "type": "speaking",
-   "prompt": "Write the 12 Hard items once only, saying each aloud (~4 min). Then read the 5 lines twice, slow then normal speed. Tonight is lighter: no ×3, no new だ row. Watch the dakuten dots on ぎ/げ and ざ/ず/ぞ.",
-   "seconds": 240,
-   "script": "ぎ gi · げ ge · やま yama · よる yoru · かぎ kagi · ひがし higashi · ざ za · ず zu · ぞ zo · かぜ kaze · じかん jikan · あじ aji\nかぎ (kagi)\nかぜ (kaze)\nあじ (aji)\nひがし の やま (higashi no yama)\nじかん が ない (jikan ga nai)"
+   "prompt": "Workplace output, 30–60 sec: end-of-week wrap. “Here's where I got to this week, and what I'll pick up next.” Point → reason → example. Say it aloud before opening the script.",
+   "seconds": 60,
+   "script": "Point: Here's where I got to this week: I learned the basic process and wrote down the steps I wasn't sure about.\nReason: I wanted a clear picture before I try to improve anything.\nExample: Next week I'll pick up those notes and turn one of the steps into a short checklist."
+  },
+  {
+   "id": "t9",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "q": "Which tone is 事 si6?",
+     "options": [
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
+     ],
+     "answer": 1,
+     "explain": "事 si6 is low and flat. 低平调。"
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "BBC: according to a recent Ipsos poll, what percentage of the British population believes society is divided?",
+     "options": [
+      "20%",
+      "50%",
+      "80%"
+     ],
+     "answer": 2,
+     "explain": "The answer in the episode is 80%."
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "q": "BBC: a “silver bullet” is…",
+     "options": [
+      "a simple solution to a complicated problem",
+      "a polite way to disagree",
+      "an angry email"
+     ],
+     "answer": 0,
+     "explain": "silver bullet = 简单可行的解决办法。"
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "An end-of-week wrap should cover…",
+     "options": [
+      "where you got to this week, and what you'll pick up next",
+      "only what went wrong",
+      "your weekend plans in detail"
+     ],
+     "answer": 0,
+     "explain": "本周进展 + 下周接着做什么。"
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "Best order for the wrap?",
+     "options": [
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
+     ],
+     "answer": 1,
+     "explain": "先说重点，再讲原因，最后举例。"
+    }
+   ]
   }
  ]
 }
