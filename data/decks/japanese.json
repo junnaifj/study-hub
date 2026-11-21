@@ -1113,7 +1113,8 @@
     "mon09j",
     "hard12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1140,7 +1141,8 @@
     "mon09j",
     "hard12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1167,7 +1169,8 @@
     "mon09j",
     "hard12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1194,7 +1197,8 @@
     "mon09j",
     "hard12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1246,7 +1250,8 @@
     "mon09j",
     "recap12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1260,7 +1265,8 @@
     "mon09j",
     "recap12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j"
    ]
   },
   {
@@ -1286,7 +1292,8 @@
     "kana",
     "thu12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {
@@ -1299,7 +1306,8 @@
     "kana",
     "thu12j",
     "sat14rj",
-    "recap16j"
+    "recap16j",
+    "sat21j2"
    ]
   },
   {
@@ -1312,7 +1320,8 @@
     "kana",
     "thu12j",
     "sat14j",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {
@@ -1325,7 +1334,8 @@
     "kana",
     "thu12j",
     "sat14rj",
-    "recap16j"
+    "recap16j",
+    "sat21j2"
    ]
   },
   {
@@ -1338,7 +1348,8 @@
     "kana",
     "thu12j",
     "sat14rj",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {
@@ -1351,7 +1362,8 @@
     "words",
     "thu12j",
     "sat14rj",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {
@@ -1364,7 +1376,8 @@
     "words",
     "thu12j",
     "sat14rj",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {
@@ -1377,7 +1390,8 @@
     "words",
     "thu12j",
     "sat14rj",
-    "hard16j"
+    "hard16j",
+    "sat21j2"
    ]
   },
   {

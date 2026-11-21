@@ -1,153 +1,258 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-20",
- "slot": "evening",
+ "date": "2026-11-21",
+ "slot": "weekend_test",
  "tracks": [
+  "english",
+  "cantonese",
+  "japanese",
   "korean"
  ],
- "minutes": 20,
- "new_cards_limit": 5,
- "note": "Friday B, Korean light maintenance（韩语轻维护）. This is Tuesday's unlogged set — the five new cards are still new. 事 si6 first, then 4 Hard café cards — say each aloud before flipping. Recap Friday's 넷/다섯 set that came back Good. Only 5 new: 여섯/일곱 and 아이스로 주세요. Write ×3. Watch ㅅ→t in 여섯, ㅂ→p in 일곱, and 여섯/일곱 staying unchanged before 개.",
+ "minutes": 30,
+ "new_cards_limit": 3,
+ "note": "Weekly test (每周测验), 30 min, all four tracks. 事 si6 ×3 → Hard English recall (say aloud from the cue; leftover Hard only, then Wednesday's workplace recap) → Cantonese Hard + Wed recap + 3 new workplace lines → Japanese Hard kana (write once; no new) → Korean Friday Hard, recap Goods if time (no new) → 60-sec week wrap → 8-Q quiz. 先难后新。加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4. Stay on it until three are clean.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
+   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
   },
   {
    "id": "t1",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "hard17k"
+    "sat21a"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "recap17k"
+    "sat21b"
    ]
   },
   {
    "id": "t3",
-   "type": "link",
-   "title": "Native Korean numbers 6–7 (여섯, 일곱) — skim the native-number list only",
-   "url": "https://www.90daykorean.com/korean-numbers/",
-   "minutes": 2
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "sat21c"
+   ]
   },
   {
    "id": "t4",
    "type": "cards",
-   "deck": "korean",
+   "deck": "english",
    "tags": [
-    "tue17k"
+    "sat21r"
    ]
   },
   {
    "id": "t5",
-   "type": "reading",
-   "title": "Read aloud: café order (Hangul first, then check the gloss)",
-   "lang": "ko-KR",
-   "lines": [
-    {
-     "text": "여기요. 여섯 개 주세요.",
-     "gloss": "yeogiyo. yeoseot gae juseyo.",
-     "translation": "Excuse me. Six, please. · 喂，请给我六个。"
-    },
-    {
-     "text": "따뜻한 걸로 주세요. 아이스로 주세요.",
-     "gloss": "ttatteuthan geollo juseyo. aiseuro juseyo.",
-     "translation": "The hot one, please. The iced one, please. · 请来热的。请来冰的。"
-    },
-    {
-     "text": "얼음 주세요. 포장해 주세요.",
-     "gloss": "eoreum juseyo. pojanghae juseyo.",
-     "translation": "Ice, please. Takeaway, please. · 请加冰。请打包。"
-    },
-    {
-     "text": "일곱 개 주세요. 영수증 주세요.",
-     "gloss": "ilgop gae juseyo. yeongsujeung juseyo.",
-     "translation": "Seven, please. The receipt, please. · 请给我七个。请给我收据。"
-    },
-    {
-     "text": "네 개 주세요. 다섯 개 주세요.",
-     "gloss": "ne gae juseyo. daseot gae juseyo.",
-     "translation": "Four, please. Five, please. · 请给我四个。请给我五个。"
-    }
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat21y"
    ]
   },
   {
    "id": "t6",
-   "type": "speaking",
-   "prompt": "Write ×3 then say: 여섯 · 일곱 · 여섯 개 주세요 · 아이스로 주세요. Then read the café lines twice. If you have a minute, one breath: Point → Reason → Example on why 여섯 and 일곱 stay the same before 개 (unlike 넷 → 네).",
-   "seconds": 180,
-   "script": "Writing: 여섯 여섯 여섯 · 일곱 일곱 일곱 · 여섯 개 주세요 여섯 개 주세요 여섯 개 주세요 · 아이스로 주세요 아이스로 주세요 아이스로 주세요.\nLines: 여기요. 여섯 개 주세요. / 따뜻한 걸로 주세요. 아이스로 주세요. / 얼음 주세요. 포장해 주세요. / 일곱 개 주세요. 영수증 주세요. / 네 개 주세요. 다섯 개 주세요.\nExplanation: Point: native numbers from 다섯 onward keep the same form before the counter 개. Reason: only 하나/둘/셋/넷 shorten to 한/두/세/네; 다섯/여섯/일곱 do not. Example: 여섯 → 여섯 개 주세요 (six, please), not 여 개 주세요."
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat21ry"
+   ]
   },
   {
    "id": "t7",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "sat21new"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "reading",
+   "title": "Shadow these Cantonese workplace lines (Play, then say them aloud)",
+   "lang": "zh-HK",
+   "lines": [
+    {
+     "text": "你而家方便嗎？",
+     "gloss": "nei5 ji4 gaa1 fong1 bin6 maa3",
+     "translation": "Are you free now? · 你现在方便吗？"
+    },
+    {
+     "text": "我傳咗俾你啦。",
+     "gloss": "ngo5 cyun4 zo2 bei2 nei5 laa1",
+     "translation": "I've sent it over to you. · 我已经发给你了。"
+    },
+    {
+     "text": "唔該晒，幫咗大忙。",
+     "gloss": "m4 goi1 saai3, bong1 zo2 daai6 mong4",
+     "translation": "Thanks so much, that was a big help. · 多谢，帮了大忙。"
+    },
+    {
+     "text": "遲啲再覆你。",
+     "gloss": "ci4 di1 zoi3 fuk1 nei5",
+     "translation": "I'll get back to you later. · 稍后再回复你。"
+    },
+    {
+     "text": "等我睇清楚先。",
+     "gloss": "dang2 ngo5 tai2 cing1 co2 sin1",
+     "translation": "Let me check it carefully first. · 让我先看清楚。"
+    },
+    {
+     "text": "可唔可以一齊對吓？",
+     "gloss": "ho2 m4 ho2 ji5 jat1 cai4 deoi3 haa5",
+     "translation": "Can we check this together? · 可不可以一起对一下？"
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "sat21j"
+   ]
+  },
+  {
+   "id": "t10",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "sat21j2"
+   ]
+  },
+  {
+   "id": "t11",
+   "type": "speaking",
+   "prompt": "Japanese: write each of these once, then say them aloud before flipping anything back. だ行 still waits — no new cards today.",
+   "seconds": 120,
+   "script": "Write once, then say: ぎ gi · げ ge · やま yama (mountain) · よる yoru (night) · かぎ kagi (key) · ひがし higashi (east) · ざ za · じ ji · ず zu · ぜ ze · ぞ zo · かぜ kaze (wind) · じかん jikan (time) · あじ aji (taste).\nWatch the two dakuten dots on が/ざ rows: か→が, さ→ざ, し→じ, せ→ぜ."
+  },
+  {
+   "id": "t12",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat21k"
+   ]
+  },
+  {
+   "id": "t13",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat21k2"
+   ]
+  },
+  {
+   "id": "t14",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "sat21rk"
+   ]
+  },
+  {
+   "id": "t15",
+   "type": "speaking",
+   "prompt": "60 seconds, workplace English: give a short end-of-week wrap. Point → reason → example. Say it aloud before opening the script.",
+   "seconds": 60,
+   "script": "This week I focused on getting used to the daily workflow. The reason is that I need to know where work usually gets stuck before I can help. For example, I'll recap what I finished, flag anything that may slip, and confirm what I'll pick up next week. If I've got something wrong, I'll check back early: just to confirm I've got this right."
+  },
+  {
+   "id": "t16",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "mc",
-     "q": "포장해 주세요 means…",
-     "options": [
-      "the receipt, please",
-      "takeaway, please",
-      "the hot one, please"
-     ],
-     "answer": 1,
-     "explain": "포장 = pack / takeaway. 영수증 주세요 is the receipt; 따뜻한 걸로 주세요 is the hot one."
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low flat. Not 試 si3 (mid) and not 時 si4 (falling)."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "The final sound in 여섯 and 다섯 is…",
+     "q": "面試 uses which syllable?",
      "options": [
-      "s",
-      "t",
-      "n"
+      "試 si3 (mid)",
+      "事 si6 (low flat)",
+      "時 si4 (falling)"
      ],
-     "answer": 1,
-     "explain": "ㅅ at the bottom of a block sounds like t: 다섯 = daseot, 여섯 = yeoseot. Same rule as 옷 and 셋."
+     "answer": 0,
+     "explain": "面試 min6 si3. 事 si6 is the low flat one in 有咩事呀."
     },
     {
      "id": "q3",
      "type": "typed",
-     "q": "Write 'six, please' in Hangul (using 개).",
+     "q": "Jyutping for 我傳咗俾你啦 (spaces between syllables).",
      "answer": [
-      "여섯 개 주세요",
-      "여섯개 주세요"
+      "ngo5 cyun4 zo2 bei2 nei5 laa1",
+      "ngo5cyun4zo2bei2nei5laa1"
      ],
-     "explain": "여섯 stays 여섯 before 개 → 여섯 개 주세요. Same pattern as 다섯 개 주세요."
+     "explain": "我 ngo5 傳 cyun4 咗 zo2 俾 bei2 你 nei5 啦 laa1. This was Wednesday's Hard line."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "아이스로 주세요 is the contrast of…",
+     "q": "Best way to flag a delay at work?",
      "options": [
-      "포장해 주세요",
-      "따뜻한 걸로 주세요",
-      "영수증 주세요"
+      "Say nothing until asked",
+      "“I want to flag early that this may slip to Thursday.”",
+      "Blame the other team"
      ],
      "answer": 1,
-     "explain": "아이스로 주세요 = the iced one, please. 따뜻한 걸로 주세요 = the hot one, please."
+     "explain": "Early, calm, specific (en-0181)."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "영수증 주세요 means…",
+     "q": "“The done thing” means…",
      "options": [
-      "the receipt, please",
-      "ice, please",
-      "excuse me (to call staff)"
+      "a task you have already finished",
+      "what you are expected to do in a particular social situation",
+      "an unpleasant or difficult experience"
      ],
-     "answer": 0,
-     "explain": "영수증 = receipt. 얼음 is ice; 여기요 calls the staff over."
+     "answer": 1,
+     "explain": "the done thing = the expected custom. A mare is the unpleasant experience; miffed is slightly annoyed."
+    },
+    {
+     "id": "q6",
+     "type": "typed",
+     "q": "Romanise ざ (dakuten row).",
+     "answer": [
+      "za"
+     ],
+     "explain": "さ sa → ざ za with two dots."
+    },
+    {
+     "id": "q7",
+     "type": "typed",
+     "q": "Romanise じかん.",
+     "answer": [
+      "jikan"
+     ],
+     "explain": "じ ji · か ka · ん n → jikan (time)."
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "q": "How do you say “six, please” with 개?",
+     "options": [
+      "여 개 주세요 (shortened, like 네)",
+      "여섯 개 주세요 (여섯 stays the same)",
+      "여섯개요 without 주세요"
+     ],
+     "answer": 1,
+     "explain": "From 다섯 onward the native number stays the same before 개. ㅅ at the bottom of 섯 still sounds as t: yeoseot. 영수증 주세요 is “the receipt, please.”"
     }
    ]
   }
