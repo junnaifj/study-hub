@@ -916,7 +916,8 @@
    "lang": "yue-HK",
    "tags": [
     "wed18y",
-    "workplace"
+    "workplace",
+    "sat21ry"
    ]
   },
   {
@@ -927,7 +928,8 @@
    "lang": "yue-HK",
    "tags": [
     "wed18y",
-    "workplace"
+    "workplace",
+    "sat21y"
    ]
   },
   {
@@ -938,6 +940,40 @@
    "lang": "yue-HK",
    "tags": [
     "wed18y",
+    "workplace",
+    "sat21ry"
+   ]
+  },
+  {
+   "id": "yue-0075",
+   "front": "遲啲再覆你。",
+   "back": "ci4 di1 zoi3 fuk1 nei5 · I'll get back to you later.",
+   "gloss": "遲啲 ci4 di1 = later; 覆 fuk1 = reply. 稍后再回复你。",
+   "lang": "yue-HK",
+   "tags": [
+    "sat21new",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0076",
+   "front": "等我睇清楚先。",
+   "back": "dang2 ngo5 tai2 cing1 co2 sin1 · Let me check it carefully first.",
+   "gloss": "睇清楚 tai2 cing1 co2 = look over carefully; 先 sin1 = first. 让我先看清楚。",
+   "lang": "yue-HK",
+   "tags": [
+    "sat21new",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0077",
+   "front": "可唔可以一齊對吓？",
+   "back": "ho2 m4 ho2 ji5 jat1 cai4 deoi3 haa5 · Can we check this together?",
+   "gloss": "一齊 jat1 cai4 = together; 對吓 deoi3 haa5 = check / go over. 可不可以一起对一下？",
+   "lang": "yue-HK",
+   "tags": [
+    "sat21new",
     "workplace"
    ]
   }

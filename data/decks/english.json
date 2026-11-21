@@ -975,7 +975,8 @@
     "hard17a",
     "hard18a",
     "hard19a",
-    "hard20a"
+    "hard20a",
+    "sat21a"
    ]
   },
   {
@@ -1002,7 +1003,8 @@
     "hard17a",
     "hard18a",
     "hard19a",
-    "hard20a"
+    "hard20a",
+    "sat21a"
    ]
   },
   {
@@ -1050,7 +1052,8 @@
     "hard17a",
     "hard18a",
     "hard19a",
-    "hard20a"
+    "hard20a",
+    "sat21a"
    ]
   },
   {
@@ -2186,7 +2189,8 @@
     "hard17c",
     "hard18c",
     "hard19b",
-    "hard20b"
+    "hard20b",
+    "sat21b"
    ]
   },
   {
@@ -2368,7 +2372,8 @@
     "hard17b",
     "hard18b",
     "hard19b",
-    "hard20b"
+    "hard20b",
+    "sat21b"
    ]
   },
   {
@@ -2402,7 +2407,8 @@
     "hard17b",
     "hard18b",
     "hard19c",
-    "hard20c"
+    "hard20c",
+    "sat21b"
    ]
   },
   {
@@ -2505,7 +2511,8 @@
     "recap17",
     "hard18d",
     "hard19d",
-    "hard20d"
+    "hard20d",
+    "sat21c"
    ]
   },
   {
@@ -2521,7 +2528,8 @@
     "recap17",
     "hard18d",
     "hard19d",
-    "hard20d"
+    "hard20d",
+    "sat21c"
    ]
   },
   {
@@ -2569,7 +2577,8 @@
     "workplace",
     "recap18",
     "recap19",
-    "hard20e"
+    "hard20e",
+    "sat21c"
    ]
   },
   {
@@ -2585,7 +2594,8 @@
     "workplace",
     "recap18",
     "recap19",
-    "hard20e"
+    "hard20e",
+    "sat21c"
    ]
   },
   {
@@ -2613,7 +2623,8 @@
     "workplace",
     "bbc",
     "vocabulary",
-    "recap20"
+    "recap20",
+    "sat21r"
    ]
   },
   {
@@ -2627,7 +2638,8 @@
     "workplace",
     "bbc",
     "vocabulary",
-    "recap20"
+    "recap20",
+    "sat21r"
    ]
   },
   {
@@ -2641,7 +2653,8 @@
     "workplace",
     "bbc",
     "vocabulary",
-    "recap20"
+    "recap20",
+    "sat21r"
    ]
   },
   {
@@ -2653,7 +2666,8 @@
    "tags": [
     "wed18new",
     "workplace",
-    "recap20"
+    "recap20",
+    "sat21r"
    ]
   }
  ]

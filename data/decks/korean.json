@@ -1273,7 +1273,8 @@
     "cafe",
     "hard13k",
     "sat14k",
-    "hard17k"
+    "hard17k",
+    "sat21rk"
    ]
   },
   {
@@ -1287,7 +1288,8 @@
     "cafe",
     "hard13k",
     "sat14k",
-    "hard17k"
+    "hard17k",
+    "sat21k"
    ]
   },
   {
@@ -1301,7 +1303,8 @@
     "cafe",
     "hard13k",
     "sat14k",
-    "hard17k"
+    "hard17k",
+    "sat21k"
    ]
   },
   {
@@ -1404,7 +1407,8 @@
     "batchim",
     "words",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21k"
    ]
   },
   {
@@ -1419,7 +1423,8 @@
     "batchim",
     "words",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21rk"
    ]
   },
   {
@@ -1433,7 +1438,8 @@
     "numbers",
     "cafe",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21rk"
    ]
   },
   {
@@ -1447,7 +1453,8 @@
     "numbers",
     "cafe",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21rk"
    ]
   },
   {
@@ -1476,7 +1483,8 @@
     "batchim",
     "words",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21rk"
    ]
   },
   {
@@ -1491,7 +1499,8 @@
     "batchim",
     "words",
     "sat14rk",
-    "hard17k"
+    "hard17k",
+    "sat21k"
    ]
   },
   {
@@ -1505,7 +1514,8 @@
     "cafe",
     "survival",
     "sat14rk",
-    "recap17k"
+    "recap17k",
+    "sat21rk"
    ]
   },
   {
@@ -1518,7 +1528,8 @@
     "tue17k",
     "numbers",
     "batchim",
-    "words"
+    "words",
+    "sat21k2"
    ]
   },
   {
@@ -1531,7 +1542,8 @@
     "tue17k",
     "numbers",
     "batchim",
-    "words"
+    "words",
+    "sat21rk"
    ]
   },
   {
@@ -1543,7 +1555,8 @@
    "tags": [
     "tue17k",
     "numbers",
-    "cafe"
+    "cafe",
+    "sat21k2"
    ]
   },
   {
@@ -1555,7 +1568,8 @@
    "tags": [
     "tue17k",
     "numbers",
-    "cafe"
+    "cafe",
+    "sat21k2"
    ]
   },
   {
@@ -1566,7 +1580,8 @@
    "lang": "ko-KR",
    "tags": [
     "tue17k",
-    "cafe"
+    "cafe",
+    "sat21k2"
    ]
   }
  ]
