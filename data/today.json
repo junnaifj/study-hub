@@ -1,122 +1,139 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-23",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "english"
+  "japanese"
  ],
  "minutes": 15,
  "new_cards_limit": 0,
- "note": "Monday A, workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Is it OK to disagree?” (~6 min). Hard recall only — five cards, two tiny sets (recap / off your plate / frazzled, then the done thing / miffed). One-keyword cue; say it aloud before you flip. Then a short workplace read and one Point → Reason → Example. No new cards.",
+ "note": "Monday B, Japanese light maintenance（日语轻维护）. 事 si6 first, then your 10 Hard dakuten cards in two small sets of five (say each aloud before flipping), then a 2-card recap (じかん, あじ). No new cards (だ行 waits). 先难后新，加油！",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, not falling like 時 si4.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 時 si4 falls; 事 si6 sits lower and stays flat)"
+   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
   },
   {
    "id": "t1",
-   "type": "link",
-   "title": "BBC 6 Minute English: “Is it OK to disagree?” (ep-260101)",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260101",
-   "minutes": 6
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "mon23a"
+   ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard23"
+    "mon23b"
    ]
   },
   {
    "id": "t3",
-   "type": "reading",
-   "title": "A short workplace note",
-   "lang": "en-GB",
-   "lines": [
-    {
-     "text": "Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.",
-     "gloss": "recap = say the agreed points before you stop.",
-     "translation": "先复述一下：我中午前发草稿，你明天看。"
-    },
-    {
-     "text": "I’m a bit frazzled. Could you take the follow-up off my plate?",
-     "gloss": "frazzled = too many things at once. Off my plate = please handle this task.",
-     "translation": "我这边事情堆在一起。这件事请你接手。"
-    },
-    {
-     "text": "If you feel miffed, is it the done thing to reply-all?",
-     "gloss": "miffed = slightly annoyed. The done thing = what people expect in that situation.",
-     "translation": "有点恼火时，回复全部人算约定俗成吗？"
-    }
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "mon23r"
    ]
   },
   {
    "id": "t4",
-   "type": "speaking",
-   "prompt": "One short workplace answer. Order: Point → Reason → Example. Use one phrase from today’s five cards. Say it aloud, then check the script.",
-   "seconds": 70,
-   "script": "Point: I’ll keep the reply short and calm.\nReason: I’m frazzled, and a long email would sound sharper than I mean.\nExample: Just to recap: I’ll send the draft by noon, and we can talk tomorrow."
+   "type": "reading",
+   "title": "Read without romaji first (only kana you know)",
+   "lang": "ja-JP",
+   "lines": [
+    {
+     "text": "かぎ",
+     "gloss": "kagi",
+     "translation": "key · 钥匙"
+    },
+    {
+     "text": "ひがし",
+     "gloss": "higashi",
+     "translation": "east · 东"
+    },
+    {
+     "text": "よる の やま",
+     "gloss": "yoru no yama",
+     "translation": "the mountain at night · 夜晚的山"
+    },
+    {
+     "text": "かぜ が つよい",
+     "gloss": "kaze ga tsuyoi",
+     "translation": "the wind is strong · 风很大"
+    },
+    {
+     "text": "じかん が ない",
+     "gloss": "jikan ga nai",
+     "translation": "there's no time · 没有时间"
+    }
+   ]
   },
   {
    "id": "t5",
+   "type": "speaking",
+   "prompt": "Write the 10 Hard items once each, saying each aloud (~3 min). Then read the 5 lines twice, slow then normal speed. Watch the two dots on ぎ げ ざ ず ぞ.",
+   "seconds": 240,
+   "script": "ぎ gi · げ ge · ざ za · ず zu · ぞ zo · やま yama · よる yoru · かぎ kagi · ひがし higashi · かぜ kaze\nかぎ (kagi)\nひがし (higashi)\nよる の やま (yoru no yama)\nかぜ が つよい (kaze ga tsuyoi)\nじかん が ない (jikan ga nai)"
+  },
+  {
+   "id": "t6",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
-     "type": "tone",
-     "q": "Tone number for 事 in 有咩事呀？",
-     "answer": 6,
-     "explain": "事 si6, low flat. Not 試 si3 (mid) and not 時 si4 (falling)."
+     "type": "mc",
+     "q": "Which one is gi?",
+     "options": [
+      "き",
+      "ぎ",
+      "ち"
+     ],
+     "answer": 1,
+     "explain": "ぎ = き plus two dots."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "When you explain a work point, the order is…",
+     "q": "Which one is zo?",
      "options": [
-      "Example → Point → Reason",
-      "Point → Reason → Example",
-      "Reason → Example → Point"
+      "そ",
+      "ぞ",
+      "ご"
      ],
      "answer": 1,
-     "explain": "先结论，再原因，再一个例子。"
+     "explain": "ぞ = そ plus two dots."
     },
     {
      "id": "q3",
      "type": "typed",
-     "q": "Fill in: Just to ___: I’ll send the draft by noon.",
+     "q": "Write wind (kaze) in hiragana.",
      "answer": [
-      "recap",
-      "Recap"
+      "かぜ"
      ],
-     "explain": "Just to recap = say the agreed points before the meeting ends."
+     "explain": "か ka + ぜ ze."
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "“Get something off your plate” means…",
-     "options": [
-      "Finish lunch before the meeting.",
-      "Pass a task from your workload to someone else.",
-      "Clear the papers off your desk."
+     "type": "typed",
+     "q": "Romaji for ず?",
+     "answer": [
+      "zu"
      ],
-     "answer": 1,
-     "explain": "It means handing a task to someone else to deal with."
+     "explain": "ず = す + dots = zu."
     },
     {
      "id": "q5",
-     "type": "mc",
-     "q": "“Miffed” is closest to…",
-     "options": [
-      "slightly annoyed",
-      "delighted",
-      "very sleepy"
+     "type": "typed",
+     "q": "Write night (yoru) in hiragana.",
+     "answer": [
+      "よる"
      ],
-     "answer": 0,
-     "explain": "Slightly annoyed — lighter than angry. “The done thing” is what people expect you to do."
+     "explain": "よ yo + る ru."
     }
    ]
   }
