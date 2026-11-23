@@ -1,174 +1,68 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-21",
- "slot": "weekend_test",
+ "date": "2026-11-23",
+ "slot": "morning",
  "tracks": [
-  "english",
-  "cantonese",
-  "japanese",
-  "korean"
+  "english"
  ],
- "minutes": 30,
- "new_cards_limit": 3,
- "note": "Weekly test (每周测验), 30 min, all four tracks. 事 si6 ×3 → Hard English recall (say aloud from the cue; leftover Hard only, then Wednesday's workplace recap) → Cantonese Hard + Wed recap + 3 new workplace lines → Japanese Hard kana (write once; no new) → Korean Friday Hard, recap Goods if time (no new) → 60-sec week wrap → 8-Q quiz. 先难后新。加油！",
+ "minutes": 15,
+ "new_cards_limit": 0,
+ "note": "Monday A, workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Is it OK to disagree?” (~6 min). Hard recall only — five cards, two tiny sets (recap / off your plate / frazzled, then the done thing / miffed). One-keyword cue; say it aloud before you flip. Then a short workplace read and one Point → Reason → Example. No new cards.",
  "tasks": [
   {
    "id": "t0",
    "type": "speaking",
-   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4. Stay on it until three are clean.",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, and not falling like 時 si4.",
    "seconds": 30,
-   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
+   "script": "事 si6 · 事 si6 · 事 si6 (compare: 試 si3 is mid-level; 時 si4 falls; 事 si6 sits lower and stays flat)"
   },
   {
    "id": "t1",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat21a"
-   ]
+   "type": "link",
+   "title": "BBC 6 Minute English: “Is it OK to disagree?” (ep-260101)",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260101",
+   "minutes": 6
   },
   {
    "id": "t2",
    "type": "cards",
    "deck": "english",
    "tags": [
-    "sat21b"
+    "hard23"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat21c"
-   ]
-  },
-  {
-   "id": "t4",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "sat21r"
-   ]
-  },
-  {
-   "id": "t5",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "sat21y"
-   ]
-  },
-  {
-   "id": "t6",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "sat21ry"
-   ]
-  },
-  {
-   "id": "t7",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "sat21new"
-   ]
-  },
-  {
-   "id": "t8",
    "type": "reading",
-   "title": "Shadow these Cantonese workplace lines (Play, then say them aloud)",
-   "lang": "zh-HK",
+   "title": "A short workplace note",
+   "lang": "en-GB",
    "lines": [
     {
-     "text": "你而家方便嗎？",
-     "gloss": "nei5 ji4 gaa1 fong1 bin6 maa3",
-     "translation": "Are you free now? · 你现在方便吗？"
+     "text": "Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.",
+     "gloss": "recap = say the agreed points before you stop.",
+     "translation": "先复述一下：我中午前发草稿，你明天看。"
     },
     {
-     "text": "我傳咗俾你啦。",
-     "gloss": "ngo5 cyun4 zo2 bei2 nei5 laa1",
-     "translation": "I've sent it over to you. · 我已经发给你了。"
+     "text": "I’m a bit frazzled. Could you take the follow-up off my plate?",
+     "gloss": "frazzled = too many things at once. Off my plate = please handle this task.",
+     "translation": "我这边事情堆在一起。这件事请你接手。"
     },
     {
-     "text": "唔該晒，幫咗大忙。",
-     "gloss": "m4 goi1 saai3, bong1 zo2 daai6 mong4",
-     "translation": "Thanks so much, that was a big help. · 多谢，帮了大忙。"
-    },
-    {
-     "text": "遲啲再覆你。",
-     "gloss": "ci4 di1 zoi3 fuk1 nei5",
-     "translation": "I'll get back to you later. · 稍后再回复你。"
-    },
-    {
-     "text": "等我睇清楚先。",
-     "gloss": "dang2 ngo5 tai2 cing1 co2 sin1",
-     "translation": "Let me check it carefully first. · 让我先看清楚。"
-    },
-    {
-     "text": "可唔可以一齊對吓？",
-     "gloss": "ho2 m4 ho2 ji5 jat1 cai4 deoi3 haa5",
-     "translation": "Can we check this together? · 可不可以一起对一下？"
+     "text": "If you feel miffed, is it the done thing to reply-all?",
+     "gloss": "miffed = slightly annoyed. The done thing = what people expect in that situation.",
+     "translation": "有点恼火时，回复全部人算约定俗成吗？"
     }
    ]
   },
   {
-   "id": "t9",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "sat21j"
-   ]
-  },
-  {
-   "id": "t10",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "sat21j2"
-   ]
-  },
-  {
-   "id": "t11",
+   "id": "t4",
    "type": "speaking",
-   "prompt": "Japanese: write each of these once, then say them aloud before flipping anything back. だ行 still waits — no new cards today.",
-   "seconds": 120,
-   "script": "Write once, then say: ぎ gi · げ ge · やま yama (mountain) · よる yoru (night) · かぎ kagi (key) · ひがし higashi (east) · ざ za · じ ji · ず zu · ぜ ze · ぞ zo · かぜ kaze (wind) · じかん jikan (time) · あじ aji (taste).\nWatch the two dakuten dots on が/ざ rows: か→が, さ→ざ, し→じ, せ→ぜ."
+   "prompt": "One short workplace answer. Order: Point → Reason → Example. Use one phrase from today’s five cards. Say it aloud, then check the script.",
+   "seconds": 70,
+   "script": "Point: I’ll keep the reply short and calm.\nReason: I’m frazzled, and a long email would sound sharper than I mean.\nExample: Just to recap: I’ll send the draft by noon, and we can talk tomorrow."
   },
   {
-   "id": "t12",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat21k"
-   ]
-  },
-  {
-   "id": "t13",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat21k2"
-   ]
-  },
-  {
-   "id": "t14",
-   "type": "cards",
-   "deck": "korean",
-   "tags": [
-    "sat21rk"
-   ]
-  },
-  {
-   "id": "t15",
-   "type": "speaking",
-   "prompt": "60 seconds, workplace English: give a short end-of-week wrap. Point → reason → example. Say it aloud before opening the script.",
-   "seconds": 60,
-   "script": "This week I focused on getting used to the daily workflow. The reason is that I need to know where work usually gets stuck before I can help. For example, I'll recap what I finished, flag anything that may slip, and confirm what I'll pick up next week. If I've got something wrong, I'll check back early: just to confirm I've got this right."
-  },
-  {
-   "id": "t16",
+   "id": "t5",
    "type": "quiz",
    "questions": [
     {
@@ -181,78 +75,48 @@
     {
      "id": "q2",
      "type": "mc",
-     "q": "面試 uses which syllable?",
+     "q": "When you explain a work point, the order is…",
      "options": [
-      "試 si3 (mid)",
-      "事 si6 (low flat)",
-      "時 si4 (falling)"
+      "Example → Point → Reason",
+      "Point → Reason → Example",
+      "Reason → Example → Point"
      ],
-     "answer": 0,
-     "explain": "面試 min6 si3. 事 si6 is the low flat one in 有咩事呀."
+     "answer": 1,
+     "explain": "先结论，再原因，再一个例子。"
     },
     {
      "id": "q3",
      "type": "typed",
-     "q": "Jyutping for 我傳咗俾你啦 (spaces between syllables).",
+     "q": "Fill in: Just to ___: I’ll send the draft by noon.",
      "answer": [
-      "ngo5 cyun4 zo2 bei2 nei5 laa1",
-      "ngo5cyun4zo2bei2nei5laa1"
+      "recap",
+      "Recap"
      ],
-     "explain": "我 ngo5 傳 cyun4 咗 zo2 俾 bei2 你 nei5 啦 laa1. This was Wednesday's Hard line."
+     "explain": "Just to recap = say the agreed points before the meeting ends."
     },
     {
      "id": "q4",
      "type": "mc",
-     "q": "Best way to flag a delay at work?",
+     "q": "“Get something off your plate” means…",
      "options": [
-      "Say nothing until asked",
-      "“I want to flag early that this may slip to Thursday.”",
-      "Blame the other team"
+      "Finish lunch before the meeting.",
+      "Pass a task from your workload to someone else.",
+      "Clear the papers off your desk."
      ],
      "answer": 1,
-     "explain": "Early, calm, specific (en-0181)."
+     "explain": "It means handing a task to someone else to deal with."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "“The done thing” means…",
+     "q": "“Miffed” is closest to…",
      "options": [
-      "a task you have already finished",
-      "what you are expected to do in a particular social situation",
-      "an unpleasant or difficult experience"
+      "slightly annoyed",
+      "delighted",
+      "very sleepy"
      ],
-     "answer": 1,
-     "explain": "the done thing = the expected custom. A mare is the unpleasant experience; miffed is slightly annoyed."
-    },
-    {
-     "id": "q6",
-     "type": "typed",
-     "q": "Romanise ざ (dakuten row).",
-     "answer": [
-      "za"
-     ],
-     "explain": "さ sa → ざ za with two dots."
-    },
-    {
-     "id": "q7",
-     "type": "typed",
-     "q": "Romanise じかん.",
-     "answer": [
-      "jikan"
-     ],
-     "explain": "じ ji · か ka · ん n → jikan (time)."
-    },
-    {
-     "id": "q8",
-     "type": "mc",
-     "q": "How do you say “six, please” with 개?",
-     "options": [
-      "여 개 주세요 (shortened, like 네)",
-      "여섯 개 주세요 (여섯 stays the same)",
-      "여섯개요 without 주세요"
-     ],
-     "answer": 1,
-     "explain": "From 다섯 onward the native number stays the same before 개. ㅅ at the bottom of 섯 still sounds as t: yeoseot. 영수증 주세요 is “the receipt, please.”"
+     "answer": 0,
+     "explain": "Slightly annoyed — lighter than angry. “The done thing” is what people expect you to do."
     }
    ]
   }
