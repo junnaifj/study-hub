@@ -1289,7 +1289,8 @@
     "hard13k",
     "sat14k",
     "hard17k",
-    "sat21k"
+    "sat21k",
+    "tue24k"
    ]
   },
   {
@@ -1304,7 +1305,8 @@
     "hard13k",
     "sat14k",
     "hard17k",
-    "sat21k"
+    "sat21k",
+    "tue24k"
    ]
   },
   {
@@ -1500,7 +1502,8 @@
     "words",
     "sat14rk",
     "hard17k",
-    "sat21k"
+    "sat21k",
+    "tue24k"
    ]
   },
   {
@@ -1529,7 +1532,8 @@
     "numbers",
     "batchim",
     "words",
-    "sat21k2"
+    "sat21k2",
+    "tue24k"
    ]
   },
   {

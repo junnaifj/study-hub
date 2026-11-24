@@ -1,13 +1,15 @@
 {
  "schema": "studyhub.today.v1",
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "slot": "evening",
  "tracks": [
-  "japanese"
+  "japanese",
+  "english",
+  "korean"
  ],
- "minutes": 15,
+ "minutes": 25,
  "new_cards_limit": 0,
- "note": "Monday B, Japanese light maintenance（日语轻维护）. 事 si6 first, then your 10 Hard dakuten cards in two small sets of five (say each aloud before flipping), then a 2-card recap (じかん, あじ). No new cards (だ行 waits). 先难后新，加油！",
+ "note": "One sitting. First, Monday evening Japanese if it is still open (it was not on the site yesterday): 事 si6, then the Hard dakuten sets and the short recap. Then today’s short Hard only — five English cards, then four Korean cards. Say each cue aloud before you flip. No new cards, no BBC. Monday morning English is not repeated here.",
  "tasks": [
   {
    "id": "t0",
@@ -134,6 +136,88 @@
       "よる"
      ],
      "explain": "よ yo + る ru."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard23"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "cards",
+   "deck": "korean",
+   "tags": [
+    "tue24k"
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "speaking",
+   "prompt": "One short workplace line. Order: Point → Reason → Example. Use one phrase from the English cards. Say it aloud, then check the script.",
+   "seconds": 60,
+   "script": "Point: I’ll keep the reply short.\nReason: I’m frazzled, so a long email would sound sharper than I mean.\nExample: Just to recap: I’ll send the draft by noon, and we can talk tomorrow."
+  },
+  {
+   "id": "t10",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q6",
+     "type": "tone",
+     "q": "Tone number for 事 in 有咩事呀？",
+     "answer": 6,
+     "explain": "事 si6, low and flat. Not 試 si3, not 時 si4."
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "q": "When you explain a work point, the order is…",
+     "options": [
+      "Example → Point → Reason",
+      "Point → Reason → Example",
+      "Reason → Example → Point"
+     ],
+     "answer": 1,
+     "explain": "Point, then reason, then one example."
+    },
+    {
+     "id": "q8",
+     "type": "typed",
+     "q": "Fill in: Just to ___: I’ll send the draft by noon.",
+     "answer": [
+      "recap",
+      "Recap"
+     ],
+     "explain": "Just to recap = say the agreed points before you stop."
+    },
+    {
+     "id": "q9",
+     "type": "mc",
+     "q": "영수증 주세요 means…",
+     "options": [
+      "The hot one, please.",
+      "The receipt, please.",
+      "Six, please."
+     ],
+     "answer": 1,
+     "explain": "영수증 is the receipt. 따뜻한 걸로 주세요 is the hot one. 여섯 is six."
+    },
+    {
+     "id": "q10",
+     "type": "mc",
+     "q": "여섯 is…",
+     "options": [
+      "ice",
+      "six",
+      "the receipt"
+     ],
+     "answer": 1,
+     "explain": "여섯 = six. 얼음 = ice."
     }
    ]
   }
