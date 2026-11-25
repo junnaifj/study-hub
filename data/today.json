@@ -1,132 +1,148 @@
 {
-  "schema": "studyhub.today.v1",
-  "date": "2026-11-25",
-  "slot": "morning",
-  "tracks": [
-    "english"
-  ],
-  "minutes": 20,
-  "new_cards_limit": 3,
-  "note": "Wednesday A, workplace English（职场英语）: 事 si6 ×3, then BBC 6 Minute English “Are microplastics harming us?” (~6 min). Hard recall first (en-0182, 0185, 0186, 0188, 0189): say each aloud before flipping, then a from-memory run-through. Recap of recent workplace cards. 3 new BBC words (correlation / quantified / emerging) only if some Hard cards come back Good. Then a 30–60 sec mid-week update (point → reason → example). 加油！",
-  "tasks": [
+ "schema": "studyhub.today.v1",
+ "date": "2026-11-25",
+ "slot": "evening",
+ "tracks": [
+  "cantonese"
+ ],
+ "minutes": 15,
+ "new_cards_limit": 3,
+ "note": "Wednesday B, Cantonese speaking（粤语口语）, light. 事 si6 ×3 first. Hard-first: 我傳咗俾你啦. Recap Saturday lines (遲啲再覆你 etc.), then 3 new workplace lines to shadow, a 1-min take (point → reason → example), 5-Q quiz, end with Hard. 加油！",
+ "tasks": [
+  {
+   "id": "t0",
+   "type": "speaking",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3.",
+   "seconds": 30,
+   "script": "事 si6 · 事 si6 · 事 si6 (low, flat, no rise)"
+  },
+  {
+   "id": "t1",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "hard25y"
+   ]
+  },
+  {
+   "id": "t2",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap25y"
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed25y"
+   ]
+  },
+  {
+   "id": "t4",
+   "type": "reading",
+   "title": "Read / shadow the 3 new workplace lines (Hub Play may be silent — use the mp3: audio/cantonese/wed25_yue_lines.mp3)",
+   "lang": "yue-HK",
+   "lines": [
     {
-      "id": "t0",
-      "type": "speaking",
-      "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, not falling like 時 si4.",
-      "seconds": 30,
-      "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
+     "text": "我同你確認吓。",
+     "gloss": "ngo5 tung4 nei5 kok3 jing6 haa5",
+     "translation": "I'll confirm with you. · 我跟你确认一下。"
     },
     {
-      "id": "t1",
-      "type": "link",
-      "title": "BBC 6 Minute English: “Are microplastics harming us?” (listen ~6 min; notice correlation / quantified / emerging)",
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
-      "minutes": 6
+     "text": "我今日搞掂佢。",
+     "gloss": "ngo5 gam1 jat6 gaau2 dim6 keoi5",
+     "translation": "I'll get it done today. · 我今天搞定它。"
     },
     {
-      "id": "t2",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "hard25a"
-      ]
-    },
-    {
-      "id": "t3",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "hard25b"
-      ]
-    },
-    {
-      "id": "t4",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "recap25"
-      ]
-    },
-    {
-      "id": "t5",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "wed25"
-      ]
-    },
-    {
-      "id": "t6",
-      "type": "speaking",
-      "prompt": "Workplace output, 30–60 sec: mid-week daily update. “Here's where I am today, and what I'll finish this afternoon.” Point → reason → example. Say it aloud before opening the script.",
-      "seconds": 60,
-      "script": "Point: Here's my mid-week update: I'll finish the current task this afternoon and send a short note by the end of the day.\nReason: I want you to have a clear picture of where things stand before tomorrow.\nExample: This morning I'm checking the numbers; if anything looks off, I'll flag it early rather than wait."
-    },
-    {
-      "id": "t7",
-      "type": "quiz",
-      "questions": [
-        {
-          "id": "q1",
-          "type": "mc",
-          "q": "Which tone is 事 si6?",
-          "options": [
-            "Mid level (3)",
-            "Low flat (6)",
-            "Falling (4)"
-          ],
-          "answer": 1,
-          "explain": "事 si6 is low and flat. 低平调。試 si3 is mid; 時 si4 falls."
-        },
-        {
-          "id": "q2",
-          "type": "mc",
-          "q": "BBC: how long would it take to ingest a credit-card-sized amount of microplastics?",
-          "options": [
-            "13,000 years",
-            "23,000 years",
-            "33,000 years"
-          ],
-          "answer": 1,
-          "explain": "The answer in the episode is 23,000 years (not the popular ‘a credit card a week’ claim)."
-        },
-        {
-          "id": "q3",
-          "type": "mc",
-          "q": "BBC: a “correlation” is…",
-          "options": [
-            "a sudden, sharp increase",
-            "a relationship between two or more things",
-            "a measurement with an exact number"
-          ],
-          "answer": 1,
-          "explain": "correlation = 相关关系。quantified = given a number; a spike = a sudden sharp increase."
-        },
-        {
-          "id": "q4",
-          "type": "mc",
-          "q": "A mid-week daily update should cover…",
-          "options": [
-            "where you are today, and what you'll finish this afternoon",
-            "only what went wrong last month",
-            "your weekend plans in detail"
-          ],
-          "answer": 0,
-          "explain": "今日进展 + 今天下午要完成什么。"
-        },
-        {
-          "id": "q5",
-          "type": "mc",
-          "q": "Best order for the update?",
-          "options": [
-            "Example → Reason → Point",
-            "Point → Reason → Example",
-            "Reason → Point"
-          ],
-          "answer": 1,
-          "explain": "先说重点，再讲原因，最后举例。"
-        }
-      ]
+     "text": "有咩問題隨時搵我。",
+     "gloss": "jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5",
+     "translation": "Find me anytime if there is any problem. · 有问题随时找我。"
     }
-  ]
+   ]
+  },
+  {
+   "id": "t5",
+   "type": "speaking",
+   "prompt": "Shadow the 3 new lines ×3 (audio: audio/cantonese/wed25_yue_lines.mp3; Hub Play may be silent), then say them without the script. Then a 1-minute take: point → reason → example. Point: tell a colleague you will confirm and finish it today. Reason: so they can plan. Example: offer to be found anytime.",
+   "seconds": 150,
+   "script": "我同你確認吓。 ngo5 tung4 nei5 kok3 jing6 haa5 · 我今日搞掂佢。 ngo5 gam1 jat6 gaau2 dim6 keoi5 · 有咩問題隨時搵我。 jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5"
+  },
+  {
+   "id": "t6",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "q": "Which tone is 事 si6?",
+     "options": [
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
+     ],
+     "answer": 1,
+     "explain": "事 si6 is low and flat. 低平调。"
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "我傳咗俾你啦 means…",
+     "options": [
+      "Please take a look.",
+      "I've sent it over to you.",
+      "Are you free now?"
+     ],
+     "answer": 1,
+     "explain": "傳咗 cyun4 zo2 = have sent. 已经发给你了。"
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "q": "遲啲再覆你 means…",
+     "options": [
+      "I'll get back to you later.",
+      "Let me check first.",
+      "Can we check together?"
+     ],
+     "answer": 0,
+     "explain": "遲啲 = later; 覆 = reply. 稍后再回复你。"
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "我今日搞掂佢 means…",
+     "options": [
+      "I'll get it done today.",
+      "I'll confirm with you.",
+      "Find me anytime."
+     ],
+     "answer": 0,
+     "explain": "搞掂 gaau2 dim6 = get it sorted. 我今天搞定它。"
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "隨時搵我 means…",
+     "options": [
+      "find me anytime",
+      "wait a moment",
+      "I am new here"
+     ],
+     "answer": 0,
+     "explain": "隨時 = anytime; 搵 = look for. 随时找我。"
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "hard25y"
+   ]
+  }
+ ]
 }
