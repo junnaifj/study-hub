@@ -929,7 +929,8 @@
    "tags": [
     "wed18y",
     "workplace",
-    "sat21y"
+    "sat21y",
+    "hard25y"
    ]
   },
   {
@@ -952,7 +953,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat21new",
-    "workplace"
+    "workplace",
+    "recap25y"
    ]
   },
   {
@@ -963,7 +965,8 @@
    "lang": "yue-HK",
    "tags": [
     "sat21new",
-    "workplace"
+    "workplace",
+    "recap25y"
    ]
   },
   {
@@ -974,6 +977,40 @@
    "lang": "yue-HK",
    "tags": [
     "sat21new",
+    "workplace",
+    "recap25y"
+   ]
+  },
+  {
+   "id": "yue-0078",
+   "front": "我同你確認吓。",
+   "back": "ngo5 tung4 nei5 kok3 jing6 haa5 · I'll confirm with you.",
+   "gloss": "確認 kok3 jing6 = confirm; 吓 haa5 softens it. 我跟你确认一下。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed25y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0079",
+   "front": "我今日搞掂佢。",
+   "back": "ngo5 gam1 jat6 gaau2 dim6 keoi5 · I'll get it done today.",
+   "gloss": "搞掂 gaau2 dim6 = get it sorted; 佢 keoi5 = it/him/her. 我今天搞定它。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed25y",
+    "workplace"
+   ]
+  },
+  {
+   "id": "yue-0080",
+   "front": "有咩問題隨時搵我。",
+   "back": "jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5 · Find me anytime if there is any problem.",
+   "gloss": "隨時 ceoi4 si4 = anytime; 搵 wan2 = look for. 有问题随时找我。",
+   "lang": "yue-HK",
+   "tags": [
+    "wed25y",
     "workplace"
    ]
   }
