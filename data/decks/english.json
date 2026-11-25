@@ -1,2679 +1,2729 @@
 {
- "schema": "studyhub.deck.v1",
- "track": "english",
- "cards": [
-  {
-   "id": "en-0001",
-   "front": "What does STAR stand for?",
-   "back": "Situation · Task · Action · Result",
-   "gloss": "A clear structure for an interview example.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0002",
-   "front": "Describe a measurable result.",
-   "back": "I reduced the processing time by 30%.",
-   "gloss": "Choose a concrete outcome rather than a general claim.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0003",
-   "front": "practise / practice",
-   "back": "Practise is the verb; practice is the noun.",
-   "gloss": "I practise daily. Daily practice helps.",
-   "lang": "en-GB",
-   "tags": [
-    "vocabulary",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0004",
-   "front": "Could you clarify that?",
-   "back": "A polite way to ask for a clearer explanation.",
-   "gloss": "Useful in meetings and interviews.",
-   "lang": "en-GB",
-   "tags": [
-    "workplace",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0005",
-   "front": "STAR · Situation opener",
-   "back": "“In my previous role, we needed to…”",
-   "gloss": "情境: set the scene in 1–2 sentences.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0006",
-   "front": "STAR · Task",
-   "back": "“My responsibility was to…”",
-   "gloss": "任务: your specific goal.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0007",
-   "front": "STAR · Action",
-   "back": "“I decided to… / I built… / I coordinated…”",
-   "gloss": "行动: say I, not we.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0008",
-   "front": "STAR · Result",
-   "back": "“As a result, … improved by … / which led to…”",
-   "gloss": "结果: quantify if possible.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0009",
-   "front": "Buying thinking time",
-   "back": "“That's a great question. Let me think for a second.”",
-   "gloss": "Pause calmly instead of filling with um.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0010",
-   "front": "Answering a weakness question",
-   "back": "“One area I've been working on is… so I've started…”",
-   "gloss": "Name the weakness, then show the fix.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0011",
-   "front": "Why this role?",
-   "back": "“What draws me to this role is… and it connects directly to my work on…”",
-   "gloss": "Link the role to your experience.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "recap",
-    "recap27",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0012",
-   "front": "Closing the interview",
-   "back": "“Thank you for your time. I'm really excited about the chance to contribute to…”",
-   "gloss": "End warmly and specifically.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "recap27",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0013",
-   "front": "Linking skills to impact",
-   "back": "“I used data analysis to identify…, which helped the team decide…”",
-   "gloss": "Skill → action → decision.",
-   "lang": "en-GB",
-   "tags": [
-    "interviews",
-    "STAR",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0014",
-   "front": "STAR · Result with a number",
-   "back": "“As a result, we delivered ___ % of the data we needed / YOLO reached ___.” Fill ONE number you can defend.",
-   "gloss": "结果必须带数字. Vague praise is not a Result.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0015",
-   "front": "ArcGIS Pro (say it)",
-   "back": "ark-JEE-eye-ess Pro · “I tried annotating the sites in ArcGIS Pro, but coverage was still too thin.”",
-   "gloss": "Say each letter of GIS slowly: G-I-S.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0016",
-   "front": "YOLO (say it)",
-   "back": "YOH-loh (You Only Look Once) · “Our YOLO model detected older pedestrians in the street-view frames.”",
-   "gloss": "Two syllables: YO-LO. Not “yolo” mumbled as one blur.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0017",
-   "front": "CSDI API (say it)",
-   "back": "C-S-D-I A-P-I · “I proposed the Hong Kong government CSDI API for spatial data.”",
-   "gloss": "Spell both acronyms letter by letter.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0018",
-   "front": "pandas (say it)",
-   "back": "PAN-duz · “I ran a Python pilot with pandas to check the CSDI sample.”",
-   "gloss": "Like the animal. Not “pan-DAS”.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0019",
-   "front": "Purpose sentence",
-   "back": "“The purpose was to [deliver X] so that [another team / the project could Y].”",
-   "gloss": "目的句: purpose + so that. Put this in Task or early Action.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap",
-    "recap27"
-   ]
-  },
-  {
-   "id": "en-0020",
-   "front": "Situation vs Task — pick one",
-   "back": "Situation = the messy context (patchy SVI, project stalled). Task = YOUR job (deliver a usable dataset + analyse features).",
-   "gloss": "情境 vs 任务. Don’t merge them into one blurry paragraph.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1",
-    "recap"
-   ]
-  },
-  {
-   "id": "en-0021",
-   "front": "magic bullet (BBC sleep)",
-   "back": "a single perfect fix · “There is no magic bullet for better sleep — diet is only one factor.”",
-   "gloss": "万能药 / 一招解决. Use it about sleep research, not your STAR.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1"
-   ]
-  },
-  {
-   "id": "en-0022",
-   "front": "feed information (BBC sleep)",
-   "back": "to give your body useful signals through food · “Evening meals can feed information to your sleep system.”",
-   "gloss": "向身体“投喂”信息. Not about social-media feeds.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1"
-   ]
-  },
-  {
-   "id": "en-0023",
-   "front": "nutrients (BBC sleep)",
-   "back": "useful substances in food · “Researchers asked which nutrients support deeper sleep.”",
-   "gloss": "营养素. Harder: use it in a sentence about sleep research.",
-   "lang": "en-GB",
-   "tags": [
-    "star",
-    "story1"
-   ]
-  },
-  {
-   "id": "en-0024",
-   "front": "rejection (BBC)",
-   "back": "being told no; an idea or application refused · “Every rejection told me something about the role.”",
-   "gloss": "被拒绝. Harder: say one sentence about job applications using it.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0025",
-   "front": "spike (BBC)",
-   "back": "to increase suddenly · “Applications spike in September.”",
-   "gloss": "骤增. Verb and noun: a spike in demand.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "hard02",
-    "recap03",
-    "recap04",
-    "hard04",
-    "hard05"
-   ]
-  },
-  {
-   "id": "en-0026",
-   "front": "socially anxious (BBC)",
-   "back": "worried about talking to people or being judged · “I used to feel socially anxious in group interviews.”",
-   "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0027",
-   "front": "come easier (BBC)",
-   "back": "become easier to do · “Speaking up comes easier with practice.”",
-   "gloss": "变得更容易. Note: comes easier, not ‘more easy’.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0028",
-   "front": "perfectionism (BBC)",
-   "back": "feeling everything must be perfect · a safe ‘weakness’ if you show how you manage it",
-   "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "hard02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0029",
-   "front": "appraise (BBC)",
-   "back": "to judge or assess · “I appraised each data source against our protocol.”",
-   "gloss": "评估. Formal; good in STAR Action lines.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "recap27",
-    "recap28",
-    "recap29"
-   ]
-  },
-  {
-   "id": "en-0030",
-   "front": "Tell me about yourself: 3-part order",
-   "back": "Present (who I am now) → Past (proof: projects) → Future (why this role)",
-   "gloss": "自我介绍三段式: 现在→过去→未来. 60 秒内.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "recap27",
-    "recap28",
-    "recap29"
-   ]
-  },
-  {
-   "id": "en-0031",
-   "front": "60-sec intro: your first line",
-   "back": "“I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.”",
-   "gloss": "第一句要短、有力. Say it without notes.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "recap27",
-    "recap28",
-    "recap29"
-   ]
-  },
-  {
-   "id": "en-0032",
-   "front": "narrow down (the buffer)",
-   "back": "make a range smaller and more precise · “This let the team narrow down the distance buffer.”",
-   "gloss": "缩小范围. STAR #2 key verb.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "recap27",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0033",
-   "front": "seasonal pattern",
-   "back": "a change that repeats by season · “Older residents were mainly active in spring and winter.”",
-   "gloss": "季节性规律. SEE-zuh-nuhl.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0034",
-   "front": "buffer (GIS) — say it in a sentence",
-   "back": "the zone around a feature within a set distance · “a 2–3 station buffer around each estate”",
-   "gloss": "缓冲区. BUF-er, not boo-fer.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0035",
-   "front": "regression analysis (say it)",
-   "back": "ri-GRESH-un uh-NAL-uh-sis · stress on GRESH and NAL",
-   "gloss": "回归分析. Two stresses; don't flatten them.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0036",
-   "front": "spatial / geospatial (say it)",
-   "back": "SPAY-shul · JEE-oh-SPAY-shul",
-   "gloss": "空间的 / 地理空间的. Not spa-tee-al.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0037",
-   "front": "“The key insight was that…”",
-   "back": "Insight line between Action and Result · “The key insight was that most trips stayed within two to three MTR stations.”",
-   "gloss": "关键发现是…. Use once per STAR.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0038",
-   "front": "“This allowed the team to…”",
-   "back": "Result linker: outcome for OTHERS, not just you",
-   "gloss": "这让团队得以…. Fixes Sat's purpose-sentence slip.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0039",
-   "front": "“I took ownership of…”",
-   "back": "shows initiative · “I took ownership of the SVI pipeline.”",
-   "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0040",
-   "front": "trade-off",
-   "back": "a balance between two good things · “The trade-off was coverage versus image quality.”",
-   "gloss": "权衡取舍. Interviewers love hearing you name one.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "sat31",
-    "hard02",
-    "recap03",
-    "recap04",
-    "hard04",
-    "hard05"
-   ]
-  },
-  {
-   "id": "en-0041",
-   "front": "stakeholder",
-   "back": "a person or team affected by your work · “I shared the dataset with the partner team, a key stakeholder.”",
-   "gloss": "利益相关方. STAYK-hol-der.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0042",
-   "front": "Handling rejection — interview answer",
-   "back": "“I treat a no as feedback: I ask what was missing, adjust, and try again.”",
-   "gloss": "如何面对被拒. Ties BBC topic to interviews.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0043",
-   "front": "“If I did it again, I would…”",
-   "back": "reflection line after Result; shows learning · second conditional",
-   "gloss": "如果重来我会…. would + verb, not will.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0044",
-   "front": "dissertation (say it)",
-   "back": "dis-er-TAY-shun",
-   "gloss": "毕业论文. Stress on TAY.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26"
-   ]
-  },
-  {
-   "id": "en-0045",
-   "front": "“I'm keen to bring … to this role.”",
-   "back": "closing line of the 60-sec intro · “I'm keen to bring my GIS and Python skills to this role.”",
-   "gloss": "我希望把…带到这个岗位. keen = eager, British.",
-   "lang": "en-GB",
-   "tags": [
-    "mon26",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0046",
-   "front": "“I'm an urban analytics graduate from HKU, and I work with geospatial data.”",
-   "back": "60-sec intro, PRESENT opener: who you are now (1 sentence).",
-   "gloss": "现在: 我是谁。Start here, not with your childhood.",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0047",
-   "front": "“Most recently, I worked as a research assistant on…”",
-   "back": "PAST bridge: ‘…an ageing-friendly city project at HKU.’",
-   "gloss": "过去: 最近的经历。most recently = 最近一段",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0048",
-   "front": "“Before that, I studied urban studies at Sheffield.”",
-   "back": "PAST, earlier step. Keep it to one line.",
-   "gloss": "更早: 一句带过",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0049",
-   "front": "“Going forward, I'm looking to…”",
-   "back": "FUTURE close: ‘…apply spatial analysis to real planning decisions.’",
-   "gloss": "未来: 接下来想做什么",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0050",
-   "front": "“What draws me to this role is…”",
-   "back": "Why-this-job opener; then ONE specific thing about the team/company.",
-   "gloss": "吸引我的是… draw = 吸引",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30",
-    "sat31",
-    "hard02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0051",
-   "front": "“X comes naturally to me.”",
-   "back": "✓ Data work comes naturally to me. ✗ comes easier (needs ‘than’). ✓ It comes more easily now.",
-   "gloss": "对我来说很自然。Monday's miss: 'comes easier'",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0052",
-   "front": "hands-on",
-   "back": "practical, done yourself: ‘hands-on experience with ArcGIS Pro’",
-   "gloss": "亲手做的、实操的",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28"
-   ]
-  },
-  {
-   "id": "en-0053",
-   "front": "end-to-end",
-   "back": "whole process start→finish: ‘I built the pipeline end-to-end, from API to map.’",
-   "gloss": "从头到尾全流程",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0054",
-   "front": "stakeholder (STAKE-hold-er)",
-   "back": "people affected by / caring about the project: planners, residents, funders",
-   "gloss": "利益相关方。stress on STAKE",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "hard02"
-   ]
-  },
-  {
-   "id": "en-0055",
-   "front": "“derive insights from”",
-   "back": "‘I derive insights from street-level imagery.’ derive = get from (formal)",
-   "gloss": "从…中得出洞见",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0056",
-   "front": "streamline",
-   "back": "make a process simpler/faster: ‘I streamlined the image download with the CSDI API.’",
-   "gloss": "简化、精简流程",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0057",
-   "front": "“I'd describe myself as…”",
-   "back": "‘…detail-oriented and curious.’ Then PROVE it with one example.",
-   "gloss": "我会形容自己是… (后面要有例子)",
-   "lang": "en-GB",
-   "tags": [
-    "tue27",
-    "recap28",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0058",
-   "front": "Action, step 1: “First, I cleaned the activity data and split it by season and by location.”",
-   "back": "Start the Action with ONE concrete step, using ‘I’, not ‘we’.",
-   "gloss": "行动第一步：先说你自己做的具体动作",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0059",
-   "front": "Action, step 2: “Then I mapped where older residents were active compared with MTR stations.”",
-   "back": "‘compared with’ links two things. Keep the steps in order: First → Then.",
-   "gloss": "第二步：画图对比 MTR 站",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0060",
-   "front": "Action, insight: “I noticed a clear pattern: most activity happened within two to three MTR stations.”",
-   "back": "‘I noticed a clear pattern:’ + colon + the finding. This is your hook.",
-   "gloss": "发现规律",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0061",
-   "front": "Action, seasonal: “They were mainly active in spring and winter.”",
-   "back": "‘mainly active in + season’. No ‘the’ before spring/winter here.",
-   "gloss": "季节规律，季节前不加 the",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0062",
-   "front": "Action, initiative: “I took the initiative to flag this to the team and suggest a narrower buffer.”",
-   "back": "‘took the initiative to + verb’ = did it without being asked.",
-   "gloss": "主动提出",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0063",
-   "front": "Result: “As a result, the team narrowed the distance buffer for the regression analysis.”",
-   "back": "Open the Result with ‘As a result,’. Say what CHANGED for the team.",
-   "gloss": "结果：团队缩小了距离缓冲区",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0064",
-   "front": "Result, why it matters: “…which made the model more focused on where older residents actually go.”",
-   "back": "‘which made…’ adds the impact. Don't invent numbers; say the real change.",
-   "gloss": "影响：模型更聚焦",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0065",
-   "front": "Reflection: “Looking back, I learned that a quick descriptive check can save a lot of modelling time.”",
-   "back": "Optional last line after R: what you learned. Keep it to one sentence.",
-   "gloss": "反思：一句话",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR",
-    "recap29",
-    "recap30"
-   ]
-  },
-  {
-   "id": "en-0066",
-   "front": "Say it right: regression · buffer · descriptive",
-   "back": "ri-GRESH-un · BUFF-er · dis-KRIP-tiv",
-   "gloss": "发音：回归 · 缓冲区 · 描述性",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0067",
-   "front": "“narrow” (verb) vs “narrow down”",
-   "back": "narrow the buffer = make the range smaller · narrow down the options = reduce the choices",
-   "gloss": "narrow 缩小（范围） · narrow down 筛选",
-   "lang": "en-GB",
-   "tags": [
-    "wed28",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0068",
-   "front": "STAR #2 Result line",
-   "back": "As a result, the team narrowed the distance buffer for the regression analysis.",
-   "gloss": "结果：团队缩小了回归分析的距离缓冲区",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "sat31r",
-    "recap02"
-   ]
-  },
-  {
-   "id": "en-0069",
-   "front": "Result + 'which made…'",
-   "back": "…which made the model more focused on where older residents actually go.",
-   "gloss": "which made… 使得……（结果的影响）",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "recap30",
-    "sat31",
-    "recap02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0070",
-   "front": "'so that' = outcome for OTHERS",
-   "back": "I flagged the pattern so that the team could choose a tighter buffer.",
-   "gloss": "so that 后面写别人能做到什么",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "recap30",
-    "sat31",
-    "hard02",
-    "recap02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0071",
-   "front": "'so that' + could (past)",
-   "back": "I cleaned the data by season so that we could compare spring and winter.",
-   "gloss": "过去时：so that + could + 动词原形",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "sat31r",
-    "recap02"
-   ]
-  },
-  {
-   "id": "en-0072",
-   "front": "took the initiative to + verb",
-   "back": "I took the initiative to suggest a narrower buffer.",
-   "gloss": "主动去做 = took the initiative to + 原形",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "recap30",
-    "sat31",
-    "hard02",
-    "recap02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0073",
-   "front": "Learning line (optional R)",
-   "back": "Looking back, I learned that a quick descriptive check can save a lot of modelling time.",
-   "gloss": "回顾：快速描述性检查能省大量建模时间 · descriptive = dis-KRIP-tiv",
-   "lang": "en-GB",
-   "tags": [
-    "thu29",
-    "STAR",
-    "sat31",
-    "recap02",
-    "recap03",
-    "recap04"
-   ]
-  },
-  {
-   "id": "en-0074",
-   "front": "STAR #3 Situation opener",
-   "back": "On an AI data-centre policy research programme, I was the sole analyst, and the scope was ambiguous.",
-   "gloss": "STAR #3 情境：唯一分析员 + 范围模糊 · sole = SOHL",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11"
-   ]
-  },
-  {
-   "id": "en-0075",
-   "front": "STAR #3 · Point (task) · one cue: defensible",
-   "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
-   "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11",
-    "hard12a",
-    "hard13f",
-    "sat14a",
-    "hard16a",
-    "hard17a",
-    "hard18a",
-    "hard19a",
-    "hard20a"
-   ]
-  },
-  {
-   "id": "en-0076",
-   "front": "STAR #3 · Reason beat 1 · one cue: working definition",
-   "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
-   "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11",
-    "hard12a",
-    "hard13f",
-    "sat14a",
-    "hard16a",
-    "hard17a",
-    "hard18a",
-    "hard19a",
-    "hard20a",
-    "sat21a"
-   ]
-  },
-  {
-   "id": "en-0077",
-   "front": "STAR #3 · Reason beat 2 · one cue: mapped",
-   "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
-   "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11",
-    "hard12a",
-    "hard13f",
-    "sat14a",
-    "hard16a",
-    "hard17a",
-    "hard18a",
-    "hard19a",
-    "hard20a",
-    "sat21a"
-   ]
-  },
-  {
-   "id": "en-0078",
-   "front": "STAR #3 · Reason beat 3: workflow + log · cues: iterative, written log\nB______ t__ d________ k___ s_______, I b____ a_ i________ w_______, a__ a____ e____ m______ I k___ a w______ l__ o_ w___ w_ a_____.",
-   "back": "Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.",
-   "gloss": "迭代流程 + 会议记录 · iterative = IT-er-uh-tiv",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11",
-    "hard12a",
-    "hard13f"
-   ]
-  },
-  {
-   "id": "en-0079",
-   "front": "STAR #3 · Example / Result · one cue: baseline",
-   "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
-   "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "STAR",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09",
-    "recap11",
-    "hard12a",
-    "hard13f",
-    "sat14a",
-    "hard16a",
-    "hard17a",
-    "hard18a",
-    "hard19a",
-    "hard20a",
-    "sat21a"
-   ]
-  },
-  {
-   "id": "en-0080",
-   "front": "Follow-up: changing direction",
-   "back": "I stayed neutral and kept written notes of the agreed direction, deliverables and deadlines, so changes were visible to everyone.",
-   "gloss": "追问：方向变动 → 中立 + 书面记录（不甩锅）",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "followup",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0081",
-   "front": "Follow-up: missing data",
-   "back": "I treated the gaps as a finding: the list of missing indicators became one of the outputs.",
-   "gloss": "追问：缺数据 → 缺口本身成为成果",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "followup",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0082",
-   "front": "Hedging under ambiguity",
-   "back": "Based on the data available, my working assumption was… and I flagged it clearly.",
-   "gloss": "模糊情境下的稳妥说法 · flagged = 明确标注",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "phrase",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0083",
-   "front": "'took the initiative to' ×STAR #3",
-   "back": "I took the initiative to propose a working definition before the analysis started.",
-   "gloss": "took the initiative + to + 动词（第3次巩固）",
-   "lang": "en-GB",
-   "tags": [
-    "fri30",
-    "phrase",
-    "sat31",
-    "hard02",
-    "recap02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0084",
-   "front": "Follow-up: \"Without peer review, how did you check quality?\"",
-   "back": "I cross-checked my figures against other regions' data, and I stated my assumptions and data gaps openly.",
-   "gloss": "没有同行评审时如何保证质量 · point → reason → example",
-   "lang": "en-GB",
-   "tags": [
-    "sat31new",
-    "phrase",
-    "hard02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0085",
-   "front": "defensible (di-FEN-si-bul)",
-   "back": "able to be justified · \"I built a defensible evidence base.\"",
-   "gloss": "站得住脚的 · stress on FEN",
-   "lang": "en-GB",
-   "tags": [
-    "sat31new",
-    "word",
-    "hard02",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0086",
-   "front": "governance (GUV-er-nunss)",
-   "back": "how something is managed and regulated · \"data-centre governance mechanisms\"",
-   "gloss": "治理 · stress on GUV",
-   "lang": "en-GB",
-   "tags": [
-    "sat31new",
-    "word",
-    "hard03",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0087",
-   "front": "Intro v2 · Present",
-   "back": "I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.",
-   "gloss": "现在：我是谁 + 我做什么 · start with the present",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0088",
-   "front": "Intro v2 · Past bridge",
-   "back": "Most recently, I worked as a research assistant on an ageing-friendly city project.",
-   "gloss": "过去：最近的经历 · 'Most recently, I worked as…'",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0089",
-   "front": "Intro v2 · Past proof",
-   "back": "I built a street-view dataset with about 98% coverage, using Python and ArcGIS Pro.",
-   "gloss": "过去：一个数字 + 一个方法 · one number, one method",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0090",
-   "front": "Intro v2 · Second proof",
-   "back": "Before that, I was the sole analyst on an AI data-centre policy project.",
-   "gloss": "再一个证据 · 'Before that, I was…'",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0091",
-   "front": "Intro v2 · Future",
-   "back": "Going forward, I'm looking to apply spatial analysis to real planning decisions.",
-   "gloss": "未来：我想做什么 · 'Going forward, I'm looking to…'",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0092",
-   "front": "Intro v2 · Close",
-   "back": "That's why this role really appeals to me.",
-   "gloss": "收尾：连到这个职位 · appeal TO me (not 'appeals me')",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "intro2",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0093",
-   "front": "Follow-up: \"How did you handle the direction changing?\"",
-   "back": "I kept a written log after every meeting, so everyone agreed on the direction, the deliverables and the deadlines.",
-   "gloss": "方向变化怎么处理 · point (log) → reason (alignment) → example",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "star3fu",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0094",
-   "front": "Follow-up: \"How did you deal with missing data?\"",
-   "back": "I counted which indicators Hong Kong was missing and compared them with other regions, so the gap list became an output itself.",
-   "gloss": "缺数据怎么办 · the gap list became an output",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "star3fu",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0095",
-   "front": "Follow-up: \"What would you do differently?\"",
-   "back": "Next time, I'd structure the questions as an issue tree from day one.",
-   "gloss": "下次会怎么做 · I'd + verb (would), not 'I will did'",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "star3fu",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0096",
-   "front": "Follow-up: \"How did you choose which regions to compare?\"",
-   "back": "I chose regions with published data-centre policies and comparable data, so the comparison was fair.",
-   "gloss": "怎么选对比地区 · criteria first, then result",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "star3fu",
-    "hard03",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0097",
-   "front": "inventory (IN-vun-tor-ee)",
-   "back": "a complete list of items · \"I built an inventory of the available indicators.\"",
-   "gloss": "清单 · stress on IN",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "word",
-    "recap04",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0098",
-   "front": "iterative (IT-er-uh-tiv)",
-   "back": "done in repeated steps, improving each time · \"an iterative research workflow\"",
-   "gloss": "迭代的 · stress on IT",
-   "lang": "en-GB",
-   "tags": [
-    "mon02",
-    "word",
-    "recap04",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0099",
-   "front": "STAR #3 Result · Point",
-   "back": "As a result, I delivered a baseline analysis of data-centre governance from an international perspective.",
-   "gloss": "结果句：先说结论 point first",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "STAR",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0100",
-   "front": "STAR #3 Result · Reason",
-   "back": "That matters because it gives future policy work a clear starting point.",
-   "gloss": "原因 reason second",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "STAR",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0101",
-   "front": "STAR #3 Result · Example",
-   "back": "For example, the gap list showed exactly which indicators Hong Kong still needs to collect.",
-   "gloss": "例子 example third",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "STAR",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0102",
-   "front": "Number frame: how many regions?",
-   "back": "I compared Hong Kong against ___ other governments and regions.",
-   "gloss": "数字框架 · fill in your REAL count, never guess",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "phrase",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0103",
-   "front": "Follow-up: \"The direction kept changing. What did you do?\"",
-   "back": "When the direction changed, I updated the workflow step by step instead of starting again.",
-   "gloss": "方向变了 → 逐步更新，不推倒重来",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "followup",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0104",
-   "front": "Follow-up: stay neutral",
-   "back": "I focused on what we had agreed, not on who changed it.",
-   "gloss": "保持中立，不甩锅 · no blame",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "followup",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0105",
-   "front": "baseline (BAYSS-line)",
-   "back": "a starting measurement to compare against · \"a baseline analysis\"",
-   "gloss": "基线 · stress on BAYSS",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "word",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0106",
-   "front": "proxies (PROK-siz)",
-   "back": "stand-in measures when direct data is missing · \"I used proxies for water use.\"",
-   "gloss": "替代指标 · stress on PROK",
-   "lang": "en-GB",
-   "tags": [
-    "tue03",
-    "word",
-    "hard04",
-    "recap05",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0107",
-   "front": "Intro v2 · Close with role",
-   "back": "That's why this role really appeals to me — I want to put spatial analysis into real decisions.",
-   "gloss": "收尾扣岗位 · 一句带住 why",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "intro2",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0108",
-   "front": "Why Hong Kong · opener",
-   "back": "I'm especially interested in Hong Kong roles because I've already worked with Hong Kong spatial data.",
-   "gloss": "为什么选香港 · 先经验后意愿",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "interviews"
-   ]
-  },
-  {
-   "id": "en-0109",
-   "front": "Why Hong Kong · proof line",
-   "back": "For example, I built street-view coverage for public housing estates and used government spatial APIs.",
-   "gloss": "香港证据 · 一项具体工作即可",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "interviews"
-   ]
-  },
-  {
-   "id": "en-0110",
-   "front": "Why this role · opener",
-   "back": "What draws me to this role is the chance to turn analysis into planning decisions.",
-   "gloss": "为什么这个岗位 · draws me to",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "interviews",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0111",
-   "front": "Why this role · research bridge",
-   "back": "It connects directly to my work on ageing-friendly cities and street-view analysis.",
-   "gloss": "岗位 ↔ 研究 · connects directly to",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "interviews"
-   ]
-  },
-  {
-   "id": "en-0112",
-   "front": "Missing data · treat gaps as findings",
-   "back": "When a key indicator was missing, I treated the gap as a finding, not a failure.",
-   "gloss": "缺数跟进 · gap = finding",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "followup",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0113",
-   "front": "Missing data · proxies so work continues",
-   "back": "I listed the missing fields and proposed proxies so the analysis could still move forward.",
-   "gloss": "缺数跟进 · list + proxies",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "followup",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0114",
-   "front": "Interview close · thank-you",
-   "back": "Thank you for your time today. I'd welcome the chance to contribute to your team.",
-   "gloss": "结束语 · welcome the chance",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "phrase"
-   ]
-  },
-  {
-   "id": "en-0115",
-   "front": "life-saving (BBC aircon)",
-   "back": "used to stop people from dying · \"Air conditioning can be life-saving in extreme heat.\"",
-   "gloss": "救命的 · BBC ep-261029",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "vocabulary",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0116",
-   "front": "vicious cycle (BBC aircon)",
-   "back": "a solution that makes the original problem worse · more AC → more emissions → more heat",
-   "gloss": "恶性循环 · also: vicious circle",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "vocabulary",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0117",
-   "front": "passive cooling (BBC aircon)",
-   "back": "cooling a building without using much power · shading, trees, blinds first",
-   "gloss": "被动降温 · before AC",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "vocabulary",
-    "hard04",
-    "hard05",
-    "hard09"
-   ]
-  },
-  {
-   "id": "en-0118",
-   "front": "Intro v2 · order cue",
-   "back": "Present → Past (one number + one method) → Future → Close with role",
-   "gloss": "60秒顺序 · 现在→过去→未来→扣岗位",
-   "lang": "en-GB",
-   "tags": [
-    "wed04",
-    "intro2"
-   ]
-  },
-  {
-   "id": "en-0119",
-   "front": "STAR #3 Result · Point (60-sec version)",
-   "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
-   "gloss": "先结论：交付物 = baseline + gap list。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "result"
-   ]
-  },
-  {
-   "id": "en-0120",
-   "front": "STAR #3 Result · Reason",
-   "back": "That matters because it gives future policy work a clear starting point.",
-   "gloss": "再原因：为什么这个结果有用。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "result"
-   ]
-  },
-  {
-   "id": "en-0121",
-   "front": "STAR #3 Result · Example",
-   "back": "For example, the gap list showed exactly which indicators Hong Kong still needs to collect.",
-   "gloss": "再例子：gap list 具体帮了什么。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "result"
-   ]
-  },
-  {
-   "id": "en-0122",
-   "front": "Looking back · scope early",
-   "back": "Looking back, I learned that in ambiguous projects, confirming the scope early protects both quality and timelines.",
-   "gloss": "回顾句 1：先定 scope。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "looking-back"
-   ]
-  },
-  {
-   "id": "en-0123",
-   "front": "Looking back · written record",
-   "back": "Keeping a written record of agreed direction, deliverables and deadlines protects the work when things shift.",
-   "gloss": "回顾句 2：书面记录保护质量与时间。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "looking-back"
-   ]
-  },
-  {
-   "id": "en-0124",
-   "front": "Number frame · regions compared",
-   "back": "I compared Hong Kong against other governments and regions with published data-centre policies.",
-   "gloss": "数字/对比框：别空口说 compared。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "number"
-   ]
-  },
-  {
-   "id": "en-0125",
-   "front": "Hedging · limited data",
-   "back": "Based on the data available, … / To the best of my knowledge, …",
-   "gloss": "不确定时先限缩范围，再下结论。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "hedging",
-    "interviews"
-   ]
-  },
-  {
-   "id": "en-0126",
-   "front": "Hedging · avoid overclaim",
-   "back": "I wouldn't claim that without more evidence, but the pattern suggests…",
-   "gloss": "别把猜测说成事实。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "hedging",
-    "interviews"
-   ]
-  },
-  {
-   "id": "en-0127",
-   "front": "Result glue · starting point",
-   "back": "…which gives future policy work a starting point.",
-   "gloss": "Result 收尾连接词，挂在交付物后面。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "STAR",
-    "phrase"
-   ]
-  },
-  {
-   "id": "en-0128",
-   "front": "defensible (di-FEN-si-bul)",
-   "back": "able to be justified with evidence · \"a defensible evidence base\"",
-   "gloss": "可辩护的 / 站得住脚的证据基础。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "word",
-    "STAR"
-   ]
-  },
-  {
-   "id": "en-0129",
-   "front": "counterintuitive (BBC cities quieter)",
-   "back": "happening differently from what you would expect · adding calm sounds to make a park feel quieter",
-   "gloss": "反直觉的。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "vocabulary",
-    "bbc"
-   ]
-  },
-  {
-   "id": "en-0130",
-   "front": "soundscaping / art installation (BBC)",
-   "back": "soundscaping = adding sounds so a space feels more relaxing; art installation = interactive artwork in a specific space",
-   "gloss": "城市降噪：用声音设计空间感受。",
-   "lang": "en-GB",
-   "tags": [
-    "thu05",
-    "vocabulary",
-    "bbc"
-   ]
-  },
-  {
-   "id": "en-0131",
-   "front": "Post-interview thank-you · opener",
-   "back": "Thank you again for your time today — I really enjoyed our conversation about the role.",
-   "gloss": "面试后感谢：先谢时间，再点出对话。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "thank-you"
-   ]
-  },
-  {
-   "id": "en-0132",
-   "front": "Post-interview thank-you · name one topic",
-   "back": "I especially appreciated hearing how the team turns spatial analysis into real planning decisions.",
-   "gloss": "提一个具体话题，显得你认真听了。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "thank-you",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0133",
-   "front": "What I'd add · more time",
-   "back": "If I had more time, I'd add a short comparison table of the missing indicators across regions.",
-   "gloss": "有更多时间我会补什么 —— 具体、可交付。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "STAR3",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0134",
-   "front": "What I'd add · next analysis",
-   "back": "The next piece I'd add is a one-page brief on which data gaps matter most for the first policy draft.",
-   "gloss": "下一步分析：一页要点，服务决策。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "STAR3",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0135",
-   "front": "Follow-up question · team focus",
-   "back": "What is the team's top research priority for the next six months?",
-   "gloss": "反问：团队近半年最重要课题。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "follow-up",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0136",
-   "front": "Follow-up question · first 90 days",
-   "back": "What would success look like for someone in this role in the first 90 days?",
-   "gloss": "反问：入职前 90 天怎样算成功。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "interview",
-    "follow-up",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0137",
-   "front": "STAR #3 Looking-back · full line",
-   "back": "Looking back, confirming the scope early and keeping a written record protected both quality and timelines.",
-   "gloss": "回顾句：早定范围 + 书面记录。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "STAR3",
-    "looking-back",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0138",
-   "front": "Sail debrief · Point (what went well)",
-   "back": "Point: Overall, I stayed calm and used a clear Point → Reason → Example structure when they asked about ambiguous scope.",
-   "gloss": "复盘结论：冷静 + 结构清楚。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "debrief",
-    "interview",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0139",
-   "front": "Sail debrief · Reason + Example",
-   "back": "Reason: That kept my answers short and concrete. Example: For the missing-data question, I treated the gap as a finding and proposed proxies.",
-   "gloss": "复盘：原因 + 例子（缺口当发现）。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "debrief",
-    "interview",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0140",
-   "front": "Sail debrief · Looking-back tighten",
-   "back": "Looking back, I'd open with the Result number faster, then add one Looking-back line before I stop.",
-   "gloss": "下次收紧：更快给结果数字，再加一句回顾。",
-   "lang": "en-GB",
-   "tags": [
-    "fri06",
-    "debrief",
-    "looking-back",
-    "recap09"
-   ]
-  },
-  {
-   "id": "en-0141",
-   "front": "Buying a second to think · cues: good question, second\nT___'_ a g___ q_______ — l__ m_ t___ a s_____ t_ t____.",
-   "back": "That's a good question — let me take a second to think.",
-   "gloss": "先买一秒再开口，别用 um 填满。Mock A 可以用。",
-   "lang": "en-GB",
-   "tags": [
-    "sat07",
-    "interview",
-    "phrase",
-    "recap09",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13a"
-   ]
-  },
-  {
-   "id": "en-0142",
-   "front": "Clarifying before you answer · one cue: method",
-   "back": "Just to make sure I understand — are you asking about the method, or the result?",
-   "gloss": "不确定就先确认，好过答错题。",
-   "lang": "en-GB",
-   "tags": [
-    "sat07",
-    "interview",
-    "phrase",
-    "recap09",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13a",
-    "sat14a",
-    "hard16c",
-    "hard17c",
-    "hard18b",
-    "hard19b",
-    "hard20b"
-   ]
-  },
-  {
-   "id": "en-0143",
-   "front": "Land the answer, then stop · cues: short answer, main point\nT__ s____ a_____ i_ [t__ r_____]. T__ r_____ i_ [o__ r_____]. T___'_ t__ m___ p____ I'_ l____ y__ w___.",
-   "back": "The short answer is [the result]. The reason is [one reason]. That's the main point I'd leave you with.",
-   "gloss": "先结论，再一个原因，然后停。",
-   "lang": "en-GB",
-   "tags": [
-    "sat07",
-    "interview",
-    "phrase",
-    "recap09",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13a",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0144",
-   "front": "STAR #1 · walking environment · cues: street-view, estates\nS_____-v___ i_____ s_____ t__ w______ e__________ a_____ t__ e______, n__ j___ p_____ o_ a m__.",
-   "back": "Street-view images showed the walking environment around the estates, not just points on a map.",
-   "gloss": "街景看的是步行环境，不只是地图上的点。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "story1",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13b",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0145",
-   "front": "STAR #1 · purpose for movement · cues: metadata, older residents\nI d________ t__ s_____-v___ m_______ a__ a g_________ p_______ s_ t__ t___ c____ a______ h__ o____ r________ m___ i_ t__ o___ s_____ a_____ t__ e______.",
-   "back": "I delivered the street-view metadata and a geospatial protocol so the team could analyse how older residents move in the open spaces around the estates.",
-   "gloss": "目的句：so that 后面是别人能做成的事。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "story1",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13b",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0146",
-   "front": "STAR #1 · coverage · cues: 98%, missing streets\nW_ r______ a____ 98% c_______, s_ t__ a_______ o_ e_____ m_______ d__ n__ h___ t_ g____ f___ m______ s______.",
-   "back": "We reached about 98% coverage, so the analysis of estate movement did not have to guess from missing streets.",
-   "gloss": "数字要连上它改变了什么。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "story1",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13b",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0147",
-   "front": "STAR #1 · four directions to six · cues: four to six\nI e_______ e___ c______ f___ f___ v______ d_________ t_ s__, w____ g___ a f_____ p______ o_ t__ s_____.",
-   "back": "I extended each capture from four viewing directions to six, which gave a fuller picture of the street.",
-   "gloss": "四个方向扩到六个，街面看得更全。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "story1",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13b",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0148",
-   "front": "STAR #2 · in spring and winter · cues: spring, winter\nO____ r________ w___ m_____ a_____ i_ s_____ a__ w_____, s_ w_ f______ o_ t__ s______ w___ p_____ w___ a_______ o______.",
-   "back": "Older residents were mainly active in spring and winter, so we focused on the seasons when people were actually outside.",
-   "gloss": "季节前用 in，不要 the：in spring and winter。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13c",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0149",
-   "front": "STAR #2 · how far people went · cues: two to three MTR\nM___ a_______ s_____ w_____ t__ t_ t____ M__ s_______, w____ t___ u_ h__ f__ a t______ t___ r_____ w___.",
-   "back": "Most activity stayed within two to three MTR stations, which told us how far a typical trip really went.",
-   "gloss": "用活动范围说明人实际走多远。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13c",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0150",
-   "front": "STAR #2 · skill to impact · cues: narrower buffer\nI u___ t___ a_______ p______ t_ r________ a n_______ d_______ b_____, s_ t__ m____ m______ w____ p_____ a_______ g_.",
-   "back": "I used that activity pattern to recommend a narrower distance buffer, so the model matched where people actually go.",
-   "gloss": "技能→影响：我用规律建议更小的缓冲区。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "STAR",
-    "recap10",
-    "hard11",
-    "hard12a",
-    "hard13c",
-    "sat14a"
-   ]
-  },
-  {
-   "id": "en-0151",
-   "front": "Smart-mobility bridge",
-   "back": "In mobility work, I start from observed movement, then I tighten the spatial model to match it.",
-   "gloss": "先观察出行，再把空间模型收紧去贴合它。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "interview"
-   ]
-  },
-  {
-   "id": "en-0152",
-   "front": "Mobility proof · routes and dispatch",
-   "back": "I also analysed optimised ambulance routes and simulated peak-time dispatch in a 3D model.",
-   "gloss": "路径优化 + 高峰调度的三维模拟。面试可以当第二证据。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "interview"
-   ]
-  },
-  {
-   "id": "en-0153",
-   "front": "Intro · Present, mobility tilt",
-   "back": "I use GIS and spatial analysis to understand how people move through the city.",
-   "gloss": "现在：你是谁、你做什么。面向出行/机动性。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "intro2"
-   ]
-  },
-  {
-   "id": "en-0154",
-   "front": "Intro · Past proof, combined",
-   "back": "On an ageing-friendly city project, I combined street-view imagery with activity patterns to see how far older residents actually travelled.",
-   "gloss": "过去：把街景和活动规律放在一起，看人实际走多远。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "intro2"
-   ]
-  },
-  {
-   "id": "en-0155",
-   "front": "Intro · Future / why smart mobility",
-   "back": "I'm interested in smart-mobility work because it asks where people go, and how the system should respond.",
-   "gloss": "未来：为什么是智慧出行。",
-   "lang": "en-GB",
-   "tags": [
-    "mon09",
-    "intro2"
-   ]
-  },
-  {
-   "id": "en-0156",
-   "front": "Why this role? · cues: connects, decisions\nI'_ a_______ b______ t__ r___ c_______ d___ t_ r___ d________ a____ h__ p_____ m___.",
-   "back": "I'm applying because the role connects data to real decisions about how people move.",
-   "gloss": "我申请是因为这个岗位把数据和人的出行决策连在一起。",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13d",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0157",
-   "front": "Strength · spatial analysis · cues: messy spatial data\nM_ s_______ i_ t______ m____ s______ d___ i___ a c____ a_____ p_____ c__ a__ o_.",
-   "back": "My strength is turning messy spatial data into a clear answer people can act on.",
-   "gloss": "优势：把杂乱的空间数据变成可行动的答案。",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13d",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0158",
-   "front": "Teamwork line · one cue: share early",
-   "back": "I work well in a team: I share early results and ask for feedback before polishing.",
-   "gloss": "团队：尽早分享结果、先要反馈再打磨。",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13d",
-    "sat14b",
-    "hard16c",
-    "hard17c",
-    "hard18c",
-    "hard19b",
-    "hard20b",
-    "sat21b"
-   ]
-  },
-  {
-   "id": "en-0159",
-   "front": "Handling a gap · cues: missing, proposed a fix\nW___ d___ w__ m______, I s___ w___ w__ m______, p_______ a f__, a__ c______ i_ w___ t__ t___.",
-   "back": "When data was missing, I said what was missing, proposed a fix, and checked it with the team.",
-   "gloss": "遇到数据缺口：说清缺什么、提方案、和团队核对。",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13e",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0160",
-   "front": "Question for them · cues: measures success, six months\nC____ y__ t___ m_ h__ t__ t___ m_______ s______ i_ t__ f____ s__ m_____?",
-   "back": "Could you tell me how the team measures success in the first six months?",
-   "gloss": "向面试官提问：前六个月怎么衡量成功？",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13e",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0161",
-   "front": "Closing line · cues: keen to contribute\nT____ y__ f__ y___ t___. I'_ k___ t_ c_________, a__ I'_ b_ g___ t_ a_____ a__ f_____-u_ q________.",
-   "back": "Thank you for your time. I'm keen to contribute, and I'd be glad to answer any follow-up questions.",
-   "gloss": "结束语：感谢时间，期待贡献，欢迎追问。",
-   "lang": "en-GB",
-   "tags": [
-    "tue10",
-    "interview",
-    "hard11",
-    "hard12a",
-    "hard13e",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0162",
-   "front": "Debrief · what went well",
-   "back": "I answered clearly and kept to the point, reason, example order.",
-   "gloss": "复盘：哪里做得好 · 清楚、按先结论后原因再例子。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0163",
-   "front": "Debrief · what to improve",
-   "back": "Next time I'll slow down and give one concrete number earlier.",
-   "gloss": "复盘：下次放慢、更早给一个具体数字。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0164",
-   "front": "Debrief · a question I stumbled on",
-   "back": "I stumbled when they asked about a gap, so I've prepared a shorter answer.",
-   "gloss": "复盘：被问到空档期卡住了，已准备更短的回答。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0165",
-   "front": "Follow-up thank-you line",
-   "back": "Thank you for the conversation today; I enjoyed learning more about the team.",
-   "gloss": "面试后感谢邮件开头。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0166",
-   "front": "Follow-up · restate interest",
-   "back": "I remain very interested in the role and the chance to contribute.",
-   "gloss": "仍然很感兴趣 · remain = ri-MAYN",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0167",
-   "front": "Follow-up · offer more info",
-   "back": "Please let me know if I can share anything else, such as examples of my work.",
-   "gloss": "需要我补充什么请告诉我。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0168",
-   "front": "STAR #3 follow-up · what would you change?",
-   "back": "If I did it again, I'd agree the scope with stakeholders in the first week.",
-   "gloss": "如果重来：第一周就和相关方确认范围。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0169",
-   "front": "STAR #3 follow-up · how did you handle ambiguity?",
-   "back": "I wrote down my assumptions, checked them with the lead, and iterated.",
-   "gloss": "怎么处理模糊：写下假设、与负责人确认、迭代。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0170",
-   "front": "STAR #3 follow-up · biggest risk",
-   "back": "The biggest risk was an unclear definition, so I fixed one working definition first.",
-   "gloss": "最大风险：定义不清，先定一个工作定义。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0171",
-   "front": "Timeline question · notice period",
-   "back": "I'm able to start from mid-November, so I can start soon.",
-   "gloss": "到岗时间（按实际情况调整）。",
-   "lang": "en-GB",
-   "tags": [
-    "wed11",
-    "interview",
-    "hard12b"
-   ]
-  },
-  {
-   "id": "en-0172",
-   "front": "Honest 'not yet' · one cue: approach",
-   "back": "I haven't done that directly yet, but here's how I'd approach it.",
-   "gloss": "没直接做过，但说明你会怎么做。先诚实，再给方法。",
-   "lang": "en-GB",
-   "tags": [
-    "thu12",
-    "interview",
-    "sat14r",
-    "hard16b",
-    "hard17b",
-    "hard18b",
-    "hard19b",
-    "hard20b",
-    "sat21b"
-   ]
-  },
-  {
-   "id": "en-0173",
-   "front": "Hedging a number · one cue: roughly",
-   "back": "It was roughly 98 percent coverage, give or take.",
-   "gloss": "roughly / give or take = 大约，留余地。",
-   "lang": "en-GB",
-   "tags": [
-    "thu12",
-    "interview",
-    "sat14r",
-    "hard16b",
-    "hard17b",
-    "hard18b",
-    "hard19c",
-    "hard20c"
-   ]
-  },
-  {
-   "id": "en-0174",
-   "front": "Bridging to your strength · one cue: links",
-   "back": "That links to something I did at HKU, if I may give an example.",
-   "gloss": "把话题拉回自己的强项。",
-   "lang": "en-GB",
-   "tags": [
-    "thu12",
-    "interview",
-    "sat14r",
-    "hard16b",
-    "hard17b",
-    "hard18b",
-    "hard19c",
-    "hard20c",
-    "sat21b"
-   ]
-  },
-  {
-   "id": "en-0175",
-   "front": "Checking you answered · one cue: more detail",
-   "back": "Does that answer your question, or shall I go into more detail?",
-   "gloss": "答完确认一下，别一直讲。",
-   "lang": "en-GB",
-   "tags": [
-    "thu12",
-    "interview",
-    "sat14r",
-    "hard16b",
-    "hard17c",
-    "hard18c",
-    "hard19c",
-    "hard20c"
-   ]
-  },
-  {
-   "id": "en-0176",
-   "front": "Polite disagreement · one cue: slightly differently",
-   "back": "I see it slightly differently, and here's why.",
-   "gloss": "委婉表达不同意见：先软化，再给理由。",
-   "lang": "en-GB",
-   "tags": [
-    "thu12",
-    "interview",
-    "sat14r",
-    "hard16c",
-    "hard17c",
-    "hard18c",
-    "hard19c",
-    "hard20c"
-   ]
-  },
-  {
-   "id": "en-0177",
-   "front": "fill a void (BBC · generations)",
-   "back": "help to feel better after experiencing loss",
-   "gloss": "填补空缺 / 缓解失落。BBC ep-261122 Learning from different generations.",
-   "lang": "en-GB",
-   "tags": [
-    "fri13bbc",
-    "vocabulary",
-    "bbc",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0178",
-   "front": "hear (something) on the grapevine (BBC · generations)",
-   "back": "hear a rumour; hear news informally from other people",
-   "gloss": "从小道消息听说。BBC ep-261122.",
-   "lang": "en-GB",
-   "tags": [
-    "fri13bbc",
-    "vocabulary",
-    "bbc",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0179",
-   "front": "break down stereotypes (BBC · generations)",
-   "back": "find evidence that common beliefs about a group of people are untrue",
-   "gloss": "打破刻板印象。BBC ep-261122. Ties to ageing / mixing generations.",
-   "lang": "en-GB",
-   "tags": [
-    "fri13bbc",
-    "vocabulary",
-    "bbc",
-    "sat14b"
-   ]
-  },
-  {
-   "id": "en-0180",
-   "front": "Workplace: asking for a deadline · one cue: confirm",
-   "back": "“When do you need this by?” · Could you confirm the deadline?",
-   "gloss": "确认截止时间。",
-   "lang": "en-GB",
-   "tags": [
-    "sat14",
-    "workplace",
-    "recap16",
-    "recap17",
-    "hard18d"
-   ]
-  },
-  {
-   "id": "en-0181",
-   "front": "Workplace: flagging a delay early · one cue: flag",
-   "back": "“I want to flag early that this may slip to Thursday.”",
-   "gloss": "提前预警延期。",
-   "lang": "en-GB",
-   "tags": [
-    "sat14",
-    "workplace",
-    "recap16",
-    "recap17",
-    "hard18d",
-    "hard19d",
-    "hard20d",
-    "sat21c"
-   ]
-  },
-  {
-   "id": "en-0182",
-   "front": "Workplace: summarising before a meeting ends · one cue: recap",
-   "back": "“Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.”",
-   "gloss": "会议收尾复述。",
-   "lang": "en-GB",
-   "tags": [
-    "sat14",
-    "workplace",
-    "recap16",
-    "recap17",
-    "hard18d",
-    "hard19d",
-    "hard20d",
-    "sat21c",
-    "hard23"
-   ]
-  },
-  {
-   "id": "en-0183",
-   "front": "Workplace: asking for feedback · one cue: next time",
-   "back": "“Could you tell me what I could do better next time?”",
-   "gloss": "请求反馈。",
-   "lang": "en-GB",
-   "tags": [
-    "sat14",
-    "workplace",
-    "recap16",
-    "recap17",
-    "hard18d",
-    "hard19d",
-    "hard20d"
-   ]
-  },
-  {
-   "id": "en-0184",
-   "front": "put someone on the defensive (BBC · rude emails)",
-   "back": "make someone feel unsure or threatened by what you do or say",
-   "gloss": "让对方立刻进入戒备。邮件开头太生硬时常见。BBC ep-260702.",
-   "lang": "en-GB",
-   "tags": [
-    "mon16bbc",
-    "vocabulary",
-    "bbc",
-    "workplace",
-    "recap18",
-    "recap19",
-    "hard20e"
-   ]
-  },
-  {
-   "id": "en-0185",
-   "front": "get something off your plate (BBC · rude emails)",
-   "back": "pass a task or problem from your workload to someone else for them to deal with",
-   "gloss": "把任务从自己的待办里推给别人。BBC ep-260702.",
-   "lang": "en-GB",
-   "tags": [
-    "mon16bbc",
-    "vocabulary",
-    "bbc",
-    "workplace",
-    "recap18",
-    "recap19",
-    "hard20e",
-    "sat21c",
-    "hard23"
-   ]
-  },
-  {
-   "id": "en-0186",
-   "front": "frazzled (BBC · rude emails)",
-   "back": "tired, nervous or anxious because you have to do too many things at the same time",
-   "gloss": "事情太多，又累又烦躁。忙的时候邮件更容易不礼貌。BBC ep-260702.",
-   "lang": "en-GB",
-   "tags": [
-    "mon16bbc",
-    "vocabulary",
-    "bbc",
-    "workplace",
-    "recap18",
-    "recap19",
-    "hard20e",
-    "sat21c",
-    "hard23"
-   ]
-  },
-  {
-   "id": "en-0187",
-   "front": "First week · ask a colleague to explain a process · cues: ten minutes, walk me through\nW____ y__ h___ t__ m______ l____ t_ w___ m_ t______ h__ t___ u______ w____?",
-   "back": "Would you have ten minutes later to walk me through how this usually works?",
-   "gloss": "第一周礼貌请教：先问有没有时间，再请对方带你走一遍流程。",
-   "lang": "en-GB",
-   "tags": [
-    "mon16",
-    "workplace",
-    "recap18",
-    "recap19",
-    "hard20e"
-   ]
-  },
-  {
-   "id": "en-0188",
-   "front": "the done thing (BBC · phrases)",
-   "back": "what you are expected to do in a particular social situation",
-   "gloss": "工作场合“约定俗成的做法”。例：Is it the done thing to reply-all? BBC ep-260115.",
-   "lang": "en-GB",
-   "tags": [
-    "wed18new",
-    "workplace",
-    "bbc",
-    "vocabulary",
-    "recap20",
-    "sat21r",
-    "hard23"
-   ]
-  },
-  {
-   "id": "en-0189",
-   "front": "miffed (BBC · phrases)",
-   "back": "slightly annoyed by someone's behaviour towards you",
-   "gloss": "有点恼火（比 angry 轻很多）。BBC ep-260115.",
-   "lang": "en-GB",
-   "tags": [
-    "wed18new",
-    "workplace",
-    "bbc",
-    "vocabulary",
-    "recap20",
-    "sat21r",
-    "hard23"
-   ]
-  },
-  {
-   "id": "en-0190",
-   "front": "a mare (BBC · phrases)",
-   "back": "short for nightmare: an unpleasant or difficult experience (often said with a bit of exaggeration)",
-   "gloss": "“a mare” = 糟心的一天，常带夸张。例：I've had a mare of a morning. BBC ep-260115.",
-   "lang": "en-GB",
-   "tags": [
-    "wed18new",
-    "workplace",
-    "bbc",
-    "vocabulary",
-    "recap20",
-    "sat21r"
-   ]
-  },
-  {
-   "id": "en-0191",
-   "front": "Check-back · cues: confirm, right\nJ___ t_ c______ I've got this r____: ...",
-   "back": "Just to confirm I've got this right: [one-line summary of the process]. Is that correct?",
-   "gloss": "复述确认：先说 Just to confirm I've got this right，再用一句话复述流程。",
-   "lang": "en-GB",
-   "tags": [
-    "wed18new",
-    "workplace",
-    "recap20",
-    "sat21r"
-   ]
-  }
- ]
+  "schema": "studyhub.deck.v1",
+  "track": "english",
+  "cards": [
+    {
+      "id": "en-0001",
+      "front": "What does STAR stand for?",
+      "back": "Situation · Task · Action · Result",
+      "gloss": "A clear structure for an interview example.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0002",
+      "front": "Describe a measurable result.",
+      "back": "I reduced the processing time by 30%.",
+      "gloss": "Choose a concrete outcome rather than a general claim.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0003",
+      "front": "practise / practice",
+      "back": "Practise is the verb; practice is the noun.",
+      "gloss": "I practise daily. Daily practice helps.",
+      "lang": "en-GB",
+      "tags": [
+        "vocabulary",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0004",
+      "front": "Could you clarify that?",
+      "back": "A polite way to ask for a clearer explanation.",
+      "gloss": "Useful in meetings and interviews.",
+      "lang": "en-GB",
+      "tags": [
+        "workplace",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0005",
+      "front": "STAR · Situation opener",
+      "back": "“In my previous role, we needed to…”",
+      "gloss": "情境: set the scene in 1–2 sentences.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0006",
+      "front": "STAR · Task",
+      "back": "“My responsibility was to…”",
+      "gloss": "任务: your specific goal.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0007",
+      "front": "STAR · Action",
+      "back": "“I decided to… / I built… / I coordinated…”",
+      "gloss": "行动: say I, not we.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0008",
+      "front": "STAR · Result",
+      "back": "“As a result, … improved by … / which led to…”",
+      "gloss": "结果: quantify if possible.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0009",
+      "front": "Buying thinking time",
+      "back": "“That's a great question. Let me think for a second.”",
+      "gloss": "Pause calmly instead of filling with um.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0010",
+      "front": "Answering a weakness question",
+      "back": "“One area I've been working on is… so I've started…”",
+      "gloss": "Name the weakness, then show the fix.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0011",
+      "front": "Why this role?",
+      "back": "“What draws me to this role is… and it connects directly to my work on…”",
+      "gloss": "Link the role to your experience.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "recap",
+        "recap27",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0012",
+      "front": "Closing the interview",
+      "back": "“Thank you for your time. I'm really excited about the chance to contribute to…”",
+      "gloss": "End warmly and specifically.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "recap27",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0013",
+      "front": "Linking skills to impact",
+      "back": "“I used data analysis to identify…, which helped the team decide…”",
+      "gloss": "Skill → action → decision.",
+      "lang": "en-GB",
+      "tags": [
+        "interviews",
+        "STAR",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0014",
+      "front": "STAR · Result with a number",
+      "back": "“As a result, we delivered ___ % of the data we needed / YOLO reached ___.” Fill ONE number you can defend.",
+      "gloss": "结果必须带数字. Vague praise is not a Result.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0015",
+      "front": "ArcGIS Pro (say it)",
+      "back": "ark-JEE-eye-ess Pro · “I tried annotating the sites in ArcGIS Pro, but coverage was still too thin.”",
+      "gloss": "Say each letter of GIS slowly: G-I-S.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0016",
+      "front": "YOLO (say it)",
+      "back": "YOH-loh (You Only Look Once) · “Our YOLO model detected older pedestrians in the street-view frames.”",
+      "gloss": "Two syllables: YO-LO. Not “yolo” mumbled as one blur.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0017",
+      "front": "CSDI API (say it)",
+      "back": "C-S-D-I A-P-I · “I proposed the Hong Kong government CSDI API for spatial data.”",
+      "gloss": "Spell both acronyms letter by letter.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0018",
+      "front": "pandas (say it)",
+      "back": "PAN-duz · “I ran a Python pilot with pandas to check the CSDI sample.”",
+      "gloss": "Like the animal. Not “pan-DAS”.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0019",
+      "front": "Purpose sentence",
+      "back": "“The purpose was to [deliver X] so that [another team / the project could Y].”",
+      "gloss": "目的句: purpose + so that. Put this in Task or early Action.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap",
+        "recap27"
+      ]
+    },
+    {
+      "id": "en-0020",
+      "front": "Situation vs Task — pick one",
+      "back": "Situation = the messy context (patchy SVI, project stalled). Task = YOUR job (deliver a usable dataset + analyse features).",
+      "gloss": "情境 vs 任务. Don’t merge them into one blurry paragraph.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1",
+        "recap"
+      ]
+    },
+    {
+      "id": "en-0021",
+      "front": "magic bullet (BBC sleep)",
+      "back": "a single perfect fix · “There is no magic bullet for better sleep — diet is only one factor.”",
+      "gloss": "万能药 / 一招解决. Use it about sleep research, not your STAR.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0022",
+      "front": "feed information (BBC sleep)",
+      "back": "to give your body useful signals through food · “Evening meals can feed information to your sleep system.”",
+      "gloss": "向身体“投喂”信息. Not about social-media feeds.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0023",
+      "front": "nutrients (BBC sleep)",
+      "back": "useful substances in food · “Researchers asked which nutrients support deeper sleep.”",
+      "gloss": "营养素. Harder: use it in a sentence about sleep research.",
+      "lang": "en-GB",
+      "tags": [
+        "star",
+        "story1"
+      ]
+    },
+    {
+      "id": "en-0024",
+      "front": "rejection (BBC)",
+      "back": "being told no; an idea or application refused · “Every rejection told me something about the role.”",
+      "gloss": "被拒绝. Harder: say one sentence about job applications using it.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0025",
+      "front": "spike (BBC)",
+      "back": "to increase suddenly · “Applications spike in September.”",
+      "gloss": "骤增. Verb and noun: a spike in demand.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "hard02",
+        "recap03",
+        "recap04",
+        "hard04",
+        "hard05"
+      ]
+    },
+    {
+      "id": "en-0026",
+      "front": "socially anxious (BBC)",
+      "back": "worried about talking to people or being judged · “I used to feel socially anxious in group interviews.”",
+      "gloss": "社交焦虑. Stress: SO-shuh-lee ANG-shus.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0027",
+      "front": "come easier (BBC)",
+      "back": "become easier to do · “Speaking up comes easier with practice.”",
+      "gloss": "变得更容易. Note: comes easier, not ‘more easy’.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0028",
+      "front": "perfectionism (BBC)",
+      "back": "feeling everything must be perfect · a safe ‘weakness’ if you show how you manage it",
+      "gloss": "完美主义. per-FEK-shuh-ni-zuhm.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "hard02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0029",
+      "front": "appraise (BBC)",
+      "back": "to judge or assess · “I appraised each data source against our protocol.”",
+      "gloss": "评估. Formal; good in STAR Action lines.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "recap27",
+        "recap28",
+        "recap29"
+      ]
+    },
+    {
+      "id": "en-0030",
+      "front": "Tell me about yourself: 3-part order",
+      "back": "Present (who I am now) → Past (proof: projects) → Future (why this role)",
+      "gloss": "自我介绍三段式: 现在→过去→未来. 60 秒内.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "recap27",
+        "recap28",
+        "recap29"
+      ]
+    },
+    {
+      "id": "en-0031",
+      "front": "60-sec intro: your first line",
+      "back": "“I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.”",
+      "gloss": "第一句要短、有力. Say it without notes.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "recap27",
+        "recap28",
+        "recap29"
+      ]
+    },
+    {
+      "id": "en-0032",
+      "front": "narrow down (the buffer)",
+      "back": "make a range smaller and more precise · “This let the team narrow down the distance buffer.”",
+      "gloss": "缩小范围. STAR #2 key verb.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "recap27",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0033",
+      "front": "seasonal pattern",
+      "back": "a change that repeats by season · “Older residents were mainly active in spring and winter.”",
+      "gloss": "季节性规律. SEE-zuh-nuhl.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0034",
+      "front": "buffer (GIS) — say it in a sentence",
+      "back": "the zone around a feature within a set distance · “a 2–3 station buffer around each estate”",
+      "gloss": "缓冲区. BUF-er, not boo-fer.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0035",
+      "front": "regression analysis (say it)",
+      "back": "ri-GRESH-un uh-NAL-uh-sis · stress on GRESH and NAL",
+      "gloss": "回归分析. Two stresses; don't flatten them.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0036",
+      "front": "spatial / geospatial (say it)",
+      "back": "SPAY-shul · JEE-oh-SPAY-shul",
+      "gloss": "空间的 / 地理空间的. Not spa-tee-al.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0037",
+      "front": "“The key insight was that…”",
+      "back": "Insight line between Action and Result · “The key insight was that most trips stayed within two to three MTR stations.”",
+      "gloss": "关键发现是…. Use once per STAR.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0038",
+      "front": "“This allowed the team to…”",
+      "back": "Result linker: outcome for OTHERS, not just you",
+      "gloss": "这让团队得以…. Fixes Sat's purpose-sentence slip.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0039",
+      "front": "“I took ownership of…”",
+      "back": "shows initiative · “I took ownership of the SVI pipeline.”",
+      "gloss": "我主动负责…. Stronger than ‘I was responsible for’.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0040",
+      "front": "trade-off",
+      "back": "a balance between two good things · “The trade-off was coverage versus image quality.”",
+      "gloss": "权衡取舍. Interviewers love hearing you name one.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "sat31",
+        "hard02",
+        "recap03",
+        "recap04",
+        "hard04",
+        "hard05"
+      ]
+    },
+    {
+      "id": "en-0041",
+      "front": "stakeholder",
+      "back": "a person or team affected by your work · “I shared the dataset with the partner team, a key stakeholder.”",
+      "gloss": "利益相关方. STAYK-hol-der.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0042",
+      "front": "Handling rejection — interview answer",
+      "back": "“I treat a no as feedback: I ask what was missing, adjust, and try again.”",
+      "gloss": "如何面对被拒. Ties BBC topic to interviews.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0043",
+      "front": "“If I did it again, I would…”",
+      "back": "reflection line after Result; shows learning · second conditional",
+      "gloss": "如果重来我会…. would + verb, not will.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0044",
+      "front": "dissertation (say it)",
+      "back": "dis-er-TAY-shun",
+      "gloss": "毕业论文. Stress on TAY.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26"
+      ]
+    },
+    {
+      "id": "en-0045",
+      "front": "“I'm keen to bring … to this role.”",
+      "back": "closing line of the 60-sec intro · “I'm keen to bring my GIS and Python skills to this role.”",
+      "gloss": "我希望把…带到这个岗位. keen = eager, British.",
+      "lang": "en-GB",
+      "tags": [
+        "mon26",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0046",
+      "front": "“I'm an urban analytics graduate from HKU, and I work with geospatial data.”",
+      "back": "60-sec intro, PRESENT opener: who you are now (1 sentence).",
+      "gloss": "现在: 我是谁。Start here, not with your childhood.",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0047",
+      "front": "“Most recently, I worked as a research assistant on…”",
+      "back": "PAST bridge: ‘…an ageing-friendly city project at HKU.’",
+      "gloss": "过去: 最近的经历。most recently = 最近一段",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0048",
+      "front": "“Before that, I studied urban studies at Sheffield.”",
+      "back": "PAST, earlier step. Keep it to one line.",
+      "gloss": "更早: 一句带过",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0049",
+      "front": "“Going forward, I'm looking to…”",
+      "back": "FUTURE close: ‘…apply spatial analysis to real planning decisions.’",
+      "gloss": "未来: 接下来想做什么",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0050",
+      "front": "“What draws me to this role is…”",
+      "back": "Why-this-job opener; then ONE specific thing about the team/company.",
+      "gloss": "吸引我的是… draw = 吸引",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30",
+        "sat31",
+        "hard02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0051",
+      "front": "“X comes naturally to me.”",
+      "back": "✓ Data work comes naturally to me. ✗ comes easier (needs ‘than’). ✓ It comes more easily now.",
+      "gloss": "对我来说很自然。Monday's miss: 'comes easier'",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0052",
+      "front": "hands-on",
+      "back": "practical, done yourself: ‘hands-on experience with ArcGIS Pro’",
+      "gloss": "亲手做的、实操的",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28"
+      ]
+    },
+    {
+      "id": "en-0053",
+      "front": "end-to-end",
+      "back": "whole process start→finish: ‘I built the pipeline end-to-end, from API to map.’",
+      "gloss": "从头到尾全流程",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0054",
+      "front": "stakeholder (STAKE-hold-er)",
+      "back": "people affected by / caring about the project: planners, residents, funders",
+      "gloss": "利益相关方。stress on STAKE",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "hard02"
+      ]
+    },
+    {
+      "id": "en-0055",
+      "front": "“derive insights from”",
+      "back": "‘I derive insights from street-level imagery.’ derive = get from (formal)",
+      "gloss": "从…中得出洞见",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0056",
+      "front": "streamline",
+      "back": "make a process simpler/faster: ‘I streamlined the image download with the CSDI API.’",
+      "gloss": "简化、精简流程",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0057",
+      "front": "“I'd describe myself as…”",
+      "back": "‘…detail-oriented and curious.’ Then PROVE it with one example.",
+      "gloss": "我会形容自己是… (后面要有例子)",
+      "lang": "en-GB",
+      "tags": [
+        "tue27",
+        "recap28",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0058",
+      "front": "Action, step 1: “First, I cleaned the activity data and split it by season and by location.”",
+      "back": "Start the Action with ONE concrete step, using ‘I’, not ‘we’.",
+      "gloss": "行动第一步：先说你自己做的具体动作",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0059",
+      "front": "Action, step 2: “Then I mapped where older residents were active compared with MTR stations.”",
+      "back": "‘compared with’ links two things. Keep the steps in order: First → Then.",
+      "gloss": "第二步：画图对比 MTR 站",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0060",
+      "front": "Action, insight: “I noticed a clear pattern: most activity happened within two to three MTR stations.”",
+      "back": "‘I noticed a clear pattern:’ + colon + the finding. This is your hook.",
+      "gloss": "发现规律",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0061",
+      "front": "Action, seasonal: “They were mainly active in spring and winter.”",
+      "back": "‘mainly active in + season’. No ‘the’ before spring/winter here.",
+      "gloss": "季节规律，季节前不加 the",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0062",
+      "front": "Action, initiative: “I took the initiative to flag this to the team and suggest a narrower buffer.”",
+      "back": "‘took the initiative to + verb’ = did it without being asked.",
+      "gloss": "主动提出",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0063",
+      "front": "Result: “As a result, the team narrowed the distance buffer for the regression analysis.”",
+      "back": "Open the Result with ‘As a result,’. Say what CHANGED for the team.",
+      "gloss": "结果：团队缩小了距离缓冲区",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0064",
+      "front": "Result, why it matters: “…which made the model more focused on where older residents actually go.”",
+      "back": "‘which made…’ adds the impact. Don't invent numbers; say the real change.",
+      "gloss": "影响：模型更聚焦",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0065",
+      "front": "Reflection: “Looking back, I learned that a quick descriptive check can save a lot of modelling time.”",
+      "back": "Optional last line after R: what you learned. Keep it to one sentence.",
+      "gloss": "反思：一句话",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR",
+        "recap29",
+        "recap30"
+      ]
+    },
+    {
+      "id": "en-0066",
+      "front": "Say it right: regression · buffer · descriptive",
+      "back": "ri-GRESH-un · BUFF-er · dis-KRIP-tiv",
+      "gloss": "发音：回归 · 缓冲区 · 描述性",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0067",
+      "front": "“narrow” (verb) vs “narrow down”",
+      "back": "narrow the buffer = make the range smaller · narrow down the options = reduce the choices",
+      "gloss": "narrow 缩小（范围） · narrow down 筛选",
+      "lang": "en-GB",
+      "tags": [
+        "wed28",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0068",
+      "front": "STAR #2 Result line",
+      "back": "As a result, the team narrowed the distance buffer for the regression analysis.",
+      "gloss": "结果：团队缩小了回归分析的距离缓冲区",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "sat31r",
+        "recap02"
+      ]
+    },
+    {
+      "id": "en-0069",
+      "front": "Result + 'which made…'",
+      "back": "…which made the model more focused on where older residents actually go.",
+      "gloss": "which made… 使得……（结果的影响）",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "recap30",
+        "sat31",
+        "recap02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0070",
+      "front": "'so that' = outcome for OTHERS",
+      "back": "I flagged the pattern so that the team could choose a tighter buffer.",
+      "gloss": "so that 后面写别人能做到什么",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "recap30",
+        "sat31",
+        "hard02",
+        "recap02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0071",
+      "front": "'so that' + could (past)",
+      "back": "I cleaned the data by season so that we could compare spring and winter.",
+      "gloss": "过去时：so that + could + 动词原形",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "sat31r",
+        "recap02"
+      ]
+    },
+    {
+      "id": "en-0072",
+      "front": "took the initiative to + verb",
+      "back": "I took the initiative to suggest a narrower buffer.",
+      "gloss": "主动去做 = took the initiative to + 原形",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "recap30",
+        "sat31",
+        "hard02",
+        "recap02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0073",
+      "front": "Learning line (optional R)",
+      "back": "Looking back, I learned that a quick descriptive check can save a lot of modelling time.",
+      "gloss": "回顾：快速描述性检查能省大量建模时间 · descriptive = dis-KRIP-tiv",
+      "lang": "en-GB",
+      "tags": [
+        "thu29",
+        "STAR",
+        "sat31",
+        "recap02",
+        "recap03",
+        "recap04"
+      ]
+    },
+    {
+      "id": "en-0074",
+      "front": "STAR #3 Situation opener",
+      "back": "On an AI data-centre policy research programme, I was the sole analyst, and the scope was ambiguous.",
+      "gloss": "STAR #3 情境：唯一分析员 + 范围模糊 · sole = SOHL",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11"
+      ]
+    },
+    {
+      "id": "en-0075",
+      "front": "STAR #3 · Point (task) · one cue: defensible",
+      "back": "My task was to build a defensible evidence base, even though the requirements were unclear.",
+      "gloss": "任务：可站得住脚的证据基础 · defensible = di-FEN-si-bul",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11",
+        "hard12a",
+        "hard13f",
+        "sat14a",
+        "hard16a",
+        "hard17a",
+        "hard18a",
+        "hard19a",
+        "hard20a"
+      ]
+    },
+    {
+      "id": "en-0076",
+      "front": "STAR #3 · Reason beat 1 · one cue: working definition",
+      "back": "First, I pushed for a working definition of what counts as an AI data centre, so the whole analysis shared one scope.",
+      "gloss": "先推动工作定义，统一范围 · pushed for = 争取",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11",
+        "hard12a",
+        "hard13f",
+        "sat14a",
+        "hard16a",
+        "hard17a",
+        "hard18a",
+        "hard19a",
+        "hard20a",
+        "sat21a"
+      ]
+    },
+    {
+      "id": "en-0077",
+      "front": "STAR #3 · Reason beat 2 · one cue: mapped",
+      "back": "Second, I mapped the data gaps: I counted which indicators Hong Kong was missing and compared them with other regions.",
+      "gloss": "梳理数据缺口 · indicators = IN-di-kay-turz",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11",
+        "hard12a",
+        "hard13f",
+        "sat14a",
+        "hard16a",
+        "hard17a",
+        "hard18a",
+        "hard19a",
+        "hard20a",
+        "sat21a"
+      ]
+    },
+    {
+      "id": "en-0078",
+      "front": "STAR #3 · Reason beat 3: workflow + log · cues: iterative, written log\nB______ t__ d________ k___ s_______, I b____ a_ i________ w_______, a__ a____ e____ m______ I k___ a w______ l__ o_ w___ w_ a_____.",
+      "back": "Because the direction kept shifting, I built an iterative workflow, and after every meeting I kept a written log of what we agreed.",
+      "gloss": "迭代流程 + 会议记录 · iterative = IT-er-uh-tiv",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11",
+        "hard12a",
+        "hard13f"
+      ]
+    },
+    {
+      "id": "en-0079",
+      "front": "STAR #3 · Example / Result · one cue: baseline",
+      "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
+      "gloss": "结果：基线分析 + 缺失数据清单 · governance = GUV-er-nunss",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "STAR",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09",
+        "recap11",
+        "hard12a",
+        "hard13f",
+        "sat14a",
+        "hard16a",
+        "hard17a",
+        "hard18a",
+        "hard19a",
+        "hard20a",
+        "sat21a"
+      ]
+    },
+    {
+      "id": "en-0080",
+      "front": "Follow-up: changing direction",
+      "back": "I stayed neutral and kept written notes of the agreed direction, deliverables and deadlines, so changes were visible to everyone.",
+      "gloss": "追问：方向变动 → 中立 + 书面记录（不甩锅）",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "followup",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0081",
+      "front": "Follow-up: missing data",
+      "back": "I treated the gaps as a finding: the list of missing indicators became one of the outputs.",
+      "gloss": "追问：缺数据 → 缺口本身成为成果",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "followup",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0082",
+      "front": "Hedging under ambiguity",
+      "back": "Based on the data available, my working assumption was… and I flagged it clearly.",
+      "gloss": "模糊情境下的稳妥说法 · flagged = 明确标注",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "phrase",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0083",
+      "front": "'took the initiative to' ×STAR #3",
+      "back": "I took the initiative to propose a working definition before the analysis started.",
+      "gloss": "took the initiative + to + 动词（第3次巩固）",
+      "lang": "en-GB",
+      "tags": [
+        "fri30",
+        "phrase",
+        "sat31",
+        "hard02",
+        "recap02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0084",
+      "front": "Follow-up: \"Without peer review, how did you check quality?\"",
+      "back": "I cross-checked my figures against other regions' data, and I stated my assumptions and data gaps openly.",
+      "gloss": "没有同行评审时如何保证质量 · point → reason → example",
+      "lang": "en-GB",
+      "tags": [
+        "sat31new",
+        "phrase",
+        "hard02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0085",
+      "front": "defensible (di-FEN-si-bul)",
+      "back": "able to be justified · \"I built a defensible evidence base.\"",
+      "gloss": "站得住脚的 · stress on FEN",
+      "lang": "en-GB",
+      "tags": [
+        "sat31new",
+        "word",
+        "hard02",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0086",
+      "front": "governance (GUV-er-nunss)",
+      "back": "how something is managed and regulated · \"data-centre governance mechanisms\"",
+      "gloss": "治理 · stress on GUV",
+      "lang": "en-GB",
+      "tags": [
+        "sat31new",
+        "word",
+        "hard03",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0087",
+      "front": "Intro v2 · Present",
+      "back": "I'm an urban analytics graduate from HKU, and I turn spatial data into decisions.",
+      "gloss": "现在：我是谁 + 我做什么 · start with the present",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0088",
+      "front": "Intro v2 · Past bridge",
+      "back": "Most recently, I worked as a research assistant on an ageing-friendly city project.",
+      "gloss": "过去：最近的经历 · 'Most recently, I worked as…'",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0089",
+      "front": "Intro v2 · Past proof",
+      "back": "I built a street-view dataset with about 98% coverage, using Python and ArcGIS Pro.",
+      "gloss": "过去：一个数字 + 一个方法 · one number, one method",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0090",
+      "front": "Intro v2 · Second proof",
+      "back": "Before that, I was the sole analyst on an AI data-centre policy project.",
+      "gloss": "再一个证据 · 'Before that, I was…'",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0091",
+      "front": "Intro v2 · Future",
+      "back": "Going forward, I'm looking to apply spatial analysis to real planning decisions.",
+      "gloss": "未来：我想做什么 · 'Going forward, I'm looking to…'",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0092",
+      "front": "Intro v2 · Close",
+      "back": "That's why this role really appeals to me.",
+      "gloss": "收尾：连到这个职位 · appeal TO me (not 'appeals me')",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "intro2",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0093",
+      "front": "Follow-up: \"How did you handle the direction changing?\"",
+      "back": "I kept a written log after every meeting, so everyone agreed on the direction, the deliverables and the deadlines.",
+      "gloss": "方向变化怎么处理 · point (log) → reason (alignment) → example",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "star3fu",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0094",
+      "front": "Follow-up: \"How did you deal with missing data?\"",
+      "back": "I counted which indicators Hong Kong was missing and compared them with other regions, so the gap list became an output itself.",
+      "gloss": "缺数据怎么办 · the gap list became an output",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "star3fu",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0095",
+      "front": "Follow-up: \"What would you do differently?\"",
+      "back": "Next time, I'd structure the questions as an issue tree from day one.",
+      "gloss": "下次会怎么做 · I'd + verb (would), not 'I will did'",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "star3fu",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0096",
+      "front": "Follow-up: \"How did you choose which regions to compare?\"",
+      "back": "I chose regions with published data-centre policies and comparable data, so the comparison was fair.",
+      "gloss": "怎么选对比地区 · criteria first, then result",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "star3fu",
+        "hard03",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0097",
+      "front": "inventory (IN-vun-tor-ee)",
+      "back": "a complete list of items · \"I built an inventory of the available indicators.\"",
+      "gloss": "清单 · stress on IN",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "word",
+        "recap04",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0098",
+      "front": "iterative (IT-er-uh-tiv)",
+      "back": "done in repeated steps, improving each time · \"an iterative research workflow\"",
+      "gloss": "迭代的 · stress on IT",
+      "lang": "en-GB",
+      "tags": [
+        "mon02",
+        "word",
+        "recap04",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0099",
+      "front": "STAR #3 Result · Point",
+      "back": "As a result, I delivered a baseline analysis of data-centre governance from an international perspective.",
+      "gloss": "结果句：先说结论 point first",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "STAR",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0100",
+      "front": "STAR #3 Result · Reason",
+      "back": "That matters because it gives future policy work a clear starting point.",
+      "gloss": "原因 reason second",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "STAR",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0101",
+      "front": "STAR #3 Result · Example",
+      "back": "For example, the gap list showed exactly which indicators Hong Kong still needs to collect.",
+      "gloss": "例子 example third",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "STAR",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0102",
+      "front": "Number frame: how many regions?",
+      "back": "I compared Hong Kong against ___ other governments and regions.",
+      "gloss": "数字框架 · fill in your REAL count, never guess",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "phrase",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0103",
+      "front": "Follow-up: \"The direction kept changing. What did you do?\"",
+      "back": "When the direction changed, I updated the workflow step by step instead of starting again.",
+      "gloss": "方向变了 → 逐步更新，不推倒重来",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "followup",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0104",
+      "front": "Follow-up: stay neutral",
+      "back": "I focused on what we had agreed, not on who changed it.",
+      "gloss": "保持中立，不甩锅 · no blame",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "followup",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0105",
+      "front": "baseline (BAYSS-line)",
+      "back": "a starting measurement to compare against · \"a baseline analysis\"",
+      "gloss": "基线 · stress on BAYSS",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "word",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0106",
+      "front": "proxies (PROK-siz)",
+      "back": "stand-in measures when direct data is missing · \"I used proxies for water use.\"",
+      "gloss": "替代指标 · stress on PROK",
+      "lang": "en-GB",
+      "tags": [
+        "tue03",
+        "word",
+        "hard04",
+        "recap05",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0107",
+      "front": "Intro v2 · Close with role",
+      "back": "That's why this role really appeals to me — I want to put spatial analysis into real decisions.",
+      "gloss": "收尾扣岗位 · 一句带住 why",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "intro2",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0108",
+      "front": "Why Hong Kong · opener",
+      "back": "I'm especially interested in Hong Kong roles because I've already worked with Hong Kong spatial data.",
+      "gloss": "为什么选香港 · 先经验后意愿",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0109",
+      "front": "Why Hong Kong · proof line",
+      "back": "For example, I built street-view coverage for public housing estates and used government spatial APIs.",
+      "gloss": "香港证据 · 一项具体工作即可",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0110",
+      "front": "Why this role · opener",
+      "back": "What draws me to this role is the chance to turn analysis into planning decisions.",
+      "gloss": "为什么这个岗位 · draws me to",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "interviews",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0111",
+      "front": "Why this role · research bridge",
+      "back": "It connects directly to my work on ageing-friendly cities and street-view analysis.",
+      "gloss": "岗位 ↔ 研究 · connects directly to",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0112",
+      "front": "Missing data · treat gaps as findings",
+      "back": "When a key indicator was missing, I treated the gap as a finding, not a failure.",
+      "gloss": "缺数跟进 · gap = finding",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "followup",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0113",
+      "front": "Missing data · proxies so work continues",
+      "back": "I listed the missing fields and proposed proxies so the analysis could still move forward.",
+      "gloss": "缺数跟进 · list + proxies",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "followup",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0114",
+      "front": "Interview close · thank-you",
+      "back": "Thank you for your time today. I'd welcome the chance to contribute to your team.",
+      "gloss": "结束语 · welcome the chance",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "phrase"
+      ]
+    },
+    {
+      "id": "en-0115",
+      "front": "life-saving (BBC aircon)",
+      "back": "used to stop people from dying · \"Air conditioning can be life-saving in extreme heat.\"",
+      "gloss": "救命的 · BBC ep-261029",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "vocabulary",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0116",
+      "front": "vicious cycle (BBC aircon)",
+      "back": "a solution that makes the original problem worse · more AC → more emissions → more heat",
+      "gloss": "恶性循环 · also: vicious circle",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "vocabulary",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0117",
+      "front": "passive cooling (BBC aircon)",
+      "back": "cooling a building without using much power · shading, trees, blinds first",
+      "gloss": "被动降温 · before AC",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "vocabulary",
+        "hard04",
+        "hard05",
+        "hard09"
+      ]
+    },
+    {
+      "id": "en-0118",
+      "front": "Intro v2 · order cue",
+      "back": "Present → Past (one number + one method) → Future → Close with role",
+      "gloss": "60秒顺序 · 现在→过去→未来→扣岗位",
+      "lang": "en-GB",
+      "tags": [
+        "wed04",
+        "intro2"
+      ]
+    },
+    {
+      "id": "en-0119",
+      "front": "STAR #3 Result · Point (60-sec version)",
+      "back": "As a result, I delivered a baseline analysis of data-centre governance, plus a clear list of the data Hong Kong is still missing.",
+      "gloss": "先结论：交付物 = baseline + gap list。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "result"
+      ]
+    },
+    {
+      "id": "en-0120",
+      "front": "STAR #3 Result · Reason",
+      "back": "That matters because it gives future policy work a clear starting point.",
+      "gloss": "再原因：为什么这个结果有用。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "result"
+      ]
+    },
+    {
+      "id": "en-0121",
+      "front": "STAR #3 Result · Example",
+      "back": "For example, the gap list showed exactly which indicators Hong Kong still needs to collect.",
+      "gloss": "再例子：gap list 具体帮了什么。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "result"
+      ]
+    },
+    {
+      "id": "en-0122",
+      "front": "Looking back · scope early",
+      "back": "Looking back, I learned that in ambiguous projects, confirming the scope early protects both quality and timelines.",
+      "gloss": "回顾句 1：先定 scope。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "looking-back"
+      ]
+    },
+    {
+      "id": "en-0123",
+      "front": "Looking back · written record",
+      "back": "Keeping a written record of agreed direction, deliverables and deadlines protects the work when things shift.",
+      "gloss": "回顾句 2：书面记录保护质量与时间。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "looking-back"
+      ]
+    },
+    {
+      "id": "en-0124",
+      "front": "Number frame · regions compared",
+      "back": "I compared Hong Kong against other governments and regions with published data-centre policies.",
+      "gloss": "数字/对比框：别空口说 compared。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "number"
+      ]
+    },
+    {
+      "id": "en-0125",
+      "front": "Hedging · limited data",
+      "back": "Based on the data available, … / To the best of my knowledge, …",
+      "gloss": "不确定时先限缩范围，再下结论。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "hedging",
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0126",
+      "front": "Hedging · avoid overclaim",
+      "back": "I wouldn't claim that without more evidence, but the pattern suggests…",
+      "gloss": "别把猜测说成事实。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "hedging",
+        "interviews"
+      ]
+    },
+    {
+      "id": "en-0127",
+      "front": "Result glue · starting point",
+      "back": "…which gives future policy work a starting point.",
+      "gloss": "Result 收尾连接词，挂在交付物后面。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "STAR",
+        "phrase"
+      ]
+    },
+    {
+      "id": "en-0128",
+      "front": "defensible (di-FEN-si-bul)",
+      "back": "able to be justified with evidence · \"a defensible evidence base\"",
+      "gloss": "可辩护的 / 站得住脚的证据基础。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "word",
+        "STAR"
+      ]
+    },
+    {
+      "id": "en-0129",
+      "front": "counterintuitive (BBC cities quieter)",
+      "back": "happening differently from what you would expect · adding calm sounds to make a park feel quieter",
+      "gloss": "反直觉的。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "vocabulary",
+        "bbc"
+      ]
+    },
+    {
+      "id": "en-0130",
+      "front": "soundscaping / art installation (BBC)",
+      "back": "soundscaping = adding sounds so a space feels more relaxing; art installation = interactive artwork in a specific space",
+      "gloss": "城市降噪：用声音设计空间感受。",
+      "lang": "en-GB",
+      "tags": [
+        "thu05",
+        "vocabulary",
+        "bbc"
+      ]
+    },
+    {
+      "id": "en-0131",
+      "front": "Post-interview thank-you · opener",
+      "back": "Thank you again for your time today — I really enjoyed our conversation about the role.",
+      "gloss": "面试后感谢：先谢时间，再点出对话。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "thank-you"
+      ]
+    },
+    {
+      "id": "en-0132",
+      "front": "Post-interview thank-you · name one topic",
+      "back": "I especially appreciated hearing how the team turns spatial analysis into real planning decisions.",
+      "gloss": "提一个具体话题，显得你认真听了。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "thank-you",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0133",
+      "front": "What I'd add · more time",
+      "back": "If I had more time, I'd add a short comparison table of the missing indicators across regions.",
+      "gloss": "有更多时间我会补什么 —— 具体、可交付。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "STAR3",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0134",
+      "front": "What I'd add · next analysis",
+      "back": "The next piece I'd add is a one-page brief on which data gaps matter most for the first policy draft.",
+      "gloss": "下一步分析：一页要点，服务决策。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "STAR3",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0135",
+      "front": "Follow-up question · team focus",
+      "back": "What is the team's top research priority for the next six months?",
+      "gloss": "反问：团队近半年最重要课题。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "follow-up",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0136",
+      "front": "Follow-up question · first 90 days",
+      "back": "What would success look like for someone in this role in the first 90 days?",
+      "gloss": "反问：入职前 90 天怎样算成功。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "interview",
+        "follow-up",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0137",
+      "front": "STAR #3 Looking-back · full line",
+      "back": "Looking back, confirming the scope early and keeping a written record protected both quality and timelines.",
+      "gloss": "回顾句：早定范围 + 书面记录。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "STAR3",
+        "looking-back",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0138",
+      "front": "Sail debrief · Point (what went well)",
+      "back": "Point: Overall, I stayed calm and used a clear Point → Reason → Example structure when they asked about ambiguous scope.",
+      "gloss": "复盘结论：冷静 + 结构清楚。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "debrief",
+        "interview",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0139",
+      "front": "Sail debrief · Reason + Example",
+      "back": "Reason: That kept my answers short and concrete. Example: For the missing-data question, I treated the gap as a finding and proposed proxies.",
+      "gloss": "复盘：原因 + 例子（缺口当发现）。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "debrief",
+        "interview",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0140",
+      "front": "Sail debrief · Looking-back tighten",
+      "back": "Looking back, I'd open with the Result number faster, then add one Looking-back line before I stop.",
+      "gloss": "下次收紧：更快给结果数字，再加一句回顾。",
+      "lang": "en-GB",
+      "tags": [
+        "fri06",
+        "debrief",
+        "looking-back",
+        "recap09"
+      ]
+    },
+    {
+      "id": "en-0141",
+      "front": "Buying a second to think · cues: good question, second\nT___'_ a g___ q_______ — l__ m_ t___ a s_____ t_ t____.",
+      "back": "That's a good question — let me take a second to think.",
+      "gloss": "先买一秒再开口，别用 um 填满。Mock A 可以用。",
+      "lang": "en-GB",
+      "tags": [
+        "sat07",
+        "interview",
+        "phrase",
+        "recap09",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13a"
+      ]
+    },
+    {
+      "id": "en-0142",
+      "front": "Clarifying before you answer · one cue: method",
+      "back": "Just to make sure I understand — are you asking about the method, or the result?",
+      "gloss": "不确定就先确认，好过答错题。",
+      "lang": "en-GB",
+      "tags": [
+        "sat07",
+        "interview",
+        "phrase",
+        "recap09",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13a",
+        "sat14a",
+        "hard16c",
+        "hard17c",
+        "hard18b",
+        "hard19b",
+        "hard20b"
+      ]
+    },
+    {
+      "id": "en-0143",
+      "front": "Land the answer, then stop · cues: short answer, main point\nT__ s____ a_____ i_ [t__ r_____]. T__ r_____ i_ [o__ r_____]. T___'_ t__ m___ p____ I'_ l____ y__ w___.",
+      "back": "The short answer is [the result]. The reason is [one reason]. That's the main point I'd leave you with.",
+      "gloss": "先结论，再一个原因，然后停。",
+      "lang": "en-GB",
+      "tags": [
+        "sat07",
+        "interview",
+        "phrase",
+        "recap09",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13a",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0144",
+      "front": "STAR #1 · walking environment · cues: street-view, estates\nS_____-v___ i_____ s_____ t__ w______ e__________ a_____ t__ e______, n__ j___ p_____ o_ a m__.",
+      "back": "Street-view images showed the walking environment around the estates, not just points on a map.",
+      "gloss": "街景看的是步行环境，不只是地图上的点。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "story1",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13b",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0145",
+      "front": "STAR #1 · purpose for movement · cues: metadata, older residents\nI d________ t__ s_____-v___ m_______ a__ a g_________ p_______ s_ t__ t___ c____ a______ h__ o____ r________ m___ i_ t__ o___ s_____ a_____ t__ e______.",
+      "back": "I delivered the street-view metadata and a geospatial protocol so the team could analyse how older residents move in the open spaces around the estates.",
+      "gloss": "目的句：so that 后面是别人能做成的事。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "story1",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13b",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0146",
+      "front": "STAR #1 · coverage · cues: 98%, missing streets\nW_ r______ a____ 98% c_______, s_ t__ a_______ o_ e_____ m_______ d__ n__ h___ t_ g____ f___ m______ s______.",
+      "back": "We reached about 98% coverage, so the analysis of estate movement did not have to guess from missing streets.",
+      "gloss": "数字要连上它改变了什么。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "story1",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13b",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0147",
+      "front": "STAR #1 · four directions to six · cues: four to six\nI e_______ e___ c______ f___ f___ v______ d_________ t_ s__, w____ g___ a f_____ p______ o_ t__ s_____.",
+      "back": "I extended each capture from four viewing directions to six, which gave a fuller picture of the street.",
+      "gloss": "四个方向扩到六个，街面看得更全。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "story1",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13b",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0148",
+      "front": "STAR #2 · in spring and winter · cues: spring, winter\nO____ r________ w___ m_____ a_____ i_ s_____ a__ w_____, s_ w_ f______ o_ t__ s______ w___ p_____ w___ a_______ o______.",
+      "back": "Older residents were mainly active in spring and winter, so we focused on the seasons when people were actually outside.",
+      "gloss": "季节前用 in，不要 the：in spring and winter。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13c",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0149",
+      "front": "STAR #2 · how far people went · cues: two to three MTR\nM___ a_______ s_____ w_____ t__ t_ t____ M__ s_______, w____ t___ u_ h__ f__ a t______ t___ r_____ w___.",
+      "back": "Most activity stayed within two to three MTR stations, which told us how far a typical trip really went.",
+      "gloss": "用活动范围说明人实际走多远。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13c",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0150",
+      "front": "STAR #2 · skill to impact · cues: narrower buffer\nI u___ t___ a_______ p______ t_ r________ a n_______ d_______ b_____, s_ t__ m____ m______ w____ p_____ a_______ g_.",
+      "back": "I used that activity pattern to recommend a narrower distance buffer, so the model matched where people actually go.",
+      "gloss": "技能→影响：我用规律建议更小的缓冲区。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "STAR",
+        "recap10",
+        "hard11",
+        "hard12a",
+        "hard13c",
+        "sat14a"
+      ]
+    },
+    {
+      "id": "en-0151",
+      "front": "Smart-mobility bridge",
+      "back": "In mobility work, I start from observed movement, then I tighten the spatial model to match it.",
+      "gloss": "先观察出行，再把空间模型收紧去贴合它。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "interview"
+      ]
+    },
+    {
+      "id": "en-0152",
+      "front": "Mobility proof · routes and dispatch",
+      "back": "I also analysed optimised ambulance routes and simulated peak-time dispatch in a 3D model.",
+      "gloss": "路径优化 + 高峰调度的三维模拟。面试可以当第二证据。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "interview"
+      ]
+    },
+    {
+      "id": "en-0153",
+      "front": "Intro · Present, mobility tilt",
+      "back": "I use GIS and spatial analysis to understand how people move through the city.",
+      "gloss": "现在：你是谁、你做什么。面向出行/机动性。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "intro2"
+      ]
+    },
+    {
+      "id": "en-0154",
+      "front": "Intro · Past proof, combined",
+      "back": "On an ageing-friendly city project, I combined street-view imagery with activity patterns to see how far older residents actually travelled.",
+      "gloss": "过去：把街景和活动规律放在一起，看人实际走多远。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "intro2"
+      ]
+    },
+    {
+      "id": "en-0155",
+      "front": "Intro · Future / why smart mobility",
+      "back": "I'm interested in smart-mobility work because it asks where people go, and how the system should respond.",
+      "gloss": "未来：为什么是智慧出行。",
+      "lang": "en-GB",
+      "tags": [
+        "mon09",
+        "intro2"
+      ]
+    },
+    {
+      "id": "en-0156",
+      "front": "Why this role? · cues: connects, decisions\nI'_ a_______ b______ t__ r___ c_______ d___ t_ r___ d________ a____ h__ p_____ m___.",
+      "back": "I'm applying because the role connects data to real decisions about how people move.",
+      "gloss": "我申请是因为这个岗位把数据和人的出行决策连在一起。",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13d",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0157",
+      "front": "Strength · spatial analysis · cues: messy spatial data\nM_ s_______ i_ t______ m____ s______ d___ i___ a c____ a_____ p_____ c__ a__ o_.",
+      "back": "My strength is turning messy spatial data into a clear answer people can act on.",
+      "gloss": "优势：把杂乱的空间数据变成可行动的答案。",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13d",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0158",
+      "front": "Teamwork line · one cue: share early",
+      "back": "I work well in a team: I share early results and ask for feedback before polishing.",
+      "gloss": "团队：尽早分享结果、先要反馈再打磨。",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13d",
+        "sat14b",
+        "hard16c",
+        "hard17c",
+        "hard18c",
+        "hard19b",
+        "hard20b",
+        "sat21b"
+      ]
+    },
+    {
+      "id": "en-0159",
+      "front": "Handling a gap · cues: missing, proposed a fix\nW___ d___ w__ m______, I s___ w___ w__ m______, p_______ a f__, a__ c______ i_ w___ t__ t___.",
+      "back": "When data was missing, I said what was missing, proposed a fix, and checked it with the team.",
+      "gloss": "遇到数据缺口：说清缺什么、提方案、和团队核对。",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13e",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0160",
+      "front": "Question for them · cues: measures success, six months\nC____ y__ t___ m_ h__ t__ t___ m_______ s______ i_ t__ f____ s__ m_____?",
+      "back": "Could you tell me how the team measures success in the first six months?",
+      "gloss": "向面试官提问：前六个月怎么衡量成功？",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13e",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0161",
+      "front": "Closing line · cues: keen to contribute\nT____ y__ f__ y___ t___. I'_ k___ t_ c_________, a__ I'_ b_ g___ t_ a_____ a__ f_____-u_ q________.",
+      "back": "Thank you for your time. I'm keen to contribute, and I'd be glad to answer any follow-up questions.",
+      "gloss": "结束语：感谢时间，期待贡献，欢迎追问。",
+      "lang": "en-GB",
+      "tags": [
+        "tue10",
+        "interview",
+        "hard11",
+        "hard12a",
+        "hard13e",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0162",
+      "front": "Debrief · what went well",
+      "back": "I answered clearly and kept to the point, reason, example order.",
+      "gloss": "复盘：哪里做得好 · 清楚、按先结论后原因再例子。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0163",
+      "front": "Debrief · what to improve",
+      "back": "Next time I'll slow down and give one concrete number earlier.",
+      "gloss": "复盘：下次放慢、更早给一个具体数字。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0164",
+      "front": "Debrief · a question I stumbled on",
+      "back": "I stumbled when they asked about a gap, so I've prepared a shorter answer.",
+      "gloss": "复盘：被问到空档期卡住了，已准备更短的回答。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0165",
+      "front": "Follow-up thank-you line",
+      "back": "Thank you for the conversation today; I enjoyed learning more about the team.",
+      "gloss": "面试后感谢邮件开头。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0166",
+      "front": "Follow-up · restate interest",
+      "back": "I remain very interested in the role and the chance to contribute.",
+      "gloss": "仍然很感兴趣 · remain = ri-MAYN",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0167",
+      "front": "Follow-up · offer more info",
+      "back": "Please let me know if I can share anything else, such as examples of my work.",
+      "gloss": "需要我补充什么请告诉我。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0168",
+      "front": "STAR #3 follow-up · what would you change?",
+      "back": "If I did it again, I'd agree the scope with stakeholders in the first week.",
+      "gloss": "如果重来：第一周就和相关方确认范围。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0169",
+      "front": "STAR #3 follow-up · how did you handle ambiguity?",
+      "back": "I wrote down my assumptions, checked them with the lead, and iterated.",
+      "gloss": "怎么处理模糊：写下假设、与负责人确认、迭代。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0170",
+      "front": "STAR #3 follow-up · biggest risk",
+      "back": "The biggest risk was an unclear definition, so I fixed one working definition first.",
+      "gloss": "最大风险：定义不清，先定一个工作定义。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0171",
+      "front": "Timeline question · notice period",
+      "back": "I'm able to start from mid-November, so I can start soon.",
+      "gloss": "到岗时间（按实际情况调整）。",
+      "lang": "en-GB",
+      "tags": [
+        "wed11",
+        "interview",
+        "hard12b"
+      ]
+    },
+    {
+      "id": "en-0172",
+      "front": "Honest 'not yet' · one cue: approach",
+      "back": "I haven't done that directly yet, but here's how I'd approach it.",
+      "gloss": "没直接做过，但说明你会怎么做。先诚实，再给方法。",
+      "lang": "en-GB",
+      "tags": [
+        "thu12",
+        "interview",
+        "sat14r",
+        "hard16b",
+        "hard17b",
+        "hard18b",
+        "hard19b",
+        "hard20b",
+        "sat21b"
+      ]
+    },
+    {
+      "id": "en-0173",
+      "front": "Hedging a number · one cue: roughly",
+      "back": "It was roughly 98 percent coverage, give or take.",
+      "gloss": "roughly / give or take = 大约，留余地。",
+      "lang": "en-GB",
+      "tags": [
+        "thu12",
+        "interview",
+        "sat14r",
+        "hard16b",
+        "hard17b",
+        "hard18b",
+        "hard19c",
+        "hard20c"
+      ]
+    },
+    {
+      "id": "en-0174",
+      "front": "Bridging to your strength · one cue: links",
+      "back": "That links to something I did at HKU, if I may give an example.",
+      "gloss": "把话题拉回自己的强项。",
+      "lang": "en-GB",
+      "tags": [
+        "thu12",
+        "interview",
+        "sat14r",
+        "hard16b",
+        "hard17b",
+        "hard18b",
+        "hard19c",
+        "hard20c",
+        "sat21b"
+      ]
+    },
+    {
+      "id": "en-0175",
+      "front": "Checking you answered · one cue: more detail",
+      "back": "Does that answer your question, or shall I go into more detail?",
+      "gloss": "答完确认一下，别一直讲。",
+      "lang": "en-GB",
+      "tags": [
+        "thu12",
+        "interview",
+        "sat14r",
+        "hard16b",
+        "hard17c",
+        "hard18c",
+        "hard19c",
+        "hard20c"
+      ]
+    },
+    {
+      "id": "en-0176",
+      "front": "Polite disagreement · one cue: slightly differently",
+      "back": "I see it slightly differently, and here's why.",
+      "gloss": "委婉表达不同意见：先软化，再给理由。",
+      "lang": "en-GB",
+      "tags": [
+        "thu12",
+        "interview",
+        "sat14r",
+        "hard16c",
+        "hard17c",
+        "hard18c",
+        "hard19c",
+        "hard20c"
+      ]
+    },
+    {
+      "id": "en-0177",
+      "front": "fill a void (BBC · generations)",
+      "back": "help to feel better after experiencing loss",
+      "gloss": "填补空缺 / 缓解失落。BBC ep-261122 Learning from different generations.",
+      "lang": "en-GB",
+      "tags": [
+        "fri13bbc",
+        "vocabulary",
+        "bbc",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0178",
+      "front": "hear (something) on the grapevine (BBC · generations)",
+      "back": "hear a rumour; hear news informally from other people",
+      "gloss": "从小道消息听说。BBC ep-261122.",
+      "lang": "en-GB",
+      "tags": [
+        "fri13bbc",
+        "vocabulary",
+        "bbc",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0179",
+      "front": "break down stereotypes (BBC · generations)",
+      "back": "find evidence that common beliefs about a group of people are untrue",
+      "gloss": "打破刻板印象。BBC ep-261122. Ties to ageing / mixing generations.",
+      "lang": "en-GB",
+      "tags": [
+        "fri13bbc",
+        "vocabulary",
+        "bbc",
+        "sat14b"
+      ]
+    },
+    {
+      "id": "en-0180",
+      "front": "Workplace: asking for a deadline · one cue: confirm",
+      "back": "“When do you need this by?” · Could you confirm the deadline?",
+      "gloss": "确认截止时间。",
+      "lang": "en-GB",
+      "tags": [
+        "sat14",
+        "workplace",
+        "recap16",
+        "recap17",
+        "hard18d"
+      ]
+    },
+    {
+      "id": "en-0181",
+      "front": "Workplace: flagging a delay early · one cue: flag",
+      "back": "“I want to flag early that this may slip to Thursday.”",
+      "gloss": "提前预警延期。",
+      "lang": "en-GB",
+      "tags": [
+        "sat14",
+        "workplace",
+        "recap16",
+        "recap17",
+        "hard18d",
+        "hard19d",
+        "hard20d",
+        "sat21c"
+      ]
+    },
+    {
+      "id": "en-0182",
+      "front": "Workplace: summarising before a meeting ends.",
+      "back": "“Just to recap: I’ll send the draft by noon, and you’ll review it tomorrow.”",
+      "gloss": "会议收尾复述。",
+      "lang": "en-GB",
+      "tags": [
+        "sat14",
+        "workplace",
+        "recap16",
+        "recap17",
+        "hard18d",
+        "hard19d",
+        "hard20d",
+        "sat21c",
+        "hard23",
+        "hard25a"
+      ]
+    },
+    {
+      "id": "en-0183",
+      "front": "Workplace: asking for feedback · one cue: next time",
+      "back": "“Could you tell me what I could do better next time?”",
+      "gloss": "请求反馈。",
+      "lang": "en-GB",
+      "tags": [
+        "sat14",
+        "workplace",
+        "recap16",
+        "recap17",
+        "hard18d",
+        "hard19d",
+        "hard20d"
+      ]
+    },
+    {
+      "id": "en-0184",
+      "front": "put someone on the defensive (BBC · rude emails)",
+      "back": "make someone feel unsure or threatened by what you do or say",
+      "gloss": "让对方立刻进入戒备。邮件开头太生硬时常见。BBC ep-260702.",
+      "lang": "en-GB",
+      "tags": [
+        "mon16bbc",
+        "vocabulary",
+        "bbc",
+        "workplace",
+        "recap18",
+        "recap19",
+        "hard20e"
+      ]
+    },
+    {
+      "id": "en-0185",
+      "front": "Workplace phrase: pass a task from your workload to someone else · cues: plate, off",
+      "back": "get something off your plate — pass a task or problem from your workload to someone else for them to deal with",
+      "gloss": "把任务从自己的待办里推给别人。BBC ep-260702.",
+      "lang": "en-GB",
+      "tags": [
+        "mon16bbc",
+        "vocabulary",
+        "bbc",
+        "workplace",
+        "recap18",
+        "recap19",
+        "hard20e",
+        "sat21c",
+        "hard23",
+        "hard25a"
+      ]
+    },
+    {
+      "id": "en-0186",
+      "front": "Workplace word: tired and anxious because you have too many things at once · cue: fr—",
+      "back": "frazzled — tired, nervous or anxious because you have to do too many things at the same time",
+      "gloss": "事情太多，又累又烦躁。忙的时候邮件更容易不礼貌。BBC ep-260702.",
+      "lang": "en-GB",
+      "tags": [
+        "mon16bbc",
+        "vocabulary",
+        "bbc",
+        "workplace",
+        "recap18",
+        "recap19",
+        "hard20e",
+        "sat21c",
+        "hard23",
+        "hard25a"
+      ]
+    },
+    {
+      "id": "en-0187",
+      "front": "First week · ask a colleague to explain a process · cues: ten minutes, walk me through\nW____ y__ h___ t__ m______ l____ t_ w___ m_ t______ h__ t___ u______ w____?",
+      "back": "Would you have ten minutes later to walk me through how this usually works?",
+      "gloss": "第一周礼貌请教：先问有没有时间，再请对方带你走一遍流程。",
+      "lang": "en-GB",
+      "tags": [
+        "mon16",
+        "workplace",
+        "recap18",
+        "recap19",
+        "hard20e",
+        "recap25"
+      ]
+    },
+    {
+      "id": "en-0188",
+      "front": "Workplace phrase: what you are expected to do in this situation · cues: done thing",
+      "back": "the done thing — what you are expected to do in a particular social situation",
+      "gloss": "工作场合“约定俗成的做法”。例：Is it the done thing to reply-all? BBC ep-260115.",
+      "lang": "en-GB",
+      "tags": [
+        "wed18new",
+        "workplace",
+        "bbc",
+        "vocabulary",
+        "recap20",
+        "sat21r",
+        "hard23",
+        "hard25b"
+      ]
+    },
+    {
+      "id": "en-0189",
+      "front": "Workplace word: slightly annoyed by how someone treated you · cue: m—",
+      "back": "miffed — slightly annoyed by someone's behaviour towards you",
+      "gloss": "有点恼火（比 angry 轻很多）。BBC ep-260115.",
+      "lang": "en-GB",
+      "tags": [
+        "wed18new",
+        "workplace",
+        "bbc",
+        "vocabulary",
+        "recap20",
+        "sat21r",
+        "hard23",
+        "hard25b"
+      ]
+    },
+    {
+      "id": "en-0190",
+      "front": "a mare (BBC · phrases)",
+      "back": "short for nightmare: an unpleasant or difficult experience (often said with a bit of exaggeration)",
+      "gloss": "“a mare” = 糟心的一天，常带夸张。例：I've had a mare of a morning. BBC ep-260115.",
+      "lang": "en-GB",
+      "tags": [
+        "wed18new",
+        "workplace",
+        "bbc",
+        "vocabulary",
+        "recap20",
+        "sat21r",
+        "recap25"
+      ]
+    },
+    {
+      "id": "en-0191",
+      "front": "Check-back · cues: confirm, right\nJ___ t_ c______ I've got this r____: ...",
+      "back": "Just to confirm I've got this right: [one-line summary of the process]. Is that correct?",
+      "gloss": "复述确认：先说 Just to confirm I've got this right，再用一句话复述流程。",
+      "lang": "en-GB",
+      "tags": [
+        "wed18new",
+        "workplace",
+        "recap20",
+        "sat21r",
+        "recap25"
+      ]
+    },
+    {
+      "id": "en-0192",
+      "front": "Workplace / research word: a link or relationship between two things · cue: c________",
+      "back": "correlation — a relationship between two or more things",
+      "gloss": "相关关系（数据里常说）。例：There's a correlation between these two trends. BBC ep-261119.",
+      "lang": "en-GB",
+      "tags": [
+        "wed25",
+        "wed25bbc",
+        "vocabulary",
+        "bbc",
+        "workplace"
+      ]
+    },
+    {
+      "id": "en-0193",
+      "front": "Workplace / research word: measured and given a number · cue: q________",
+      "back": "quantified — measured and given a number or a value",
+      "gloss": "被量化、给出具体数字。例：This isn't a quantified measure yet. BBC ep-261119.",
+      "lang": "en-GB",
+      "tags": [
+        "wed25",
+        "wed25bbc",
+        "vocabulary",
+        "bbc",
+        "workplace"
+      ]
+    },
+    {
+      "id": "en-0194",
+      "front": "Workplace / research word: starting to become visible or better understood · cue: e________",
+      "back": "emerging — coming into view after being hidden, allowing a better understanding or development",
+      "gloss": "正在显现的、新出现的。例：There's emerging evidence that… BBC ep-261119.",
+      "lang": "en-GB",
+      "tags": [
+        "wed25",
+        "wed25bbc",
+        "vocabulary",
+        "bbc",
+        "workplace"
+      ]
+    }
+  ]
 }
