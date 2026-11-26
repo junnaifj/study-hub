@@ -3,12 +3,11 @@
  "date": "2026-11-26",
  "slot": "evening",
  "tracks": [
-  "english",
-  "cantonese"
+  "japanese"
  ],
- "minutes": 25,
- "new_cards_limit": 3,
- "note": "Catch-up for Wednesday 25 Nov only (yesterday). Today's remaining English and Thursday Japanese wait until Friday. 事 si6 ×3, then Wednesday English Hard/recap (BBC optional), a short mid-week update, then Wednesday Cantonese speaking. No new English/Japanese/Korean beyond Wednesday's three Yue lines. 加油！",
+ "minutes": 20,
+ "new_cards_limit": 0,
+ "note": "Thursday B, Japanese light maintenance（日语轻维护）. Hard-first after 事 si6 ×3: ぎ げ やま よる ひがし (still Hard after Tue 24) — say each aloud before flipping. Then the second Hard set ざ ず ぞ かぜ (also still Hard; do these too unless time is gone). Recap かぎ じ ぜ じかん あじ (かぎ left Hard on Tue 24). No new cards; だ行 still waits. 5-Q quiz, then the first Hard set again. 先难后新，加油！",
  "tasks": [
   {
    "id": "t0",
@@ -19,168 +18,134 @@
   },
   {
    "id": "t1",
-   "type": "link",
-   "title": "Optional: BBC 6 Minute English “Are microplastics harming us?” (~6 min). Skip if short on time.",
-   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
-   "minutes": 6
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "hard26j"
+   ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard25a"
+    "hard26jb"
    ]
   },
   {
    "id": "t3",
    "type": "cards",
-   "deck": "english",
+   "deck": "japanese",
    "tags": [
-    "hard25b"
+    "recap26j"
    ]
   },
   {
    "id": "t4",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "recap25"
-   ]
-  },
-  {
-   "id": "t5",
-   "type": "cards",
-   "deck": "english",
-   "tags": [
-    "wed25"
-   ]
-  },
-  {
-   "id": "t6",
-   "type": "speaking",
-   "prompt": "Workplace output, 30–60 sec: mid-week daily update. “Here's where I am today, and what I'll finish this afternoon.” Point → reason → example. Say it aloud before opening the script.",
-   "seconds": 60,
-   "script": "Point: Here's my mid-week update: I'll finish the current task this afternoon and send a short note by the end of the day.\nReason: I want you to have a clear picture of where things stand before tomorrow.\nExample: This morning I'm checking the numbers; if anything looks off, I'll flag it early rather than wait."
-  },
-  {
-   "id": "t7",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "hard25y"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "recap25y"
-   ]
-  },
-  {
-   "id": "t9",
-   "type": "cards",
-   "deck": "cantonese",
-   "tags": [
-    "wed25y"
-   ]
-  },
-  {
-   "id": "t10",
    "type": "reading",
-   "title": "Read / shadow the 3 new workplace lines (Hub Play may be silent — use the chat audio)",
-   "lang": "yue-HK",
+   "title": "Read without romaji first (only kana you know)",
+   "lang": "ja-JP",
    "lines": [
     {
-     "text": "我同你確認吓。",
-     "gloss": "ngo5 tung4 nei5 kok3 jing6 haa5",
-     "translation": "I'll confirm with you. · 我跟你确认一下。"
+     "text": "かぎ",
+     "gloss": "kagi",
+     "translation": "key · 钥匙"
     },
     {
-     "text": "我今日搞掂佢。",
-     "gloss": "ngo5 gam1 jat6 gaau2 dim6 keoi5",
-     "translation": "I'll get it done today. · 我今天搞定它。"
+     "text": "ひがし",
+     "gloss": "higashi",
+     "translation": "east · 东"
     },
     {
-     "text": "有咩問題隨時搵我。",
-     "gloss": "jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5",
-     "translation": "Find me anytime if there is any problem. · 有问题随时找我。"
+     "text": "よる の やま",
+     "gloss": "yoru no yama",
+     "translation": "the mountain at night · 夜晚的山"
+    },
+    {
+     "text": "かぜ が つよい",
+     "gloss": "kaze ga tsuyoi",
+     "translation": "the wind is strong · 风很大"
+    },
+    {
+     "text": "じかん が ない",
+     "gloss": "jikan ga nai",
+     "translation": "there's no time · 没有时间"
     }
    ]
   },
   {
-   "id": "t11",
+   "id": "t5",
    "type": "speaking",
-   "prompt": "Shadow the 3 new lines ×3 (use the chat audio; Hub Play may be silent), then say them without the script. Then a 1-minute take: point → reason → example. Point: tell a colleague you will confirm and finish it today. Reason: so they can plan. Example: offer to be found anytime.",
-   "seconds": 150,
-   "script": "我同你確認吓。 ngo5 tung4 nei5 kok3 jing6 haa5 · 我今日搞掂佢。 ngo5 gam1 jat6 gaau2 dim6 keoi5 · 有咩問題隨時搵我。 jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5"
+   "prompt": "Write the first Hard set once each, saying each aloud (~2 min): ぎ げ やま よる ひがし. Then the second Hard set: ざ ず ぞ かぜ (also still Hard). Then read the 5 lines twice, slow then normal speed. Watch the two dots on ぎ げ ざ ず ぞ.",
+   "seconds": 180,
+   "script": "ぎ gi · げ ge · やま yama · よる yoru · ひがし higashi\nざ za · ず zu · ぞ zo · かぜ kaze\nかぎ (kagi)\nひがし (higashi)\nよる の やま (yoru no yama)\nかぜ が つよい (kaze ga tsuyoi)\nじかん が ない (jikan ga nai)"
   },
   {
-   "id": "t12",
+   "id": "t6",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which tone is 事 si6?",
+     "q": "Which one is gi?",
      "options": [
-      "Mid level (3)",
-      "Low flat (6)",
-      "Falling (4)"
+      "き",
+      "ぎ",
+      "げ"
      ],
      "answer": 1,
-     "explain": "事 si6 is low and flat. 低平调。試 si3 is mid; 時 si4 falls."
+     "explain": "ぎ = き plus two dots (dakuten). げ is ge."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "A mid-week daily update should cover…",
+     "q": "やま means…",
      "options": [
-      "where you are today, and what you'll finish this afternoon",
-      "only what went wrong last month",
-      "your weekend plans in detail"
+      "night 夜",
+      "mountain 山",
+      "key 钥匙"
      ],
-     "answer": 0,
-     "explain": "今日进展 + 今天下午要完成什么。"
+     "answer": 1,
+     "explain": "やま yama = mountain 山. よる is night; かぎ is key."
     },
     {
      "id": "q3",
-     "type": "mc",
-     "q": "Best order for the update?",
-     "options": [
-      "Example → Reason → Point",
-      "Point → Reason → Example",
-      "Reason → Point"
+     "type": "typed",
+     "q": "Write night (yoru) in hiragana.",
+     "answer": [
+      "よる"
      ],
-     "answer": 1,
-     "explain": "先说重点，再讲原因，最后举例。"
+     "explain": "よ yo + る ru = よる."
     },
     {
      "id": "q4",
-     "type": "mc",
-     "q": "我傳咗俾你啦 means…",
-     "options": [
-      "Please take a look.",
-      "I've sent it over to you.",
-      "Are you free now?"
+     "type": "typed",
+     "q": "Write key (kagi) in hiragana.",
+     "answer": [
+      "かぎ"
      ],
-     "answer": 1,
-     "explain": "傳咗 cyun4 zo2 = have sent. 已经发给你了。"
+     "explain": "か ka + ぎ gi = かぎ. Remember the two dots on ぎ."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "我今日搞掂佢 means…",
+     "q": "ひがし means…",
      "options": [
-      "I'll get it done today.",
-      "I'll confirm with you.",
-      "Find me anytime."
+      "west 西",
+      "east 东",
+      "wind 风"
      ],
-     "answer": 0,
-     "explain": "搞掂 gaau2 dim6 = get it sorted. 我今天搞定它。"
+     "answer": 1,
+     "explain": "ひがし higashi = east 东. かぜ is wind."
     }
+   ]
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "japanese",
+   "tags": [
+    "hard26j"
    ]
   }
  ]
