@@ -1,122 +1,187 @@
 {
-  "schema": "studyhub.today.v1",
-  "date": "2026-11-26",
-  "slot": "morning",
-  "tracks": [
-    "english"
-  ],
-  "minutes": 20,
-  "new_cards_limit": 0,
-  "note": "Thursday A, workplace English（职场英语）: 事 si6 ×3. No BBC (Thu). Hard recall first (en-0182, 0185, 0186, 0188, 0189): prompt only, say each aloud before flipping, then a from-memory run-through. Recap of recent workplace cards (recap26). No new cards (Hard still sticky; no Wed 25 A result logged). Then a 30–60 sec status note before you step out this afternoon (point → reason → example). 加油！",
-  "tasks": [
+ "schema": "studyhub.today.v1",
+ "date": "2026-11-26",
+ "slot": "evening",
+ "tracks": [
+  "english",
+  "cantonese"
+ ],
+ "minutes": 25,
+ "new_cards_limit": 3,
+ "note": "Catch-up for Wednesday 25 Nov only (yesterday). Today's remaining English and Thursday Japanese wait until Friday. 事 si6 ×3, then Wednesday English Hard/recap (BBC optional), a short mid-week update, then Wednesday Cantonese speaking. No new English/Japanese/Korean beyond Wednesday's three Yue lines. 加油！",
+ "tasks": [
+  {
+   "id": "t0",
+   "type": "speaking",
+   "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, not falling like 時 si4.",
+   "seconds": 30,
+   "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
+  },
+  {
+   "id": "t1",
+   "type": "link",
+   "title": "Optional: BBC 6 Minute English “Are microplastics harming us?” (~6 min). Skip if short on time.",
+   "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
+   "minutes": 6
+  },
+  {
+   "id": "t2",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard25a"
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "hard25b"
+   ]
+  },
+  {
+   "id": "t4",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "recap25"
+   ]
+  },
+  {
+   "id": "t5",
+   "type": "cards",
+   "deck": "english",
+   "tags": [
+    "wed25"
+   ]
+  },
+  {
+   "id": "t6",
+   "type": "speaking",
+   "prompt": "Workplace output, 30–60 sec: mid-week daily update. “Here's where I am today, and what I'll finish this afternoon.” Point → reason → example. Say it aloud before opening the script.",
+   "seconds": 60,
+   "script": "Point: Here's my mid-week update: I'll finish the current task this afternoon and send a short note by the end of the day.\nReason: I want you to have a clear picture of where things stand before tomorrow.\nExample: This morning I'm checking the numbers; if anything looks off, I'll flag it early rather than wait."
+  },
+  {
+   "id": "t7",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "hard25y"
+   ]
+  },
+  {
+   "id": "t8",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "recap25y"
+   ]
+  },
+  {
+   "id": "t9",
+   "type": "cards",
+   "deck": "cantonese",
+   "tags": [
+    "wed25y"
+   ]
+  },
+  {
+   "id": "t10",
+   "type": "reading",
+   "title": "Read / shadow the 3 new workplace lines (Hub Play may be silent — use the chat audio)",
+   "lang": "yue-HK",
+   "lines": [
     {
-      "id": "t0",
-      "type": "speaking",
-      "prompt": "Warm-up: say 事 (si6, low flat tone 低平调) three times in a row. Low and flat, not mid like 試 si3, not falling like 時 si4.",
-      "seconds": 30,
-      "script": "事 si6 · 事 si6 · 事 si6 (試 si3 is mid; 時 si4 falls; 事 si6 sits low and flat)"
+     "text": "我同你確認吓。",
+     "gloss": "ngo5 tung4 nei5 kok3 jing6 haa5",
+     "translation": "I'll confirm with you. · 我跟你确认一下。"
     },
     {
-      "id": "t1",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "hard26a"
-      ]
+     "text": "我今日搞掂佢。",
+     "gloss": "ngo5 gam1 jat6 gaau2 dim6 keoi5",
+     "translation": "I'll get it done today. · 我今天搞定它。"
     },
     {
-      "id": "t2",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "hard26b"
-      ]
-    },
-    {
-      "id": "t3",
-      "type": "speaking",
-      "prompt": "From memory: run through both Hard sets again. For the recap line, say it in 3 beats (point / reason / example). For the four words, say the word and its meaning. No peeking first, then check the script.",
-      "seconds": 90,
-      "script": "Point: Just to recap.\nReason: So we both leave with the same plan.\nExample: I'll send the draft by noon, and you'll review it tomorrow.\n\noff your plate — pass a task or problem from your workload to someone else\nfrazzled — tired, nervous or anxious because you have too many things at once\nthe done thing — what you are expected to do in this situation\nmiffed — slightly annoyed by how someone treated you"
-    },
-    {
-      "id": "t4",
-      "type": "cards",
-      "deck": "english",
-      "tags": [
-        "recap26"
-      ]
-    },
-    {
-      "id": "t5",
-      "type": "speaking",
-      "prompt": "Workplace output, 30–60 sec: a short status note before you step out this afternoon. “Here's where things stand, and when I'll be back online.” Point → reason → example. Say it aloud before opening the script.",
-      "seconds": 60,
-      "script": "Point: I'll be away this afternoon, so here's a short status before I step out.\nReason: I want you to have a clear picture of where things stand, and when I'll be back online.\nExample: This morning I'll finish the current check. If anything is still open, I'll flag it in the note and pick it up tomorrow morning."
-    },
-    {
-      "id": "t6",
-      "type": "quiz",
-      "questions": [
-        {
-          "id": "q1",
-          "type": "mc",
-          "q": "Which tone is 事 si6?",
-          "options": [
-            "Mid level (3)",
-            "Low flat (6)",
-            "Falling (4)"
-          ],
-          "answer": 1,
-          "explain": "事 si6 is low and flat. 低平调。試 si3 is mid; 時 si4 falls."
-        },
-        {
-          "id": "q2",
-          "type": "typed",
-          "q": "Fill in: Just to ___: I'll send the draft by noon, and you'll review it tomorrow.",
-          "answer": [
-            "recap",
-            "Recap"
-          ],
-          "explain": "Just to recap = 会议收尾复述，确认双方下一步。"
-        },
-        {
-          "id": "q3",
-          "type": "mc",
-          "q": "If you get a task off your plate, you…",
-          "options": [
-            "keep it on your to-do list a bit longer",
-            "pass it from your workload to someone else",
-            "finish it after hours without telling anyone"
-          ],
-          "answer": 1,
-          "explain": "off your plate = 把任务从自己的待办里交给别人处理。"
-        },
-        {
-          "id": "q4",
-          "type": "mc",
-          "q": "A short status note before you step out should cover…",
-          "options": [
-            "where things stand, and when you'll be back online",
-            "only your weekend plans",
-            "a full recap of last month"
-          ],
-          "answer": 0,
-          "explain": "出门前先说清：目前进展 + 何时回到线上。"
-        },
-        {
-          "id": "q5",
-          "type": "mc",
-          "q": "Best order for the status note?",
-          "options": [
-            "Example → Reason → Point",
-            "Point → Reason → Example",
-            "Reason → Point"
-          ],
-          "answer": 1,
-          "explain": "先说重点，再讲原因，最后举例。"
-        }
-      ]
+     "text": "有咩問題隨時搵我。",
+     "gloss": "jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5",
+     "translation": "Find me anytime if there is any problem. · 有问题随时找我。"
     }
-  ]
+   ]
+  },
+  {
+   "id": "t11",
+   "type": "speaking",
+   "prompt": "Shadow the 3 new lines ×3 (use the chat audio; Hub Play may be silent), then say them without the script. Then a 1-minute take: point → reason → example. Point: tell a colleague you will confirm and finish it today. Reason: so they can plan. Example: offer to be found anytime.",
+   "seconds": 150,
+   "script": "我同你確認吓。 ngo5 tung4 nei5 kok3 jing6 haa5 · 我今日搞掂佢。 ngo5 gam1 jat6 gaau2 dim6 keoi5 · 有咩問題隨時搵我。 jau5 me1 man6 tai4 ceoi4 si4 wan2 ngo5"
+  },
+  {
+   "id": "t12",
+   "type": "quiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "q": "Which tone is 事 si6?",
+     "options": [
+      "Mid level (3)",
+      "Low flat (6)",
+      "Falling (4)"
+     ],
+     "answer": 1,
+     "explain": "事 si6 is low and flat. 低平调。試 si3 is mid; 時 si4 falls."
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "q": "A mid-week daily update should cover…",
+     "options": [
+      "where you are today, and what you'll finish this afternoon",
+      "only what went wrong last month",
+      "your weekend plans in detail"
+     ],
+     "answer": 0,
+     "explain": "今日进展 + 今天下午要完成什么。"
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "q": "Best order for the update?",
+     "options": [
+      "Example → Reason → Point",
+      "Point → Reason → Example",
+      "Reason → Point"
+     ],
+     "answer": 1,
+     "explain": "先说重点，再讲原因，最后举例。"
+    },
+    {
+     "id": "q4",
+     "type": "mc",
+     "q": "我傳咗俾你啦 means…",
+     "options": [
+      "Please take a look.",
+      "I've sent it over to you.",
+      "Are you free now?"
+     ],
+     "answer": 1,
+     "explain": "傳咗 cyun4 zo2 = have sent. 已经发给你了。"
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "q": "我今日搞掂佢 means…",
+     "options": [
+      "I'll get it done today.",
+      "I'll confirm with you.",
+      "Find me anytime."
+     ],
+     "answer": 0,
+     "explain": "搞掂 gaau2 dim6 = get it sorted. 我今天搞定它。"
+    }
+   ]
+  }
+ ]
 }
