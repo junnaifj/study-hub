@@ -2512,7 +2512,8 @@
         "hard18d",
         "hard19d",
         "hard20d",
-        "sat21c"
+        "sat21c",
+        "recap26"
       ]
     },
     {
@@ -2531,7 +2532,8 @@
         "hard20d",
         "sat21c",
         "hard23",
-        "hard25a"
+        "hard25a",
+        "hard26a"
       ]
     },
     {
@@ -2547,7 +2549,8 @@
         "recap17",
         "hard18d",
         "hard19d",
-        "hard20d"
+        "hard20d",
+        "recap26"
       ]
     },
     {
@@ -2563,12 +2566,13 @@
         "workplace",
         "recap18",
         "recap19",
-        "hard20e"
+        "hard20e",
+        "recap26"
       ]
     },
     {
       "id": "en-0185",
-      "front": "Workplace phrase: pass a task from your workload to someone else · cues: plate, off",
+      "front": "Workplace: pass a task from your workload to someone else.",
       "back": "get something off your plate — pass a task or problem from your workload to someone else for them to deal with",
       "gloss": "把任务从自己的待办里推给别人。BBC ep-260702.",
       "lang": "en-GB",
@@ -2582,12 +2586,13 @@
         "hard20e",
         "sat21c",
         "hard23",
-        "hard25a"
+        "hard25a",
+        "hard26a"
       ]
     },
     {
       "id": "en-0186",
-      "front": "Workplace word: tired and anxious because you have too many things at once · cue: fr—",
+      "front": "Workplace: tired and anxious because you have too many things at once.",
       "back": "frazzled — tired, nervous or anxious because you have to do too many things at the same time",
       "gloss": "事情太多，又累又烦躁。忙的时候邮件更容易不礼貌。BBC ep-260702.",
       "lang": "en-GB",
@@ -2601,7 +2606,8 @@
         "hard20e",
         "sat21c",
         "hard23",
-        "hard25a"
+        "hard25a",
+        "hard26a"
       ]
     },
     {
@@ -2621,7 +2627,7 @@
     },
     {
       "id": "en-0188",
-      "front": "Workplace phrase: what you are expected to do in this situation · cues: done thing",
+      "front": "Workplace: what you are expected to do in this situation.",
       "back": "the done thing — what you are expected to do in a particular social situation",
       "gloss": "工作场合“约定俗成的做法”。例：Is it the done thing to reply-all? BBC ep-260115.",
       "lang": "en-GB",
@@ -2633,12 +2639,13 @@
         "recap20",
         "sat21r",
         "hard23",
-        "hard25b"
+        "hard25b",
+        "hard26b"
       ]
     },
     {
       "id": "en-0189",
-      "front": "Workplace word: slightly annoyed by how someone treated you · cue: m—",
+      "front": "Workplace: slightly annoyed by how someone treated you.",
       "back": "miffed — slightly annoyed by someone's behaviour towards you",
       "gloss": "有点恼火（比 angry 轻很多）。BBC ep-260115.",
       "lang": "en-GB",
@@ -2650,7 +2657,8 @@
         "recap20",
         "sat21r",
         "hard23",
-        "hard25b"
+        "hard25b",
+        "hard26b"
       ]
     },
     {
