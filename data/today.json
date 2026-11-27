@@ -1,14 +1,13 @@
 {
  "schema": "studyhub.today.v1",
  "date": "2026-11-27",
- "slot": "morning",
+ "slot": "evening",
  "tracks": [
-  "japanese",
-  "english"
+  "korean"
  ],
  "minutes": 20,
  "new_cards_limit": 0,
- "note": "Fresh start for Friday morning (yesterday's Japanese didn't show properly — my fault, not yours). 事 si6 ×3, then Japanese Hard-first: ぎ げ やま よる ひがし, then ざ ず ぞ かぜ. Recap かぎ じ ぜ じかん あじ, reading, 5-Q quiz. Then 5 English Hard cards (say each aloud before flipping). Finish on the Japanese Hard five. No new cards. Short day? Japanese Hard + English Hard alone counts. 加油！",
+ "note": "Friday B, Korean light maintenance（韩语轻维护）. Short session is enough. 事 si6 ×3, then 4 Hard café cards — say each aloud before flipping: 영수증 주세요, 따뜻한 걸로 주세요, 얼음, 여섯. Recap 일곱 / 다섯 / 다섯 개 주세요 / 여기요. No new cards. Write ×3 the Hard words. Watch ㅅ→t in 여섯 (same as 다섯). 5-Q quiz; finish on the Hard four. 加油！",
  "tasks": [
   {
    "id": "t0",
@@ -20,141 +19,128 @@
   {
    "id": "t1",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "korean",
    "tags": [
-    "hard26j"
+    "hard27k"
    ]
   },
   {
    "id": "t2",
    "type": "cards",
-   "deck": "japanese",
+   "deck": "korean",
    "tags": [
-    "hard26jb"
+    "fri27rk"
    ]
   },
   {
    "id": "t3",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "recap26j"
-   ]
-  },
-  {
-   "id": "t4",
    "type": "reading",
-   "title": "Read without romaji first (only kana you know)",
-   "lang": "ja-JP",
+   "title": "Read aloud: café lines (Hangul first, then check the gloss)",
+   "lang": "ko-KR",
    "lines": [
     {
-     "text": "かぎ",
-     "gloss": "kagi",
-     "translation": "key · 钥匙"
+     "text": "여기요. 다섯 개 주세요.",
+     "gloss": "yeogiyo. daseot gae juseyo.",
+     "translation": "Excuse me. Five, please. · 喂，请给我五个。"
     },
     {
-     "text": "ひがし",
-     "gloss": "higashi",
-     "translation": "east · 东"
+     "text": "따뜻한 걸로 주세요.",
+     "gloss": "ttatteuthan geollo juseyo.",
+     "translation": "The hot one, please. · 请来热的。"
     },
     {
-     "text": "よる の やま",
-     "gloss": "yoru no yama",
-     "translation": "the mountain at night · 夜晚的山"
+     "text": "얼음 주세요.",
+     "gloss": "eoreum juseyo.",
+     "translation": "Ice, please. · 请加冰。"
     },
     {
-     "text": "かぜ が つよい",
-     "gloss": "kaze ga tsuyoi",
-     "translation": "the wind is strong · 风很大"
+     "text": "여섯 개 주세요. 영수증 주세요.",
+     "gloss": "yeoseot gae juseyo. yeongsujeung juseyo.",
+     "translation": "Six, please. The receipt, please. · 请给我六个。请给我收据。"
     },
     {
-     "text": "じかん が ない",
-     "gloss": "jikan ga nai",
-     "translation": "there's no time · 没有时间"
+     "text": "일곱 개 주세요.",
+     "gloss": "ilgop gae juseyo.",
+     "translation": "Seven, please. · 请给我七个。"
     }
    ]
   },
   {
-   "id": "t5",
+   "id": "t4",
    "type": "speaking",
-   "prompt": "Write the first Hard set once each, saying each aloud (~2 min): ぎ げ やま よる ひがし. Then the second Hard set: ざ ず ぞ かぜ (also still Hard). Then read the 5 lines twice, slow then normal speed. Watch the two dots on ぎ げ ざ ず ぞ.",
+   "prompt": "Write ×3 then say the Hard four: 영수증 주세요 · 따뜻한 걸로 주세요 · 얼음 · 여섯. Then read the café lines twice, slow then normal. Watch ㅅ→t in 여섯 (same as 다섯). If you have a minute, one breath: Point → Reason → Example on why 여섯 and 다섯 both end in a t sound.",
    "seconds": 180,
-   "script": "ぎ gi · げ ge · やま yama · よる yoru · ひがし higashi\nざ za · ず zu · ぞ zo · かぜ kaze\nかぎ (kagi)\nひがし (higashi)\nよる の やま (yoru no yama)\nかぜ が つよい (kaze ga tsuyoi)\nじかん が ない (jikan ga nai)"
+   "script": "Writing: 영수증 주세요 ×3 · 따뜻한 걸로 주세요 ×3 · 얼음 ×3 · 여섯 ×3.\nLines: 여기요. 다섯 개 주세요. / 따뜻한 걸로 주세요. / 얼음 주세요. / 여섯 개 주세요. 영수증 주세요. / 일곱 개 주세요.\nExplanation: Point: 여섯 and 다섯 both end in a t sound. Reason: ㅅ at the bottom of a block (batchim) is pronounced t, not s. Example: 다섯 = daseot, 여섯 = yeoseot — same rule as 옷 and 셋."
   },
   {
-   "id": "t6",
+   "id": "t5",
    "type": "quiz",
    "questions": [
     {
      "id": "q1",
      "type": "mc",
-     "q": "Which one is gi?",
+     "q": "영수증 주세요 means…",
      "options": [
-      "き",
-      "ぎ",
-      "げ"
+      "the receipt, please",
+      "ice, please",
+      "the hot one, please"
      ],
-     "answer": 1,
-     "explain": "ぎ = き plus two dots (dakuten). げ is ge."
+     "answer": 0,
+     "explain": "영수증 = receipt. 얼음 is ice; 따뜻한 걸로 주세요 is the hot one."
     },
     {
      "id": "q2",
      "type": "mc",
-     "q": "やま means…",
+     "q": "The final sound in 여섯 and 다섯 is…",
      "options": [
-      "night 夜",
-      "mountain 山",
-      "key 钥匙"
+      "s",
+      "t",
+      "n"
      ],
      "answer": 1,
-     "explain": "やま yama = mountain 山. よる is night; かぎ is key."
+     "explain": "ㅅ at the bottom of a block sounds like t: 다섯 = daseot, 여섯 = yeoseot. Same rule as 옷 and 셋."
     },
     {
      "id": "q3",
      "type": "typed",
-     "q": "Write night (yoru) in hiragana.",
+     "q": "Write 'ice' in Hangul.",
      "answer": [
-      "よる"
+      "얼음"
      ],
-     "explain": "よ yo + る ru = よる."
+     "explain": "얼음 eoreum = ice 冰. Final ㅁ → m."
     },
     {
      "id": "q4",
-     "type": "typed",
-     "q": "Write key (kagi) in hiragana.",
-     "answer": [
-      "かぎ"
+     "type": "mc",
+     "q": "따뜻한 걸로 주세요 means…",
+     "options": [
+      "takeaway, please",
+      "the hot one, please",
+      "excuse me (to call staff)"
      ],
-     "explain": "か ka + ぎ gi = かぎ. Remember the two dots on ぎ."
+     "answer": 1,
+     "explain": "따뜻한 걸로 주세요 = the hot one, please. Contrast 아이스로 주세요 (the iced one). 여기요 calls the staff over."
     },
     {
      "id": "q5",
      "type": "mc",
-     "q": "ひがし means…",
+     "q": "여기요 means…",
      "options": [
-      "west 西",
-      "east 东",
-      "wind 风"
+      "seven",
+      "the receipt, please",
+      "excuse me (to call staff)"
      ],
-     "answer": 1,
-     "explain": "ひがし higashi = east 东. かぜ is wind."
+     "answer": 2,
+     "explain": "여기요 = excuse me / over here, to call staff. 일곱 is seven; 영수증 주세요 is the receipt."
     }
    ]
   },
   {
-   "id": "t7",
+   "id": "t6",
    "type": "cards",
-   "deck": "english",
+   "deck": "korean",
    "tags": [
-    "hard27a"
-   ]
-  },
-  {
-   "id": "t8",
-   "type": "cards",
-   "deck": "japanese",
-   "tags": [
-    "hard26j"
+    "hard27k"
    ]
   }
  ]
