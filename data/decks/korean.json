@@ -1291,7 +1291,8 @@
     "hard17k",
     "sat21k",
     "tue24k",
-    "hard27k"
+    "hard27k",
+    "sat28k"
    ]
   },
   {
@@ -1308,7 +1309,8 @@
     "hard17k",
     "sat21k",
     "tue24k",
-    "hard27k"
+    "hard27k",
+    "sat28rk"
    ]
   },
   {
@@ -1429,7 +1431,8 @@
     "sat14rk",
     "recap17k",
     "sat21rk",
-    "fri27rk"
+    "fri27rk",
+    "sat28rk"
    ]
   },
   {
@@ -1460,7 +1463,8 @@
     "sat14rk",
     "recap17k",
     "sat21rk",
-    "fri27rk"
+    "fri27rk",
+    "sat28rk"
    ]
   },
   {
@@ -1508,7 +1512,8 @@
     "hard17k",
     "sat21k",
     "tue24k",
-    "hard27k"
+    "hard27k",
+    "sat28k"
    ]
   },
   {
@@ -1524,7 +1529,8 @@
     "sat14rk",
     "recap17k",
     "sat21rk",
-    "fri27rk"
+    "fri27rk",
+    "sat28rk"
    ]
   },
   {
@@ -1540,7 +1546,8 @@
     "words",
     "sat21k2",
     "tue24k",
-    "hard27k"
+    "hard27k",
+    "sat28rk"
    ]
   },
   {
@@ -1555,7 +1562,8 @@
     "batchim",
     "words",
     "sat21rk",
-    "fri27rk"
+    "fri27rk",
+    "sat28k"
    ]
   },
   {
